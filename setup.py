@@ -1,7 +1,7 @@
 import csv
 
 blocks_final = []
-with open('filename.csv', 'rb') as csvfile:
+with open('config/images.csv', 'rb') as csvfile:
     reader = csv.reader(csvfile, delimiter=' ', quotechar='|')
     for row in reader:
         #print ', '.join(row)
@@ -45,7 +45,7 @@ blocks_final = [low_one, high_one, high_two, low_two, high_three, low_three, low
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------
 probes_position_list = []
-with open('filename2.csv', 'rb') as csvfile:
+with open('config/probes.csv', 'rb') as csvfile:
     reader = csv.reader(csvfile, delimiter=' ', quotechar='|')
     for row in reader:
         probes_position_list.append(row)

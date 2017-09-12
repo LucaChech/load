@@ -3,7 +3,7 @@ import pdb
 import pickle
 from psychopy import locale_setup, core, data, event, logging, sound, gui
 
-def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details):
+def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints):
     for block in blocks:
         bPoints = 0
         for pic in block:
@@ -36,6 +36,27 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
 #            if 'c' in response[0][0]:
 #                win.close()
 #                core.quit()
+
+            #Write the existing trial info
+            T = my_dict[pic[1:-1]]
+            
+            print T
+            
+            trial_details['image_name'] = T[0]
+            trial_details['cat_1'] = T[1]
+            trial_details['cat_2'] = T[2]
+            trial_details['cat_3'] = T[3]
+            trial_details['cat_4'] = T[4]
+            trial_details['cat_5'] = T[5]
+            trial_details['trueskill'] = T[6]
+            trial_details['load'] = T[7]
+            trial_details['exemplar'] = T[8]
+            trial_details['question'] =  T[9]
+            trial_details['present_absent'] = T[10]
+            trial_details['trial_type'] = T[11]
+            trial_details['tone_hz'] = T[12]
+            trial_details['tone_onset'] = T[13]
+            
             if len(response) == 0:
                 my_dict[pic[1:-1]].append('No spacebar')
                 my_dict[pic[1:-1]].append('No timing')
@@ -147,4 +168,4 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
 
         
         bPoints = 0
-        return i_counter,probes_position_index,block_number,experiment_details
+        return i_counter,probes_position_index,block_number,experiment_details,allPoints

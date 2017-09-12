@@ -107,7 +107,7 @@ tone2 = sound.Sound( '../load-data/PureTone_F2000_t50_low.wav', secs=0.05)
 if not debug:
     print_instructions(win,noise_example,tone1,tone2)
 
-i_counter,probes_position_index,block_number,experiment_detail = run_blocks(blocks_final[0:8],noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details)
+i_counter,probes_position_index,block_number,experiment_detail,allPoints = run_blocks(blocks_final[0:8],noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints)
 
 
 print allPoints
@@ -135,7 +135,7 @@ tone_onset = df['tone_onset'].tolist()
 my_dict ={z[0]:list(z[1:]) for z in zip(image_names,cat1,cat2,cat3,cat4,cat5,ts,load,exemplar,question,trial_type,critical,tone_Hz,tone_onset)}
 
 
-i_counter,probes_position_index,block_number,experiment_details = run_blocks(blocks_final[8:],noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details)
+i_counter,probes_position_index,block_number,experiment_details,allPoints = run_blocks(blocks_final[8:],noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints)
 
 
 win.close()
