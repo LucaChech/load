@@ -1,11 +1,13 @@
 import csv
 import pdb
+import pickle
 from psychopy import locale_setup, core, data, event, logging, sound, gui
 
-def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2):
+def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details):
     for block in blocks:
         bPoints = 0
         for pic in block:
+            trial_details = {}
             probe_response = 't'
             noise.play()
             timer.reset()
@@ -30,17 +32,20 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                 win.flip()
             for frameN in range(20):
                 win.flip()
-            response = event.getKeys(keyList = ['space','c'], timeStamped = timer)
-            if 'c' in response:
-                win.close()
-                core.quit()
-            #NOT WORKING
+            response = event.getKeys(keyList = ['space'], timeStamped = timer)
+#            if 'c' in response[0][0]:
+#                win.close()
+#                core.quit()
             if len(response) == 0:
                 my_dict[pic[1:-1]].append('No spacebar')
                 my_dict[pic[1:-1]].append('No timing')
+                trial_details['space'] = 'No spacebar'
+                trial_details['RT_TO'] = 'No timing'
             if len(response) >= 1:
                 my_dict[pic[1:-1]].append(response[0][0])
                 my_dict[pic[1:-1]].append(response[0][1])
+                trial_details['space'] = response[0][0]
+                trial_details['RT_TO'] = response[0][1]
                 
             if i_counter in probes_position_list[probes_position_index]:
                 print pic
@@ -69,6 +74,11 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                 my_dict[pic[1:-1]].append(str(keys[0][1]))
                 my_dict[pic[1:-1]].append(rt_space)
                 my_dict[pic[1:-1]][16] = float(my_dict[pic[1:-1]][16][0:5])
+                
+                trial_details['keys'] = keys[0][0]
+                trial_details['RT_VS'] = keys[0][1]
+                trial_details['useless'] = rt_space
+      
                 if 'Target Present' in my_dict[pic[1:-1]] and 'p' in my_dict[pic[1:-1]][15]:
                     incorrect.play()
                 elif 'Target Absent' in my_dict[pic[1:-1]] and 'q' in my_dict[pic[1:-1]][15]:
@@ -94,12 +104,19 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                 my_dict[pic[1:-1]].append('Na')
             my_dict[pic[1:-1]].append(i_counter)
             my_dict[pic[1:-1]].append(block_number)
+            trial_details['image_number'] = i_counter
+            trial_details['block_number'] = block_number
             i_counter = i_counter + 1
             
-            w = csv.writer(open('Participant_'+expInfo['participant']+'_1st_half.csv', 'w'))
+            experiment_details[i_counter] = trial_details
             
-            for key, val in my_dict.items():
-                w.writerow([key, val])
+            with open('output/participant_'+expInfo['participant']+'.pik','wb') as file:
+                pickle.dump(experiment_details, file)
+            
+#            w = csv.writer(open('Participant_'+expInfo['participant']+'_1st_half.csv', 'w'))
+#            
+#            for key, val in my_dict.items():
+#                w.writerow([key, val])
         if probes_position_index < 15:
             end_of_block = visual.TextStim(win, 
             'You have earned a total of ' + str(bPoints) + ' points in this block and ' + str(allPoints) + ' points in total.\n'
@@ -130,4 +147,4 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
 
         
         bPoints = 0
-        return i_counter,probes_position_index,block_number
+        return i_counter,probes_position_index,block_number,experiment_details
