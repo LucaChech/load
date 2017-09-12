@@ -42,20 +42,20 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             
             print T
             
-            trial_details['image_name'] = T[0]
-            trial_details['cat_1'] = T[1]
-            trial_details['cat_2'] = T[2]
-            trial_details['cat_3'] = T[3]
-            trial_details['cat_4'] = T[4]
-            trial_details['cat_5'] = T[5]
-            trial_details['trueskill'] = T[6]
-            trial_details['load'] = T[7]
-            trial_details['exemplar'] = T[8]
-            trial_details['question'] =  T[9]
-            trial_details['present_absent'] = T[10]
-            trial_details['trial_type'] = T[11]
-            trial_details['tone_hz'] = T[12]
-            trial_details['tone_onset'] = T[13]
+            trial_details['image_name'] = pic[1:-1]
+            trial_details['cat_1'] = T[0]
+            trial_details['cat_2'] = T[1]
+            trial_details['cat_3'] = T[2]
+            trial_details['cat_4'] = T[3]
+            trial_details['cat_5'] = T[4]
+            trial_details['trueskill'] = T[5]
+            trial_details['load'] = T[6]
+            trial_details['exemplar'] = T[7]
+            trial_details['question'] =  T[8]
+            trial_details['present_absent'] = T[9]
+            trial_details['trial_type'] = T[10]
+            trial_details['tone_hz'] = T[11]
+            trial_details['tone_onset'] = T[12]
             
             if len(response) == 0:
                 my_dict[pic[1:-1]].append('No spacebar')
