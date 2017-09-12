@@ -1,0 +1,161 @@
+,Image Name,Cat. 1,Cat. 2,Cat. 3,Cat. 4,Cat. 5,True Skill Rating,Load,Trial Type,Audio,RT to TO,RT VS,RT to TO,Sound Onset,Sound Hz,Trial N.
+0,2008_000003.jpg, person, train,,,,19.449014773390626,low,Target Absent,Critical,[],Na,Na,0.14,tone4,76
+1,2008_000019.jpg, dog,,,,,18.690189971773826,low,Target Present,Normal,[],Na,Na,None,None,71
+2,2008_000066.jpg, dog,,,,,14.840370850885167,low,Target Absent,Normal,[],Na,Na,None,None,131
+3,2008_000076.jpg, horse,,,,,20.993717043020187,low,Target Present,Normal,[],Na,Na,None,None,79
+4,2008_000090.jpg, person, bicycle,,,,32.732633502861255,high,Target Absent,Critical,"[('space', 0.7095032797660679)]","[('q', 0.8283286311198026)]",-999,0.098,tone1,130
+5,2008_000134.jpg, bird,,,,,12.526233189834119,low,Target Absent,Normal,[],Na,Na,None,None,35
+6,2008_000142.jpg, person, horse,,,,19.226645392830168,low,Target Present,Critical,"[('space', 0.46600807168579195)]",Na,Na,0.014,tone2,97
+7,2008_000236.jpg, person,,,,,19.276726337840987,low,Target Absent,Normal,[],Na,Na,None,None,52
+8,2008_000278.jpg, person, car,,,,31.321418864776124,high,Target Present,Normal,[],Na,Na,None,None,51
+9,2008_000287.jpg, pottedplant,,,,,19.549656454901235,low,Target Present,Normal,[],Na,Na,None,None,126
+10,2008_000516.jpg, person, motorbike,,,,31.209970529954447,high,Target Present,Normal,[],Na,Na,None,None,142
+11,2008_000548.jpg, person,,,,,30.022989666343125,high,Target Absent,Normal,[],Na,Na,None,None,16
+12,2008_000559.jpg, dog,,,,,9.8709125956134471,low,Target Absent,Normal,[],Na,Na,None,None,90
+13,2008_000581.jpg, cat,,,,,18.751727899228413,low,Target Absent,Normal,[],Na,Na,None,None,138
+14,2008_000634.jpg, person,,,,,21.23535981155764,low,Target Present,Normal,[],Na,Na,None,None,82
+15,2008_000646.jpg, person,,,,,13.395747249343186,low,Target Present,Critical,"[('space', 0.7177776738753892)]",Na,Na,0.082,tone1,26
+16,2008_000719.jpg, person, car,,,,29.324401155078011,high,Target Absent,Normal,[],"[('q', 0.8977394023459055)]",-999,None,None,77
+17,2008_000777.jpg, person,,,,,20.325858104825315,low,Target Present,Normal,[],Na,Na,None,None,54
+18,2008_000887.jpg, person,,,,,20.523594007717811,low,Target Absent,Normal,[],Na,Na,None,None,6
+19,2008_000901.jpg, dog,,,,,15.330782976191662,low,Target Absent,Normal,[],Na,Na,None,None,139
+20,2008_001099.jpg, person,,,,,30.882721824083184,high,Target Present,Normal,[],Na,Na,None,None,116
+21,2008_001118.jpg, train,,,,,29.354863184018196,high,Target Present,Normal,[],Na,Na,None,None,73
+22,2008_001182.jpg, person, dog,,,,32.236048221294716,high,Target Absent,Normal,[],Na,Na,None,None,117
+23,2008_001205.jpg, person,,,,,19.675826944132364,low,Target Present,Normal,[],Na,Na,None,None,37
+24,2008_001245.jpg, person,,,,,18.933539513653752,low,Target Absent,Critical,"[('space', 0.5580909621712635)]",Na,Na,0.045,tone2,158
+25,2008_001410.jpg, dog,,,,,18.678810745708358,low,Target Present,Critical,"[('space', 0.8082708588990499)]",Na,Na,0.191,tone3,47
+26,2008_001594.jpg, person, bottle,,,,31.264758848601922,high,Target Present,Normal,[],Na,Na,None,None,19
+27,2008_001679.jpg, bird,,,,,20.306663033585295,low,Target Present,Normal,[],Na,Na,None,None,18
+28,2008_001688.jpg, pottedplant, tvmonitor,,,,30.844946015550327,high,Target Present,Critical,"[('space', 0.8238505996196182)]",Na,Na,0.018,tone1,28
+29,2008_001714.jpg, person,,,,,17.516930411914359,low,Target Absent,Normal,[],Na,Na,None,None,5
+30,2008_001867.jpg, car, person,,,,37.30025115103205,high,Target Present,Normal,[],Na,Na,None,None,107
+31,2008_001947.jpg, person,,,,,31.76901911553308,high,Target Absent,Normal,[],Na,Na,None,None,110
+32,2008_001967.jpg, person,,,,,28.793107928954345,high,Target Absent,Normal,[],Na,Na,None,None,105
+33,2008_001998.jpg, person,,,,,32.67872578084112,high,Target Present,Normal,[],Na,Na,None,None,151
+34,2008_002218.jpg, tvmonitor, chair,,,,30.660587376670609,high,Target Absent,Normal,[],Na,Na,None,None,29
+35,2008_002234.jpg, cat,,,,,20.956606433416127,low,Target Absent,Critical,[],Na,Na,0.133,tone4,43
+36,2008_002296.jpg, person,,,,,19.556704724825288,low,Target Absent,Normal,[],Na,Na,None,None,88
+37,2008_002487.jpg, person,,,,,20.524302386897595,low,Target Present,Normal,[],Na,Na,None,None,146
+38,2008_002616.jpg, person,,,,,20.128796267601427,low,Target Present,Normal,[],Na,Na,None,None,101
+39,2008_002666.jpg, person, horse,,,,20.789724110777932,low,Target Present,Normal,[],Na,Na,None,None,63
+40,2008_002736.jpg, person, diningtable, bottle,,,36.414042237667729,high,Target Absent,Normal,[],Na,Na,None,None,92
+41,2008_002820.jpg, person,,,,,20.766333318457924,low,Target Absent,Normal,[],Na,Na,None,None,36
+42,2008_003017.jpg, person,,,,,28.621791519816551,high,Target Present,Normal,[],Na,Na,None,None,44
+43,2008_003068.jpg, train,,,,,28.832520461888603,high,Target Present,Normal,[],Na,Na,None,None,4
+44,2008_003104.jpg, cat,,,,,9.8922186856238596,low,Target Absent,Normal,[],Na,Na,None,None,60
+45,2008_003120.jpg, person,,,,,19.512779024532247,low,Target Absent,Normal,[],Na,Na,None,None,20
+46,2008_003448.jpg, person, chair,,,,30.016324329275829,high,Target Absent,Normal,[],Na,Na,None,None,81
+47,2008_003449.jpg, boat,,,,,34.708650154968005,high,Target Absent,Normal,[],Na,Na,None,None,89
+48,2008_003464.jpg, person,,,,,19.72420040844229,low,Target Absent,Normal,[],Na,Na,None,None,38
+49,2008_003706.jpg, person,,,,,17.23065839052537,low,Target Absent,Critical,"[('space', 0.8479265405549086)]",Na,Na,0.043,tone3,9
+50,2008_003852.jpg, dog,,,,,18.163024969077554,low,Target Absent,Normal,[],Na,Na,None,None,111
+51,2008_004036.jpg, person, motorbike,,,,19.446156687645161,low,Target Absent,Critical,"[('space', 0.5620532517132233)]",Na,Na,0.014,tone2,40
+52,2008_004371.jpg, person, motorbike,,,,32.579236803168989,high,Target Absent,Normal,[],Na,Na,None,None,53
+53,2008_004389.jpg, person, bottle, diningtable,,,28.822656476371627,high,Target Present,Critical,[],Na,Na,0.015,tone4,1
+54,2008_004425.jpg, bird,,,,,17.14996667859641,low,Target Absent,Critical,"[('space', 0.5096941812662408)]",Na,Na,0.044,tone3,113
+55,2008_004436.jpg, person, car,,,,30.697177208527194,high,Target Present,Normal,[],Na,Na,None,None,137
+56,2008_004487.jpg, chair, bottle,,,,35.925064893420085,high,Target Present,Normal,[],Na,Na,None,None,75
+57,2008_004522.jpg, person,,,,,20.543288615744785,low,Target Absent,Normal,[],Na,Na,None,None,104
+58,2008_004564.jpg, person, chair, bottle, diningtable,,28.719634584894571,high,Target Absent,Normal,"[('space', 0.7186081638283213)]",Na,Na,None,None,62
+59,2008_004615.jpg, pottedplant, motorbike,,,,29.797419521088532,high,Target Present,Normal,[],Na,Na,None,None,56
+60,2008_004695.jpg, dog,,,,,14.467183249090136,low,Target Absent,Normal,[],Na,Na,None,None,59
+61,2008_004756.jpg, pottedplant, person,,,,29.004664080836946,high,Target Present,Normal,[],Na,Na,None,None,42
+62,2008_005001.jpg, pottedplant, person,,,,34.943837141944897,high,Target Absent,Normal,[],"[('q', 0.97408973966958)]",-999,None,None,64
+63,2008_005172.jpg, person, motorbike,,,,15.533652366722812,low,Target Present,Critical,"[('space', 0.6245515411283122)]",Na,Na,0.064,tone3,140
+64,2008_005194.jpg, dog,,,,,19.65239616193384,low,Target Present,Normal,[],Na,Na,None,None,102
+65,2008_005251.jpg, person,,,,,18.439772554206488,low,Target Present,Normal,[],"[('p', 0.9130853628448676)]",-999,None,None,159
+66,2008_005288.jpg, cat,,,,,15.614019717005355,low,Target Present,Normal,[],Na,Na,None,None,129
+67,2008_005563.jpg, person, dog,,,,29.0787327362723,high,Target Present,Normal,[],"[('q', 1.5302468833106104)]",-999,None,None,50
+68,2008_005616.jpg, person, chair,,,,31.698792809344926,high,Target Absent,Normal,[],Na,Na,None,None,127
+69,2008_005685.jpg, aeroplane,,,,,14.016070769678755,low,Target Present,Normal,[],Na,Na,None,None,67
+70,2008_005817.jpg, tvmonitor,,,,,29.725909836780325,high,Target Present,Normal,[],Na,Na,None,None,23
+71,2008_005818.jpg, horse,,,,,29.084159041893106,high,Target Absent,Critical,"[('space', 0.619205671850068)]",Na,Na,0.119,tone2,41
+72,2008_005831.jpg, dog,,,,,15.137915282453642,low,Target Present,Critical,"[('space', 0.8028919182761456)]",Na,Na,0.046,tone1,2
+73,2008_005867.jpg, person, bottle,,,,31.118687546941533,high,Target Absent,Normal,[],Na,Na,None,None,14
+74,2008_006298.jpg, sheep, person, horse,,,32.385477618367688,high,Target Present,Normal,[],Na,Na,None,None,141
+75,2008_006626.jpg, bird,,,,,19.329864582896541,low,Target Absent,Critical,[],"[('q', 0.7342893993845792)]",-999,0.071,tone4,114
+76,2008_007323.jpg, car,,,,,31.095270685305142,high,Target Present,Normal,[],Na,Na,None,None,49
+77,2008_007378.jpg, chair, dog, diningtable,,,29.611440342795753,high,Target Absent,Normal,[],Na,Na,None,None,68
+78,2008_007417.jpg, dog,,,,,18.052501969592001,low,Target Absent,Normal,[],Na,Na,None,None,149
+79,2008_007536.jpg, tvmonitor, person,,,,29.097147708789429,high,Target Present,Normal,[],Na,Na,None,None,103
+80,2008_007913.jpg, person, cat,,,,32.265109082996503,high,Target Absent,Critical,"[('space', 0.6161229090939742)]",Na,Na,0.052,tone2,10
+81,2008_008199.jpg, cow,,,,,28.982776870917203,high,Target Present,Critical,"[('space', 0.8432928456386435)]",Na,Na,0.157,tone1,132
+82,2008_008684.jpg, bus, person,,,,30.530816124618234,high,Target Absent,Normal,[],Na,Na,None,None,11
+83,2008_008714.jpg, sheep, dog,,,,20.078173434978684,low,Target Absent,Normal,[],Na,Na,None,None,55
+84,2008_008724.jpg, bicycle,,,,,33.072436607343256,high,Target Present,Critical,[],Na,Na,0.18,tone4,30
+85,2009_000291.jpg, person,,,,,18.935516809225497,low,Target Absent,Critical,[],Na,Na,0.046,tone4,72
+86,2009_000457.jpg, car, bicycle, person,,,32.664307609714051,high,Target Present,Normal,[],Na,Na,None,None,155
+87,2009_000472.jpg, cow,,,,,20.695191832801282,low,Target Present,Normal,[],Na,Na,None,None,78
+88,2009_000504.jpg, cat,,,,,20.838551794823502,low,Target Absent,Normal,[],Na,Na,None,None,34
+89,2009_000608.jpg, boat,,,,,33.058800596273656,high,Target Present,Normal,[],Na,Na,None,None,108
+90,2009_000746.jpg, bird,,,,,17.113858412416995,low,Target Present,Normal,[],Na,Na,None,None,133
+91,2009_000748.jpg, bird,,,,,12.31601917082212,low,Target Absent,Normal,[],Na,Na,None,None,8
+92,2009_000906.jpg, car,,,,,29.054781481845197,high,Target Present,Normal,[],Na,Na,None,None,124
+93,2009_000989.jpg, dog,,,,,13.353442225137648,low,Target Absent,Normal,[],Na,Na,None,None,147
+94,2009_001314.jpg, bird,,,,,8.5490861342123345,low,Target Present,Normal,[],Na,Na,None,None,96
+95,2009_001792.jpg, dog,,,,,17.154465317836053,low,Target Absent,Normal,[],Na,Na,None,None,39
+96,2009_002406.jpg, person, bicycle,,,,32.146440300138138,high,Target Present,Critical,"[('space', 0.8510520679919864)]",Na,Na,0.148,tone2,135
+97,2009_002570.jpg, car, bus,,,,31.014161803448005,high,Target Present,Critical,"[('space', 1.0650359451319673)]",Na,Na,0.161,tone1,125
+98,2009_002614.jpg, aeroplane,,,,,17.2214287701891,low,Target Present,Critical,"[('space', 0.8017443995340727)]",Na,Na,0.055,tone3,86
+99,2009_002758.jpg, tvmonitor,,,,,32.326898779067427,high,Target Present,Critical,[],Na,Na,0.025,tone1,3
+100,2009_002778.jpg, person, boat,,,,35.313120629098918,high,Target Absent,Normal,[],Na,Na,None,None,95
+101,2009_003338.jpg, person, horse,,,,30.130898028557787,high,Target Present,Normal,[],Na,Na,None,None,12
+102,2009_003519.jpg, person, bicycle,,,,32.963978954415886,high,Target Present,Normal,[],Na,Na,None,None,154
+103,2009_003528.jpg, cat,,,,,17.174202636527884,low,Target Present,Normal,[],"[('p', 1.1356686456201714)]",-999,None,None,27
+104,2009_003857.jpg, tvmonitor,,,,,29.289716583119155,high,Target Absent,Normal,[],Na,Na,None,None,115
+105,2009_004153.jpg, aeroplane,,,,,16.285586205496266,low,Target Present,Normal,[],Na,Na,None,None,134
+106,2009_004502.jpg, person, motorbike,,,,19.18515988718552,low,Target Absent,Normal,[],Na,Na,None,None,83
+107,2009_004669.jpg, person, train,,,,31.028499289858608,high,Target Present,Normal,[],Na,Na,None,None,21
+108,2009_004780.jpg, boat,,,,,35.019585017762431,high,Target Present,Normal,[],Na,Na,None,None,65
+109,2009_004977.jpg, train,,,,,33.375114544405648,high,Target Present,Normal,[],"[('p', 2.035011438121728)]","['space', 0.03505363260046579]",None,None,15
+110,2009_005308.jpg, bottle,,,,,21.116301747151233,low,Target Absent,Normal,[],"[('p', 1.1250176760659087)]",-999,None,None,45
+111,2010_000198.jpg, car,,,,,16.882931151862195,low,Target Absent,Normal,[],"[('q', 1.6163469959865324)]",-999,None,None,22
+112,2010_000547.jpg, sheep,,,,,20.234567428685263,low,Target Present,Normal,[],Na,Na,None,None,31
+113,2010_000765.jpg, chair,,,,,29.952891115711051,high,Target Absent,Normal,[],Na,Na,None,None,157
+114,2010_000918.jpg, bird,,,,,19.886278479178575,low,Target Present,Normal,[],Na,Na,None,None,112
+115,2010_001154.jpg, dog,,,,,17.717234034724168,low,Target Absent,Normal,[],Na,Na,None,None,13
+116,2010_001274.jpg, car,,,,,29.349123523599186,high,Target Absent,Normal,[],Na,Na,None,None,17
+117,2010_001408.jpg, person, train,,,,31.286451956081834,high,Target Absent,Normal,[],Na,Na,None,None,57
+118,2010_001520.jpg, bird,,,,,19.735153821988469,low,Target Present,Normal,[],Na,Na,None,None,156
+119,2010_002020.jpg, dog,,,,,21.25193441989569,low,Target Present,Normal,[],Na,Na,None,None,84
+120,2010_002645.jpg, cat,,,,,20.850125265290927,low,Target Present,Normal,[],Na,Na,None,None,66
+121,2010_002652.jpg, tvmonitor, person,,,,29.314282548594107,high,Target Present,Normal,[],"[('q', 1.5845768350045546)]",-999,None,None,69
+122,2010_002900.jpg, cat,,,,,19.373940426857725,low,Target Present,Normal,[],Na,Na,None,None,70
+123,2010_003153.jpg, sheep,,,,,11.901128393685589,low,Target Present,Normal,[],Na,Na,None,None,33
+124,2010_003248.jpg, person, chair, diningtable,,,29.39636943329948,high,Target Absent,Normal,[],Na,Na,None,None,119
+125,2010_003857.jpg, tvmonitor,,,,,29.679258310230669,high,Target Absent,Normal,[],"[('q', 1.1445554298625211)]",-999,None,None,106
+126,2010_004307.jpg, person, bicycle,,,,21.238698300852345,low,Target Absent,Normal,[],Na,Na,None,None,46
+127,2010_004339.jpg, dog,,,,,18.02036796686756,low,Target Present,Critical,"[('space', 0.7124625951691996)]",Na,Na,0.196,tone2,32
+128,2010_004447.jpg, person, bottle, sofa,,,33.561185784733894,high,Target Absent,Critical,[],Na,Na,0.086,tone4,80
+129,2010_004523.jpg, person, tvmonitor,,,,30.145832801276651,high,Target Absent,Normal,[],Na,Na,None,None,48
+130,2010_004553.jpg, cat,,,,,19.438215810309309,low,Target Present,Normal,[],Na,Na,None,None,123
+131,2010_004698.jpg, person,,,,,28.931558906482678,high,Target Absent,Normal,[],Na,Na,None,None,100
+132,2010_004959.jpg, dog,,,,,14.275102159799699,low,Target Present,Normal,[],"[('p', 0.9653309643617831)]",-999,None,None,122
+133,2010_005270.jpg, person, horse, dog,,,31.37245999871385,high,Target Absent,Normal,[],Na,Na,None,None,87
+134,2010_005531.jpg, bird,,,,,17.790928533851822,low,Target Present,Normal,[],Na,Na,None,None,91
+135,2010_005640.jpg, dog,,,,,14.966304308982275,low,Target Absent,Normal,[],Na,Na,None,None,85
+136,2010_005758.jpg, pottedplant, person, chair,,,32.932330644708607,high,Target Present,Normal,[],Na,Na,None,None,143
+137,2010_005785.jpg, car,,,,,16.197035825449316,low,Target Absent,Normal,[],"[('q', 2.108121353601746)]",-999,None,None,94
+138,2010_005921.jpg, chair,,,,,28.810222255541373,high,Target Absent,Normal,[],Na,Na,None,None,0
+139,2010_005957.jpg, motorbike,,,,,33.21298925201048,high,Target Present,Normal,[],Na,Na,None,None,118
+140,2011_000469.jpg, cat,,,,,17.872074331338588,low,Target Absent,Normal,[],Na,Na,None,None,152
+141,2011_000767.jpg, bus, person,,,,36.080845262434281,high,Target Absent,Normal,[],Na,Na,None,None,144
+142,2011_000823.jpg, pottedplant, person, chair, diningtable, bottle,35.254278260497436,high,Target Absent,Critical,"[('space', 0.7063315664854599)]",Na,Na,0.167,tone1,7
+143,2011_001025.jpg, pottedplant, person, bicycle, car,,33.367152749801264,high,Target Present,Normal,[],Na,Na,None,None,145
+144,2011_001044.jpg, aeroplane,,,,,17.219936703889118,low,Target Present,Normal,[],"[('p', 1.0780096066591796)]",-999,None,None,58
+145,2011_001060.jpg, person, train,,,,29.200169335534397,high,Target Absent,Normal,[],Na,Na,None,None,98
+146,2011_001381.jpg, train,,,,,29.38212901716847,high,Target Present,Normal,[],"[('p', 0.9878881891927449)]",-999,None,None,150
+147,2011_001447.jpg, person, chair,,,,28.758673328529078,high,Target Present,Critical,"[('space', 0.6223366161430022)]",Na,Na,0.084,tone3,153
+148,2011_001656.jpg, horse,,,,,19.156547420300022,low,Target Present,Critical,"[('space', 0.6599749455999699)]",Na,Na,0.096,tone3,121
+149,2011_001753.jpg, aeroplane,,,,,11.346413138559113,low,Target Present,Normal,[],Na,Na,None,None,24
+150,2011_001870.jpg, bus, person,,,,31.556974936597051,high,Target Present,Normal,[],Na,Na,None,None,128
+151,2011_001945.jpg, bicycle,,,,,35.423946909145968,high,Target Absent,Normal,[],Na,Na,None,None,109
+152,2011_001959.jpg, bird,,,,,9.5768677087381207,low,Target Absent,Normal,[],Na,Na,None,None,136
+153,2011_002093.jpg, person, motorbike,,,,31.64894973403629,high,Target Absent,Critical,"[('space', 0.6077219315484399)]",Na,Na,0.071,tone3,148
+154,2011_002330.jpg, bus, person,,,,30.112103449707046,high,Target Absent,Normal,[],Na,Na,None,None,120
+155,2011_002461.jpg, cat,,,,,13.38256725656824,low,Target Absent,Normal,[],Na,Na,None,None,93
+156,2011_002553.jpg, sheep, person, bottle,,,34.527700629217435,high,Target Absent,Critical,"[('space', 0.9542392335642944)]",Na,Na,0.182,tone2,25
+157,2011_002606.jpg, person, diningtable,,,,16.796101888482873,low,Target Present,Normal,[],Na,Na,None,None,99
+158,2011_002814.jpg, sofa, bottle, pottedplant, tvmonitor, chair,33.937775623898794,high,Target Absent,Normal,[],Na,Na,None,None,74
+159,2011_002958.jpg, person, bicycle,,,,31.406602992868155,high,Target Absent,Critical,[],Na,Na,0.016,tone4,61
