@@ -26,7 +26,6 @@ import pickle
 
 from setup import *
 from functions import *
-from instructions import *
 
 #import functions
 #functions.myfunction()
@@ -38,7 +37,7 @@ from instructions import *
 
 
 
-debug = False
+debug = True
 
 #mypath = 'C:/Users/KeK/OneDrive - University College London/Random_probes_last/Luca/'
 mypath = 'E:/OneDrive - University College London/Random_probes_last/Luca/'

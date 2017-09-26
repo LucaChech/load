@@ -4,6 +4,7 @@ from psychopy import locale_setup, core, data, event, logging, sound, gui
 
 
 def print_instructions(win,noise_example,tone1,tone2):
+    print '!A'
     Instructions_screen_1 = visual.TextStim(win, 
     '                                INSTRUCTIONS \n'
     '\n'
@@ -30,7 +31,9 @@ def print_instructions(win,noise_example,tone1,tone2):
     alignVert='center',
     height= 0.08,
     wrapWidth=2 )
-
+    print '!B'
+    
+    
     Instructions_screen_2 = visual.TextStim(win,
     '                               INSTRUCTIONS \n'
     '\n'
@@ -45,6 +48,8 @@ def print_instructions(win,noise_example,tone1,tone2):
     alignVert='center',
     height= 0.08,
     wrapWidth=2 )
+    
+   
 
     Instructions_screen_3 = visual.TextStim(win,
     '                               INSTRUCTIONS \n'

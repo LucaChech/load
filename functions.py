@@ -3,10 +3,13 @@ import pdb
 import pickle
 from psychopy import locale_setup, core, data, event, logging, sound, gui
 
+
+
 def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints):
     for block in blocks:
         bPoints = 0
         for pic in block:
+            print 'IMAGE ', i_counter
             trial_details = {}
             probe_response = 't'
             noise.play()
@@ -16,21 +19,18 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             start_frame = ((int(my_dict[pic[1:-1]][12]) + 17 // 2) // 17) -1 # final -1 is to compensate for lag
             #CHANGE 17 WITH ACTUAL FRAMERATE
             for frameN in range(60):
+                print 'FRAME, ',frameN
                 if 'tone1' in my_dict[pic[1:-1]] and frameN == start_frame :
                     tone1.play()
                     print start_frame, my_dict[pic[1:-1]][12]
                 elif 'tone2' in my_dict[pic[1:-1]] and frameN == start_frame:
                     tone2.play()
                     print start_frame, my_dict[pic[1:-1]][12]
-                elif 'tone3' in my_dict[pic[1:-1]] and frameN == start_frame:
-                    tone3.play()
-                    print start_frame, my_dict[pic[1:-1]][12]
-                elif 'tone4' in my_dict[pic[1:-1]] and frameN == start_frame:
-                    tone4.play()
-                    print start_frame, my_dict[pic[1:-1]][12]
+                
                 image.draw()
                 win.flip()
             for frameN in range(20):
+                print 'FRAME2 ',frameN
                 win.flip()
             response = event.getKeys(keyList = ['space'], timeStamped = timer)
 #            if 'c' in response[0][0]:
@@ -40,7 +40,7 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             #Write the existing trial info
             T = my_dict[pic[1:-1]]
             
-            print T
+#            print T
             
             trial_details['image_name'] = pic[1:-1]
             trial_details['cat_1'] = T[0]
@@ -68,19 +68,29 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                 trial_details['space'] = response[0][0]
                 trial_details['RT_TO'] = response[0][1]
                 
+            print 'A'
+                
             if i_counter in probes_position_list[probes_position_index]:
                 print pic
                 name=my_dict[pic[1:-1]][8]
             
                 if 'pottedplant' in name:
                     name = 'potted plant'
-                search_text = visual.TextStim(win, name , wrapWidth=2, height=0.16)
+                print name
+                print 'B'
+#                search_text = visual.TextStim(win, 'LOL')
+                search_text = visual.TextStim(win, 'LOL' , wrapWidth=2, height=0.16)
+#                print 'C'
                 search_text.draw()
+                
                 win.flip()
+                
                 keys = event.waitKeys(keyList=['q','p','space'],timeStamped=timer)
                 #core.wait(1)
                 rt_space = -999
                 wait = True
+                
+                
                 for k in keys:
                     if k[0] == 'space':
                         rt_space = [k[0],k[1]]
@@ -99,6 +109,8 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                 trial_details['keys'] = keys[0][0]
                 trial_details['RT_VS'] = keys[0][1]
                 trial_details['useless'] = rt_space
+                
+               
       
                 if 'Target Present' in my_dict[pic[1:-1]] and 'p' in my_dict[pic[1:-1]][15]:
                     incorrect.play()
@@ -119,6 +131,8 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                     #        win.flip()
                 win.flip()
                 core.wait(1.5)
+                
+            print 'C'
             if i_counter not in probes_position_list[probes_position_index]:
                 my_dict[pic[1:-1]].append('Na')
                 my_dict[pic[1:-1]].append('Na')
