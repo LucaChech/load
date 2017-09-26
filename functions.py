@@ -176,10 +176,6 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
         probes_position_index = probes_position_index + 1
         
         print my_dict[pic[1:-1]]
-        #print response
-        #print len(response)
-        #END OF BLOCK MESSAGE
-
         
         bPoints = 0
         return i_counter,probes_position_index,block_number,experiment_details,allPoints

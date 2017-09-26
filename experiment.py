@@ -28,15 +28,6 @@ from setup import *
 from functions import *
 from instructions import *
 
-#import functions
-#functions.myfunction()
-# myfunction()
-
-
-
-
-
-
 
 debug = False
 
