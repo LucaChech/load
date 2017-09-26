@@ -1,0 +1,480 @@
+2008_002700.jpg, person', nan, nan, nan, nan,21.05137329, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',0,9
+2009_004076.jpg, sofa', ' dog', nan, nan, nan,15.55339315, 'low', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',1,9
+2010_004223.jpg, person', ' chair', nan, nan, nan,16.60680658, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',2,9
+2008_001238.jpg, sofa', ' dog', nan, nan, nan,21.00122728, 'low', ' sofa', nan, 'No Target', 'Critical', 'tone2',227, 'space',1.027537541, 'Na', 'Na', 'Na',3,9
+2008_007842.jpg, cat', nan, nan, nan, nan,20.60608554, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',4,9
+2008_004893.jpg, bird', nan, nan, nan, nan,8.062836493, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',5,9
+2008_001546.jpg, aeroplane', nan, nan, nan, nan,16.87666779, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',6,9
+2010_003400.jpg, car', nan, nan, nan, nan,11.74030454, 'low', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',7,9
+2009_004888.jpg, person', ' boat', nan, nan, nan,16.65124246, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',8,9
+2008_006998.jpg, person', nan, nan, nan, nan,18.71652901, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',9,9
+2010_001993.jpg, car', ' person', nan, nan, nan,21.05297682, 'low', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',10,9
+2009_000087.jpg, sofa', nan, nan, nan, nan,19.8923897, 'low', ' sofa', ' sofa', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.707,-999,11,9
+2008_001367.jpg, person', nan, nan, nan, nan,20.35844902, 'low', ' person', ' person', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.329,-999,12,9
+2011_001613.jpg, person', ' boat', nan, nan, nan,17.51694148, 'low', ' boat', nan, 'No Target', 'Critical', 'tone2',847, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',13,9
+2008_000189.jpg, person', ' car', nan, nan, nan,18.39087834, 'low', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',14,9
+2011_001611.jpg, pottedplant', nan, nan, nan, nan,20.3935266, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',15,9
+2008_002372.jpg, bottle', nan, nan, nan, nan,14.59333688, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',16,9
+2008_005673.jpg, cat', nan, nan, nan, nan,18.6869051, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',17,9
+2010_003911.jpg, boat', nan, nan, nan, nan,20.08430254, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',18,9
+2010_001907.jpg, person', ' chair', ' diningtable', nan, nan,20.56127901, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',19,9
+2008_000151.jpg, aeroplane', nan, nan, nan, nan,8.171244741, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',20,9
+2011_001959.jpg, bird', nan, nan, nan, nan,9.576867709, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',21,9
+2008_007208.jpg, dog', nan, nan, nan, nan,19.80314915, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',22,9
+2010_005780.jpg, boat', nan, nan, nan, nan,16.84633658, 'low', ' boat', ' boat', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.084,-999,23,9
+2008_004607.jpg, bottle', nan, nan, nan, nan,20.4657412, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',24,9
+2011_001198.jpg, sofa', ' dog', nan, nan, nan,16.6984986, 'low', ' sofa', ' bird', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.14,-999,25,9
+2008_002504.jpg, boat', nan, nan, nan, nan,20.47066395, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',26,9
+2009_002817.jpg, pottedplant', nan, nan, nan, nan,19.54050687, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',27,9
+2009_004225.jpg, cat', nan, nan, nan, nan,12.72903344, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',28,9
+2010_005785.jpg, car', nan, nan, nan, nan,16.19703583, 'low', ' car', ' boat', 'Target Absent', 'Critical', 'tone2',542, 'space',1.127684396, 'p',2.201,-999,29,9
+2010_001829.jpg, horse', nan, nan, nan, nan,19.23440134, 'low', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',30,9
+2008_000839.jpg, cat', nan, nan, nan, nan,16.45610124, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',31,9
+2009_001137.jpg, pottedplant', ' person', nan, nan, nan,13.78673346, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',32,9
+2011_002303.jpg, car', ' person', nan, nan, nan,20.69571461, 'low', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',33,9
+2010_001451.jpg, horse', nan, nan, nan, nan,14.30046469, 'low', ' horse', ' horse', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.124,-999,34,9
+2008_000119.jpg, person', ' horse', nan, nan, nan,19.18754607, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',35,9
+2010_002498.jpg, person', ' boat', nan, nan, nan,17.99774847, 'low', ' boat', ' aeroplane', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.628,-999,36,9
+2008_002904.jpg, dog', nan, nan, nan, nan,17.19004465, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',37,9
+2010_001159.jpg, bird', nan, nan, nan, nan,14.34334679, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',38,9
+2009_001470.jpg, sofa', ' dog', nan, nan, nan,19.18883419, 'low', ' sofa', ' horse', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.227,-999,39,9
+2008_005490.jpg, person', ' sofa', nan, nan, nan,13.41412628, 'low', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',40,9
+2009_002697.jpg, horse', nan, nan, nan, nan,19.78900607, 'low', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',41,9
+2008_001479.jpg, dog', nan, nan, nan, nan,13.41122105, 'low', ' dog', nan, 'No Target', 'Critical', 'tone2',368, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',42,9
+2010_000090.jpg, chair', ' dog', nan, nan, nan,13.83671015, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'space',0.195122848, 'Na', 'Na', 'Na',43,9
+2008_008083.jpg, person', ' boat', nan, nan, nan,18.64245043, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',44,9
+2011_000661.jpg, chair', ' cat', nan, nan, nan,19.79717142, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',45,9
+2008_005345.jpg, pottedplant', nan, nan, nan, nan,16.52047637, 'low', ' pottedplant', ' sofa', 'Target Absent', 'Critical', 'tone1',280, 'No spacebar', 'No timing', 'q',2.361,-999,46,9
+2010_003280.jpg, person', ' horse', nan, nan, nan,20.30683532, 'low', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',47,9
+2008_006564.jpg, aeroplane', nan, nan, nan, nan,13.51329191, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',48,9
+2010_003453.jpg, car', nan, nan, nan, nan,17.7316961, 'low', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',49,9
+2009_005008.jpg, pottedplant', nan, nan, nan, nan,17.77015836, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',50,9
+2010_005437.jpg, car', nan, nan, nan, nan,20.48716673, 'low', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',51,9
+2008_001542.jpg, horse', nan, nan, nan, nan,18.41425575, 'low', ' horse', nan, 'No Target', 'Critical', 'tone1',467, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',52,9
+2009_003209.jpg, dog', nan, nan, nan, nan,18.98159823, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',53,9
+2009_001406.jpg, person', ' boat', nan, nan, nan,19.90161689, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',54,9
+2008_000734.jpg, person', ' sofa', nan, nan, nan,20.18533933, 'low', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',55,9
+2011_003145.jpg, bird', nan, nan, nan, nan,17.49706999, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',56,9
+2010_005101.jpg, aeroplane', nan, nan, nan, nan,13.35003332, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',57,9
+2010_003101.jpg, pottedplant', nan, nan, nan, nan,19.25273491, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',58,9
+2009_004262.jpg, horse', nan, nan, nan, nan,19.76483641, 'low', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',59,9
+2011_002260.jpg, chair', nan, nan, nan, nan,30.09692036, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',0,10
+2008_000191.jpg, person', ' bicycle', ' boat', nan, nan,34.31905161, 'high', ' boat', nan, 'No Target', 'Critical', 'tone1',371, 'space',1.093930531, 'Na', 'Na', 'Na',1,10
+2009_000120.jpg, boat', nan, nan, nan, nan,30.80608913, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',2,10
+2008_008500.jpg, person', ' horse', nan, nan, nan,33.96835298, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',3,10
+2011_002555.jpg, person', ' horse', nan, nan, nan,29.26546246, 'high', ' horse', ' horse', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.128,-999,4,10
+2008_000704.jpg, sofa', ' chair', ' person', nan, nan,34.56160824, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',5,10
+2008_008470.jpg, sofa', ' chair', ' diningtable', nan, nan,30.3466942, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',6,10
+2009_004154.jpg, person', ' chair', ' diningtable', ' bottle', nan,29.62291428, 'high', ' bottle', ' pottedplant', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.541,-999,7,10
+2009_004364.jpg, car', ' bicycle', nan, nan, nan,28.73094626, 'high', ' car', nan, 'No Target', 'Critical', 'tone1',758, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',8,10
+2010_002472.jpg, cat', nan, nan, nan, nan,32.66066395, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',9,10
+2008_000885.jpg, person', ' diningtable', ' bottle', nan, nan,33.46190408, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',10,10
+2011_001304.jpg, tvmonitor', ' chair', ' sofa', nan, nan,37.2238158, 'high', ' sofa', ' boat', 'Target Absent', 'Critical', 'tone1',192, 'No spacebar', 'No timing', 'p',2.136,-999,11,10
+2011_001649.jpg, person', ' chair', nan, nan, nan,34.70717081, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',12,10
+2008_002773.jpg, aeroplane', ' boat', nan, nan, nan,29.28734944, 'high', ' aeroplane', ' car', 'Target Absent', 'Critical', 'tone2',560, 'space', 1.4696811639150837], 'p',2.189,-999,13,10
+2008_003844.jpg, car', ' motorbike', ' person', nan, nan,31.40872196, 'high', ' car', ' car', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.463,-999,14,10
+2008_001333.jpg, sofa', ' chair', ' bottle', ' person', nan,29.05176679, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',15,10
+2008_001210.jpg, cat', nan, nan, nan, nan,29.24697617, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',16,10
+2009_005118.jpg, boat', nan, nan, nan, nan,28.71028435, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',17,10
+2008_005750.jpg, aeroplane', nan, nan, nan, nan,29.20186946, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',18,10
+2009_000629.jpg, tvmonitor', ' chair', nan, nan, nan,34.77634371, 'high', ' chair', ' dog', 'Target Absent', 'Critical', 'tone2',471, 'space',1.260057835, 'p',2.263,-999,19,10
+2011_000631.jpg, boat', nan, nan, nan, nan,37.7062016, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',20,10
+2008_005720.jpg, bus', ' boat', ' car', nan, nan,34.40391462, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',21,10
+2010_001939.jpg, tvmonitor', ' diningtable', ' cat', nan, nan,29.8429225, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',22,10
+2008_001673.jpg, person', ' chair', ' bird', nan, nan,29.63012123, 'high', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',23,10
+2010_003943.jpg, cat', nan, nan, nan, nan,31.19357079, 'high', ' cat', ' cat', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.24,-999,24,10
+2011_000548.jpg, bird', ' cow', nan, nan, nan,30.961221, 'high', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',25,10
+2008_000860.jpg, cat', nan, nan, nan, nan,29.40145113, 'high', ' cat', nan, 'No Target', 'Critical', 'tone2',29, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',26,10
+2008_006663.jpg, person', ' bottle', ' diningtable', nan, nan,29.77548413, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',27,10
+2008_000270.jpg, person', ' dog', ' sofa', nan, nan,29.93561839, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',28,10
+2008_002725.jpg, person', nan, nan, nan, nan,35.6966323, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',29,10
+2008_007527.jpg, tvmonitor', ' chair', nan, nan, nan,32.38481414, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',30,10
+2008_004670.jpg, sofa', ' chair', nan, nan, nan,32.35147421, 'high', ' chair', ' chair', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.325,-999,31,10
+2008_004633.jpg, bird', nan, nan, nan, nan,30.06880328, 'high', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',32,10
+2010_004778.jpg, person', ' chair', ' diningtable', ' bottle', nan,30.06059186, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',33,10
+2008_005090.jpg, tvmonitor', ' sofa', ' bottle', ' person', nan,29.60802649, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',34,10
+2008_006912.jpg, person', ' horse', nan, nan, nan,28.93623922, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',35,10
+2010_005170.jpg, person', ' chair', ' diningtable', ' sofa', nan,30.91646677, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',36,10
+2008_000202.jpg, person', ' chair', ' bottle', ' tvmonitor', nan,34.63305609, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',37,10
+2008_005845.jpg, dog', nan, nan, nan, nan,28.96181698, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',38,10
+2008_005472.jpg, person', ' car', nan, nan, nan,28.83974175, 'high', ' person', ' pottedplant', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.6,-999,39,10
+2008_006121.jpg, person', ' boat', nan, nan, nan,30.38418727, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',40,10
+2008_004614.jpg, car', ' bus', ' person', nan, nan,31.30513577, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',41,10
+2010_004763.jpg, chair', nan, nan, nan, nan,33.26176818, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',42,10
+2010_002742.jpg, person', ' bottle', ' pottedplant', ' tvmonitor', ' chair',31.67638571, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',43,10
+2010_001586.jpg, person', ' train', ' sofa', nan, nan,31.65115644, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',44,10
+2008_003193.jpg, person', nan, nan, nan, nan,39.79411023, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',45,10
+2010_001434.jpg, sofa', ' chair', nan, nan, nan,31.26054, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',46,10
+2009_003884.jpg, chair', ' diningtable', nan, nan, nan,28.72863626, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',47,10
+2008_003805.jpg, person', ' horse', nan, nan, nan,29.87536207, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',48,10
+2009_000995.jpg, sofa', ' person', nan, nan, nan,31.46367723, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',49,10
+2008_000196.jpg, pottedplant', ' bicycle', ' bottle', ' cat', nan,35.35378443, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',50,10
+2008_005600.jpg, person', ' cat', nan, nan, nan,30.22651638, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',51,10
+2008_003180.jpg, dog', nan, nan, nan, nan,31.53785713, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',52,10
+2008_007913.jpg, person', ' cat', nan, nan, nan,32.26510908, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',53,10
+2008_000414.jpg, boat', nan, nan, nan, nan,35.94715, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',54,10
+2009_004414.jpg, aeroplane', nan, nan, nan, nan,35.97296008, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',55,10
+2010_000536.jpg, cat', nan, nan, nan, nan,31.54166437, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',56,10
+2008_000798.jpg, bird', nan, nan, nan, nan,29.59459789, 'high', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',57,10
+2008_006841.jpg, sofa', ' chair', ' person', nan, nan,30.03533913, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',58,10
+2010_001682.jpg, person', ' chair', ' diningtable', ' bottle', nan,33.47875047, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',59,10
+2008_000928.jpg, person', nan, nan, nan, nan,30.99697782, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',0,11
+2009_003802.jpg, car', ' bicycle', ' motorbike', nan, nan,29.67801392, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',1,11
+2008_004646.jpg, person', ' aeroplane', nan, nan, nan,32.01497355, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',2,11
+2010_005572.jpg, person', ' motorbike', nan, nan, nan,31.07685831, 'high', ' person', ' person', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.255,-999,3,11
+2011_002482.jpg, person', ' bottle', nan, nan, nan,30.93687928, 'high', ' person', ' bird', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.174,-999,4,11
+2008_000619.jpg, car', ' cat', nan, nan, nan,33.46218479, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',5,11
+2010_004447.jpg, person', ' bottle', ' sofa', nan, nan,33.56118578, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',6,11
+2008_004661.jpg, pottedplant', ' sofa', ' chair', ' diningtable', ' tvmonitor',29.24748327, 'high', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',7,11
+2008_003701.jpg, boat', nan, nan, nan, nan,29.95719922, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',8,11
+2008_003378.jpg, car', ' chair', ' bicycle', nan, nan,29.73081013, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',9,11
+2008_000093.jpg, tvmonitor', ' chair', ' sofa', nan, nan,29.822033, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',10,11
+2008_003081.jpg, person', ' boat', nan, nan, nan,29.00645746, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',11,11
+2010_003490.jpg, horse', nan, nan, nan, nan,31.51488582, 'high', ' horse', nan, 'No Target', 'Critical', 'tone1',476, 'space',1.255141568, 'Na', 'Na', 'Na',12,11
+2009_000539.jpg, person', ' dog', nan, nan, nan,29.35445849, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',13,11
+2008_008628.jpg, sofa', nan, nan, nan, nan,30.98031115, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',14,11
+2011_001880.jpg, aeroplane', nan, nan, nan, nan,32.20276402, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',15,11
+2008_000982.jpg, car', ' person', ' bus', nan, nan,35.06941918, 'high', ' car', ' car', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.534,-999,16,11
+2008_006844.jpg, person', ' dog', ' car', nan, nan,33.094885, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',17,11
+2011_001335.jpg, person', ' horse', nan, nan, nan,33.33497247, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',18,11
+2008_002084.jpg, pottedplant', ' person', ' dog', nan, nan,30.00737433, 'high', ' dog', ' dog', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.17,-999,19,11
+2010_006033.jpg, car', nan, nan, nan, nan,32.97739588, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',20,11
+2009_004283.jpg, pottedplant', ' sofa', nan, nan, nan,29.04248887, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',21,11
+2010_002278.jpg, person', ' cat', nan, nan, nan,29.86799404, 'high', ' cat', ' bird', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.31,-999,22,11
+2008_003449.jpg, boat', nan, nan, nan, nan,34.70865016, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',23,11
+2008_007250.jpg, bird', nan, nan, nan, nan,31.89212551, 'high', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',24,11
+2010_005996.jpg, pottedplant', ' person', ' train', nan, nan,29.10600638, 'high', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',25,11
+2011_000628.jpg, person', ' horse', nan, nan, nan,31.31059992, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',26,11
+2008_004858.jpg, car', ' bicycle', ' person', nan, nan,30.4769291, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',27,11
+2008_001576.jpg, tvmonitor', ' chair', ' person', nan, nan,31.7947294, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',28,11
+2008_001283.jpg, pottedplant', ' person', ' bird', nan, nan,32.32593505, 'high', ' bird', ' bottle', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.59,-999,29,11
+2011_000499.jpg, tvmonitor', ' chair', ' sofa', nan, nan,30.4579578, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',30,11
+2009_005133.jpg, car', nan, nan, nan, nan,29.27046484, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',31,11
+2009_000565.jpg, person', ' horse', nan, nan, nan,30.53048978, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',32,11
+2008_007970.jpg, person', ' aeroplane', nan, nan, nan,30.07304163, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',33,11
+2010_004683.jpg, pottedplant', ' dog', nan, nan, nan,28.66363348, 'high', ' pottedplant', nan, 'No Target', 'Critical', 'tone2',238, 'space',1.273456403, 'Na', 'Na', 'Na',34,11
+2008_001278.jpg, person', ' horse', nan, nan, nan,32.48053186, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',35,11
+2008_007108.jpg, pottedplant', ' dog', nan, nan, nan,29.85183435, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',36,11
+2011_001221.jpg, pottedplant', ' person', ' chair', ' diningtable', ' boat',35.38363354, 'high', ' pottedplant', nan, 'No Target', 'Critical', 'tone1',865, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',37,11
+2009_002306.jpg, boat', nan, nan, nan, nan,30.0652664, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',38,11
+2008_007378.jpg, chair', ' dog', ' diningtable', nan, nan,29.61144034, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',39,11
+2010_005606.jpg, person', ' sofa', ' cat', nan, nan,29.51418979, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',40,11
+2008_002864.jpg, person', ' diningtable', ' bottle', nan, nan,36.48505551, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',41,11
+2008_004482.jpg, person', ' bicycle', ' car', nan, nan,30.89167222, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',42,11
+2008_005519.jpg, pottedplant', ' person', ' chair', ' diningtable', nan,31.52068761, 'high', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',43,11
+2008_002195.jpg, person', ' aeroplane', nan, nan, nan,30.48036176, 'high', ' aeroplane', ' aeroplane', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.163,-999,44,11
+2010_004423.jpg, aeroplane', nan, nan, nan, nan,29.73967796, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',45,11
+2011_000530.jpg, pottedplant', ' sofa', ' chair', ' diningtable', nan,29.80681963, 'high', ' sofa', nan, 'No Target', 'Critical', 'tone1',189, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',46,11
+2010_003419.jpg, bird', nan, nan, nan, nan,28.6670652, 'high', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',47,11
+2010_001118.jpg, bus', ' car', nan, nan, nan,39.11631737, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',48,11
+2008_000697.jpg, bird', nan, nan, nan, nan,32.06509586, 'high', ' bird', ' aeroplane', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.138,-999,49,11
+2011_002193.jpg, person', ' aeroplane', nan, nan, nan,30.18288572, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',50,11
+2009_003338.jpg, person', ' horse', nan, nan, nan,30.13089803, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',51,11
+2008_000916.jpg, pottedplant', ' person', ' train', nan, nan,29.32349307, 'high', ' person', ' person', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.5,-999,52,11
+2010_002603.jpg, person', ' chair', nan, nan, nan,37.05291171, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',53,11
+2008_000488.jpg, pottedplant', ' car', nan, nan, nan,30.61269318, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',54,11
+2008_002709.jpg, boat', ' cow', nan, nan, nan,29.65940712, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',55,11
+2008_000457.jpg, car', nan, nan, nan, nan,36.20739456, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',56,11
+2009_001321.jpg, car', ' aeroplane', nan, nan, nan,37.93755166, 'high', ' aeroplane', nan, 'No Target', 'Critical', 'tone2',574, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',57,11
+2010_005270.jpg, person', ' horse', ' dog', nan, nan,31.37246, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'space',0.052422796, 'Na', 'Na', 'Na',58,11
+2011_001944.jpg, dog', nan, nan, nan, nan,31.72817006, 'high', ' dog', nan, 'No Target', 'Critical', 'tone2',250, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',59,11
+2008_000183.jpg, dog', nan, nan, nan, nan,19.75528619, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',0,12
+2011_000224.jpg, sofa', nan, nan, nan, nan,17.31664604, 'low', ' sofa', ' sofa', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.482,-999,1,12
+2008_007048.jpg, chair', ' diningtable', nan, nan, nan,20.01730832, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',2,12
+2009_000169.jpg, person', ' horse', ' car', nan, nan,20.93459986, 'low', ' horse', nan, 'No Target', 'Critical', 'tone1',238, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',3,12
+2008_008359.jpg, aeroplane', nan, nan, nan, nan,14.10644502, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',4,12
+2010_000109.jpg, cat', nan, nan, nan, nan,21.19410162, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',5,12
+2008_001708.jpg, dog', ' cat', nan, nan, nan,21.24762946, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',6,12
+2008_001836.jpg, cat', nan, nan, nan, nan,20.46388369, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',7,12
+2010_002283.jpg, horse', nan, nan, nan, nan,18.05782528, 'low', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',8,12
+2008_006470.jpg, chair', nan, nan, nan, nan,21.00591701, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',9,12
+2009_001568.jpg, dog', nan, nan, nan, nan,17.10259026, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',10,12
+2008_000163.jpg, car', nan, nan, nan, nan,18.70849772, 'low', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',11,12
+2009_003373.jpg, sofa', ' tvmonitor', nan, nan, nan,15.57404719, 'low', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',12,12
+2008_005046.jpg, person', ' dog', nan, nan, nan,20.71289877, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',13,12
+2008_006072.jpg, bottle', nan, nan, nan, nan,18.25990094, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',14,12
+2008_002145.jpg, person', nan, nan, nan, nan,18.87955753, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',15,12
+2009_000523.jpg, car', nan, nan, nan, nan,21.18101074, 'low', ' car', ' chair', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.438,-999,16,12
+2009_002521.jpg, bottle', nan, nan, nan, nan,20.83252155, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',17,12
+2010_004753.jpg, chair', ' cat', nan, nan, nan,16.65486589, 'low', ' chair', ' chair', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.294,-999,18,12
+2008_003876.jpg, aeroplane', nan, nan, nan, nan,13.44036677, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',19,12
+2009_004779.jpg, cat', nan, nan, nan, nan,19.09625235, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',20,12
+2009_002888.jpg, aeroplane', nan, nan, nan, nan,18.00036185, 'low', ' aeroplane', ' dog', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.205,-999,21,12
+2008_002062.jpg, car', nan, nan, nan, nan,18.78745072, 'low', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',22,12
+2008_005728.jpg, dog', nan, nan, nan, nan,19.89008865, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',23,12
+2008_000105.jpg, car', nan, nan, nan, nan,19.45316735, 'low', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',24,12
+2008_005214.jpg, pottedplant', nan, nan, nan, nan,21.2176699, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',25,12
+2010_004339.jpg, dog', nan, nan, nan, nan,18.02036797, 'low', ' dog', ' dog', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.297,-999,26,12
+2008_000501.jpg, car', nan, nan, nan, nan,18.2986781, 'low', ' car', ' aeroplane', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.221,-999,27,12
+2008_000912.jpg, horse', nan, nan, nan, nan,18.50588345, 'low', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',28,12
+2008_005978.jpg, person', ' bicycle', nan, nan, nan,18.23776824, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',29,12
+2008_003587.jpg, person', ' dog', nan, nan, nan,19.79337611, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',30,12
+2008_001040.jpg, boat', nan, nan, nan, nan,20.2100437, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',31,12
+2009_002374.jpg, chair', nan, nan, nan, nan,20.13855957, 'low', ' chair', nan, 'No Target', 'Critical', 'tone1',280, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',32,12
+2010_006023.jpg, aeroplane', nan, nan, nan, nan,12.53657278, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'space',0.04591909, 'Na', 'Na', 'Na',33,12
+2008_004171.jpg, pottedplant', nan, nan, nan, nan,20.58416257, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',34,12
+2010_000750.jpg, pottedplant', nan, nan, nan, nan,11.90221234, 'low', ' pottedplant', ' pottedplant', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.183,-999,35,12
+2008_008395.jpg, person', ' horse', nan, nan, nan,19.91230102, 'low', ' horse', nan, 'No Target', 'Critical', 'tone2',147, 'space',1.025401571, 'Na', 'Na', 'Na',36,12
+2010_002956.jpg, bottle', nan, nan, nan, nan,16.59887486, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',37,12
+2011_002453.jpg, pottedplant', nan, nan, nan, nan,19.24976137, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',38,12
+2008_007704.jpg, chair', ' diningtable', ' bottle', nan, nan,20.03811988, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',39,12
+2009_000919.jpg, boat', nan, nan, nan, nan,19.2535196, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',40,12
+2009_002803.jpg, dog', nan, nan, nan, nan,20.19443363, 'low', ' dog', ' person', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.094,-999,41,12
+2008_003709.jpg, sofa', nan, nan, nan, nan,15.77924939, 'low', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',42,12
+2008_001617.jpg, person', ' chair', nan, nan, nan,20.22413954, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',43,12
+2011_000514.jpg, pottedplant', nan, nan, nan, nan,18.03153745, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',44,12
+2010_002379.jpg, pottedplant', nan, nan, nan, nan,19.89572012, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',45,12
+2009_000260.jpg, aeroplane', nan, nan, nan, nan,20.08843585, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',46,12
+2008_006703.jpg, aeroplane', nan, nan, nan, nan,20.8854366, 'low', ' aeroplane', ' aeroplane', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.289,-999,47,12
+2008_004814.jpg, person', ' bottle', nan, nan, nan,19.86909925, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',48,12
+2010_004231.jpg, chair', ' diningtable', nan, nan, nan,15.83070894, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',49,12
+2011_001005.jpg, pottedplant', ' sofa', nan, nan, nan,18.96772267, 'low', ' pottedplant', nan, 'No Target', 'Critical', 'tone1',42, 'space',1.121825017, 'Na', 'Na', 'Na',50,12
+2008_004624.jpg, horse', nan, nan, nan, nan,13.8796341, 'low', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',51,12
+2009_003686.jpg, horse', nan, nan, nan, nan,18.72072854, 'low', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',52,12
+2008_004270.jpg, person', ' sofa', nan, nan, nan,19.24403588, 'low', ' sofa', nan, 'No Target', 'Critical', 'tone2',148, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',53,12
+2008_002379.jpg, pottedplant', ' chair', ' diningtable', nan, nan,17.13857605, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',54,12
+2008_000123.jpg, bird', nan, nan, nan, nan,12.43398978, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'space',0.79031566, 'Na', 'Na', 'Na',55,12
+2008_005123.jpg, dog', nan, nan, nan, nan,19.57066226, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',56,12
+2008_001221.jpg, person', nan, nan, nan, nan,18.13905315, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',57,12
+2009_002749.jpg, bottle', nan, nan, nan, nan,20.96364308, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',58,12
+2008_000219.jpg, horse', nan, nan, nan, nan,19.59813118, 'low', ' horse', nan, 'No Target', 'Critical', 'tone1',120, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',59,12
+2011_002509.jpg, person', ' chair', ' tvmonitor', nan, nan,28.89498956, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',0,13
+2008_007091.jpg, sofa', ' person', nan, nan, nan,31.05186834, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',1,13
+2008_000274.jpg, pottedplant', ' chair', nan, nan, nan,32.05426968, 'high', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',2,13
+2008_004487.jpg, chair', ' bottle', nan, nan, nan,35.92506489, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',3,13
+2009_002571.jpg, pottedplant', ' sofa', ' chair', ' diningtable', nan,28.96846506, 'high', ' sofa', ' sofa', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.179,-999,4,13
+2008_005702.jpg, horse', nan, nan, nan, nan,29.28123751, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',5,13
+2011_001001.jpg, person', ' bird', ' boat', nan, nan,31.91340974, 'high', ' bird', nan, 'No Target', 'Critical', 'tone2',10, 'space',0.558441118, 'Na', 'Na', 'Na',6,13
+2008_000833.jpg, car', ' boat', ' person', nan, nan,32.75926742, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',7,13
+2009_004794.jpg, pottedplant', ' person', ' bottle', ' diningtable', nan,36.66558282, 'high', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',8,13
+2010_003729.jpg, pottedplant', ' car', ' chair', ' bicycle', ' person',30.13324411, 'high', ' pottedplant', ' pottedplant', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.377,-999,9,13
+2010_001856.jpg, person', ' horse', nan, nan, nan,35.66913246, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',10,13
+2008_002789.jpg, person', ' chair', ' diningtable', ' bottle', nan,33.82355011, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',11,13
+2008_002897.jpg, pottedplant', ' person', nan, nan, nan,36.59577097, 'high', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',12,13
+2011_001025.jpg, pottedplant', ' person', ' bicycle', ' car', nan,33.36715275, 'high', ' pottedplant', ' cat', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.151,-999,13,13
+2010_003861.jpg, pottedplant', ' person', ' chair', ' sofa', ' cat',29.7271296, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',14,13
+2008_003635.jpg, person', ' diningtable', ' bottle', nan, nan,36.15601296, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',15,13
+2008_000251.jpg, car', ' aeroplane', nan, nan, nan,35.87217941, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',16,13
+2011_002641.jpg, person', ' chair', ' bottle', nan, nan,33.38111538, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',17,13
+2011_000434.jpg, sofa', ' person', ' tvmonitor', nan, nan,31.14925642, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',18,13
+2010_003297.jpg, person', ' horse', nan, nan, nan,31.96963432, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',19,13
+2008_002119.jpg, pottedplant', ' sofa', ' chair', ' tvmonitor', nan,29.4645801, 'high', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',20,13
+2010_001645.jpg, person', ' diningtable', ' bottle', nan, nan,38.97264239, 'high', ' bottle', nan, 'No Target', 'Critical', 'tone2',368, 'space',1.094686902, 'Na', 'Na', 'Na',21,13
+2008_003755.jpg, car', ' dog', ' person', nan, nan,29.76355213, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',22,13
+2008_004991.jpg, person', ' bottle', nan, nan, nan,28.91651537, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',23,13
+2008_008607.jpg, aeroplane', nan, nan, nan, nan,32.02068991, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',24,13
+2011_001991.jpg, boat', nan, nan, nan, nan,34.04714691, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',25,13
+2008_002672.jpg, car', nan, nan, nan, nan,30.39404845, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',26,13
+2009_000021.jpg, car', ' person', nan, nan, nan,29.00835902, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',27,13
+2010_005894.jpg, chair', nan, nan, nan, nan,29.02795836, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',28,13
+2008_007057.jpg, dog', nan, nan, nan, nan,40.77312128, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',29,13
+2008_004042.jpg, bird', nan, nan, nan, nan,31.39702782, 'high', ' bird', ' sofa', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.003,-999,30,13
+2009_000058.jpg, person', ' bottle', ' diningtable', nan, nan,34.07291755, 'high', ' bottle', ' bottle', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.292,-999,31,13
+2011_002971.jpg, sofa', ' chair', ' person', nan, nan,36.44379193, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',32,13
+2008_002350.jpg, bird', nan, nan, nan, nan,29.81492031, 'high', ' bird', ' bird', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.145,-999,33,13
+2008_000381.jpg, person', ' chair', nan, nan, nan,29.77990661, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',34,13
+2008_008097.jpg, car', ' bicycle', ' motorbike', ' bus', ' person',30.26344947, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',35,13
+2008_001451.jpg, pottedplant', ' person', ' chair', ' diningtable', nan,31.48764037, 'high', ' pottedplant', nan, 'No Target', 'Critical', 'tone2',60, 'space',0.97209582, 'Na', 'Na', 'Na',36,13
+2008_006863.jpg, person', ' chair', ' cat', nan, nan,30.87884814, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',37,13
+2009_003351.jpg, pottedplant', ' person', ' chair', ' motorbike', ' boat',31.5804899, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',38,13
+2010_003724.jpg, person', ' bird', nan, nan, nan,29.65738997, 'high', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',39,13
+2008_006870.jpg, person', ' dog', nan, nan, nan,30.6573416, 'high', ' dog', ' bottle', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.616,-999,40,13
+2008_007664.jpg, diningtable', ' person', ' chair', ' dog', ' bottle',36.04012143, 'high', ' bottle', nan, 'No Target', 'Critical', 'tone1',789, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',41,13
+2009_002897.jpg, boat', nan, nan, nan, nan,29.60800276, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',42,13
+2011_001139.jpg, chair', ' bird', ' diningtable', nan, nan,29.36175572, 'high', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',43,13
+2008_002774.jpg, person', ' motorbike', nan, nan, nan,32.12330736, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',44,13
+2009_004849.jpg, person', ' chair', ' motorbike', nan, nan,31.77423927, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',45,13
+2008_006216.jpg, person', ' aeroplane', nan, nan, nan,31.8858778, 'high', ' aeroplane', ' person', 'Target Absent', 'Critical', 'tone1',144, 'No spacebar', 'No timing', 'q',2.174,-999,46,13
+2009_000488.jpg, pottedplant', ' tvmonitor', ' cat', nan, nan,31.6704472, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',47,13
+2011_001440.jpg, pottedplant', ' sofa', nan, nan, nan,31.62452384, 'high', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',48,13
+2011_002098.jpg, dog', ' bottle', nan, nan, nan,41.9971447, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',49,13
+2008_006481.jpg, bird', ' boat', nan, nan, nan,29.3142336, 'high', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',50,13
+2008_007629.jpg, aeroplane', nan, nan, nan, nan,31.1423085, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',51,13
+2010_005628.jpg, pottedplant', ' person', ' chair', ' dog', nan,34.09979018, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',52,13
+2009_000198.jpg, pottedplant', ' chair', nan, nan, nan,34.96662807, 'high', ' pottedplant', ' aeroplane', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.799,-999,53,13
+2010_002127.jpg, person', ' bottle', ' car', nan, nan,34.31316104, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',54,13
+2008_000321.jpg, sofa', ' person', nan, nan, nan,35.92557187, 'high', ' sofa', nan, 'No Target', 'Critical', 'tone1',342, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',55,13
+2010_002702.jpg, person', ' boat', ' car', nan, nan,35.70470893, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',56,13
+2008_001862.jpg, pottedplant', ' person', ' chair', ' dog', ' bottle',31.05804957, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',57,13
+2008_008210.jpg, person', ' bicycle', ' car', nan, nan,31.5779064, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',58,13
+2010_000074.jpg, person', ' dog', nan, nan, nan,32.14242713, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',59,13
+2010_004014.jpg, car', nan, nan, nan, nan,18.59798168, 'low', ' car', ' car', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.639,-999,0,14
+2008_002704.jpg, car', nan, nan, nan, nan,19.43993938, 'low', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',1,14
+2011_003074.jpg, chair', nan, nan, nan, nan,20.50888146, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',2,14
+2009_001782.jpg, car', nan, nan, nan, nan,18.87415623, 'low', ' car', ' bottle', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.297,-999,3,14
+2010_000426.jpg, bottle', nan, nan, nan, nan,17.88313474, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',4,14
+2009_001723.jpg, boat', nan, nan, nan, nan,19.26433768, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',5,14
+2010_004145.jpg, horse', nan, nan, nan, nan,18.59045643, 'low', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',6,14
+2009_002325.jpg, sofa', ' chair', nan, nan, nan,19.83649163, 'low', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',7,14
+2009_004594.jpg, car', nan, nan, nan, nan,19.03017815, 'low', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',8,14
+2008_000952.jpg, car', nan, nan, nan, nan,19.759256, 'low', ' car', ' car', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.237,-999,9,14
+2011_001886.jpg, boat', nan, nan, nan, nan,19.6857523, 'low', ' boat', ' bird', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.149,-999,10,14
+2008_000972.jpg, person', ' sofa', nan, nan, nan,20.70787778, 'low', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',11,14
+2009_000716.jpg, cat', nan, nan, nan, nan,20.53735354, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',12,14
+2008_005903.jpg, bird', nan, nan, nan, nan,18.01566889, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',13,14
+2011_002241.jpg, chair', ' diningtable', nan, nan, nan,18.1178028, 'low', ' chair', nan, 'No Target', 'Critical', 'tone2',941, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',14,14
+2010_001731.jpg, chair', nan, nan, nan, nan,9.955368401, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'space',0.276807756, 'Na', 'Na', 'Na',15,14
+2011_000070.jpg, sofa', nan, nan, nan, nan,16.9008567, 'low', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',16,14
+2010_000229.jpg, aeroplane', nan, nan, nan, nan,14.34189474, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',17,14
+2008_004412.jpg, chair', nan, nan, nan, nan,20.41325372, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',18,14
+2011_001432.jpg, bird', nan, nan, nan, nan,19.73559235, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',19,14
+2009_000189.jpg, sofa', ' dog', nan, nan, nan,20.93405968, 'low', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',20,14
+2010_000613.jpg, horse', nan, nan, nan, nan,20.88558392, 'low', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',21,14
+2008_007096.jpg, aeroplane', nan, nan, nan, nan,20.15804441, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',22,14
+2010_000132.jpg, pottedplant', nan, nan, nan, nan,19.90627663, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',23,14
+2008_000940.jpg, person', nan, nan, nan, nan,20.18915034, 'low', ' person', ' pottedplant', 'Target Absent', 'Critical', 'tone1',804, 'No spacebar', 'No timing', 'p',2.46,-999,24,14
+2009_001305.jpg, cat', nan, nan, nan, nan,18.68471821, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',25,14
+2010_005054.jpg, tvmonitor', ' sofa', nan, nan, nan,20.21626352, 'low', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',26,14
+2009_001894.jpg, cat', nan, nan, nan, nan,19.10769655, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',27,14
+2009_005044.jpg, bottle', nan, nan, nan, nan,15.71362483, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',28,14
+2010_005391.jpg, dog', nan, nan, nan, nan,18.6088037, 'low', ' dog', ' dog', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.31,-999,29,14
+2010_003746.jpg, car', ' dog', ' person', nan, nan,21.02015921, 'low', ' car', nan, 'No Target', 'Critical', 'tone1',564, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',30,14
+2011_001656.jpg, horse', nan, nan, nan, nan,19.15654742, 'low', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'space',0.637883143, 'Na', 'Na', 'Na',31,14
+2009_004129.jpg, chair', nan, nan, nan, nan,11.45923238, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',32,14
+2009_002711.jpg, car', ' person', nan, nan, nan,17.85630566, 'low', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',33,14
+2008_008263.jpg, aeroplane', nan, nan, nan, nan,17.35066547, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',34,14
+2011_002558.jpg, person', ' boat', nan, nan, nan,16.14615478, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',35,14
+2010_004175.jpg, cat', nan, nan, nan, nan,10.23663576, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',36,14
+2009_003530.jpg, person', ' horse', nan, nan, nan,20.52945148, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',37,14
+2009_004598.jpg, cat', nan, nan, nan, nan,16.65659977, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',38,14
+2010_001908.jpg, person', ' dog', nan, nan, nan,18.28140061, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',39,14
+2008_004036.jpg, person', ' motorbike', nan, nan, nan,19.44615669, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',40,14
+2008_000634.jpg, person', nan, nan, nan, nan,21.23535981, 'low', ' person', nan, 'No Target', 'Critical', 'tone2',614, 'space',1.110264775, 'Na', 'Na', 'Na',41,14
+2009_002439.jpg, person', ' cat', nan, nan, nan,20.13987781, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',42,14
+2011_001624.jpg, aeroplane', nan, nan, nan, nan,20.55986246, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',43,14
+2010_002645.jpg, cat', nan, nan, nan, nan,20.85012527, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',44,14
+2008_000740.jpg, person', nan, nan, nan, nan,21.01071272, 'low', ' person', ' person', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.321,-999,45,14
+2010_001271.jpg, chair', ' diningtable', nan, nan, nan,20.73514569, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',46,14
+2008_001205.jpg, person', nan, nan, nan, nan,19.67582694, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',47,14
+2011_002911.jpg, bottle', ' dog', ' diningtable', nan, nan,21.03464691, 'low', ' bottle', nan, 'No Target', 'Critical', 'tone2',530, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',48,14
+2008_000398.jpg, person', ' bottle', nan, nan, nan,20.42379547, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',49,14
+2009_003084.jpg, boat', nan, nan, nan, nan,20.07471587, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',50,14
+2008_005869.jpg, person', ' bottle', nan, nan, nan,17.24284349, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',51,14
+2008_006837.jpg, chair', ' dog', ' diningtable', nan, nan,18.2062639, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',52,14
+2009_005308.jpg, bottle', nan, nan, nan, nan,21.11630175, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',53,14
+2009_000059.jpg, person', ' chair', nan, nan, nan,14.42094228, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',54,14
+2009_005036.jpg, car', ' aeroplane', nan, nan, nan,16.811685, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',55,14
+2010_004425.jpg, sofa', ' cat', nan, nan, nan,18.28847734, 'low', ' sofa', ' cat', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.256,-999,56,14
+2009_000619.jpg, bird', nan, nan, nan, nan,19.30503048, 'low', ' bird', ' bottle', 'Target Absent', 'Critical', 'tone2',807, 'No spacebar', 'No timing', 'p',2.374,-999,57,14
+2010_005217.jpg, bird', nan, nan, nan, nan,20.82173163, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',58,14
+2011_001967.jpg, bird', nan, nan, nan, nan,13.90844822, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',59,14
+2009_003232.jpg, horse', nan, nan, nan, nan,20.95774832, 'low', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',0,15
+2008_003170.jpg, bird', nan, nan, nan, nan,17.16755806, 'low', ' bird', nan, 'No Target', 'Critical', 'tone1',348, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',1,15
+2010_003890.jpg, horse', nan, nan, nan, nan,19.80389884, 'low', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',2,15
+2010_002393.jpg, boat', nan, nan, nan, nan,20.13141109, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',3,15
+2008_007274.jpg, dog', nan, nan, nan, nan,16.69337257, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',4,15
+2008_003767.jpg, pottedplant', nan, nan, nan, nan,21.25588755, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',5,15
+2009_005075.jpg, aeroplane', nan, nan, nan, nan,20.27220475, 'low', ' aeroplane', nan, 'No Target', 'Critical', 'tone1',389, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',6,15
+2009_003309.jpg, aeroplane', nan, nan, nan, nan,19.09599574, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',7,15
+2008_008331.jpg, pottedplant', nan, nan, nan, nan,19.32130887, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',8,15
+2009_002137.jpg, bottle', nan, nan, nan, nan,18.60351893, 'low', ' bottle', ' bottle', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.239,-999,9,15
+2009_003993.jpg, bird', nan, nan, nan, nan,20.75788536, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',10,15
+2008_005735.jpg, cat', nan, nan, nan, nan,13.68599365, 'low', ' cat', ' chair', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.131,-999,11,15
+2008_001185.jpg, bird', nan, nan, nan, nan,18.52302427, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',12,15
+2008_006954.jpg, bird', nan, nan, nan, nan,11.95770019, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',13,15
+2011_000293.jpg, car', nan, nan, nan, nan,9.156390286, 'low', ' car', ' pottedplant', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.139,-999,14,15
+2008_008533.jpg, horse', nan, nan, nan, nan,19.2079564, 'low', ' horse', ' horse', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.212,-999,15,15
+2008_003045.jpg, cat', nan, nan, nan, nan,16.41703919, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',16,15
+2011_001591.jpg, person', ' boat', nan, nan, nan,17.69816713, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',17,15
+2009_002594.jpg, bottle', nan, nan, nan, nan,19.09623736, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',18,15
+2010_001691.jpg, boat', nan, nan, nan, nan,16.86296621, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',19,15
+2008_004269.jpg, sofa', ' person', nan, nan, nan,20.98329806, 'low', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',20,15
+2010_005885.jpg, dog', nan, nan, nan, nan,20.07468613, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',21,15
+2008_000177.jpg, horse', nan, nan, nan, nan,16.39695552, 'low', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',22,15
+2008_002116.jpg, person', ' dog', nan, nan, nan,20.16602039, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',23,15
+2011_002050.jpg, boat', nan, nan, nan, nan,17.33155808, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',24,15
+2010_004791.jpg, aeroplane', nan, nan, nan, nan,20.12076124, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',25,15
+2008_000115.jpg, chair', ' cat', nan, nan, nan,17.57065406, 'low', ' chair', nan, 'No Target', 'Critical', 'tone2',41, 'space',0.941954744, 'Na', 'Na', 'Na',26,15
+2008_000760.jpg, chair', nan, nan, nan, nan,19.64606603, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',27,15
+2008_001495.jpg, bird', nan, nan, nan, nan,21.22948511, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',28,15
+2008_002899.jpg, cat', nan, nan, nan, nan,14.12746962, 'low', ' cat', nan, 'No Target', 'Critical', 'tone1',481, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',29,15
+2009_003679.jpg, pottedplant', nan, nan, nan, nan,20.39542994, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',30,15
+2010_000616.jpg, cat', nan, nan, nan, nan,18.13509684, 'low', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',31,15
+2011_002582.jpg, bird', nan, nan, nan, nan,19.23914614, 'low', ' bird', ' bird', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.21,-999,32,15
+2010_004662.jpg, boat', nan, nan, nan, nan,21.19862042, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',33,15
+2010_000299.jpg, bird', nan, nan, nan, nan,19.70612214, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',34,15
+2008_001098.jpg, person', nan, nan, nan, nan,15.90369611, 'low', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',35,15
+2010_001988.jpg, bird', nan, nan, nan, nan,15.25387149, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',36,15
+2008_004907.jpg, boat', nan, nan, nan, nan,16.58037434, 'low', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',37,15
+2011_000481.jpg, aeroplane', nan, nan, nan, nan,15.75949207, 'low', ' aeroplane', nan, 'No Target', 'Critical', 'tone1',399, 'space',1.236706135, 'Na', 'Na', 'Na',38,15
+2009_001774.jpg, sofa', ' dog', nan, nan, nan,16.14256262, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',39,15
+2010_000805.jpg, dog', ' bottle', nan, nan, nan,18.86070334, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',40,15
+2010_003329.jpg, bottle', nan, nan, nan, nan,20.96577532, 'low', ' bottle', nan, 'No Target', 'Critical', 'tone2',649, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',41,15
+2008_006452.jpg, dog', nan, nan, nan, nan,16.13745812, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',42,15
+2008_000112.jpg, bottle', ' cat', nan, nan, nan,21.25982976, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',43,15
+2010_003287.jpg, tvmonitor', ' chair', ' person', nan, nan,20.15519305, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',44,15
+2010_005257.jpg, cat', nan, nan, nan, nan,20.04157457, 'low', ' cat', ' car', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.275,-999,45,15
+2011_001834.jpg, chair', nan, nan, nan, nan,13.72743874, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',46,15
+2010_000811.jpg, dog', nan, nan, nan, nan,18.04503565, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',47,15
+2009_001975.jpg, pottedplant', nan, nan, nan, nan,17.49302399, 'low', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',48,15
+2010_002349.jpg, dog', nan, nan, nan, nan,19.99310277, 'low', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',49,15
+2009_004984.jpg, bicycle', ' bottle', nan, nan, nan,18.89379801, 'low', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',50,15
+2010_001036.jpg, person', ' boat', nan, nan, nan,19.19481595, 'low', ' boat', ' boat', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.343,-999,51,15
+2008_003369.jpg, aeroplane', nan, nan, nan, nan,15.73196272, 'low', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',52,15
+2009_002998.jpg, sofa', nan, nan, nan, nan,20.95630729, 'low', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',53,15
+2009_002604.jpg, bird', nan, nan, nan, nan,13.64441779, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',54,15
+2009_004737.jpg, chair', nan, nan, nan, nan,16.98544233, 'low', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',55,15
+2008_001694.jpg, pottedplant', ' sofa', ' chair', nan, nan,18.5118878, 'low', ' pottedplant', ' cat', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.175,-999,56,15
+2008_006784.jpg, sofa', nan, nan, nan, nan,17.05590937, 'low', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',57,15
+2008_008506.jpg, bird', nan, nan, nan, nan,18.83786396, 'low', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',58,15
+2008_003659.jpg, cat', nan, nan, nan, nan,15.63366674, 'low', ' cat', ' cat', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.184,-999,59,15
+2008_004188.jpg, person', ' dog', nan, nan, nan,37.00638726, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',0,16
+2009_000466.jpg, cat', nan, nan, nan, nan,30.95401072, 'high', ' cat', nan, 'No Target', 'Critical', 'tone1',619, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',1,16
+2011_000282.jpg, person', ' chair', ' bottle', ' diningtable', nan,35.13485651, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',2,16
+2008_004690.jpg, bird', nan, nan, nan, nan,30.51535276, 'high', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',3,16
+2011_001116.jpg, person', ' cat', nan, nan, nan,29.77854418, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',4,16
+2008_000541.jpg, person', ' sofa', nan, nan, nan,29.63901024, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',5,16
+2008_003283.jpg, person', ' horse', nan, nan, nan,30.08804593, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',6,16
+2008_007423.jpg, bird', nan, nan, nan, nan,33.64739801, 'high', ' bird', nan, 'No Target', 'Critical', 'tone2',968, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',7,16
+2009_002414.jpg, bird', nan, nan, nan, nan,29.74278668, 'high', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'space',0.390702142, 'Na', 'Na', 'Na',8,16
+2009_003520.jpg, chair', ' diningtable', nan, nan, nan,29.11969113, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',9,16
+2009_002750.jpg, person', ' horse', nan, nan, nan,30.14176306, 'high', ' horse', ' horse', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.619,-999,10,16
+2010_005608.jpg, bird', nan, nan, nan, nan,29.2726546, 'high', ' bird', ' cat', 'Target Absent', 'Critical', 'tone1',930, 'No spacebar', 'No timing', 'p',2.49,-999,11,16
+2008_005347.jpg, chair', ' bottle', nan, nan, nan,30.42487389, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',12,16
+2008_000192.jpg, bird', nan, nan, nan, nan,29.17631148, 'high', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',13,16
+2008_002736.jpg, person', ' diningtable', ' bottle', nan, nan,36.41404224, 'high', ' bottle', ' chair', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.7,-999,14,16
+2009_000760.jpg, pottedplant', ' chair', ' diningtable', nan, nan,34.17783425, 'high', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',15,16
+2008_006062.jpg, tvmonitor', ' bottle', nan, nan, nan,29.99378143, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',16,16
+2008_007745.jpg, person', ' dog', nan, nan, nan,32.95939022, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',17,16
+2008_003461.jpg, person', ' horse', nan, nan, nan,30.92721034, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',18,16
+2009_001021.jpg, pottedplant', ' sofa', ' chair', nan, nan,31.427288, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',19,16
+2009_003705.jpg, person', ' aeroplane', nan, nan, nan,29.54730611, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',20,16
+2009_000067.jpg, person', nan, nan, nan, nan,29.63929631, 'high', ' person', ' chair', 'Target Absent', 'Critical', 'tone2',681, 'space', 1.5898377751436783], 'p',2.229,-999,21,16
+2011_000824.jpg, cat', nan, nan, nan, nan,31.77985882, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',22,16
+2008_002037.jpg, person', ' dog', nan, nan, nan,30.20203583, 'high', ' dog', ' dog', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.243,-999,23,16
+2008_008681.jpg, car', ' train', nan, nan, nan,30.20884285, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',24,16
+2008_000705.jpg, person', ' bottle', nan, nan, nan,30.95805546, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',25,16
+2011_003066.jpg, person', ' chair', ' diningtable', ' bottle', nan,33.73452912, 'high', ' chair', ' horse', 'Target Absent', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'p',2.192,-999,26,16
+2010_002183.jpg, person', ' horse', nan, nan, nan,34.55757717, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',27,16
+2010_005542.jpg, car', ' bicycle', ' person', nan, nan,28.87441624, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',28,16
+2009_001345.jpg, person', ' aeroplane', nan, nan, nan,28.99541661, 'high', ' aeroplane', nan, 'No Target', 'Critical', 'tone2',848, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',29,16
+2010_002620.jpg, boat', nan, nan, nan, nan,34.96752773, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',30,16
+2008_002758.jpg, person', ' chair', nan, nan, nan,33.31207273, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',31,16
+2010_000792.jpg, person', ' bottle', nan, nan, nan,29.27630231, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',32,16
+2008_004459.jpg, person', ' sofa', nan, nan, nan,31.12443717, 'high', ' sofa', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',33,16
+2008_008229.jpg, person', ' horse', nan, nan, nan,33.70292197, 'high', ' horse', nan, 'No Target', 'Critical', 'tone1',385, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',34,16
+2011_002810.jpg, pottedplant', ' tvmonitor', ' chair', ' sofa', nan,35.6366042, 'high', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',35,16
+2011_001382.jpg, pottedplant', ' person', ' diningtable', ' bottle', nan,28.93951331, 'high', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',36,16
+2008_007043.jpg, sofa', ' person', nan, nan, nan,33.27958236, 'high', ' sofa', ' sofa', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.171,-999,37,16
+2011_001605.jpg, pottedplant', ' person', ' motorbike', nan, nan,34.41600543, 'high', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',38,16
+2008_001965.jpg, person', ' dog', nan, nan, nan,28.83895635, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',39,16
+2008_006461.jpg, bird', nan, nan, nan, nan,31.18243026, 'high', ' bird', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',40,16
+2010_005718.jpg, car', ' aeroplane', nan, nan, nan,32.22452077, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',41,16
+2008_000495.jpg, tvmonitor', ' chair', ' bottle', nan, nan,32.17976917, 'high', ' bottle', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',42,16
+2008_007143.jpg, boat', nan, nan, nan, nan,33.49461342, 'high', ' boat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',43,16
+2009_002001.jpg, person', ' aeroplane', nan, nan, nan,34.54414482, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',44,16
+2010_005106.jpg, person', ' aeroplane', nan, nan, nan,30.24293721, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',45,16
+2010_000865.jpg, person', ' train', ' car', nan, nan,31.02685699, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',46,16
+2008_000984.jpg, person', nan, nan, nan, nan,30.74888565, 'high', ' person', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',47,16
+2010_000815.jpg, cat', nan, nan, nan, nan,30.30670762, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',48,16
+2008_005526.jpg, person', ' boat', nan, nan, nan,31.26103764, 'high', ' boat', ' boat', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.369,-999,49,16
+2010_002775.jpg, dog', nan, nan, nan, nan,29.77784058, 'high', ' dog', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',50,16
+2008_005878.jpg, bus', ' person', ' car', nan, nan,31.16793697, 'high', ' car', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',51,16
+2008_007388.jpg, pottedplant', ' chair', ' diningtable', nan, nan,28.76635784, 'high', ' chair', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',52,16
+2008_000041.jpg, pottedplant', ' person', ' chair', ' diningtable', nan,37.71071902, 'high', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',53,16
+2008_005818.jpg, horse', nan, nan, nan, nan,29.08415904, 'high', ' horse', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',54,16
+2008_002887.jpg, person', ' boat', nan, nan, nan,34.28798865, 'high', ' boat', ' boat', 'Target Present', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'q',2.35,-999,55,16
+2011_001800.jpg, person', ' aeroplane', nan, nan, nan,30.95304329, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',56,16
+2008_003575.jpg, person', ' aeroplane', nan, nan, nan,31.07062434, 'high', ' aeroplane', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',57,16
+2010_003579.jpg, chair', ' cat', nan, nan, nan,29.79862915, 'high', ' cat', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',58,16
+2011_002814.jpg, sofa', ' bottle', ' pottedplant', ' tvmonitor', ' chair',33.93777562, 'high', ' pottedplant', nan, 'No Target', 'Normal', 'No tone',-999, 'No spacebar', 'No timing', 'Na', 'Na', 'Na',59,16
