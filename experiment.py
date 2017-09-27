@@ -23,7 +23,6 @@ import random
 import numpy as np
 import pickle
 
-
 from setup import *
 from functions import *
 from instructions import *
@@ -32,16 +31,8 @@ from instructions import *
 #functions.myfunction()
 # myfunction()
 
+debug = True
 
-
-
-
-
-
-debug = False
-
-#mypath = 'C:/Users/KeK/OneDrive - University College London/Random_probes_last/Luca/'
-mypath = 'E:/OneDrive - University College London/Random_probes_last/Luca/'
 
 #RECREATING exp_dict
 df = pd.DataFrame.from_csv('config/randomization_1.csv')
@@ -88,7 +79,7 @@ if debug:
     expInfo['expName'] = 'test'
 else:
     expName = 'participant info'  
-    expInfo = {u'session': u'001', u'participant': u''}
+    expInfo = {u'Age': u'1', u'Sex': u'', u'Right handed?':'1', u'Participant no.':'1'}
     dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
     if dlg.OK == False: core.quit()  
     expInfo['date'] = data.getDateStr()  
@@ -106,9 +97,8 @@ else:
         )
     
     
-search_text = visual.TextStim(win, 'ARSES' , wrapWidth=2, height=0.16)
-print 'C'
-search_text.draw()
+search_text = visual.TextStim(win, 'TEST' , wrapWidth=2, height=0.16)
+#search_text.draw()
  
 win.flip()
 

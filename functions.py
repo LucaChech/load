@@ -19,7 +19,7 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             start_frame = ((int(my_dict[pic[1:-1]][12]) + 17 // 2) // 17) -1 # final -1 is to compensate for lag
             #CHANGE 17 WITH ACTUAL FRAMERATE
             for frameN in range(60):
-                print 'FRAME, ',frameN
+ 
                 if 'tone1' in my_dict[pic[1:-1]] and frameN == start_frame :
                     tone1.play()
                     print start_frame, my_dict[pic[1:-1]][12]
@@ -30,7 +30,7 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                 image.draw()
                 win.flip()
             for frameN in range(20):
-                print 'FRAME2 ',frameN
+
                 win.flip()
             response = event.getKeys(keyList = ['space'], timeStamped = timer)
 #            if 'c' in response[0][0]:
@@ -77,7 +77,7 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                 if 'pottedplant' in name:
                     name = 'potted plant'
                 print name
-                print 'B'
+        
 #                search_text = visual.TextStim(win, 'LOL')
                 search_text = visual.TextStim(win, 'LOL' , wrapWidth=2, height=0.16)
 #                print 'C'
@@ -131,8 +131,7 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                     #        win.flip()
                 win.flip()
                 core.wait(1.5)
-                
-            print 'C'
+     
             if i_counter not in probes_position_list[probes_position_index]:
                 my_dict[pic[1:-1]].append('Na')
                 my_dict[pic[1:-1]].append('Na')
@@ -145,8 +144,11 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             
             experiment_details[i_counter] = trial_details
             
+            
+            data_to_dump = {'observer_details': expInfo, 'experiment_details':experiment_details}
+
             with open('output/participant_'+expInfo['participant']+'.pik','wb') as file:
-                pickle.dump(experiment_details, file)
+                pickle.dump(data_to_dump, file)
             
 #            w = csv.writer(open('Participant_'+expInfo['participant']+'_1st_half.csv', 'w'))
 #            

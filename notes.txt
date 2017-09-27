@@ -1,0 +1,25 @@
+"C:\ProgramData\Anaconda2_32\python.exe" "C:\Program Files (x86)\PsychoPy2\Scripts\psychopyApp.py"
+
+
+
+"C:\ProgramData\Anaconda2_32\python.exe" "C:\Program Files (x86)\PsychoPy2\Lib\site-packages\psychopy\app\psychopyApp.py"
+
+"C:\Program Files (x86)\PsychoPy2\pythonw.exe" "C:\Program Files (x86)\PsychoPy2\Lib\site-packages\psychopy\app\psychopyApp.py"
+
+import sys
+sys.path.append('C:\pyo\Python27\Lib\site-packages')
+
+from pyo import *
+s=Server(sr=44100, nchnls=2, buffersize=256, duplex=0, audio='portaudio', jackname='pyo', ichnls=None, winhost='wasapi')
+s.boot()
+
+
+import sys
+sys.path.append('C:\pyo\Python27\Lib\site-packages')
+
+from pyo import *
+s=Server(sr=44100, nchnls=2, buffersize=256, duplex=0, audio='portaudio', jackname='pyo', ichnls=None, winhost='asio')
+s.boot()
+
+
+python "C:\Program Files (x86)\PsychoPy2\Lib\site-packages\psychopy\app\psychopyApp.py"
