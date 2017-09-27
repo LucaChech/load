@@ -74,7 +74,7 @@ bPoints=0
 
 
 if debug:
-    expInfo ={u'session': u'-999', u'participant': u'test'}
+    expInfo ={u'session': u'-999', u'Participant no.': u'test'}
     expInfo['date'] = 'test'
     expInfo['expName'] = 'test'
 else:
@@ -98,7 +98,6 @@ else:
     
     
 search_text = visual.TextStim(win, 'TEST' , wrapWidth=2, height=0.16)
-#search_text.draw()
  
 win.flip()
 

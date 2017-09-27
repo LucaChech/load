@@ -78,20 +78,20 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                     name = 'potted plant'
                 print name
         
-#                search_text = visual.TextStim(win, 'LOL')
-                search_text = visual.TextStim(win, 'LOL' , wrapWidth=2, height=0.16)
-#                print 'C'
+                search_text = visual.TextStim(win, name , wrapWidth=2, height=0.16)
                 search_text.draw()
                 
                 win.flip()
                 
-                keys = event.waitKeys(keyList=['q','p','space'],timeStamped=timer)
-                #core.wait(1)
+                keys = event.waitKeys(keyList=['q','p','space','r'],timeStamped=timer)
                 rt_space = -999
                 wait = True
                 
                 
                 for k in keys:
+                    if k[0] == 'r':
+                        win.close()
+                        core.quit()
                     if k[0] == 'space':
                         rt_space = [k[0],k[1]]
                     if k[0] == 'q' or k[0] == 'p':
@@ -147,7 +147,7 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             
             data_to_dump = {'observer_details': expInfo, 'experiment_details':experiment_details}
 
-            with open('output/participant_'+expInfo['participant']+'.pik','wb') as file:
+            with open('output/participant_'+expInfo['Participant no.']+'.pik','wb') as file:
                 pickle.dump(data_to_dump, file)
             
 #            w = csv.writer(open('Participant_'+expInfo['participant']+'_1st_half.csv', 'w'))
