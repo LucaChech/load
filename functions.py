@@ -12,7 +12,7 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             print 'IMAGE ', i_counter
             trial_details = {}
             probe_response = 't'
-            noise.play()
+            #noise.play()
             timer.reset()
             image = visual.ImageStim(win=win, image=  '../load-data/exp_images/'+ pic[1:-1])
             responded = False
@@ -26,7 +26,6 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                 elif 'tone2' in my_dict[pic[1:-1]] and frameN == start_frame:
                     tone2.play()
                     print start_frame, my_dict[pic[1:-1]][12]
-                
                 image.draw()
                 win.flip()
             for frameN in range(20):
@@ -86,8 +85,6 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                 keys = event.waitKeys(keyList=['q','p','space','r'],timeStamped=timer)
                 rt_space = -999
                 wait = True
-                
-                
                 for k in keys:
                     if k[0] == 'r':
                         win.close()
