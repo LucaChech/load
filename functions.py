@@ -5,7 +5,7 @@ from psychopy import locale_setup, core, data, event, logging, sound, gui
 
 test = True
 
-def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,end_of_experiment):
+def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,trial_number):
     for block in blocks:
         bPoints = 0
         for pic in block:
@@ -75,7 +75,12 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                 trial_details['RT_TO'] = response[0][1]
                 
             print 'A'
-                
+
+            trial_details['keys'] = None
+            trial_details['RT_VS'] = None
+            trial_details['useless'] = None
+
+
             if i_counter in probes_position_list[probes_position_index]:
                 print 'pic',pic
                 name=my_dict[pic[1:-1]][8]
@@ -157,9 +162,10 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             trial_details['image_number'] = i_counter
             trial_details['block_number'] = block_number
             i_counter = i_counter + 1
+
             
-            experiment_details[i_counter] = trial_details
-            
+            experiment_details[trial_number] = trial_details
+            trial_number += 1
             
             data_to_dump = {'observer_details': expInfo, 'experiment_details':experiment_details}
 
@@ -197,4 +203,4 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
         print my_dict[pic[1:-1]]
         
         bPoints = 0
-    return i_counter,probes_position_index,block_number,experiment_details,allPoints
+    return i_counter,probes_position_index,block_number,experiment_details,allPoints,trial_number

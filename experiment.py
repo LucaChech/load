@@ -62,6 +62,7 @@ probes_position_index = 0
 timer = core.Clock()
 i_counter = 0
 block_number = 1
+trial_number = 1
 
 experiment_details = {}
 
@@ -117,7 +118,7 @@ print probes_position_list
 print blocks_final[1]
 # core.wait(100)
 
-i_counter,probes_position_index,block_number,experiment_details,allPoints = run_blocks(blocks_final[0:8],noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints)
+i_counter,probes_position_index,block_number,experiment_details,allPoints,trial_number = run_blocks(blocks_final[0:8],noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,trial_number)
 
 
 print allPoints
@@ -145,7 +146,7 @@ tone_onset = df['tone_onset'].tolist()
 my_dict ={z[0]:list(z[1:]) for z in zip(image_names,cat1,cat2,cat3,cat4,cat5,ts,load,exemplar,question,trial_type,critical,tone_Hz,tone_onset)}
 
 
-i_counter,probes_position_index,block_number,experiment_details,allPoints = run_blocks(blocks_final[8:],noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints)
+i_counter,probes_position_index,block_number,experiment_details,allPoints,trial_number = run_blocks(blocks_final[8:],noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,trial_number)
 
 
 win.close()
