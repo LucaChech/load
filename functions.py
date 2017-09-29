@@ -3,9 +3,9 @@ import pdb
 import pickle
 from psychopy import locale_setup, core, data, event, logging, sound, gui
 
+test = True
 
-
-def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints):
+def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,end_of_experiment):
     for block in blocks:
         bPoints = 0
         for pic in block:
@@ -18,7 +18,11 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             responded = False
             start_frame = ((int(my_dict[pic[1:-1]][12]) + 17 // 2) // 17) -1 # final -1 is to compensate for lag
             #CHANGE 17 WITH ACTUAL FRAMERATE
-            for frameN in range(60):
+            if test:
+                n_frames = 1
+            else:
+                n_frames = 60
+            for frameN in range(n_frames):
  
                 if 'tone1' in my_dict[pic[1:-1]] and frameN == start_frame :
                     tone1.play()
@@ -31,7 +35,10 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             for frameN in range(20):
 
                 win.flip()
-            response = event.getKeys(keyList = ['space'], timeStamped = timer)
+            if not test:
+                response = event.getKeys(keyList = ['space'], timeStamped = timer)
+            else:
+                response = [['space',6.666]]
 #            if 'c' in response[0][0]:
 #                win.close()
 #                core.quit()
@@ -70,9 +77,17 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             print 'A'
                 
             if i_counter in probes_position_list[probes_position_index]:
-                print pic
+                print 'pic',pic
                 name=my_dict[pic[1:-1]][8]
-            
+                
+                print 'counter:',i_counter
+                print 'probes_position_index:',probes_position_index
+                print 'block',block_number
+                print 'image_in_block',block[1]
+                print 'block_list,',block
+
+                print 'line:',my_dict[pic[1:-1]]
+                
                 if 'pottedplant' in name:
                     name = 'potted plant'
                 print name
@@ -82,7 +97,11 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                 
                 win.flip()
                 
-                keys = event.waitKeys(keyList=['q','p','space','r'],timeStamped=timer)
+                if test:
+                    keys = [['q',6.66]]
+                else:
+                    keys = event.waitKeys(keyList=['q','p','space','r'],timeStamped=timer)
+                    
                 rt_space = -999
                 wait = True
                 for k in keys:
@@ -162,7 +181,8 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             height=0.10)
             end_of_block.draw()
             win.flip()
-            event.waitKeys(keyList=['return'])
+            if not test:
+                event.waitKeys(keyList=['return'])
         if probes_position_index == 15:
             end_of_experiment.draw()
             win.flip()
@@ -177,4 +197,4 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
         print my_dict[pic[1:-1]]
         
         bPoints = 0
-        return i_counter,probes_position_index,block_number,experiment_details,allPoints
+    return i_counter,probes_position_index,block_number,experiment_details,allPoints
