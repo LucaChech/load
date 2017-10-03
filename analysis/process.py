@@ -3,9 +3,6 @@ import pandas as pd
 import numpy as np
 from IPython.core.debugger import Tracer
 
-
-cols = ['Image_Name','Cat.1','Cat.2','Cat.3','Cat.4','Cat.5','TS','Load','exemplar','question','present_absent','trial_type','tone_Hz','tone_onset','space','RT_TO','keys','RT_VS','useless','Trial_N_Block','Block']
-
 def range_from_1(n):
     return np.arange(1,n+1)
 
@@ -20,7 +17,8 @@ def process_observer(obs):
 
 def process(df):
     notes = {}
-    #fix_reaction_times(df)
+    df['valid'] = 1
+    fix_reaction_times(df)
     
     # Outlier rejection for TO
     
@@ -72,58 +70,76 @@ def process(df):
     
     #Correctness
     
-    df['correct'] = None
+    df['correct_vs'] = None
     
     for i in range_from_1(si):
-        if df['trial_type'] == :
-            Acc_VS.append('999')
-        elif 'Normal' in Audio[i] and RT_TO[i] != 'NaN':
-            Acc_VS.append('666')
-        elif 'Target Present' in Present_absent[i] and 'q' in Keys[i]:
-            Acc_VS.append(1)
-        elif 'Target Present' in Present_absent[i] and 'p' in Keys[i]:
-            Acc_VS.append(0)
-        elif 'Target Absent' in Present_absent[i] and 'p' in Keys[i]:
-            Acc_VS.append(1)   
-        elif 'Target Absent' in Present_absent[i] and 'q' in Keys[i]:
-            Acc_VS.append(0)
-        elif 'No Target' in Present_absent[i]:
-            Acc_VS.append('999')
+        if df.loc[i,'trial_type'] == 'Normal':
+            if df.loc[i,'present_absent'] == 'Target Present'  and df.loc[i,'keys'] == 'q':
+                df.loc[i,'correct_vs'] = 1
+            if df.loc[i,'present_absent'] == 'Target Present' and df.loc[i,'keys'] == 'p':
+                df.loc[i,'correct_vs'] = 0
+            if df.loc[i,'present_absent'] == 'Target Absent'  and df.loc[i,'keys'] == 'p':
+                df.loc[i,'correct_vs'] = 1   
+            if df.loc[i,'present_absent'] == 'Target Absent'  and df.loc[i,'keys'] == 'q':
+                df.loc[i,'correct_vs'] = 0
+    
+    n_corrects_vs = len(df[df['correct_vs'] == 1])
+    print 'CORRECT VS: ',n_corrects_vs
+    
+    df['restricted_correct_tone'] = None
+    
+    for i in range_from_1(si):
+        # Here we only care about trials which have a tone (Critical) and which also either have no VS target
+        # or the VS was right.
+        #correct_tone will not be filled out for all normal trials!!
+        no_vis_target_or_right = (df.loc[i,'present_absent'] == 'Target Absent' or df.loc[i,'correct_vs'] == 1)
+        if df.loc[i,'trial_type'] == 'Critical' and no_vis_target_or_right:
+            if df.loc[i, 'trial_type'] == 'Critical' and df.loc[i,'RT_TO'] == None:
+                df.loc[i,'restricted_correct_tone'] = 0
+            if df.loc[i, 'trial_type'] == 'Critical' and df.loc[i,'RT_TO'] != None:
+                df.loc[i,'restricted_correct_tone'] = 1
+                
+         
+    df['correct_tone'] = None    
+        
+    for i in range_from_1(si):
+        if df.loc[i, 'trial_type'] == 'Critical' and df.loc[i,'RT_TO'] == None:
+            df.loc[i,'correct_tone'] = 0
+        if df.loc[i, 'trial_type'] == 'Critical' and df.loc[i,'RT_TO'] != None:
+            df.loc[i,'correct_tone'] = 1
+        if df.loc[i, 'trial_type'] == 'Normal' and df.loc[i,'RT_TO'] == None:
+            df.loc[i,'correct_tone'] = 1
+        if df.loc[i, 'trial_type'] == 'Normal' and df.loc[i,'RT_TO'] != None:
+            df.loc[i,'correct_tone'] = 0
+        
+                
+    df['sdt'] = None
+             # 1 HIT
+             # 2 MISS
+             # 3 FA
+             # 4 CR
+    for i in range_from_1(si):
+        # We don't care about trials which have an audio probe and the VS was wrong.
+        if not ( df.loc[i,'trial_type'] == 'Critical' and df.loc[i,'correct_vs'] == 0):
+            if df.loc[i,'trial_type'] == 'Critical' and df.loc[i,'correct_tone'] == 1:
+                df.loc[i,'sdt'] = 1
+            if df.loc[i,'trial_type'] == 'Critical' and df.loc[i,'correct_tone'] == 0:
+                df.loc[i,'sdt'] = 2
+            if df.loc[i,'trial_type'] == 'Normal' and df.loc[i,'correct_tone'] == 0:
+                df.loc[i,'sdt'] = 3
+            if df.loc[i,'trial_type'] == 'Normal' and df.loc[i,'correct_tone'] == 1:
+                df.loc[i,'sdt'] = 4
+            
+    for i in range_from_1(si):
+        if df.loc[i,'valid'] == 0:
+            df.loc[i,'sdt'] = 0       
+
     #print notes
     return [df, notes]
 
 def test():
     print 400
     
-def dataframe_from_dict(DE):
-    df = pd.DataFrame(index=DE.keys(), columns = cols)
-
-    for t in DE.keys():
-        row = [DE[t]['image_name'], 
-            DE[t]['cat_1'],
-               DE[t]['cat_2'],
-               DE[t]['cat_3'],
-               DE[t]['cat_4'],
-               DE[t]['cat_5'],
-               DE[t]['trueskill'],
-               DE[t]['load'],
-               DE[t]['exemplar'],
-               DE[t]['question'],
-               DE[t]['present_absent'],
-               DE[t]['trial_type'],
-               DE[t]['tone_hz'],
-               DE[t]['tone_onset'],
-               DE[t]['space'],
-               DE[t]['RT_TO'],
-               DE[t]['keys'],
-               DE[t]['RT_VS'],
-               DE[t]['useless'],
-               0,
-               DE[t]['block_number'],
-
-        ]
-        df.loc[t] = row
-    return df
 
 
 
@@ -138,12 +154,12 @@ def fix_reaction_times(df):
         
         trial_type = df['trial_type'][i]
         rt_sound = df['RT_TO'][i]
-        if 'Critical' in trial_type and  rt_sound == 'No timing':
+        if trial_type == 'Critical' and  rt_sound == 'No timing':
             print 'DIRTY!',i
             go = True
             c = i+1
     #         set_trace()
-            if c<n and 'Normal' in df['trial_type'][c] and  'No timing' not in df['RT_TO'][c]:
+            if c<n and  df['trial_type'][c] == 'Normal' and  df['RT_TO'][c] == None:
 
                 print 'FOUND RT IN FIRST', c
                 invalid_count += 1
@@ -154,7 +170,7 @@ def fix_reaction_times(df):
                 df.loc[c,'space'] = 'No space' 
                 go = False
             c = i+2
-            if go and c<n and 'Normal' in df['trial_type'][c] and  'No timing' not in df['RT_TO'][c]:
+            if go and c<n and  df['trial_type'][c] == 'Normal' and  df['RT_TO'][c] == None:
                 print 'FOUND RT IN SECOND',c
                 invalid_count += 2
                 df.loc[c,'valid'] = 0

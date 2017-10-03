@@ -27,4 +27,16 @@ def gen_test():
         
         df.loc[t, 'RT_VS'] = rt_vs
         df.loc[t, 'RT_TO'] = rt_vs
+        
+        if random() < 0.5:
+            present_absent = 'Target Present'
+        else:
+            present_absent = 'Target Absent'
+        if random() < 0.5:
+            keys = 'q'
+        else:
+            keys = 'p'
+        df.loc[t,'trial_type'] = 'Normal'
+        df.loc[t,'keys'] = keys
+        df.loc[t,'present_absent'] = present_absent
     return df
