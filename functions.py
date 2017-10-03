@@ -64,10 +64,10 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             trial_details['tone_onset'] = T[12]
             
             if len(response) == 0:
-                my_dict[pic[1:-1]].append('No spacebar')
-                my_dict[pic[1:-1]].append('No timing')
-                trial_details['space'] = 'No spacebar'
-                trial_details['RT_TO'] = 'No timing'
+                my_dict[pic[1:-1]].append(None)
+                my_dict[pic[1:-1]].append(None)
+                trial_details['space'] = None
+                trial_details['RT_TO'] = None
             if len(response) >= 1:
                 my_dict[pic[1:-1]].append(response[0][0])
                 my_dict[pic[1:-1]].append(response[0][1])
@@ -130,6 +130,7 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                 trial_details['keys'] = keys[0][0]
                 trial_details['RT_VS'] = keys[0][1]
                 trial_details['useless'] = rt_space
+               
                 
                
       
