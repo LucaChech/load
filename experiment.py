@@ -31,7 +31,7 @@ from instructions import *
 #functions.myfunction()
 # myfunction()
 
-debug = True
+debug = False
 
 
 #RECREATING exp_dict
@@ -110,13 +110,7 @@ tone2 = sound.Sound( '../load-data/PureTone_F2000_t50_low.wav', secs=0.05)
 
 if not debug:
     print_instructions(win,noise_example,tone1,tone2)
-    
-    
-    
-print my_dict['2010_001036.jpg']
-print probes_position_list
-print blocks_final[1]
-# core.wait(100)
+
 
 i_counter,probes_position_index,block_number,experiment_details,allPoints,trial_number = run_blocks(blocks_final[0:8],noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,trial_number)
 
