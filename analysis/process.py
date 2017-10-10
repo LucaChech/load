@@ -1,7 +1,8 @@
 import pickle
 import pandas as pd
 import numpy as np
-from IPython.core.debugger import Tracer
+
+from pdb import set_trace
 
 def range_from_1(n):
     return np.arange(1,n+1)
@@ -30,21 +31,19 @@ def process(df):
     high = mean_TO + 2.5 * sd_TO
     TO_outliers = df[df['RT_TO'].between(low, high, inclusive=False)]
     new_mean_TO = TO_outliers['RT_TO'].mean()
-    print 'WINDOW: ',low,high
-    
-    #Tracer()()
+    print 'TO WINDOW: ',low,high
     
     counter_TO = 0
     RT_TO_outliers = []
     for i in range_from_1(si):
-        if df.loc[i,'RT_TO'] != None:
+        if not pd.isnull(df.loc[i,'RT_TO']):
             if not (low < df.loc[i,'RT_TO'] < high):
                 df.loc[i,'RT_TO'] = new_mean_TO
                 counter_TO += 1
                 
                 
     print 'TO rejects n: ',counter_TO            
-    notes['rejects_TO'] = [counter_TO, TO_outliers]
+    #notes['rejects_TO'] = [counter_TO, TO_outliers]
                 
     # Outlier rejection for VS
     
@@ -55,18 +54,30 @@ def process(df):
     VS_outliers = df[df['RT_VS'].between(low, high, inclusive=False)]
     new_mean_VS = VS_outliers['RT_VS'].mean()    
         
-    #Tracer()()
+   
     
     counter_VS = 0
     RT_VS_outliers = []
     for i in range_from_1(si):
-        if df.loc[i,'RT_VS'] != None:
+        if not pd.isnull(df.loc[i,'RT_VS']):
             if not (low < df.loc[i,'RT_VS'] < high):
                 df.loc[i,'RT_VS'] = new_mean_VS
                 counter_VS += 1
                 
     print 'VS rejects N: ',counter_VS            
-    notes['rejects_VS'] = counter_VS, VS_outliers
+    #notes['rejects_VS'] = counter_VS, VS_outliers
+    
+    # RT adjustment - VS
+    
+    for i in range_from_1(si):
+        if (df.loc[i,'present_absent'] == 'Target Present' or df.loc[i,'present_absent'] == 'Target Absent') and not pd.isnull(df.loc[i,'RT_VS']):
+            df.loc[i,'RT_VS'] = df.loc[i,'RT_VS'] - 1.3
+            
+    # RT adjustment - tone
+    
+    for i in range_from_1(si):
+        if df.loc[i,'trial_type'] == 'Critical' and (not pd.isnull(df.loc[i,'RT_TO'])) and df.loc[i,'tone_onset'] != -999:
+            df.loc[i,'RT_TO'] = df.loc[i,'RT_TO'] - df.loc[i,'tone_onset']
     
     #Correctness
     
@@ -94,22 +105,22 @@ def process(df):
         #correct_tone will not be filled out for all normal trials!!
         no_vis_target_or_right = (df.loc[i,'present_absent'] == 'Target Absent' or df.loc[i,'correct_vs'] == 1)
         if df.loc[i,'trial_type'] == 'Critical' and no_vis_target_or_right:
-            if df.loc[i, 'trial_type'] == 'Critical' and df.loc[i,'RT_TO'] == None:
+            if df.loc[i, 'trial_type'] == 'Critical' and pd.isnull(df.loc[i,'RT_TO']):
                 df.loc[i,'restricted_correct_tone'] = 0
-            if df.loc[i, 'trial_type'] == 'Critical' and df.loc[i,'RT_TO'] != None:
+            if df.loc[i, 'trial_type'] == 'Critical' and not pd.isnull(df.loc[i,'RT_TO']):
                 df.loc[i,'restricted_correct_tone'] = 1
                 
          
     df['correct_tone'] = None    
         
     for i in range_from_1(si):
-        if df.loc[i, 'trial_type'] == 'Critical' and df.loc[i,'RT_TO'] == None:
+        if df.loc[i, 'trial_type'] == 'Critical' and pd.isnull(df.loc[i,'RT_TO']):
             df.loc[i,'correct_tone'] = 0
-        if df.loc[i, 'trial_type'] == 'Critical' and df.loc[i,'RT_TO'] != None:
+        if df.loc[i, 'trial_type'] == 'Critical' and not pd.isnull(df.loc[i,'RT_TO']) :
             df.loc[i,'correct_tone'] = 1
-        if df.loc[i, 'trial_type'] == 'Normal' and df.loc[i,'RT_TO'] == None:
+        if df.loc[i, 'trial_type'] == 'Normal' and  pd.isnull(df.loc[i,'RT_TO']):
             df.loc[i,'correct_tone'] = 1
-        if df.loc[i, 'trial_type'] == 'Normal' and df.loc[i,'RT_TO'] != None:
+        if df.loc[i, 'trial_type'] == 'Normal' and not pd.isnull(df.loc[i,'RT_TO']):
             df.loc[i,'correct_tone'] = 0
         
                 
@@ -129,10 +140,30 @@ def process(df):
                 df.loc[i,'sdt'] = 3
             if df.loc[i,'trial_type'] == 'Normal' and df.loc[i,'correct_tone'] == 1:
                 df.loc[i,'sdt'] = 4
+        else:
+            print 'EXCLUDED FROM SDT'
+                
+    n_valid_sdt_high = len(df[pd.notnull(df['sdt']) & (df['load'] == 'high')])
+    n_present_high = len(df[df['sdt'].notnull() & (df['trial_type'] == 'Critical') & (df['load'] == 'high')])
+    n_hit_high = len(df[df['sdt'] == 1 & (df['load'] == 'high')])
+    hit_rate_high = float(n_hit_high) / n_present_high
+    
+    n_valid_sdt_low = len(df[pd.notnull(df['sdt']) & (df['load'] == 'low')])
+    n_present_low = len(df[df['sdt'].notnull() & (df['trial_type'] == 'Critical') & (df['load'] == 'low')])
+    n_hit_low = len(df[df['sdt'] == 1 & (df['load'] == 'low')])
+    hit_rate_low = float(n_hit_low) / n_present_low
+    
+   
             
     for i in range_from_1(si):
         if df.loc[i,'valid'] == 0:
-            df.loc[i,'sdt'] = 0       
+            df.loc[i,'sdt'] = 0    
+            
+    #Result storage
+    
+    notes['tone_accuracy'] = df['correct_tone'].mean()
+    notes['tone_hit_rate_high'] = hit_rate_high
+    notes['tone_hit_rate_low'] = hit_rate_low
 
     #print notes
     return [df, notes]
@@ -144,41 +175,39 @@ def test():
 
 
 def fix_reaction_times(df):
-#     df = pd.DataFrame.from_csv(path, header = None)
-#     df.reset_index(inplace = True)
-#     df.columns = ['Image_Name','Cat.1','Cat.2','Cat.3','Cat.4','Cat.5','TS','Load','exemplar','question','present_absent','trial_type','tone_Hz','tone_onset','space','RT_TO','keys','RT_VS','useless','Trial_N_Block','Block']
     invalid_count = 0
     n = df.shape[0]
+    print n
     
     for i in np.arange(1,n+1):
         
         trial_type = df['trial_type'][i]
         rt_sound = df['RT_TO'][i]
-        if trial_type == 'Critical' and  rt_sound == 'No timing':
-            print 'DIRTY!',i
+        #if trial_type == 'Critical' and  rt_sound == 'nan':
+        if trial_type == 'Critical' and  pd.isnull(rt_sound):
+           # print 'DIRTY!',i
             go = True
             c = i+1
-    #         set_trace()
-            if c<n and  df['trial_type'][c] == 'Normal' and  df['RT_TO'][c] == None:
-
-                print 'FOUND RT IN FIRST', c
+#             set_trace()
+            if c <=n and df.loc[c,'trial_type'] == 'Normal' and not pd.isnull(df.loc[c,'RT_TO']):
+              #  print 'FOUND RT IN FIRST', c
                 invalid_count += 1
                 df.loc[c,'valid'] = 0
-                df.loc[i,'RT_TO'] = str(float(df.loc[c,'RT_TO']) + 1.3)
+                df.loc[i,'RT_TO'] = float(df.loc[c,'RT_TO']) + 1.3
                 df.loc[i,'space'] = 'space'
-                df.loc[c,'RT_TO'] = 'No timing'
-                df.loc[c,'space'] = 'No space' 
+                df.loc[c,'RT_TO'] = np.NaN 
+                df.loc[c,'space'] = None 
                 go = False
             c = i+2
-            if go and c<n and  df['trial_type'][c] == 'Normal' and  df['RT_TO'][c] == None:
-                print 'FOUND RT IN SECOND',c
+            if c <=n and df.loc[c,'trial_type'] == 'Normal' and not pd.isnull(df.loc[c,'RT_TO']):
+              #  print 'FOUND RT IN SECOND',c
                 invalid_count += 2
                 df.loc[c,'valid'] = 0
                 df.loc[c-1,'valid'] = 0
-                df.loc[i,'RT_TO'] = str(float(df.loc[c,'RT_TO']) + 2.6)
+                df.loc[i,'RT_TO'] = float(df.loc[c,'RT_TO']) + 2.6
                 df.loc[i,'space'] = 'space'
-                df.loc[c,'RT_TO'] = 'No timing'
-                df.loc[c,'space'] = 'No space'
+                df.loc[c,'RT_TO'] = np.NaN 
+                df.loc[c,'space'] = None 
             
                 
     return invalid_count
