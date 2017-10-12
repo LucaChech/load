@@ -188,7 +188,7 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             height=0.10)
             end_of_experiment.draw()
             win.flip()
-            core.wait(180)
+            core.wait(100)
             win.close()
             core.quit()
 
