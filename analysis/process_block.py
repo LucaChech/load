@@ -3,35 +3,13 @@ import pandas as pd
 import numpy as np
 
 from pdb import set_trace
-from process_block import *
 
 def range_from_1(n):
     return np.arange(1,n+1)
 
-def process_observer(obs):  
-    f = '../output/participant_'+obs+'.pik'
-    import pickle
-    with open(f,'r') as of:
-        D = pickle.load(of)
-    df = pd.DataFrame.from_dict(D['experiment_details'],orient='index')
-    #df = dataframe_from_dict(D['experiment_details'])
-    return process(df)
-
-def process_by_blocks(df):
-    preprocess(df)
-    n_blocks = 16
-    
-    for i in range_from_1(16):
-        this_block = df[df['block_number'] == i]
-        notes = process_block(this_block)
-        notes_by_block[n] = notes
-
-    return notes_by_block
-
-def process(df):
-    notes = {}
-    df['valid'] = 1
-
+def preprocess(df):
+        #Split into blocks
+    #Split into blocks
     fix_reaction_times(df)
     
    
@@ -95,13 +73,30 @@ def process(df):
         if df.loc[i,'trial_type'] == 'Critical' and (not pd.isnull(df.loc[i,'RT_TO'])) and df.loc[i,'tone_onset'] != -999:
             df.loc[i,'RT_TO'] = df.loc[i,'RT_TO'] - df.loc[i,'tone_onset']
     
+
+def process_block(df):
+    si, sj = df.shape
+    notes = {}
+    df.loc[:,'valid'] = 1
+
+    #fix_reaction_times(df)
+    
+   
+    # Outlier rejection for TO
+    
+  
+            
+    # RT adjustment - tone
+    
+
+    
     #Correctness for Visual-search task
     #Accuracy for the visual-search task: we want trials:
     #- with a target (either present or absent) : 'trial_type' == 'Target Present' or 'trial_type' == 'Target Absent'
     #- without false alarms to the tone: pd.isnull(df.loc[i,'RT_TO'])
     #- without the tone : df.loc[i,'trial_type'] == 'Normal'
     #tone-detection task
-    df['correct_vs'] = None
+    df.loc[1,'correct_vs'] = None
     
     
 
@@ -122,7 +117,7 @@ def process(df):
     
     
     ### This is for calculating Accuracy (properly hit rate) for the detection task
-    df['restricted_correct_tone'] = None
+    df.loc[:,'restricted_correct_tone'] = None
     
     for i in range_from_1(si):
         # Here we only care about trials which have a tone (Critical) and which also either have no VS target
@@ -136,7 +131,7 @@ def process(df):
                 df.loc[i,'restricted_correct_tone'] = 1
                 
          
-    df['correct_tone'] = None    
+    df.loc[:,'correct_tone'] = None    
         
     for i in range_from_1(si):
         if df.loc[i, 'trial_type'] == 'Critical' and pd.isnull(df.loc[i,'RT_TO']):
@@ -149,7 +144,7 @@ def process(df):
             df.loc[i,'correct_tone'] = 0
 
                 
-    df['sdt'] = None
+    df.loc[:,'sdt'] = None
              # 1 HIT
              # 2 MISS
              # 3 FA
@@ -235,14 +230,40 @@ def process(df):
     #print notes
     return [df, notes]
 
-def test():
-    print 400
+
+def fix_reaction_times(df):
+    invalid_count = 0
+    n = df.shape[0]
+    print n
     
-
-
-
-
+    for i in np.arange(1,n+1):
         
-
-
-        
+        trial_type = df['trial_type'][i]
+        rt_sound = df['RT_TO'][i]
+        #if trial_type == 'Critical' and  rt_sound == 'nan':
+        if trial_type == 'Critical' and  pd.isnull(rt_sound):
+           # print 'DIRTY!',i
+            go = True
+            c = i+1
+            if c <=n and df.loc[c,'trial_type'] == 'Normal' and not pd.isnull(df.loc[c,'RT_TO']):
+              #  print 'FOUND RT IN FIRST', c
+                invalid_count += 1
+                df.loc[c,'valid'] = 0
+                df.loc[i,'RT_TO'] = float(df.loc[c,'RT_TO']) + 1.3*1000
+                df.loc[i,'space'] = 'space'
+                df.loc[c,'RT_TO'] = np.NaN 
+                df.loc[c,'space'] = None 
+                go = False
+            c = i+2
+            if go==True and c <=n and df.loc[c,'trial_type'] == 'Normal' and not pd.isnull(df.loc[c,'RT_TO']):
+              #  print 'FOUND RT IN SECOND',c
+                invalid_count += 2
+                df.loc[c,'valid'] = 0
+                df.loc[c-1,'valid'] = 0
+                df.loc[i,'RT_TO'] = float(df.loc[c,'RT_TO']) + 2.6*1000
+                df.loc[i,'space'] = 'space'
+                df.loc[c,'RT_TO'] = np.NaN 
+                df.loc[c,'space'] = None 
+            
+                
+    return invalid_count
