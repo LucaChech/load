@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 from pdb import set_trace
-from process_block import *
+#from process_block import *
 
 def range_from_1(n):
     return np.arange(1,n+1)
@@ -34,7 +34,7 @@ def process(df):
 
     fix_reaction_times(df)
     
-   
+    
     # Outlier rejection for TO
     
     si, sj = df.shape
@@ -52,6 +52,7 @@ def process(df):
     for i in range_from_1(si):
         if not pd.isnull(df.loc[i,'RT_TO']):
             if not (low < df.loc[i,'RT_TO'] < high):
+                print df.loc[i,'RT_TO']
                 df.loc[i,'RT_TO'] = new_mean_TO
                 counter_TO += 1
                 
@@ -93,7 +94,7 @@ def process(df):
     
     for i in range_from_1(si):
         if df.loc[i,'trial_type'] == 'Critical' and (not pd.isnull(df.loc[i,'RT_TO'])) and df.loc[i,'tone_onset'] != -999:
-            df.loc[i,'RT_TO'] = df.loc[i,'RT_TO'] - df.loc[i,'tone_onset']
+            df.loc[i,'RT_TO'] = df.loc[i,'RT_TO'] - df.loc[i,'tone_onset'] / 1000.0
     
     #Correctness for Visual-search task
     #Accuracy for the visual-search task: we want trials:
@@ -137,7 +138,7 @@ def process(df):
                 
          
     df['correct_tone'] = None    
-        
+       
     for i in range_from_1(si):
         if df.loc[i, 'trial_type'] == 'Critical' and pd.isnull(df.loc[i,'RT_TO']):
             df.loc[i,'correct_tone'] = 0
@@ -238,11 +239,41 @@ def process(df):
 def test():
     print 400
     
-
-
-
-
+def fix_reaction_times(df):
+    invalid_count = 0
+    n = df.shape[0]
+    print n
+    
+    for i in np.arange(1,n+1):
         
+        trial_type = df['trial_type'][i]
+        rt_sound = df['RT_TO'][i]
+        #if trial_type == 'Critical' and  rt_sound == 'nan':
+        if trial_type == 'Critical' and  pd.isnull(rt_sound):
+           # print 'DIRTY!',i
+            go = True
+            c = i+1
+            if c <=n and df.loc[c,'trial_type'] == 'Normal' and not pd.isnull(df.loc[c,'RT_TO']):
+              #  print 'FOUND RT IN FIRST', c
+                invalid_count += 1
+                df.loc[c,'valid'] = 0
+                df.loc[i,'RT_TO'] = float(df.loc[c,'RT_TO']) + 1.3
+                df.loc[i,'space'] = 'space'
+                df.loc[c,'RT_TO'] = np.NaN 
+                df.loc[c,'space'] = None 
+                go = False
+            c = i+2
+            if go==True and c <=n and df.loc[c,'trial_type'] == 'Normal' and not pd.isnull(df.loc[c,'RT_TO']):
+              #  print 'FOUND RT IN SECOND',c
+                invalid_count += 2
+                df.loc[c,'valid'] = 0
+                df.loc[c-1,'valid'] = 0
+                df.loc[i,'RT_TO'] = float(df.loc[c,'RT_TO']) + 2.6
+                df.loc[i,'space'] = 'space'
+                df.loc[c,'RT_TO'] = np.NaN 
+                df.loc[c,'space'] = None 
+            
+                
+    return invalid_count
 
-
-        
+  
