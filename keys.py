@@ -1,5 +1,5 @@
 from psychopy import core
-from psychopy import event
+#from psychopy import event
 import time
 
 

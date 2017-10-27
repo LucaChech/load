@@ -31,11 +31,7 @@ from instructions import *
 #functions.myfunction()
 # myfunction()
 
-debug = False
-
-
-
-
+debug = True
 
 blocks_final_index = 0
 probes_position_index = 0
@@ -92,15 +88,7 @@ tone2 = sound.Sound( '../load-data/PureTone_F2000_t50_low.wav', secs=0.05)
 if not debug:
     print_instructions(win,noise_example,tone1,tone2)
 
-
-i_counter,probes_position_index,block_number,experiment_details,allPoints,trial_number = run_blocks(trials,noise,timer,visual,win,event,i_counter,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,trial_number)
-
-
-print allPoints
-
-
-
-
+run_blocks(trials,noise,timer,visual,win,event,i_counter,expInfo,incorrect,tone1,tone2,experiment_details,allPoints)
 
 
 win.close()
