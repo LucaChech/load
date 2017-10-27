@@ -5,10 +5,17 @@ from psychopy import locale_setup, core, data, event, logging, sound, gui
 
 #test = False
 
-def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,trial_number):
+last_tone_trial_no = 0
+tone_timer = core.Clock()
+
+trial[8]['image_name']
+
+def run_blocks(trials,noise,timer,visual,win,event,i_counter,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,trial_number):
     for block in blocks:
         bPoints = 0
         for pic in block:
+            RT_VS = None
+            RT_TO = None
             print 'IMAGE ', i_counter
             trial_details = {}
             probe_response = 't'
@@ -19,20 +26,28 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
             start_frame = ((int(my_dict[pic[1:-1]][12]) + 17 // 2) // 17) -1 # final -1 is to compensate for lag
             #CHANGE 17 WITH ACTUAL FRAMERATE
             n_frames = 60
+
             for frameN in range(n_frames):
  
                 if 'tone1' in my_dict[pic[1:-1]] and frameN == start_frame :
                     tone1.play()
+                    tone_timer.reset()
+                    last_tone_trial_no = trial_number
                     print start_frame, my_dict[pic[1:-1]][12]
                 elif 'tone2' in my_dict[pic[1:-1]] and frameN == start_frame:
                     tone2.play()
+                    tone_timer.reset()
+                    last_tone_trial_no = trial_number
                     print start_frame, my_dict[pic[1:-1]][12]
                 image.draw()
                 win.flip()
             for frameN in range(20):
 
                 win.flip()
-            response = event.getKeys(keyList = ['space'], timeStamped = timer)
+            response = event.getKeys(keyList = ['space'], timeStamped = tone_timer)
+
+            if response[0][1] <= 2:
+                RT_TO = response[0][1]
 
             #Write the existing trial info
             T = my_dict[pic[1:-1]]
@@ -88,10 +103,12 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
         
                 search_text = visual.TextStim(win, name , wrapWidth=2, height=0.16)
                 search_text.draw()
-                
+                vs_timer = core.Clock()
                 win.flip()
 
-                keys = event.waitKeys(keyList=['q','p','space','r'],timeStamped=timer)
+                vs_timer.reset()
+
+                keys = event.waitKeys(keyList=['q','p','space','r'],timeStamped=tone_timer)
                     
                 rt_space = -999
                 wait = True
@@ -101,21 +118,28 @@ def run_blocks(blocks,noise,timer,visual,win,my_dict,event,i_counter,probes_posi
                         core.quit()
                     if k[0] == 'space':
                         rt_space = [k[0],k[1]]
+                        if rt_space <= 2:
+                            RT_TO = rt_space
                     if k[0] == 'q' or k[0] == 'p':
                         wait = False
+                        RT_VS = k[0][1]
+                        RT_VS = RT_VS - (vs_timer - tone_timer)
+                        q_or_p = k[0]
                 while wait:
-                    keys = event.waitKeys(keyList=['q','p'],timeStamped=timer)
+                    keys = event.waitKeys(keyList=['q','p'],timeStamped=vs_time)
                     letters = [t[0] for t in keys]
                     if ('p' in letters) or ('q' in letters):
                         wait = False
+                        RT_VS = keys[0][1]
+                        q_or_p = keys[0][0]
                 my_dict[pic[1:-1]].append(keys[0][0])
                 my_dict[pic[1:-1]].append(str(keys[0][1]))
                 my_dict[pic[1:-1]].append(rt_space)
                 my_dict[pic[1:-1]][16] = float(my_dict[pic[1:-1]][16][0:5])
                 
-                trial_details['keys'] = keys[0][0]
-                trial_details['RT_VS'] = keys[0][1]
-                trial_details['useless'] = rt_space
+                trial_details['keys'] = q_or_p
+                trial_details['RT_VS'] = RT_VS
+                trial_details['RT_TO'] = RT_TO
                
                 
                

@@ -34,26 +34,7 @@ from instructions import *
 debug = False
 
 
-#RECREATING exp_dict
-df = pd.DataFrame.from_csv('config/randomization_1.csv')
 
-df.reset_index(drop=False,) 
-image_names = df.index.tolist()
-cat1 = df['Cat.1'].tolist()
-cat2 = df['Cat.2'].tolist()
-cat3 = df['Cat.3'].tolist()
-cat4 = df['Cat.4'].tolist()
-cat5 = df['Cat.5'].tolist()
-ts = df['TS'].tolist()
-load = df['Load'].tolist()
-exemplar = df['exemplar'].tolist()
-question = df['question'].tolist()
-trial_type = df['present_absent'].tolist()
-critical = df['trial_type'].tolist()
-tone_Hz = df['tone_Hz'].tolist()
-tone_onset = df['tone_onset'].tolist()
-
-my_dict ={z[0]:list(z[1:]) for z in zip(image_names,cat1,cat2,cat3,cat4,cat5,ts,load,exemplar,question,trial_type,critical,tone_Hz,tone_onset)}
 
 
 blocks_final_index = 0
@@ -112,35 +93,14 @@ if not debug:
     print_instructions(win,noise_example,tone1,tone2)
 
 
-i_counter,probes_position_index,block_number,experiment_details,allPoints,trial_number = run_blocks(blocks_final[0:8],noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,trial_number)
+i_counter,probes_position_index,block_number,experiment_details,allPoints,trial_number = run_blocks(trials,noise,timer,visual,win,event,i_counter,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,trial_number)
 
 
 print allPoints
 
 
-#RECREATING exp_dict
-df = pd.DataFrame.from_csv( 'config/randomization_2.csv')
-
-df.reset_index(drop=False,) 
-image_names = df.index.tolist()
-cat1 = df['Cat.1'].tolist()
-cat2 = df['Cat.2'].tolist()
-cat3 = df['Cat.3'].tolist()
-cat4 = df['Cat.4'].tolist()
-cat5 = df['Cat.5'].tolist()
-ts = df['TS'].tolist()
-load = df['Load'].tolist()
-exemplar = df['exemplar'].tolist()
-question = df['question'].tolist()
-trial_type = df['present_absent'].tolist()
-critical = df['trial_type'].tolist()
-tone_Hz = df['tone_Hz'].tolist()
-tone_onset = df['tone_onset'].tolist()
-
-my_dict ={z[0]:list(z[1:]) for z in zip(image_names,cat1,cat2,cat3,cat4,cat5,ts,load,exemplar,question,trial_type,critical,tone_Hz,tone_onset)}
 
 
-i_counter,probes_position_index,block_number,experiment_details,allPoints,trial_number = run_blocks(blocks_final[8:],noise,timer,visual,win,my_dict,event,i_counter,probes_position_list,probes_position_index,block_number,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,trial_number)
 
 
 win.close()
