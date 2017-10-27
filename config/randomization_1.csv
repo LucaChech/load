@@ -1,481 +1,961 @@
-,Cat.1,Cat.2,Cat.3,Cat.4,Cat.5,TS,Load,exemplar,question,present_absent,trial_type,tone_Hz,tone_onset
-2008_000041.jpg, pottedplant, person, chair, diningtable,,37.7107190223,high, pottedplant,NA,No Target,Critical,tone2,141
-2008_000093.jpg, tvmonitor, chair, sofa,,,29.8220330038,high, sofa,NA,No Target,Normal,No tone,-999
-2008_000105.jpg, car,,,,,19.4531673546,low, car,NA,No Target,Normal,No tone,-999
-2008_000112.jpg, bottle, cat,,,,21.2598297564,low, bottle,NA,No Target,Normal,No tone,-999
-2008_000115.jpg, chair, cat,,,,17.570654058,low, chair,NA,No Target,Normal,No tone,-999
-2008_000119.jpg, person, horse,,,,19.1875460742,low, person,NA,No Target,Normal,No tone,-999
-2008_000123.jpg, bird,,,,,12.4339897793,low, bird,NA,No Target,Normal,No tone,-999
-2008_000151.jpg, aeroplane,,,,,8.17124474062,low, aeroplane,NA,No Target,Normal,No tone,-999
-2008_000163.jpg, car,,,,,18.7084977246,low, car,NA,No Target,Critical,tone1,850
-2008_000177.jpg, horse,,,,,16.3969555242,low, horse,NA,No Target,Normal,No tone,-999
-2008_000183.jpg, dog,,,,,19.7552861872,low, dog,NA,No Target,Normal,No tone,-999
-2008_000189.jpg, person, car,,,,18.3908783393,low, car,NA,No Target,Normal,No tone,-999
-2008_000191.jpg, person, bicycle, boat,,,34.3190516078,high, boat,NA,No Target,Normal,No tone,-999
-2008_000192.jpg, bird,,,,,29.176311485,high, bird,NA,No Target,Critical,tone2,247
-2008_000196.jpg, pottedplant, bicycle, bottle, cat,,35.3537844299,high, cat,NA,No Target,Normal,No tone,-999
-2008_000202.jpg, person, chair, bottle, tvmonitor,,34.6330560906,high, bottle, bottle,Target Present,Normal,No tone,-999
-2008_000219.jpg, horse,,,,,19.5981311751,low, horse, pottedplant,Target Absent,Normal,No tone,-999
-2008_000251.jpg, car, aeroplane,,,,35.8721794079,high, aeroplane,NA,No Target,Normal,No tone,-999
-2008_000270.jpg, person, dog, sofa,,,29.9356183869,high, dog, sofa,Target Absent,Normal,No tone,-999
-2008_000274.jpg, pottedplant, chair,,,,32.0542696763,high, pottedplant,NA,No Target,Normal,No tone,-999
-2008_000321.jpg, sofa, person,,,,35.9255718732,high, sofa,NA,No Target,Normal,No tone,-999
-2008_000381.jpg, person, chair,,,,29.7799066144,high, chair,NA,No Target,Normal,No tone,-999
-2008_000398.jpg, person, bottle,,,,20.4237954738,low, bottle,NA,No Target,Normal,No tone,-999
-2008_000414.jpg, boat,,,,,35.947150003,high, boat,NA,No Target,Normal,No tone,-999
-2008_000457.jpg, car,,,,,36.207394561,high, car, horse,Target Absent,Normal,No tone,-999
-2008_000488.jpg, pottedplant, car,,,,30.6126931776,high, car, boat,Target Absent,Normal,No tone,-999
-2008_000495.jpg, tvmonitor, chair, bottle,,,32.179769175,high, bottle,NA,No Target,Normal,No tone,-999
-2008_000501.jpg, car,,,,,18.2986780975,low, car, car,Target Present,Normal,No tone,-999
-2008_000541.jpg, person, sofa,,,,29.6390102391,high, person, car,Target Absent,Normal,No tone,-999
-2008_000619.jpg, car, cat,,,,33.4621847905,high, cat,NA,No Target,Normal,No tone,-999
-2008_000634.jpg, person,,,,,21.2353598116,low, person,NA,No Target,Normal,No tone,-999
-2008_000697.jpg, bird,,,,,32.0650958555,high, bird,NA,No Target,Normal,No tone,-999
-2008_000704.jpg, sofa, chair, person,,,34.561608236,high, person,NA,No Target,Normal,No tone,-999
-2008_000705.jpg, person, bottle,,,,30.9580554561,high, bottle,NA,No Target,Normal,No tone,-999
-2008_000734.jpg, person, sofa,,,,20.1853393344,low, sofa,NA,No Target,Normal,No tone,-999
-2008_000740.jpg, person,,,,,21.0107127174,low, person,NA,No Target,Normal,No tone,-999
-2008_000760.jpg, chair,,,,,19.6460660251,low, chair,NA,No Target,Normal,No tone,-999
-2008_000798.jpg, bird,,,,,29.5945978863,high, bird,NA,No Target,Normal,No tone,-999
-2008_000833.jpg, car, boat, person,,,32.7592674188,high, boat,NA,No Target,Normal,No tone,-999
-2008_000839.jpg, cat,,,,,16.4561012422,low, cat,NA,No Target,Normal,No tone,-999
-2008_000860.jpg, cat,,,,,29.4014511321,high, cat,NA,No Target,Normal,No tone,-999
-2008_000885.jpg, person, diningtable, bottle,,,33.4619040834,high, person, person,Target Present,Normal,No tone,-999
-2008_000912.jpg, horse,,,,,18.5058834477,low, horse,NA,No Target,Normal,No tone,-999
-2008_000916.jpg, pottedplant, person, train,,,29.3234930732,high, person,NA,No Target,Normal,No tone,-999
-2008_000928.jpg, person,,,,,30.9969778208,high, person,NA,No Target,Normal,No tone,-999
-2008_000940.jpg, person,,,,,20.1891503371,low, person,NA,No Target,Normal,No tone,-999
-2008_000952.jpg, car,,,,,19.7592559984,low, car,NA,No Target,Normal,No tone,-999
-2008_000972.jpg, person, sofa,,,,20.7078777754,low, sofa,NA,No Target,Normal,No tone,-999
-2008_000982.jpg, car, person, bus,,,35.0694191822,high, car, cat,Target Absent,Normal,No tone,-999
-2008_000984.jpg, person,,,,,30.7488856549,high, person,NA,No Target,Normal,No tone,-999
-2008_001040.jpg, boat,,,,,20.2100437036,low, boat,NA,No Target,Normal,No tone,-999
-2008_001098.jpg, person,,,,,15.903696109,low, person,NA,No Target,Normal,No tone,-999
-2008_001185.jpg, bird,,,,,18.5230242662,low, bird,NA,No Target,Normal,No tone,-999
-2008_001205.jpg, person,,,,,19.6758269441,low, person,NA,No Target,Normal,No tone,-999
-2008_001210.jpg, cat,,,,,29.2469761744,high, cat,NA,No Target,Normal,No tone,-999
-2008_001221.jpg, person,,,,,18.1390531514,low, person,NA,No Target,Normal,No tone,-999
-2008_001238.jpg, sofa, dog,,,,21.0012272781,low, sofa,NA,No Target,Critical,tone1,218
-2008_001278.jpg, person, horse,,,,32.4805318568,high, horse,NA,No Target,Normal,No tone,-999
-2008_001283.jpg, pottedplant, person, bird,,,32.3259350459,high, bird,NA,No Target,Normal,No tone,-999
-2008_001333.jpg, sofa, chair, bottle, person,,29.051766795,high, sofa,NA,No Target,Critical,tone2,306
-2008_001367.jpg, person,,,,,20.358449022,low, person,NA,No Target,Normal,No tone,-999
-2008_001451.jpg, pottedplant, person, chair, diningtable,,31.4876403732,high, pottedplant,NA,No Target,Normal,No tone,-999
-2008_001479.jpg, dog,,,,,13.4112210534,low, dog,NA,No Target,Normal,No tone,-999
-2008_001495.jpg, bird,,,,,21.229485108,low, bird,NA,No Target,Normal,No tone,-999
-2008_001542.jpg, horse,,,,,18.4142557544,low, horse, boat,Target Absent,Critical,tone1,208
-2008_001546.jpg, aeroplane,,,,,16.8766677937,low, aeroplane, dog,Target Absent,Normal,No tone,-999
-2008_001576.jpg, tvmonitor, chair, person,,,31.7947294031,high, person,NA,No Target,Critical,tone2,515
-2008_001617.jpg, person, chair,,,,20.2241395445,low, person,NA,No Target,Normal,No tone,-999
-2008_001673.jpg, person, chair, bird,,,29.630121227,high, bird,NA,No Target,Normal,No tone,-999
-2008_001694.jpg, pottedplant, sofa, chair,,,18.5118878018,low, pottedplant,NA,No Target,Normal,No tone,-999
-2008_001708.jpg, dog, cat,,,,21.2476294604,low, dog,NA,No Target,Normal,No tone,-999
-2008_001836.jpg, cat,,,,,20.4638836895,low, cat,NA,No Target,Normal,No tone,-999
-2008_001862.jpg, pottedplant, person, chair, dog, bottle,31.0580495701,high, dog,NA,No Target,Normal,No tone,-999
-2008_001965.jpg, person, dog,,,,28.8389563542,high, dog,NA,No Target,Normal,No tone,-999
-2008_002037.jpg, person, dog,,,,30.2020358311,high, dog,NA,No Target,Normal,No tone,-999
-2008_002062.jpg, car,,,,,18.7874507214,low, car,NA,No Target,Normal,No tone,-999
-2008_002084.jpg, pottedplant, person, dog,,,30.0073743319,high, dog,NA,No Target,Normal,No tone,-999
-2008_002116.jpg, person, dog,,,,20.1660203933,low, person, person,Target Present,Normal,No tone,-999
-2008_002119.jpg, pottedplant, sofa, chair, tvmonitor,,29.4645800956,high, pottedplant,NA,No Target,Normal,No tone,-999
-2008_002145.jpg, person,,,,,18.8795575328,low, person,NA,No Target,Normal,No tone,-999
-2008_002195.jpg, person, aeroplane,,,,30.4803617566,high, aeroplane,NA,No Target,Normal,No tone,-999
-2008_002350.jpg, bird,,,,,29.8149203136,high, bird,NA,No Target,Normal,No tone,-999
-2008_002372.jpg, bottle,,,,,14.5933368773,low, bottle,NA,No Target,Normal,No tone,-999
-2008_002379.jpg, pottedplant, chair, diningtable,,,17.13857605,low, pottedplant,NA,No Target,Normal,No tone,-999
-2008_002504.jpg, boat,,,,,20.4706639524,low, boat, boat,Target Present,Normal,No tone,-999
-2008_002672.jpg, car,,,,,30.3940484458,high, car,NA,No Target,Normal,No tone,-999
-2008_002700.jpg, person,,,,,21.0513732912,low, person,NA,No Target,Normal,No tone,-999
-2008_002704.jpg, car,,,,,19.4399393846,low, car,NA,No Target,Normal,No tone,-999
-2008_002709.jpg, boat, cow,,,,29.6594071243,high, boat,NA,No Target,Normal,No tone,-999
-2008_002725.jpg, person,,,,,35.696632302,high, person,NA,No Target,Normal,No tone,-999
-2008_002736.jpg, person, diningtable, bottle,,,36.4140422377,high, bottle, bottle,Target Present,Normal,No tone,-999
-2008_002758.jpg, person, chair,,,,33.312072728,high, chair,NA,No Target,Normal,No tone,-999
-2008_002773.jpg, aeroplane, boat,,,,29.2873494446,high, aeroplane,NA,No Target,Normal,No tone,-999
-2008_002774.jpg, person, motorbike,,,,32.1233073623,high, person,NA,No Target,Normal,No tone,-999
-2008_002789.jpg, person, chair, diningtable, bottle,,33.8235501143,high, chair,NA,No Target,Normal,No tone,-999
-2008_002864.jpg, person, diningtable, bottle,,,36.4850555133,high, bottle,NA,No Target,Normal,No tone,-999
-2008_002887.jpg, person, boat,,,,34.287988653,high, boat,NA,No Target,Normal,No tone,-999
-2008_002897.jpg, pottedplant, person,,,,36.5957709735,high, pottedplant,NA,No Target,Normal,No tone,-999
-2008_002899.jpg, cat,,,,,14.1274696186,low, cat,NA,No Target,Normal,No tone,-999
-2008_002904.jpg, dog,,,,,17.1900446482,low, dog,NA,No Target,Normal,No tone,-999
-2008_003045.jpg, cat,,,,,16.4170391928,low, cat, car,Target Absent,Normal,No tone,-999
-2008_003081.jpg, person, boat,,,,29.0064574566,high, person,NA,No Target,Normal,No tone,-999
-2008_003170.jpg, bird,,,,,17.1675580603,low, bird,NA,No Target,Critical,tone2,761
-2008_003180.jpg, dog,,,,,31.5378571257,high, dog,NA,No Target,Normal,No tone,-999
-2008_003193.jpg, person,,,,,39.7941102261,high, person,NA,No Target,Normal,No tone,-999
-2008_003283.jpg, person, horse,,,,30.0880459272,high, horse,NA,No Target,Normal,No tone,-999
-2008_003369.jpg, aeroplane,,,,,15.7319627222,low, aeroplane,NA,No Target,Normal,No tone,-999
-2008_003378.jpg, car, chair, bicycle,,,29.7308101348,high, car, boat,Target Absent,Normal,No tone,-999
-2008_003449.jpg, boat,,,,,34.708650155,high, boat,NA,No Target,Normal,No tone,-999
-2008_003461.jpg, person, horse,,,,30.92721034,high, horse,NA,No Target,Normal,No tone,-999
-2008_003575.jpg, person, aeroplane,,,,31.070624342,high, aeroplane,NA,No Target,Normal,No tone,-999
-2008_003587.jpg, person, dog,,,,19.7933761126,low, person,NA,No Target,Normal,No tone,-999
-2008_003635.jpg, person, diningtable, bottle,,,36.1560129636,high, bottle,NA,No Target,Normal,No tone,-999
-2008_003659.jpg, cat,,,,,15.6336667387,low, cat,NA,No Target,Normal,No tone,-999
-2008_003701.jpg, boat,,,,,29.9571992215,high, boat,NA,No Target,Normal,No tone,-999
-2008_003709.jpg, sofa,,,,,15.7792493869,low, sofa, sofa,Target Present,Normal,No tone,-999
-2008_003755.jpg, car, dog, person,,,29.7635521346,high, person, aeroplane,Target Absent,Normal,No tone,-999
-2008_003767.jpg, pottedplant,,,,,21.2558875475,low, pottedplant,NA,No Target,Normal,No tone,-999
-2008_003805.jpg, person, horse,,,,29.8753620717,high, horse,NA,No Target,Normal,No tone,-999
-2008_003844.jpg, car, motorbike, person,,,31.4087219554,high, car,NA,No Target,Normal,No tone,-999
-2008_003876.jpg, aeroplane,,,,,13.4403667656,low, aeroplane,NA,No Target,Normal,No tone,-999
-2008_004036.jpg, person, motorbike,,,,19.4461566876,low, person,NA,No Target,Critical,tone1,196
-2008_004042.jpg, bird,,,,,31.3970278242,high, bird,NA,No Target,Normal,No tone,-999
-2008_004171.jpg, pottedplant,,,,,20.5841625672,low, pottedplant,NA,No Target,Normal,No tone,-999
-2008_004188.jpg, person, dog,,,,37.0063872622,high, dog,NA,No Target,Normal,No tone,-999
-2008_004269.jpg, sofa, person,,,,20.9832980594,low, sofa,NA,No Target,Normal,No tone,-999
-2008_004270.jpg, person, sofa,,,,19.2440358751,low, sofa,NA,No Target,Normal,No tone,-999
-2008_004412.jpg, chair,,,,,20.4132537158,low, chair,NA,No Target,Normal,No tone,-999
-2008_004459.jpg, person, sofa,,,,31.1244371666,high, sofa,NA,No Target,Normal,No tone,-999
-2008_004482.jpg, person, bicycle, car,,,30.8916722198,high, person,NA,No Target,Normal,No tone,-999
-2008_004487.jpg, chair, bottle,,,,35.9250648934,high, chair,NA,No Target,Normal,No tone,-999
-2008_004607.jpg, bottle,,,,,20.465741195,low, bottle,NA,No Target,Normal,No tone,-999
-2008_004614.jpg, car, bus, person,,,31.3051357692,high, car,NA,No Target,Normal,No tone,-999
-2008_004624.jpg, horse,,,,,13.8796340974,low, horse,NA,No Target,Normal,No tone,-999
-2008_004633.jpg, bird,,,,,30.0688032828,high, bird,NA,No Target,Normal,No tone,-999
-2008_004646.jpg, person, aeroplane,,,,32.0149735503,high, aeroplane,NA,No Target,Normal,No tone,-999
-2008_004661.jpg, pottedplant, sofa, chair, diningtable, tvmonitor,29.2474832664,high, pottedplant,NA,No Target,Normal,No tone,-999
-2008_004670.jpg, sofa, chair,,,,32.35147421,high, chair,NA,No Target,Normal,No tone,-999
-2008_004690.jpg, bird,,,,,30.5153527617,high, bird,NA,No Target,Normal,No tone,-999
-2008_004814.jpg, person, bottle,,,,19.8690992474,low, bottle,NA,No Target,Normal,No tone,-999
-2008_004858.jpg, car, bicycle, person,,,30.4769290976,high, car, sofa,Target Absent,Normal,No tone,-999
-2008_004893.jpg, bird,,,,,8.06283649278,low, bird,NA,No Target,Normal,No tone,-999
-2008_004907.jpg, boat,,,,,16.5803743378,low, boat,NA,No Target,Normal,No tone,-999
-2008_004991.jpg, person, bottle,,,,28.9165153697,high, bottle,NA,No Target,Normal,No tone,-999
-2008_005046.jpg, person, dog,,,,20.7128987687,low, dog,NA,No Target,Normal,No tone,-999
-2008_005090.jpg, tvmonitor, sofa, bottle, person,,29.6080264916,high, bottle,NA,No Target,Normal,No tone,-999
-2008_005123.jpg, dog,,,,,19.5706622561,low, dog,NA,No Target,Normal,No tone,-999
-2008_005214.jpg, pottedplant,,,,,21.2176699016,low, pottedplant,NA,No Target,Critical,tone1,443
-2008_005345.jpg, pottedplant,,,,,16.5204763708,low, pottedplant,NA,No Target,Normal,No tone,-999
-2008_005347.jpg, chair, bottle,,,,30.4248738873,high, chair, bottle,Target Absent,Normal,No tone,-999
-2008_005472.jpg, person, car,,,,28.8397417486,high, person,NA,No Target,Normal,No tone,-999
-2008_005490.jpg, person, sofa,,,,13.4141262808,low, sofa,NA,No Target,Normal,No tone,-999
-2008_005519.jpg, pottedplant, person, chair, diningtable,,31.5206876139,high, pottedplant, pottedplant,Target Present,Normal,No tone,-999
-2008_005526.jpg, person, boat,,,,31.2610376392,high, boat,NA,No Target,Normal,No tone,-999
-2008_005600.jpg, person, cat,,,,30.2265163794,high, cat,NA,No Target,Normal,No tone,-999
-2008_005673.jpg, cat,,,,,18.6869051047,low, cat, cat,Target Present,Normal,No tone,-999
-2008_005702.jpg, horse,,,,,29.2812375074,high, horse,NA,No Target,Normal,No tone,-999
-2008_005720.jpg, bus, boat, car,,,34.4039146201,high, boat,NA,No Target,Normal,No tone,-999
-2008_005728.jpg, dog,,,,,19.8900886516,low, dog,NA,No Target,Normal,No tone,-999
-2008_005735.jpg, cat,,,,,13.6859936467,low, cat,NA,No Target,Normal,No tone,-999
-2008_005750.jpg, aeroplane,,,,,29.2018694612,high, aeroplane,NA,No Target,Normal,No tone,-999
-2008_005818.jpg, horse,,,,,29.0841590419,high, horse, horse,Target Present,Normal,No tone,-999
-2008_005845.jpg, dog,,,,,28.9618169808,high, dog,NA,No Target,Normal,No tone,-999
-2008_005869.jpg, person, bottle,,,,17.2428434908,low, bottle,NA,No Target,Normal,No tone,-999
-2008_005878.jpg, bus, person, car,,,31.1679369698,high, car,NA,No Target,Critical,tone2,590
-2008_005903.jpg, bird,,,,,18.0156688875,low, bird, bird,Target Present,Normal,No tone,-999
-2008_005978.jpg, person, bicycle,,,,18.2377682365,low, person,NA,No Target,Normal,No tone,-999
-2008_006062.jpg, tvmonitor, bottle,,,,29.9937814283,high, bottle,NA,No Target,Normal,No tone,-999
-2008_006072.jpg, bottle,,,,,18.2599009408,low, bottle,NA,No Target,Normal,No tone,-999
-2008_006121.jpg, person, boat,,,,30.3841872714,high, boat, car,Target Absent,Normal,No tone,-999
-2008_006216.jpg, person, aeroplane,,,,31.8858778004,high, aeroplane,NA,No Target,Normal,No tone,-999
-2008_006452.jpg, dog,,,,,16.1374581172,low, dog, car,Target Absent,Normal,No tone,-999
-2008_006461.jpg, bird,,,,,31.18243026,high, bird,NA,No Target,Normal,No tone,-999
-2008_006470.jpg, chair,,,,,21.0059170057,low, chair,NA,No Target,Normal,No tone,-999
-2008_006481.jpg, bird, boat,,,,29.314233598,high, bird,NA,No Target,Normal,No tone,-999
-2008_006564.jpg, aeroplane,,,,,13.513291905,low, aeroplane,NA,No Target,Normal,No tone,-999
-2008_006663.jpg, person, bottle, diningtable,,,29.775484131,high, bottle,NA,No Target,Normal,No tone,-999
-2008_006703.jpg, aeroplane,,,,,20.8854366041,low, aeroplane,NA,No Target,Normal,No tone,-999
-2008_006784.jpg, sofa,,,,,17.0559093734,low, sofa,NA,No Target,Normal,No tone,-999
-2008_006837.jpg, chair, dog, diningtable,,,18.2062639009,low, chair,NA,No Target,Normal,No tone,-999
-2008_006841.jpg, sofa, chair, person,,,30.0353391318,high, sofa,NA,No Target,Normal,No tone,-999
-2008_006844.jpg, person, dog, car,,,33.0948850029,high, dog,NA,No Target,Normal,No tone,-999
-2008_006863.jpg, person, chair, cat,,,30.8788481424,high, cat, cat,Target Present,Normal,No tone,-999
-2008_006870.jpg, person, dog,,,,30.6573416004,high, dog,NA,No Target,Normal,No tone,-999
-2008_006912.jpg, person, horse,,,,28.9362392217,high, horse,NA,No Target,Normal,No tone,-999
-2008_006954.jpg, bird,,,,,11.9577001946,low, bird,NA,No Target,Normal,No tone,-999
-2008_006998.jpg, person,,,,,18.7165290052,low, person,NA,No Target,Normal,No tone,-999
-2008_007043.jpg, sofa, person,,,,33.2795823558,high, sofa,NA,No Target,Normal,No tone,-999
-2008_007048.jpg, chair, diningtable,,,,20.017308323,low, chair,NA,No Target,Normal,No tone,-999
-2008_007057.jpg, dog,,,,,40.7731212751,high, dog,NA,No Target,Normal,No tone,-999
-2008_007091.jpg, sofa, person,,,,31.0518683449,high, sofa,NA,No Target,Normal,No tone,-999
-2008_007096.jpg, aeroplane,,,,,20.1580444106,low, aeroplane,NA,No Target,Normal,No tone,-999
-2008_007108.jpg, pottedplant, dog,,,,29.8518343524,high, dog,NA,No Target,Normal,No tone,-999
-2008_007143.jpg, boat,,,,,33.4946134203,high, boat,NA,No Target,Normal,No tone,-999
-2008_007208.jpg, dog,,,,,19.803149147,low, dog, dog,Target Present,Normal,No tone,-999
-2008_007250.jpg, bird,,,,,31.8921255067,high, bird,NA,No Target,Normal,No tone,-999
-2008_007274.jpg, dog,,,,,16.6933725717,low, dog,NA,No Target,Normal,No tone,-999
-2008_007378.jpg, chair, dog, diningtable,,,29.6114403428,high, dog,NA,No Target,Normal,No tone,-999
-2008_007388.jpg, pottedplant, chair, diningtable,,,28.7663578445,high, chair, chair,Target Present,Normal,No tone,-999
-2008_007423.jpg, bird,,,,,33.6473980056,high, bird, dog,Target Absent,Normal,No tone,-999
-2008_007527.jpg, tvmonitor, chair,,,,32.3848141416,high, chair,NA,No Target,Normal,No tone,-999
-2008_007629.jpg, aeroplane,,,,,31.1423085011,high, aeroplane,NA,No Target,Normal,No tone,-999
-2008_007664.jpg, diningtable, person, chair, dog, bottle,36.0401214283,high, bottle,NA,No Target,Normal,No tone,-999
-2008_007704.jpg, chair, diningtable, bottle,,,20.0381198786,low, bottle,NA,No Target,Normal,No tone,-999
-2008_007745.jpg, person, dog,,,,32.9593902214,high, dog,NA,No Target,Normal,No tone,-999
-2008_007842.jpg, cat,,,,,20.6060855378,low, cat,NA,No Target,Normal,No tone,-999
-2008_007913.jpg, person, cat,,,,32.265109083,high, cat,NA,No Target,Normal,No tone,-999
-2008_007970.jpg, person, aeroplane,,,,30.073041629,high, aeroplane,NA,No Target,Normal,No tone,-999
-2008_008083.jpg, person, boat,,,,18.6424504286,low, person,NA,No Target,Normal,No tone,-999
-2008_008097.jpg, car, bicycle, motorbike, bus, person,30.2634494657,high, car,NA,No Target,Normal,No tone,-999
-2008_008210.jpg, person, bicycle, car,,,31.5779063964,high, car,NA,No Target,Normal,No tone,-999
-2008_008229.jpg, person, horse,,,,33.7029219719,high, horse,NA,No Target,Normal,No tone,-999
-2008_008263.jpg, aeroplane,,,,,17.3506654694,low, aeroplane,NA,No Target,Normal,No tone,-999
-2008_008331.jpg, pottedplant,,,,,19.3213088734,low, pottedplant,NA,No Target,Normal,No tone,-999
-2008_008359.jpg, aeroplane,,,,,14.1064450151,low, aeroplane,NA,No Target,Normal,No tone,-999
-2008_008395.jpg, person, horse,,,,19.9123010153,low, horse, horse,Target Present,Normal,No tone,-999
-2008_008470.jpg, sofa, chair, diningtable,,,30.3466941995,high, chair,NA,No Target,Normal,No tone,-999
-2008_008500.jpg, person, horse,,,,33.9683529801,high, horse,NA,No Target,Critical,tone1,159
-2008_008506.jpg, bird,,,,,18.8378639563,low, bird,NA,No Target,Normal,No tone,-999
-2008_008533.jpg, horse,,,,,19.2079563963,low, horse,NA,No Target,Normal,No tone,-999
-2008_008607.jpg, aeroplane,,,,,32.0206899074,high, aeroplane,NA,No Target,Normal,No tone,-999
-2008_008628.jpg, sofa,,,,,30.9803111453,high, sofa,NA,No Target,Normal,No tone,-999
-2008_008681.jpg, car, train,,,,30.2088428522,high, car,NA,No Target,Normal,No tone,-999
-2009_000021.jpg, car, person,,,,29.0083590163,high, car,NA,No Target,Normal,No tone,-999
-2009_000058.jpg, person, bottle, diningtable,,,34.0729175503,high, bottle,NA,No Target,Normal,No tone,-999
-2009_000059.jpg, person, chair,,,,14.4209422776,low, chair,NA,No Target,Normal,No tone,-999
-2009_000067.jpg, person,,,,,29.6392963112,high, person,NA,No Target,Normal,No tone,-999
-2009_000087.jpg, sofa,,,,,19.8923896955,low, sofa,NA,No Target,Normal,No tone,-999
-2009_000120.jpg, boat,,,,,30.8060891344,high, boat,NA,No Target,Normal,No tone,-999
-2009_000169.jpg, person, horse, car,,,20.9345998577,low, horse,NA,No Target,Normal,No tone,-999
-2009_000189.jpg, sofa, dog,,,,20.9340596821,low, sofa,NA,No Target,Normal,No tone,-999
-2009_000198.jpg, pottedplant, chair,,,,34.9666280658,high, pottedplant,NA,No Target,Normal,No tone,-999
-2009_000260.jpg, aeroplane,,,,,20.0884358457,low, aeroplane,NA,No Target,Normal,No tone,-999
-2009_000466.jpg, cat,,,,,30.9540107157,high, cat,NA,No Target,Normal,No tone,-999
-2009_000488.jpg, pottedplant, tvmonitor, cat,,,31.6704471984,high, cat,NA,No Target,Normal,No tone,-999
-2009_000523.jpg, car,,,,,21.1810107362,low, car,NA,No Target,Normal,No tone,-999
-2009_000539.jpg, person, dog,,,,29.3544584936,high, dog,NA,No Target,Normal,No tone,-999
-2009_000565.jpg, person, horse,,,,30.5304897751,high, horse, person,Target Absent,Normal,No tone,-999
-2009_000619.jpg, bird,,,,,19.3050304781,low, bird, person,Target Absent,Normal,No tone,-999
-2009_000629.jpg, tvmonitor, chair,,,,34.7763437145,high, chair,NA,No Target,Normal,No tone,-999
-2009_000716.jpg, cat,,,,,20.5373535376,low, cat, cat,Target Present,Normal,No tone,-999
-2009_000760.jpg, pottedplant, chair, diningtable,,,34.1778342477,high, pottedplant,NA,No Target,Normal,No tone,-999
-2009_000919.jpg, boat,,,,,19.2535195999,low, boat,NA,No Target,Normal,No tone,-999
-2009_000995.jpg, sofa, person,,,,31.4636772311,high, sofa,NA,No Target,Normal,No tone,-999
-2009_001021.jpg, pottedplant, sofa, chair,,,31.427287996,high, sofa,NA,No Target,Critical,tone2,57
-2009_001137.jpg, pottedplant, person,,,,13.7867334636,low, pottedplant, bird,Target Absent,Normal,No tone,-999
-2009_001305.jpg, cat,,,,,18.6847182117,low, cat,NA,No Target,Normal,No tone,-999
-2009_001321.jpg, car, aeroplane,,,,37.9375516575,high, aeroplane,NA,No Target,Normal,No tone,-999
-2009_001345.jpg, person, aeroplane,,,,28.9954166074,high, aeroplane,NA,No Target,Critical,tone1,436
-2009_001406.jpg, person, boat,,,,19.9016168923,low, boat,NA,No Target,Normal,No tone,-999
-2009_001470.jpg, sofa, dog,,,,19.1888341854,low, sofa,NA,No Target,Normal,No tone,-999
-2009_001568.jpg, dog,,,,,17.1025902592,low, dog,NA,No Target,Normal,No tone,-999
-2009_001723.jpg, boat,,,,,19.2643376751,low, boat,NA,No Target,Normal,No tone,-999
-2009_001774.jpg, sofa, dog,,,,16.1425626209,low, dog,NA,No Target,Critical,tone2,138
-2009_001782.jpg, car,,,,,18.8741562324,low, car,NA,No Target,Normal,No tone,-999
-2009_001894.jpg, cat,,,,,19.1076965499,low, cat,NA,No Target,Normal,No tone,-999
-2009_001975.jpg, pottedplant,,,,,17.4930239916,low, pottedplant,NA,No Target,Normal,No tone,-999
-2009_002001.jpg, person, aeroplane,,,,34.5441448216,high, aeroplane, aeroplane,Target Present,Normal,No tone,-999
-2009_002137.jpg, bottle,,,,,18.6035189281,low, bottle,NA,No Target,Normal,No tone,-999
-2009_002306.jpg, boat,,,,,30.0652663955,high, boat,NA,No Target,Normal,No tone,-999
-2009_002325.jpg, sofa, chair,,,,19.8364916302,low, sofa,NA,No Target,Normal,No tone,-999
-2009_002374.jpg, chair,,,,,20.1385595655,low, chair,NA,No Target,Normal,No tone,-999
-2009_002414.jpg, bird,,,,,29.7427866823,high, bird,NA,No Target,Normal,No tone,-999
-2009_002439.jpg, person, cat,,,,20.1398778052,low, person,NA,No Target,Normal,No tone,-999
-2009_002521.jpg, bottle,,,,,20.8325215533,low, bottle,NA,No Target,Normal,No tone,-999
-2009_002571.jpg, pottedplant, sofa, chair, diningtable,,28.9684650575,high, sofa,NA,No Target,Normal,No tone,-999
-2009_002594.jpg, bottle,,,,,19.0962373595,low, bottle,NA,No Target,Normal,No tone,-999
-2009_002604.jpg, bird,,,,,13.6444177899,low, bird,NA,No Target,Normal,No tone,-999
-2009_002697.jpg, horse,,,,,19.789006071,low, horse,NA,No Target,Normal,No tone,-999
-2009_002711.jpg, car, person,,,,17.8563056621,low, car,NA,No Target,Normal,No tone,-999
-2009_002749.jpg, bottle,,,,,20.9636430763,low, bottle, bottle,Target Present,Normal,No tone,-999
-2009_002750.jpg, person, horse,,,,30.1417630616,high, horse, bird,Target Absent,Normal,No tone,-999
-2009_002803.jpg, dog,,,,,20.1944336287,low, dog,NA,No Target,Normal,No tone,-999
-2009_002817.jpg, pottedplant,,,,,19.54050687,low, pottedplant, boat,Target Absent,Normal,No tone,-999
-2009_002888.jpg, aeroplane,,,,,18.0003618543,low, aeroplane,NA,No Target,Normal,No tone,-999
-2009_002897.jpg, boat,,,,,29.6080027553,high, boat,NA,No Target,Normal,No tone,-999
-2009_002998.jpg, sofa,,,,,20.9563072862,low, sofa, person,Target Absent,Normal,No tone,-999
-2009_003084.jpg, boat,,,,,20.0747158726,low, boat,NA,No Target,Normal,No tone,-999
-2009_003209.jpg, dog,,,,,18.9815982303,low, dog,NA,No Target,Normal,No tone,-999
-2009_003232.jpg, horse,,,,,20.9577483153,low, horse,NA,No Target,Normal,No tone,-999
-2009_003309.jpg, aeroplane,,,,,19.0959957377,low, aeroplane,NA,No Target,Normal,No tone,-999
-2009_003338.jpg, person, horse,,,,30.1308980286,high, horse,NA,No Target,Normal,No tone,-999
-2009_003351.jpg, pottedplant, person, chair, motorbike, boat,31.5804899021,high, boat,NA,No Target,Normal,No tone,-999
-2009_003373.jpg, sofa, tvmonitor,,,,15.5740471892,low, sofa,NA,No Target,Normal,No tone,-999
-2009_003520.jpg, chair, diningtable,,,,29.1196911303,high, chair,NA,No Target,Normal,No tone,-999
-2009_003530.jpg, person, horse,,,,20.5294514772,low, person,NA,No Target,Normal,No tone,-999
-2009_003679.jpg, pottedplant,,,,,20.3954299443,low, pottedplant, pottedplant,Target Present,Normal,No tone,-999
-2009_003686.jpg, horse,,,,,18.7207285432,low, horse,NA,No Target,Normal,No tone,-999
-2009_003705.jpg, person, aeroplane,,,,29.5473061136,high, aeroplane,NA,No Target,Normal,No tone,-999
-2009_003802.jpg, car, bicycle, motorbike,,,29.678013923,high, car,NA,No Target,Normal,No tone,-999
-2009_003884.jpg, chair, diningtable,,,,28.7286362612,high, chair,NA,No Target,Normal,No tone,-999
-2009_003993.jpg, bird,,,,,20.7578853634,low, bird,NA,No Target,Normal,No tone,-999
-2009_004076.jpg, sofa, dog,,,,15.5533931509,low, sofa,NA,No Target,Normal,No tone,-999
-2009_004129.jpg, chair,,,,,11.4592323772,low, chair, chair,Target Present,Normal,No tone,-999
-2009_004154.jpg, person, chair, diningtable, bottle,,29.6229142798,high, bottle,NA,No Target,Normal,No tone,-999
-2009_004225.jpg, cat,,,,,12.7290334447,low, cat, sofa,Target Absent,Normal,No tone,-999
-2009_004262.jpg, horse,,,,,19.7648364082,low, horse,NA,No Target,Normal,No tone,-999
-2009_004283.jpg, pottedplant, sofa,,,,29.0424888681,high, sofa,NA,No Target,Normal,No tone,-999
-2009_004364.jpg, car, bicycle,,,,28.730946257,high, car,NA,No Target,Normal,No tone,-999
-2009_004414.jpg, aeroplane,,,,,35.972960084,high, aeroplane,NA,No Target,Normal,No tone,-999
-2009_004594.jpg, car,,,,,19.0301781524,low, car, aeroplane,Target Absent,Normal,No tone,-999
-2009_004598.jpg, cat,,,,,16.6565997701,low, cat,NA,No Target,Normal,No tone,-999
-2009_004737.jpg, chair,,,,,16.9854423346,low, chair,NA,No Target,Normal,No tone,-999
-2009_004779.jpg, cat,,,,,19.0962523457,low, cat,NA,No Target,Normal,No tone,-999
-2009_004794.jpg, pottedplant, person, bottle, diningtable,,36.6655828193,high, pottedplant,NA,No Target,Normal,No tone,-999
-2009_004849.jpg, person, chair, motorbike,,,31.7742392699,high, chair,NA,No Target,Normal,No tone,-999
-2009_004888.jpg, person, boat,,,,16.6512424605,low, boat,NA,No Target,Normal,No tone,-999
-2009_004984.jpg, bicycle, bottle,,,,18.8937980144,low, bottle,NA,No Target,Normal,No tone,-999
-2009_005008.jpg, pottedplant,,,,,17.7701583609,low, pottedplant,NA,No Target,Normal,No tone,-999
-2009_005036.jpg, car, aeroplane,,,,16.8116850006,low, aeroplane,NA,No Target,Normal,No tone,-999
-2009_005044.jpg, bottle,,,,,15.7136248334,low, bottle,NA,No Target,Normal,No tone,-999
-2009_005075.jpg, aeroplane,,,,,20.2722047516,low, aeroplane,NA,No Target,Critical,tone1,277
-2009_005118.jpg, boat,,,,,28.7102843543,high, boat,NA,No Target,Normal,No tone,-999
-2009_005133.jpg, car,,,,,29.2704648354,high, car,NA,No Target,Normal,No tone,-999
-2009_005308.jpg, bottle,,,,,21.1163017472,low, bottle,NA,No Target,Normal,No tone,-999
-2010_000074.jpg, person, dog,,,,32.1424271349,high, dog, dog,Target Present,Normal,No tone,-999
-2010_000090.jpg, chair, dog,,,,13.8367101522,low, chair,NA,No Target,Normal,No tone,-999
-2010_000109.jpg, cat,,,,,21.1941016161,low, cat,NA,No Target,Normal,No tone,-999
-2010_000132.jpg, pottedplant,,,,,19.906276626,low, pottedplant, horse,Target Absent,Normal,No tone,-999
-2010_000229.jpg, aeroplane,,,,,14.3418947369,low, aeroplane, aeroplane,Target Present,Normal,No tone,-999
-2010_000299.jpg, bird,,,,,19.7061221398,low, bird,NA,No Target,Normal,No tone,-999
-2010_000426.jpg, bottle,,,,,17.8831347445,low, bottle, dog,Target Absent,Normal,No tone,-999
-2010_000536.jpg, cat,,,,,31.5416643744,high, cat,NA,No Target,Normal,No tone,-999
-2010_000613.jpg, horse,,,,,20.8855839237,low, horse,NA,No Target,Normal,No tone,-999
-2010_000616.jpg, cat,,,,,18.1350968389,low, cat,NA,No Target,Normal,No tone,-999
-2010_000750.jpg, pottedplant,,,,,11.902212339,low, pottedplant, pottedplant,Target Present,Normal,No tone,-999
-2010_000792.jpg, person, bottle,,,,29.2763023066,high, bottle,NA,No Target,Normal,No tone,-999
-2010_000805.jpg, dog, bottle,,,,18.8607033421,low, bottle,NA,No Target,Normal,No tone,-999
-2010_000811.jpg, dog,,,,,18.0450356506,low, dog,NA,No Target,Normal,No tone,-999
-2010_000815.jpg, cat,,,,,30.3067076172,high, cat,NA,No Target,Normal,No tone,-999
-2010_000865.jpg, person, train, car,,,31.0268569889,high, car, car,Target Present,Normal,No tone,-999
-2010_001036.jpg, person, boat,,,,19.19481595,low, boat,NA,No Target,Normal,No tone,-999
-2010_001118.jpg, bus, car,,,,39.1163173722,high, car,NA,No Target,Normal,No tone,-999
-2010_001159.jpg, bird,,,,,14.3433467925,low, bird, bird,Target Present,Normal,No tone,-999
-2010_001271.jpg, chair, diningtable,,,,20.7351456906,low, chair, chair,Target Present,Normal,No tone,-999
-2010_001434.jpg, sofa, chair,,,,31.2605400033,high, sofa,NA,No Target,Normal,No tone,-999
-2010_001451.jpg, horse,,,,,14.3004646918,low, horse,NA,No Target,Normal,No tone,-999
-2010_001586.jpg, person, train, sofa,,,31.6511564428,high, sofa, sofa,Target Present,Normal,No tone,-999
-2010_001645.jpg, person, diningtable, bottle,,,38.9726423889,high, bottle,NA,No Target,Normal,No tone,-999
-2010_001682.jpg, person, chair, diningtable, bottle,,33.4787504727,high, bottle,NA,No Target,Normal,No tone,-999
-2010_001691.jpg, boat,,,,,16.8629662116,low, boat,NA,No Target,Normal,No tone,-999
-2010_001731.jpg, chair,,,,,9.95536840071,low, chair,NA,No Target,Normal,No tone,-999
-2010_001829.jpg, horse,,,,,19.2344013367,low, horse,NA,No Target,Normal,No tone,-999
-2010_001856.jpg, person, horse,,,,35.6691324556,high, horse,NA,No Target,Normal,No tone,-999
-2010_001907.jpg, person, chair, diningtable,,,20.5612790093,low, chair,NA,No Target,Normal,No tone,-999
-2010_001908.jpg, person, dog,,,,18.2814006101,low, dog,NA,No Target,Normal,No tone,-999
-2010_001939.jpg, tvmonitor, diningtable, cat,,,29.8429225027,high, cat,NA,No Target,Normal,No tone,-999
-2010_001988.jpg, bird,,,,,15.2538714929,low, bird,NA,No Target,Normal,No tone,-999
-2010_001993.jpg, car, person,,,,21.0529768239,low, car, chair,Target Absent,Normal,No tone,-999
-2010_002127.jpg, person, bottle, car,,,34.3131610413,high, car,NA,No Target,Normal,No tone,-999
-2010_002183.jpg, person, horse,,,,34.5575771686,high, horse,NA,No Target,Normal,No tone,-999
-2010_002278.jpg, person, cat,,,,29.8679940351,high, cat,NA,No Target,Normal,No tone,-999
-2010_002283.jpg, horse,,,,,18.0578252839,low, horse,NA,No Target,Normal,No tone,-999
-2010_002349.jpg, dog,,,,,19.9931027737,low, dog,NA,No Target,Normal,No tone,-999
-2010_002379.jpg, pottedplant,,,,,19.895720118,low, pottedplant,NA,No Target,Normal,No tone,-999
-2010_002393.jpg, boat,,,,,20.1314110865,low, boat,NA,No Target,Normal,No tone,-999
-2010_002472.jpg, cat,,,,,32.6606639512,high, cat, cat,Target Present,Normal,No tone,-999
-2010_002498.jpg, person, boat,,,,17.9977484701,low, boat,NA,No Target,Normal,No tone,-999
-2010_002603.jpg, person, chair,,,,37.0529117102,high, person,NA,No Target,Normal,No tone,-999
-2010_002620.jpg, boat,,,,,34.9675277341,high, boat,NA,No Target,Critical,tone2,528
-2010_002645.jpg, cat,,,,,20.8501252653,low, cat,NA,No Target,Normal,No tone,-999
-2010_002702.jpg, person, boat, car,,,35.7047089349,high, boat,NA,No Target,Normal,No tone,-999
-2010_002742.jpg, person, bottle, pottedplant, tvmonitor, chair,31.6763857137,high, bottle,NA,No Target,Normal,No tone,-999
-2010_002775.jpg, dog,,,,,29.7778405817,high, dog,NA,No Target,Normal,No tone,-999
-2010_002956.jpg, bottle,,,,,16.5988748608,low, bottle,NA,No Target,Critical,tone1,700
-2010_003101.jpg, pottedplant,,,,,19.252734908,low, pottedplant,NA,No Target,Normal,No tone,-999
-2010_003280.jpg, person, horse,,,,20.3068353181,low, horse,NA,No Target,Normal,No tone,-999
-2010_003287.jpg, tvmonitor, chair, person,,,20.1551930472,low, chair,NA,No Target,Normal,No tone,-999
-2010_003297.jpg, person, horse,,,,31.9696343244,high, horse, dog,Target Absent,Critical,tone1,863
-2010_003329.jpg, bottle,,,,,20.9657753219,low, bottle,NA,No Target,Normal,No tone,-999
-2010_003400.jpg, car,,,,,11.740304537,low, car,NA,No Target,Normal,No tone,-999
-2010_003419.jpg, bird,,,,,28.6670652044,high, bird,NA,No Target,Normal,No tone,-999
-2010_003453.jpg, car,,,,,17.7316960995,low, car,NA,No Target,Normal,No tone,-999
-2010_003490.jpg, horse,,,,,31.5148858229,high, horse,NA,No Target,Normal,No tone,-999
-2010_003579.jpg, chair, cat,,,,29.798629152,high, cat,NA,No Target,Critical,tone1,918
-2010_003724.jpg, person, bird,,,,29.6573899693,high, bird,NA,No Target,Normal,No tone,-999
-2010_003729.jpg, pottedplant, car, chair, bicycle, person,30.1332441128,high, pottedplant,NA,No Target,Normal,No tone,-999
-2010_003746.jpg, car, dog, person,,,21.0201592114,low, car,NA,No Target,Normal,No tone,-999
-2010_003861.jpg, pottedplant, person, chair, sofa, cat,29.7271295973,high, cat,NA,No Target,Normal,No tone,-999
-2010_003890.jpg, horse,,,,,19.8038988384,low, horse,NA,No Target,Normal,No tone,-999
-2010_003911.jpg, boat,,,,,20.084302537,low, boat,NA,No Target,Critical,tone2,210
-2010_003943.jpg, cat,,,,,31.1935707888,high, cat, horse,Target Absent,Normal,No tone,-999
-2010_004014.jpg, car,,,,,18.5979816817,low, car,NA,No Target,Normal,No tone,-999
-2010_004145.jpg, horse,,,,,18.5904564306,low, horse,NA,No Target,Normal,No tone,-999
-2010_004175.jpg, cat,,,,,10.2366357609,low, cat,NA,No Target,Normal,No tone,-999
-2010_004223.jpg, person, chair,,,,16.6068065792,low, person,NA,No Target,Normal,No tone,-999
-2010_004231.jpg, chair, diningtable,,,,15.830708943,low, chair,NA,No Target,Normal,No tone,-999
-2010_004339.jpg, dog,,,,,18.0203679669,low, dog,NA,No Target,Normal,No tone,-999
-2010_004423.jpg, aeroplane,,,,,29.7396779561,high, aeroplane, aeroplane,Target Present,Normal,No tone,-999
-2010_004425.jpg, sofa, cat,,,,18.2884773419,low, sofa,NA,No Target,Normal,No tone,-999
-2010_004447.jpg, person, bottle, sofa,,,33.5611857847,high, bottle,NA,No Target,Normal,No tone,-999
-2010_004662.jpg, boat,,,,,21.1986204175,low, boat,NA,No Target,Normal,No tone,-999
-2010_004683.jpg, pottedplant, dog,,,,28.6636334752,high, pottedplant,NA,No Target,Normal,No tone,-999
-2010_004753.jpg, chair, cat,,,,16.654865888,low, chair,NA,No Target,Normal,No tone,-999
-2010_004763.jpg, chair,,,,,33.261768177,high, chair,NA,No Target,Normal,No tone,-999
-2010_004778.jpg, person, chair, diningtable, bottle,,30.060591862,high, bottle,NA,No Target,Normal,No tone,-999
-2010_004791.jpg, aeroplane,,,,,20.1207612432,low, aeroplane,NA,No Target,Normal,No tone,-999
-2010_005054.jpg, tvmonitor, sofa,,,,20.2162635229,low, sofa,NA,No Target,Normal,No tone,-999
-2010_005101.jpg, aeroplane,,,,,13.350033322,low, aeroplane,NA,No Target,Normal,No tone,-999
-2010_005106.jpg, person, aeroplane,,,,30.2429372093,high, aeroplane,NA,No Target,Normal,No tone,-999
-2010_005170.jpg, person, chair, diningtable, sofa,,30.9164667664,high, sofa,NA,No Target,Normal,No tone,-999
-2010_005217.jpg, bird,,,,,20.8217316307,low, bird, cat,Target Absent,Normal,No tone,-999
-2010_005257.jpg, cat,,,,,20.0415745672,low, cat,NA,No Target,Critical,tone2,276
-2010_005270.jpg, person, horse, dog,,,31.3724599987,high, horse,NA,No Target,Normal,No tone,-999
-2010_005391.jpg, dog,,,,,18.6088037047,low, dog,NA,No Target,Normal,No tone,-999
-2010_005437.jpg, car,,,,,20.4871667265,low, car,NA,No Target,Normal,No tone,-999
-2010_005542.jpg, car, bicycle, person,,,28.8744162441,high, person,NA,No Target,Normal,No tone,-999
-2010_005572.jpg, person, motorbike,,,,31.0768583136,high, person,NA,No Target,Normal,No tone,-999
-2010_005606.jpg, person, sofa, cat,,,29.5141897874,high, cat,NA,No Target,Normal,No tone,-999
-2010_005608.jpg, bird,,,,,29.2726546025,high, bird,NA,No Target,Normal,No tone,-999
-2010_005628.jpg, pottedplant, person, chair, dog,,34.0997901784,high, dog, chair,Target Absent,Normal,No tone,-999
-2010_005718.jpg, car, aeroplane,,,,32.2245207666,high, aeroplane,NA,No Target,Normal,No tone,-999
-2010_005780.jpg, boat,,,,,16.8463365792,low, boat,NA,No Target,Normal,No tone,-999
-2010_005785.jpg, car,,,,,16.1970358254,low, car,NA,No Target,Normal,No tone,-999
-2010_005885.jpg, dog,,,,,20.0746861318,low, dog,NA,No Target,Normal,No tone,-999
-2010_005894.jpg, chair,,,,,29.0279583591,high, chair,NA,No Target,Normal,No tone,-999
-2010_005996.jpg, pottedplant, person, train,,,29.106006376,high, pottedplant,NA,No Target,Normal,No tone,-999
-2010_006023.jpg, aeroplane,,,,,12.5365727841,low, aeroplane, sofa,Target Absent,Normal,No tone,-999
-2010_006033.jpg, car,,,,,32.9773958833,high, car,NA,No Target,Normal,No tone,-999
-2011_000070.jpg, sofa,,,,,16.9008566968,low, sofa,NA,No Target,Normal,No tone,-999
-2011_000224.jpg, sofa,,,,,17.3166460371,low, sofa,NA,No Target,Normal,No tone,-999
-2011_000282.jpg, person, chair, bottle, diningtable,,35.1348565128,high, bottle,NA,No Target,Normal,No tone,-999
-2011_000293.jpg, car,,,,,9.15639028616,low, car,NA,No Target,Normal,No tone,-999
-2011_000434.jpg, sofa, person, tvmonitor,,,31.1492564165,high, sofa, pottedplant,Target Absent,Normal,No tone,-999
-2011_000481.jpg, aeroplane,,,,,15.7594920665,low, aeroplane,NA,No Target,Normal,No tone,-999
-2011_000499.jpg, tvmonitor, chair, sofa,,,30.4579578004,high, sofa,NA,No Target,Normal,No tone,-999
-2011_000514.jpg, pottedplant,,,,,18.0315374494,low, pottedplant,NA,No Target,Normal,No tone,-999
-2011_000530.jpg, pottedplant, sofa, chair, diningtable,,29.8068196257,high, sofa,NA,No Target,Normal,No tone,-999
-2011_000548.jpg, bird, cow,,,,30.9612210041,high, bird, bird,Target Present,Normal,No tone,-999
-2011_000628.jpg, person, horse,,,,31.3105999235,high, horse,NA,No Target,Normal,No tone,-999
-2011_000631.jpg, boat,,,,,37.7062015995,high, boat,NA,No Target,Normal,No tone,-999
-2011_000661.jpg, chair, cat,,,,19.7971714164,low, cat,NA,No Target,Normal,No tone,-999
-2011_000824.jpg, cat,,,,,31.7798588195,high, cat, person,Target Absent,Normal,No tone,-999
-2011_001001.jpg, person, bird, boat,,,31.9134097386,high, bird,NA,No Target,Normal,No tone,-999
-2011_001005.jpg, pottedplant, sofa,,,,18.9677226722,low, pottedplant, horse,Target Absent,Normal,No tone,-999
-2011_001025.jpg, pottedplant, person, bicycle, car,,33.3671527498,high, pottedplant,NA,No Target,Normal,No tone,-999
-2011_001116.jpg, person, cat,,,,29.7785441827,high, cat,NA,No Target,Normal,No tone,-999
-2011_001139.jpg, chair, bird, diningtable,,,29.3617557203,high, bird, bird,Target Present,Normal,No tone,-999
-2011_001198.jpg, sofa, dog,,,,16.6984985954,low, sofa,NA,No Target,Normal,No tone,-999
-2011_001221.jpg, pottedplant, person, chair, diningtable, boat,35.3836335373,high, pottedplant,NA,No Target,Normal,No tone,-999
-2011_001304.jpg, tvmonitor, chair, sofa,,,37.2238158045,high, sofa,NA,No Target,Normal,No tone,-999
-2011_001335.jpg, person, horse,,,,33.3349724687,high, horse,NA,No Target,Normal,No tone,-999
-2011_001382.jpg, pottedplant, person, diningtable, bottle,,28.9395133114,high, pottedplant,NA,No Target,Normal,No tone,-999
-2011_001432.jpg, bird,,,,,19.7355923527,low, bird, bottle,Target Absent,Normal,No tone,-999
-2011_001440.jpg, pottedplant, sofa,,,,31.6245238408,high, pottedplant,NA,No Target,Normal,No tone,-999
-2011_001591.jpg, person, boat,,,,17.698167132,low, boat,NA,No Target,Normal,No tone,-999
-2011_001605.jpg, pottedplant, person, motorbike,,,34.4160054333,high, pottedplant, pottedplant,Target Present,Normal,No tone,-999
-2011_001611.jpg, pottedplant,,,,,20.3935266021,low, pottedplant,NA,No Target,Normal,No tone,-999
-2011_001613.jpg, person, boat,,,,17.5169414787,low, boat,NA,No Target,Normal,No tone,-999
-2011_001624.jpg, aeroplane,,,,,20.5598624568,low, aeroplane, aeroplane,Target Present,Normal,No tone,-999
-2011_001649.jpg, person, chair,,,,34.7071708095,high, chair, chair,Target Present,Normal,No tone,-999
-2011_001656.jpg, horse,,,,,19.1565474203,low, horse,NA,No Target,Normal,No tone,-999
-2011_001800.jpg, person, aeroplane,,,,30.9530432899,high, aeroplane,NA,No Target,Normal,No tone,-999
-2011_001834.jpg, chair,,,,,13.7274387367,low, chair,NA,No Target,Normal,No tone,-999
-2011_001880.jpg, aeroplane,,,,,32.2027640207,high, aeroplane,NA,No Target,Normal,No tone,-999
-2011_001886.jpg, boat,,,,,19.6857522998,low, boat,NA,No Target,Normal,No tone,-999
-2011_001944.jpg, dog,,,,,31.7281700631,high, dog,NA,No Target,Normal,No tone,-999
-2011_001959.jpg, bird,,,,,9.57686770874,low, bird,NA,No Target,Normal,No tone,-999
-2011_001967.jpg, bird,,,,,13.9084482241,low, bird,NA,No Target,Normal,No tone,-999
-2011_001991.jpg, boat,,,,,34.0471469053,high, boat, boat,Target Present,Normal,No tone,-999
-2011_002050.jpg, boat,,,,,17.3315580807,low, boat,NA,No Target,Normal,No tone,-999
-2011_002098.jpg, dog, bottle,,,,41.9971447032,high, dog,NA,No Target,Critical,tone1,62
-2011_002193.jpg, person, aeroplane,,,,30.1828857165,high, person,NA,No Target,Normal,No tone,-999
-2011_002241.jpg, chair, diningtable,,,,18.1178027951,low, chair,NA,No Target,Normal,No tone,-999
-2011_002260.jpg, chair,,,,,30.0969203584,high, chair,NA,No Target,Normal,No tone,-999
-2011_002303.jpg, car, person,,,,20.6957146074,low, car,NA,No Target,Normal,No tone,-999
-2011_002453.jpg, pottedplant,,,,,19.2497613741,low, pottedplant,NA,No Target,Normal,No tone,-999
-2011_002482.jpg, person, bottle,,,,30.9368792786,high, person,NA,No Target,Normal,No tone,-999
-2011_002509.jpg, person, chair, tvmonitor,,,28.894989564,high, chair,NA,No Target,Normal,No tone,-999
-2011_002555.jpg, person, horse,,,,29.265462465,high, horse,NA,No Target,Normal,No tone,-999
-2011_002558.jpg, person, boat,,,,16.146154778,low, boat,NA,No Target,Normal,No tone,-999
-2011_002582.jpg, bird,,,,,19.2391461352,low, bird,NA,No Target,Normal,No tone,-999
-2011_002641.jpg, person, chair, bottle,,,33.3811153835,high, chair,NA,No Target,Normal,No tone,-999
-2011_002810.jpg, pottedplant, tvmonitor, chair, sofa,,35.6366042017,high, pottedplant,NA,No Target,Normal,No tone,-999
-2011_002814.jpg, sofa, bottle, pottedplant, tvmonitor, chair,33.9377756239,high, pottedplant,NA,No Target,Normal,No tone,-999
-2011_002911.jpg, bottle, dog, diningtable,,,21.0346469109,low, bottle, bottle,Target Present,Normal,No tone,-999
-2011_002971.jpg, sofa, chair, person,,,36.4437919266,high, sofa,NA,No Target,Normal,No tone,-999
-2011_003066.jpg, person, chair, diningtable, bottle,,33.7345291168,high, chair,NA,No Target,Normal,No tone,-999
-2011_003074.jpg, chair,,,,,20.5088814639,low, chair,NA,No Target,Critical,tone2,595
-2011_003145.jpg, bird,,,,,17.4970699875,low, bird,NA,No Target,Normal,No tone,-999
+,Cat.1,Cat.2,Cat.3,Cat.4,Cat.5,TS,Load,exemplar,question,present_absent,trial_type,tone_Hz,tone_onset,image_name,block
+1, bird,,,,,21.229485108,low, bird,NA,No Target,Normal,No tone,-999,2008_001495.jpg,1
+2, pottedplant,,,,,11.902212339,low, pottedplant, aeroplane,Target Absent,Critical,tone2,880,2010_000750.jpg,1
+3, person, car,,,,18.3908783393,low, car,NA,No Target,Normal,No tone,-999,2008_000189.jpg,1
+4, person, bicycle,,,,18.2377682365,low, person,NA,No Target,Normal,No tone,-999,2008_005978.jpg,1
+5, person, bottle,,,,17.2428434908,low, bottle, bottle,Target Present,Normal,No tone,-999,2008_005869.jpg,1
+6, aeroplane,,,,,12.5365727841,low, aeroplane,NA,No Target,Normal,No tone,-999,2010_006023.jpg,1
+7, person, bottle,,,,19.8690992474,low, bottle,NA,No Target,Normal,No tone,-999,2008_004814.jpg,1
+8, chair, cat,,,,19.7971714164,low, cat, cat,Target Present,Normal,No tone,-999,2011_000661.jpg,1
+9, aeroplane,,,,,20.1207612432,low, aeroplane,NA,No Target,Normal,No tone,-999,2010_004791.jpg,1
+10, dog,,,,,19.5706622561,low, dog,NA,No Target,Normal,No tone,-999,2008_005123.jpg,1
+11, person,,,,,19.6758269441,low, person,NA,No Target,Normal,No tone,-999,2008_001205.jpg,1
+12, person, horse,,,,19.1875460742,low, person,NA,No Target,Normal,No tone,-999,2008_000119.jpg,1
+13, horse,,,,,13.8796340974,low, horse,NA,No Target,Normal,No tone,-999,2008_004624.jpg,1
+14, cat,,,,,20.6060855378,low, cat, horse,Target Absent,Normal,No tone,-999,2008_007842.jpg,1
+15, sofa, dog,,,,20.9340596821,low, sofa,NA,No Target,Normal,No tone,-999,2009_000189.jpg,1
+16, person, boat,,,,17.9977484701,low, boat,NA,No Target,Normal,No tone,-999,2010_002498.jpg,1
+17, car,,,,,17.7316960995,low, car,NA,No Target,Normal,No tone,-999,2010_003453.jpg,1
+18, car,,,,,19.4531673546,low, car,NA,No Target,Normal,No tone,-999,2008_000105.jpg,1
+19, dog,,,,,19.8900886516,low, dog,NA,No Target,Normal,No tone,-999,2008_005728.jpg,1
+20, aeroplane,,,,,20.2722047516,low, aeroplane, car,Target Absent,Normal,No tone,-999,2009_005075.jpg,1
+21, chair, diningtable,,,,20.017308323,low, chair,NA,No Target,Normal,No tone,-999,2008_007048.jpg,1
+22, aeroplane,,,,,15.7319627222,low, aeroplane,NA,No Target,Normal,No tone,-999,2008_003369.jpg,1
+23, bird,,,,,9.57686770874,low, bird,NA,No Target,Normal,No tone,-999,2011_001959.jpg,1
+24, horse,,,,,18.5904564306,low, horse,NA,No Target,Normal,No tone,-999,2010_004145.jpg,1
+25, aeroplane,,,,,13.513291905,low, aeroplane, aeroplane,Target Present,Normal,No tone,-999,2008_006564.jpg,1
+26, car,,,,,19.4399393846,low, car,NA,No Target,Normal,No tone,-999,2008_002704.jpg,1
+27, pottedplant,,,,,19.252734908,low, pottedplant, dog,Target Absent,Critical,tone1,857,2010_003101.jpg,1
+28, horse,,,,,18.4142557544,low, horse,NA,No Target,Normal,No tone,-999,2008_001542.jpg,1
+29, bird,,,,,18.0156688875,low, bird,NA,No Target,Normal,No tone,-999,2008_005903.jpg,1
+30, bird,,,,,20.7578853634,low, bird,NA,No Target,Normal,No tone,-999,2009_003993.jpg,1
+31, person, boat,,,,17.5169414787,low, boat,NA,No Target,Normal,No tone,-999,2011_001613.jpg,1
+32, sofa,,,,,19.8923896955,low, sofa,NA,No Target,Normal,No tone,-999,2009_000087.jpg,1
+33, person, dog,,,,20.1660203933,low, person,NA,No Target,Normal,No tone,-999,2008_002116.jpg,1
+34, horse,,,,,19.789006071,low, horse, boat,Target Absent,Critical,tone1,24,2009_002697.jpg,1
+35, person, sofa,,,,20.7078777754,low, sofa,NA,No Target,Normal,No tone,-999,2008_000972.jpg,1
+36, chair, diningtable,,,,15.830708943,low, chair,NA,No Target,Normal,No tone,-999,2010_004231.jpg,1
+37, cat,,,,,18.1350968389,low, cat,NA,No Target,Normal,No tone,-999,2010_000616.jpg,1
+38, aeroplane,,,,,14.3418947369,low, aeroplane,NA,No Target,Normal,No tone,-999,2010_000229.jpg,1
+39, bird,,,,,19.3050304781,low, bird,NA,No Target,Normal,No tone,-999,2009_000619.jpg,1
+40, dog,,,,,18.0203679669,low, dog, dog,Target Present,Normal,No tone,-999,2010_004339.jpg,1
+41, cat,,,,,16.6565997701,low, cat,NA,No Target,Normal,No tone,-999,2009_004598.jpg,1
+42, aeroplane,,,,,15.7594920665,low, aeroplane,NA,No Target,Normal,No tone,-999,2011_000481.jpg,1
+43, person, boat,,,,16.6512424605,low, boat,NA,No Target,Normal,No tone,-999,2009_004888.jpg,1
+44, person,,,,,21.0513732912,low, person,NA,No Target,Normal,No tone,-999,2008_002700.jpg,1
+45, boat,,,,,20.0747158726,low, boat,NA,No Target,Normal,No tone,-999,2009_003084.jpg,1
+46, aeroplane,,,,,13.4403667656,low, aeroplane,NA,No Target,Normal,No tone,-999,2008_003876.jpg,1
+47, dog,,,,,13.4112210534,low, dog,NA,No Target,Normal,No tone,-999,2008_001479.jpg,1
+48, person, horse,,,,20.5294514772,low, person,NA,No Target,Normal,No tone,-999,2009_003530.jpg,1
+49, car,,,,,18.8741562324,low, car,NA,No Target,Normal,No tone,-999,2009_001782.jpg,1
+50, chair, dog,,,,13.8367101522,low, chair,NA,No Target,Normal,No tone,-999,2010_000090.jpg,1
+51, car, dog, person,,,21.0201592114,low, car,NA,No Target,Normal,No tone,-999,2010_003746.jpg,1
+52, dog,,,,,17.1025902592,low, dog,NA,No Target,Normal,No tone,-999,2009_001568.jpg,1
+53, car, person,,,,21.0529768239,low, car,NA,No Target,Normal,No tone,-999,2010_001993.jpg,1
+54, chair,,,,,9.95536840071,low, chair,NA,No Target,Normal,No tone,-999,2010_001731.jpg,1
+55, boat,,,,,19.2643376751,low, boat,NA,No Target,Normal,No tone,-999,2009_001723.jpg,1
+56, bird,,,,,12.4339897793,low, bird,NA,No Target,Normal,No tone,-999,2008_000123.jpg,1
+57, chair, cat,,,,17.570654058,low, chair,NA,No Target,Normal,No tone,-999,2008_000115.jpg,1
+58, boat,,,,,20.2100437036,low, boat,NA,No Target,Normal,No tone,-999,2008_001040.jpg,1
+59, dog,,,,,20.1944336287,low, dog,NA,No Target,Normal,No tone,-999,2009_002803.jpg,1
+60, cat,,,,,16.4561012422,low, cat,NA,No Target,Normal,No tone,-999,2008_000839.jpg,1
+61, bird, cow,,,,30.9612210041,high, bird,NA,No Target,Normal,No tone,-999,2011_000548.jpg,2
+62, pottedplant, person, bird,,,32.3259350459,high, bird,NA,No Target,Normal,No tone,-999,2008_001283.jpg,2
+63, pottedplant, sofa, chair, diningtable, tvmonitor,29.2474832664,high, pottedplant,NA,No Target,Normal,No tone,-999,2008_004661.jpg,2
+64, person, bird,,,,29.6573899693,high, bird,NA,No Target,Normal,No tone,-999,2010_003724.jpg,2
+65, person, diningtable, bottle,,,36.1560129636,high, bottle,NA,No Target,Normal,No tone,-999,2008_003635.jpg,2
+66, pottedplant, person, dog,,,30.0073743319,high, dog,NA,No Target,Critical,tone1,221,2008_002084.jpg,2
+67, aeroplane,,,,,29.7396779561,high, aeroplane,NA,No Target,Normal,No tone,-999,2010_004423.jpg,2
+68, boat,,,,,34.708650155,high, boat,NA,No Target,Normal,No tone,-999,2008_003449.jpg,2
+69, car,,,,,32.9773958833,high, car,NA,No Target,Normal,No tone,-999,2010_006033.jpg,2
+70, tvmonitor, chair,,,,34.7763437145,high, chair,NA,No Target,Normal,No tone,-999,2009_000629.jpg,2
+71, chair,,,,,33.261768177,high, chair,NA,No Target,Normal,No tone,-999,2010_004763.jpg,2
+72, person, chair, motorbike,,,31.7742392699,high, chair, chair,Target Present,Normal,No tone,-999,2009_004849.jpg,2
+73, pottedplant, person, chair, diningtable,,37.7107190223,high, pottedplant,NA,No Target,Normal,No tone,-999,2008_000041.jpg,2
+74, horse,,,,,31.5148858229,high, horse, dog,Target Absent,Normal,No tone,-999,2010_003490.jpg,2
+75, person, horse,,,,30.1308980286,high, horse, dog,Target Absent,Normal,No tone,-999,2009_003338.jpg,2
+76, person, dog, car,,,33.0948850029,high, dog,NA,No Target,Normal,No tone,-999,2008_006844.jpg,2
+77, pottedplant, chair, diningtable,,,28.7663578445,high, chair, cat,Target Absent,Normal,No tone,-999,2008_007388.jpg,2
+78, chair, bird, diningtable,,,29.3617557203,high, bird, bird,Target Present,Normal,No tone,-999,2011_001139.jpg,2
+79, pottedplant, chair,,,,32.0542696763,high, pottedplant,NA,No Target,Normal,No tone,-999,2008_000274.jpg,2
+80, person, diningtable, bottle,,,33.4619040834,high, person,NA,No Target,Normal,No tone,-999,2008_000885.jpg,2
+81, boat,,,,,34.9675277341,high, boat,NA,No Target,Normal,No tone,-999,2010_002620.jpg,2
+82, car, bicycle, motorbike, bus, person,30.2634494657,high, car,NA,No Target,Normal,No tone,-999,2008_008097.jpg,2
+83, pottedplant, person, diningtable, bottle,,28.9395133114,high, pottedplant,NA,No Target,Critical,tone1,462,2011_001382.jpg,2
+84, car, train,,,,30.2088428522,high, car,NA,No Target,Normal,No tone,-999,2008_008681.jpg,2
+85, sofa, person,,,,31.0518683449,high, sofa,NA,No Target,Normal,No tone,-999,2008_007091.jpg,2
+86, dog,,,,,40.7731212751,high, dog,NA,No Target,Normal,No tone,-999,2008_007057.jpg,2
+87, car,,,,,29.2704648354,high, car,NA,No Target,Normal,No tone,-999,2009_005133.jpg,2
+88, person, boat,,,,29.0064574566,high, person,NA,No Target,Normal,No tone,-999,2008_003081.jpg,2
+89, boat,,,,,34.0471469053,high, boat,NA,No Target,Normal,No tone,-999,2011_001991.jpg,2
+90, dog,,,,,28.9618169808,high, dog,NA,No Target,Normal,No tone,-999,2008_005845.jpg,2
+91, car, bicycle, motorbike,,,29.678013923,high, car,NA,No Target,Normal,No tone,-999,2009_003802.jpg,2
+92, dog,,,,,31.7281700631,high, dog,NA,No Target,Normal,No tone,-999,2011_001944.jpg,2
+93, car, dog, person,,,29.7635521346,high, person,NA,No Target,Critical,tone1,315,2008_003755.jpg,2
+94, boat,,,,,29.9571992215,high, boat,NA,No Target,Normal,No tone,-999,2008_003701.jpg,2
+95, bird,,,,,33.6473980056,high, bird,NA,No Target,Normal,No tone,-999,2008_007423.jpg,2
+96, person, horse,,,,34.5575771686,high, horse,NA,No Target,Normal,No tone,-999,2010_002183.jpg,2
+97, person, bicycle, boat,,,34.3190516078,high, boat,NA,No Target,Normal,No tone,-999,2008_000191.jpg,2
+98, tvmonitor, diningtable, cat,,,29.8429225027,high, cat,NA,No Target,Normal,No tone,-999,2010_001939.jpg,2
+99, aeroplane,,,,,29.2018694612,high, aeroplane, aeroplane,Target Present,Normal,No tone,-999,2008_005750.jpg,2
+100, person, dog,,,,32.9593902214,high, dog, bottle,Target Absent,Normal,No tone,-999,2008_007745.jpg,2
+101, person, bottle,,,,30.9368792786,high, person,NA,No Target,Normal,No tone,-999,2011_002482.jpg,2
+102, boat,,,,,30.0652663955,high, boat,NA,No Target,Normal,No tone,-999,2009_002306.jpg,2
+103, sofa, chair, person,,,34.561608236,high, person,NA,No Target,Normal,No tone,-999,2008_000704.jpg,2
+104, chair, cat,,,,29.798629152,high, cat, cat,Target Present,Normal,No tone,-999,2010_003579.jpg,2
+105, car, bicycle, person,,,30.4769290976,high, car,NA,No Target,Normal,No tone,-999,2008_004858.jpg,2
+106, car,,,,,30.3940484458,high, car,NA,No Target,Normal,No tone,-999,2008_002672.jpg,2
+107, person, cat,,,,30.2265163794,high, cat,NA,No Target,Normal,No tone,-999,2008_005600.jpg,2
+108, cat,,,,,29.2469761744,high, cat,NA,No Target,Normal,No tone,-999,2008_001210.jpg,2
+109, person, aeroplane,,,,30.073041629,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_007970.jpg,2
+110, person, motorbike,,,,31.0768583136,high, person,NA,No Target,Normal,No tone,-999,2010_005572.jpg,2
+111, pottedplant, person, chair, diningtable,,31.5206876139,high, pottedplant, pottedplant,Target Present,Normal,No tone,-999,2008_005519.jpg,2
+112, person,,,,,30.7488856549,high, person,NA,No Target,Normal,No tone,-999,2008_000984.jpg,2
+113, chair, bottle,,,,35.9250648934,high, chair,NA,No Target,Normal,No tone,-999,2008_004487.jpg,2
+114, car, aeroplane,,,,32.2245207666,high, aeroplane,NA,No Target,Normal,No tone,-999,2010_005718.jpg,2
+115, chair,,,,,30.0969203584,high, chair,NA,No Target,Normal,No tone,-999,2011_002260.jpg,2
+116, boat,,,,,37.7062015995,high, boat,NA,No Target,Normal,No tone,-999,2011_000631.jpg,2
+117, person, dog,,,,37.0063872622,high, dog,NA,No Target,Normal,No tone,-999,2008_004188.jpg,2
+118, bird,,,,,29.7427866823,high, bird,NA,No Target,Normal,No tone,-999,2009_002414.jpg,2
+119, cat,,,,,30.9540107157,high, cat,NA,No Target,Normal,No tone,-999,2009_000466.jpg,2
+120, pottedplant, person, bottle, diningtable,,36.6655828193,high, pottedplant,NA,No Target,Normal,No tone,-999,2009_004794.jpg,2
+121, pottedplant, sofa, chair, diningtable,,28.9684650575,high, sofa,NA,No Target,Normal,No tone,-999,2009_002571.jpg,3
+122, aeroplane,,,,,35.972960084,high, aeroplane, chair,Target Absent,Critical,tone2,966,2009_004414.jpg,3
+123, pottedplant, chair, diningtable,,,34.1778342477,high, pottedplant,NA,No Target,Normal,No tone,-999,2009_000760.jpg,3
+124, tvmonitor, bottle,,,,29.9937814283,high, bottle,NA,No Target,Normal,No tone,-999,2008_006062.jpg,3
+125, boat,,,,,28.7102843543,high, boat, boat,Target Present,Normal,No tone,-999,2009_005118.jpg,3
+126, tvmonitor, chair, sofa,,,37.2238158045,high, sofa,NA,No Target,Normal,No tone,-999,2011_001304.jpg,3
+127, person, aeroplane,,,,34.5441448216,high, aeroplane,NA,No Target,Normal,No tone,-999,2009_002001.jpg,3
+128, dog,,,,,29.7778405817,high, dog, dog,Target Present,Normal,No tone,-999,2010_002775.jpg,3
+129, pottedplant, person, chair, diningtable,,31.4876403732,high, pottedplant,NA,No Target,Normal,No tone,-999,2008_001451.jpg,3
+130, sofa, chair, bottle, person,,29.051766795,high, sofa,NA,No Target,Normal,No tone,-999,2008_001333.jpg,3
+131, dog,,,,,31.5378571257,high, dog,NA,No Target,Normal,No tone,-999,2008_003180.jpg,3
+132, pottedplant, person, bicycle, car,,33.3671527498,high, pottedplant,NA,No Target,Normal,No tone,-999,2011_001025.jpg,3
+133, bird,,,,,31.18243026,high, bird,NA,No Target,Normal,No tone,-999,2008_006461.jpg,3
+134, pottedplant, person, train,,,29.3234930732,high, person, sofa,Target Absent,Normal,No tone,-999,2008_000916.jpg,3
+135, bird,,,,,32.0650958555,high, bird,NA,No Target,Normal,No tone,-999,2008_000697.jpg,3
+136, bird,,,,,30.0688032828,high, bird,NA,No Target,Normal,No tone,-999,2008_004633.jpg,3
+137, tvmonitor, chair, bottle,,,32.179769175,high, bottle,NA,No Target,Normal,No tone,-999,2008_000495.jpg,3
+138, person, boat,,,,34.287988653,high, boat,NA,No Target,Normal,No tone,-999,2008_002887.jpg,3
+139, person, boat,,,,30.3841872714,high, boat,NA,No Target,Normal,No tone,-999,2008_006121.jpg,3
+140, aeroplane,,,,,32.2027640207,high, aeroplane, person,Target Absent,Normal,No tone,-999,2011_001880.jpg,3
+141, person, aeroplane,,,,30.9530432899,high, aeroplane,NA,No Target,Normal,No tone,-999,2011_001800.jpg,3
+142, person, sofa,,,,31.1244371666,high, sofa,NA,No Target,Normal,No tone,-999,2008_004459.jpg,3
+143, person, car,,,,28.8397417486,high, person,NA,No Target,Normal,No tone,-999,2008_005472.jpg,3
+144, pottedplant, sofa, chair, tvmonitor,,29.4645800956,high, pottedplant,NA,No Target,Normal,No tone,-999,2008_002119.jpg,3
+145, chair, bottle,,,,30.4248738873,high, chair, chair,Target Present,Normal,No tone,-999,2008_005347.jpg,3
+146, boat,,,,,30.8060891344,high, boat,NA,No Target,Normal,No tone,-999,2009_000120.jpg,3
+147, person, chair, diningtable, sofa,,30.9164667664,high, sofa, person,Target Absent,Critical,tone2,855,2010_005170.jpg,3
+148, person, bottle,,,,30.9580554561,high, bottle,NA,No Target,Normal,No tone,-999,2008_000705.jpg,3
+149, person, dog,,,,29.3544584936,high, dog,NA,No Target,Normal,No tone,-999,2009_000539.jpg,3
+150, person, horse,,,,30.92721034,high, horse,NA,No Target,Normal,No tone,-999,2008_003461.jpg,3
+151, boat,,,,,33.4946134203,high, boat,NA,No Target,Normal,No tone,-999,2008_007143.jpg,3
+152, person,,,,,35.696632302,high, person,NA,No Target,Normal,No tone,-999,2008_002725.jpg,3
+153, bird,,,,,29.8149203136,high, bird,NA,No Target,Normal,No tone,-999,2008_002350.jpg,3
+154, person, train, car,,,31.0268569889,high, car, boat,Target Absent,Critical,tone2,476,2010_000865.jpg,3
+155, person, sofa, cat,,,29.5141897874,high, cat,NA,No Target,Normal,No tone,-999,2010_005606.jpg,3
+156, pottedplant, person,,,,36.5957709735,high, pottedplant,NA,No Target,Normal,No tone,-999,2008_002897.jpg,3
+157, tvmonitor, chair,,,,32.3848141416,high, chair,NA,No Target,Normal,No tone,-999,2008_007527.jpg,3
+158, pottedplant, sofa, chair,,,31.427287996,high, sofa,NA,No Target,Normal,No tone,-999,2009_001021.jpg,3
+159, cat,,,,,31.7798588195,high, cat,NA,No Target,Normal,No tone,-999,2011_000824.jpg,3
+160, person, chair, cat,,,30.8788481424,high, cat, cat,Target Present,Normal,No tone,-999,2008_006863.jpg,3
+161, person, dog,,,,28.8389563542,high, dog,NA,No Target,Normal,No tone,-999,2008_001965.jpg,3
+162, person,,,,,29.6392963112,high, person,NA,No Target,Normal,No tone,-999,2009_000067.jpg,3
+163, person, dog,,,,30.6573416004,high, dog,NA,No Target,Normal,No tone,-999,2008_006870.jpg,3
+164, person, chair, diningtable, bottle,,33.7345291168,high, chair,NA,No Target,Normal,No tone,-999,2011_003066.jpg,3
+165, person, dog, sofa,,,29.9356183869,high, dog,NA,No Target,Normal,No tone,-999,2008_000270.jpg,3
+166, car,,,,,36.207394561,high, car,NA,No Target,Normal,No tone,-999,2008_000457.jpg,3
+167, chair, dog, diningtable,,,29.6114403428,high, dog,NA,No Target,Normal,No tone,-999,2008_007378.jpg,3
+168, person, diningtable, bottle,,,36.4140422377,high, bottle,NA,No Target,Normal,No tone,-999,2008_002736.jpg,3
+169, bird,,,,,30.5153527617,high, bird,NA,No Target,Normal,No tone,-999,2008_004690.jpg,3
+170, person, chair,,,,29.7799066144,high, chair,NA,No Target,Normal,No tone,-999,2008_000381.jpg,3
+171, cat,,,,,29.4014511321,high, cat,NA,No Target,Normal,No tone,-999,2008_000860.jpg,3
+172, person, motorbike,,,,32.1233073623,high, person,NA,No Target,Normal,No tone,-999,2008_002774.jpg,3
+173, car, cat,,,,33.4621847905,high, cat,NA,No Target,Normal,No tone,-999,2008_000619.jpg,3
+174, sofa, person,,,,35.9255718732,high, sofa,NA,No Target,Normal,No tone,-999,2008_000321.jpg,3
+175, pottedplant, chair,,,,34.9666280658,high, pottedplant,NA,No Target,Normal,No tone,-999,2009_000198.jpg,3
+176, dog, bottle,,,,41.9971447032,high, dog,NA,No Target,Normal,No tone,-999,2011_002098.jpg,3
+177, cat,,,,,32.6606639512,high, cat,NA,No Target,Normal,No tone,-999,2010_002472.jpg,3
+178, aeroplane, boat,,,,29.2873494446,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_002773.jpg,3
+179, person, horse, dog,,,31.3724599987,high, horse,NA,No Target,Normal,No tone,-999,2010_005270.jpg,3
+180, diningtable, person, chair, dog, bottle,36.0401214283,high, bottle,NA,No Target,Normal,No tone,-999,2008_007664.jpg,3
+181, person, boat,,,,16.146154778,low, boat,NA,No Target,Normal,No tone,-999,2011_002558.jpg,4
+182, person,,,,,20.358449022,low, person,NA,No Target,Normal,No tone,-999,2008_001367.jpg,4
+183, aeroplane,,,,,14.1064450151,low, aeroplane,NA,No Target,Normal,No tone,-999,2008_008359.jpg,4
+184, pottedplant,,,,,21.2558875475,low, pottedplant,NA,No Target,Normal,No tone,-999,2008_003767.jpg,4
+185, sofa, dog,,,,19.1888341854,low, sofa,NA,No Target,Normal,No tone,-999,2009_001470.jpg,4
+186, person,,,,,15.903696109,low, person,NA,No Target,Critical,tone2,223,2008_001098.jpg,4
+187, pottedplant,,,,,20.3954299443,low, pottedplant,NA,No Target,Normal,No tone,-999,2009_003679.jpg,4
+188, person, dog,,,,18.2814006101,low, dog,NA,No Target,Normal,No tone,-999,2010_001908.jpg,4
+189, bird,,,,,8.06283649278,low, bird,NA,No Target,Normal,No tone,-999,2008_004893.jpg,4
+190, dog, cat,,,,21.2476294604,low, dog,NA,No Target,Normal,No tone,-999,2008_001708.jpg,4
+191, horse,,,,,19.5981311751,low, horse,NA,No Target,Normal,No tone,-999,2008_000219.jpg,4
+192, bottle,,,,,20.9636430763,low, bottle, bottle,Target Present,Normal,No tone,-999,2009_002749.jpg,4
+193, car,,,,,21.1810107362,low, car,NA,No Target,Normal,No tone,-999,2009_000523.jpg,4
+194, sofa,,,,,15.7792493869,low, sofa, dog,Target Absent,Normal,No tone,-999,2008_003709.jpg,4
+195, pottedplant, sofa, chair,,,18.5118878018,low, pottedplant, sofa,Target Absent,Normal,No tone,-999,2008_001694.jpg,4
+196, cat,,,,,18.6869051047,low, cat,NA,No Target,Normal,No tone,-999,2008_005673.jpg,4
+197, dog,,,,,18.9815982303,low, dog, person,Target Absent,Normal,No tone,-999,2009_003209.jpg,4
+198, cat,,,,,10.2366357609,low, cat, cat,Target Present,Normal,No tone,-999,2010_004175.jpg,4
+199, car,,,,,16.1970358254,low, car,NA,No Target,Normal,No tone,-999,2010_005785.jpg,4
+200, person,,,,,20.1891503371,low, person,NA,No Target,Normal,No tone,-999,2008_000940.jpg,4
+201, person, boat,,,,19.9016168923,low, boat,NA,No Target,Normal,No tone,-999,2009_001406.jpg,4
+202, person, dog,,,,19.7933761126,low, person,NA,No Target,Normal,No tone,-999,2008_003587.jpg,4
+203, person, horse,,,,19.9123010153,low, horse,NA,No Target,Critical,tone2,264,2008_008395.jpg,4
+204, cat,,,,,18.6847182117,low, cat,NA,No Target,Normal,No tone,-999,2009_001305.jpg,4
+205, cat,,,,,20.5373535376,low, cat,NA,No Target,Normal,No tone,-999,2009_000716.jpg,4
+206, horse,,,,,18.7207285432,low, horse,NA,No Target,Normal,No tone,-999,2009_003686.jpg,4
+207, chair,,,,,13.7274387367,low, chair,NA,No Target,Normal,No tone,-999,2011_001834.jpg,4
+208, person, cat,,,,20.1398778052,low, person,NA,No Target,Normal,No tone,-999,2009_002439.jpg,4
+209, pottedplant,,,,,19.906276626,low, pottedplant,NA,No Target,Normal,No tone,-999,2010_000132.jpg,4
+210, bottle, cat,,,,21.2598297564,low, bottle,NA,No Target,Normal,No tone,-999,2008_000112.jpg,4
+211, dog,,,,,18.6088037047,low, dog,NA,No Target,Normal,No tone,-999,2010_005391.jpg,4
+212, bottle,,,,,20.465741195,low, bottle,NA,No Target,Normal,No tone,-999,2008_004607.jpg,4
+213, bird,,,,,20.8217316307,low, bird,NA,No Target,Critical,tone1,621,2010_005217.jpg,4
+214, dog,,,,,16.6933725717,low, dog,NA,No Target,Normal,No tone,-999,2008_007274.jpg,4
+215, pottedplant,,,,,17.7701583609,low, pottedplant,NA,No Target,Normal,No tone,-999,2009_005008.jpg,4
+216, person, sofa,,,,13.4141262808,low, sofa,NA,No Target,Normal,No tone,-999,2008_005490.jpg,4
+217, aeroplane,,,,,20.0884358457,low, aeroplane,NA,No Target,Normal,No tone,-999,2009_000260.jpg,4
+218, bottle, dog, diningtable,,,21.0346469109,low, bottle,NA,No Target,Normal,No tone,-999,2011_002911.jpg,4
+219, pottedplant, sofa,,,,18.9677226722,low, pottedplant, pottedplant,Target Present,Normal,No tone,-999,2011_001005.jpg,4
+220, aeroplane,,,,,18.0003618543,low, aeroplane, chair,Target Absent,Normal,No tone,-999,2009_002888.jpg,4
+221, pottedplant,,,,,17.4930239916,low, pottedplant,NA,No Target,Normal,No tone,-999,2009_001975.jpg,4
+222, person, horse,,,,20.3068353181,low, horse,NA,No Target,Normal,No tone,-999,2010_003280.jpg,4
+223, horse,,,,,19.2344013367,low, horse,NA,No Target,Normal,No tone,-999,2010_001829.jpg,4
+224, bird,,,,,19.2391461352,low, bird, bird,Target Present,Normal,No tone,-999,2011_002582.jpg,4
+225, pottedplant,,,,,20.3935266021,low, pottedplant,NA,No Target,Normal,No tone,-999,2011_001611.jpg,4
+226, bottle,,,,,17.8831347445,low, bottle,NA,No Target,Normal,No tone,-999,2010_000426.jpg,4
+227, person, bottle,,,,20.4237954738,low, bottle,NA,No Target,Normal,No tone,-999,2008_000398.jpg,4
+228, horse,,,,,19.1565474203,low, horse,NA,No Target,Normal,No tone,-999,2011_001656.jpg,4
+229, chair,,,,,20.1385595655,low, chair,NA,No Target,Normal,No tone,-999,2009_002374.jpg,4
+230, pottedplant,,,,,16.5204763708,low, pottedplant,NA,No Target,Normal,No tone,-999,2008_005345.jpg,4
+231, chair,,,,,19.6460660251,low, chair, chair,Target Present,Normal,No tone,-999,2008_000760.jpg,4
+232, bird,,,,,19.7061221398,low, bird,NA,No Target,Normal,No tone,-999,2010_000299.jpg,4
+233, bird,,,,,11.9577001946,low, bird,NA,No Target,Normal,No tone,-999,2008_006954.jpg,4
+234, dog,,,,,20.0746861318,low, dog,NA,No Target,Normal,No tone,-999,2010_005885.jpg,4
+235, cat,,,,,20.4638836895,low, cat,NA,No Target,Normal,No tone,-999,2008_001836.jpg,4
+236, sofa, cat,,,,18.2884773419,low, sofa,NA,No Target,Normal,No tone,-999,2010_004425.jpg,4
+237, pottedplant, person,,,,13.7867334636,low, pottedplant,NA,No Target,Normal,No tone,-999,2009_001137.jpg,4
+238, sofa, dog,,,,21.0012272781,low, sofa,NA,No Target,Normal,No tone,-999,2008_001238.jpg,4
+239, boat,,,,,16.5803743378,low, boat,NA,No Target,Normal,No tone,-999,2008_004907.jpg,4
+240, person, dog,,,,20.7128987687,low, dog,NA,No Target,Normal,No tone,-999,2008_005046.jpg,4
+241, person, bottle, pottedplant, tvmonitor, chair,31.6763857137,high, bottle,NA,No Target,Normal,No tone,-999,2010_002742.jpg,5
+242, bus, person, car,,,31.1679369698,high, car,NA,No Target,Normal,No tone,-999,2008_005878.jpg,5
+243, person, horse,,,,30.5304897751,high, horse,NA,No Target,Normal,No tone,-999,2009_000565.jpg,5
+244, car, aeroplane,,,,37.9375516575,high, aeroplane,NA,No Target,Normal,No tone,-999,2009_001321.jpg,5
+245, bird,,,,,31.8921255067,high, bird,NA,No Target,Normal,No tone,-999,2008_007250.jpg,5
+246, pottedplant, bicycle, bottle, cat,,35.3537844299,high, cat, bird,Target Absent,Normal,No tone,-999,2008_000196.jpg,5
+247, person, horse,,,,29.265462465,high, horse,NA,No Target,Normal,No tone,-999,2011_002555.jpg,5
+248, pottedplant, tvmonitor, cat,,,31.6704471984,high, cat,NA,No Target,Critical,tone1,247,2009_000488.jpg,5
+249, bird, boat,,,,29.314233598,high, bird,NA,No Target,Normal,No tone,-999,2008_006481.jpg,5
+250, person, horse,,,,33.3349724687,high, horse,NA,No Target,Normal,No tone,-999,2011_001335.jpg,5
+251, car, bicycle, person,,,28.8744162441,high, person,NA,No Target,Normal,No tone,-999,2010_005542.jpg,5
+252, person, horse,,,,33.9683529801,high, horse,NA,No Target,Normal,No tone,-999,2008_008500.jpg,5
+253, person, aeroplane,,,,30.2429372093,high, aeroplane,NA,No Target,Normal,No tone,-999,2010_005106.jpg,5
+254, person, horse,,,,30.1417630616,high, horse,NA,No Target,Normal,No tone,-999,2009_002750.jpg,5
+255, car, aeroplane,,,,35.8721794079,high, aeroplane, horse,Target Absent,Normal,No tone,-999,2008_000251.jpg,5
+256, person, chair, diningtable, bottle,,30.060591862,high, bottle,NA,No Target,Normal,No tone,-999,2010_004778.jpg,5
+257, person, chair,,,,33.312072728,high, chair,NA,No Target,Normal,No tone,-999,2008_002758.jpg,5
+258, boat,,,,,29.6080027553,high, boat, aeroplane,Target Absent,Normal,No tone,-999,2009_002897.jpg,5
+259, bus, car,,,,39.1163173722,high, car,NA,No Target,Normal,No tone,-999,2010_001118.jpg,5
+260, chair, diningtable,,,,28.7286362612,high, chair,NA,No Target,Normal,No tone,-999,2009_003884.jpg,5
+261, person, aeroplane,,,,31.8858778004,high, aeroplane,NA,No Target,Critical,tone2,717,2008_006216.jpg,5
+262, person, bottle, sofa,,,33.5611857847,high, bottle,NA,No Target,Normal,No tone,-999,2010_004447.jpg,5
+263, chair,,,,,29.0279583591,high, chair,NA,No Target,Normal,No tone,-999,2010_005894.jpg,5
+264, person, chair, diningtable, bottle,,33.8235501143,high, chair,NA,No Target,Normal,No tone,-999,2008_002789.jpg,5
+265, pottedplant, car, chair, bicycle, person,30.1332441128,high, pottedplant,NA,No Target,Normal,No tone,-999,2010_003729.jpg,5
+266, person, horse,,,,32.4805318568,high, horse,NA,No Target,Normal,No tone,-999,2008_001278.jpg,5
+267, pottedplant, car,,,,30.6126931776,high, car,NA,No Target,Normal,No tone,-999,2008_000488.jpg,5
+268, horse,,,,,29.2812375074,high, horse, car,Target Absent,Normal,No tone,-999,2008_005702.jpg,5
+269, person, cat,,,,32.265109083,high, cat,NA,No Target,Normal,No tone,-999,2008_007913.jpg,5
+270, car, person,,,,29.0083590163,high, car,NA,No Target,Normal,No tone,-999,2009_000021.jpg,5
+271, person, bottle,,,,28.9165153697,high, bottle,NA,No Target,Normal,No tone,-999,2008_004991.jpg,5
+272, aeroplane,,,,,32.0206899074,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_008607.jpg,5
+273, person, aeroplane,,,,32.0149735503,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_004646.jpg,5
+274, person, chair, diningtable, bottle,,29.6229142798,high, bottle, bottle,Target Present,Normal,No tone,-999,2009_004154.jpg,5
+275, pottedplant, person, chair, sofa, cat,29.7271295973,high, cat,NA,No Target,Normal,No tone,-999,2010_003861.jpg,5
+276, person, chair, diningtable, bottle,,33.4787504727,high, bottle,NA,No Target,Normal,No tone,-999,2010_001682.jpg,5
+277, pottedplant, sofa,,,,31.6245238408,high, pottedplant,NA,No Target,Normal,No tone,-999,2011_001440.jpg,5
+278, person, chair, tvmonitor,,,28.894989564,high, chair,NA,No Target,Normal,No tone,-999,2011_002509.jpg,5
+279, tvmonitor, chair, sofa,,,29.8220330038,high, sofa,NA,No Target,Normal,No tone,-999,2008_000093.jpg,5
+280, person, dog,,,,32.1424271349,high, dog, horse,Target Absent,Normal,No tone,-999,2010_000074.jpg,5
+281, sofa, chair, person,,,36.4437919266,high, sofa,NA,No Target,Normal,No tone,-999,2011_002971.jpg,5
+282, person, diningtable, bottle,,,36.4850555133,high, bottle, bottle,Target Present,Normal,No tone,-999,2008_002864.jpg,5
+283, pottedplant, sofa,,,,29.0424888681,high, sofa,NA,No Target,Normal,No tone,-999,2009_004283.jpg,5
+284, person, chair,,,,37.0529117102,high, person,NA,No Target,Normal,No tone,-999,2010_002603.jpg,5
+285, person, diningtable, bottle,,,38.9726423889,high, bottle,NA,No Target,Normal,No tone,-999,2010_001645.jpg,5
+286, person, aeroplane,,,,31.070624342,high, aeroplane, aeroplane,Target Present,Normal,No tone,-999,2008_003575.jpg,5
+287, pottedplant, person, train,,,29.106006376,high, pottedplant,NA,No Target,Normal,No tone,-999,2010_005996.jpg,5
+288, pottedplant, person, chair, diningtable, boat,35.3836335373,high, pottedplant, pottedplant,Target Present,Normal,No tone,-999,2011_001221.jpg,5
+289, pottedplant, sofa, chair, diningtable,,29.8068196257,high, sofa,NA,No Target,Normal,No tone,-999,2011_000530.jpg,5
+290, person, cat,,,,29.7785441827,high, cat,NA,No Target,Normal,No tone,-999,2011_001116.jpg,5
+291, person, bicycle, car,,,30.8916722198,high, person,NA,No Target,Normal,No tone,-999,2008_004482.jpg,5
+292, bus, boat, car,,,34.4039146201,high, boat,NA,No Target,Normal,No tone,-999,2008_005720.jpg,5
+293, person,,,,,39.7941102261,high, person,NA,No Target,Normal,No tone,-999,2008_003193.jpg,5
+294, person, aeroplane,,,,28.9954166074,high, aeroplane,NA,No Target,Normal,No tone,-999,2009_001345.jpg,5
+295, bird,,,,,29.176311485,high, bird,NA,No Target,Critical,tone1,39,2008_000192.jpg,5
+296, person, train, sofa,,,31.6511564428,high, sofa,NA,No Target,Normal,No tone,-999,2010_001586.jpg,5
+297, tvmonitor, chair, sofa,,,30.4579578004,high, sofa,NA,No Target,Normal,No tone,-999,2011_000499.jpg,5
+298, person, chair, bottle,,,33.3811153835,high, chair,NA,No Target,Normal,No tone,-999,2011_002641.jpg,5
+299, car, bus, person,,,31.3051357692,high, car,NA,No Target,Normal,No tone,-999,2008_004614.jpg,5
+300, person, aeroplane,,,,30.4803617566,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_002195.jpg,5
+301, sofa, person,,,,20.9832980594,low, sofa,NA,No Target,Normal,No tone,-999,2008_004269.jpg,6
+302, person, chair, diningtable,,,20.5612790093,low, chair,NA,No Target,Normal,No tone,-999,2010_001907.jpg,6
+303, boat,,,,,20.1314110865,low, boat,NA,No Target,Normal,No tone,-999,2010_002393.jpg,6
+304, sofa, tvmonitor,,,,15.5740471892,low, sofa,NA,No Target,Normal,No tone,-999,2009_003373.jpg,6
+305, horse,,,,,19.2079563963,low, horse,NA,No Target,Normal,No tone,-999,2008_008533.jpg,6
+306, person, boat,,,,18.6424504286,low, person, person,Target Present,Normal,No tone,-999,2008_008083.jpg,6
+307, dog,,,,,17.1900446482,low, dog,NA,No Target,Normal,No tone,-999,2008_002904.jpg,6
+308, sofa, dog,,,,16.1425626209,low, dog,NA,No Target,Normal,No tone,-999,2009_001774.jpg,6
+309, chair, diningtable,,,,18.1178027951,low, chair, car,Target Absent,Normal,No tone,-999,2011_002241.jpg,6
+310, cat,,,,,12.7290334447,low, cat, bird,Target Absent,Normal,No tone,-999,2009_004225.jpg,6
+311, sofa, dog,,,,16.6984985954,low, sofa,NA,No Target,Normal,No tone,-999,2011_001198.jpg,6
+312, cat,,,,,14.1274696186,low, cat,NA,No Target,Normal,No tone,-999,2008_002899.jpg,6
+313, cat,,,,,19.0962523457,low, cat,NA,No Target,Critical,tone1,690,2009_004779.jpg,6
+314, bottle,,,,,20.9657753219,low, bottle,NA,No Target,Normal,No tone,-999,2010_003329.jpg,6
+315, aeroplane,,,,,17.3506654694,low, aeroplane,NA,No Target,Normal,No tone,-999,2008_008263.jpg,6
+316, bottle,,,,,19.0962373595,low, bottle,NA,No Target,Critical,tone1,455,2009_002594.jpg,6
+317, pottedplant,,,,,20.5841625672,low, pottedplant,NA,No Target,Normal,No tone,-999,2008_004171.jpg,6
+318, person,,,,,18.7165290052,low, person,NA,No Target,Normal,No tone,-999,2008_006998.jpg,6
+319, horse,,,,,20.8855839237,low, horse,NA,No Target,Normal,No tone,-999,2010_000613.jpg,6
+320, bird,,,,,13.6444177899,low, bird,NA,No Target,Normal,No tone,-999,2009_002604.jpg,6
+321, boat,,,,,16.8629662116,low, boat,NA,No Target,Normal,No tone,-999,2010_001691.jpg,6
+322, person,,,,,18.1390531514,low, person,NA,No Target,Normal,No tone,-999,2008_001221.jpg,6
+323, aeroplane,,,,,20.5598624568,low, aeroplane,NA,No Target,Normal,No tone,-999,2011_001624.jpg,6
+324, boat,,,,,19.2535195999,low, boat,NA,No Target,Normal,No tone,-999,2009_000919.jpg,6
+325, chair, diningtable,,,,20.7351456906,low, chair,NA,No Target,Normal,No tone,-999,2010_001271.jpg,6
+326, pottedplant,,,,,19.895720118,low, pottedplant,NA,No Target,Critical,tone2,176,2010_002379.jpg,6
+327, car, person,,,,20.6957146074,low, car,NA,No Target,Normal,No tone,-999,2011_002303.jpg,6
+328, pottedplant,,,,,19.3213088734,low, pottedplant,NA,No Target,Normal,No tone,-999,2008_008331.jpg,6
+329, car,,,,,9.15639028616,low, car,NA,No Target,Normal,No tone,-999,2011_000293.jpg,6
+330, tvmonitor, sofa,,,,20.2162635229,low, sofa,NA,No Target,Normal,No tone,-999,2010_005054.jpg,6
+331, bottle,,,,,15.7136248334,low, bottle,NA,No Target,Normal,No tone,-999,2009_005044.jpg,6
+332, horse,,,,,18.5058834477,low, horse, horse,Target Present,Normal,No tone,-999,2008_000912.jpg,6
+333, horse,,,,,14.3004646918,low, horse,NA,No Target,Normal,No tone,-999,2010_001451.jpg,6
+334, chair, cat,,,,16.654865888,low, chair,NA,No Target,Normal,No tone,-999,2010_004753.jpg,6
+335, bird,,,,,18.5230242662,low, bird,NA,No Target,Normal,No tone,-999,2008_001185.jpg,6
+336, car,,,,,11.740304537,low, car,NA,No Target,Normal,No tone,-999,2010_003400.jpg,6
+337, person,,,,,18.8795575328,low, person,NA,No Target,Normal,No tone,-999,2008_002145.jpg,6
+338, horse,,,,,19.8038988384,low, horse,NA,No Target,Normal,No tone,-999,2010_003890.jpg,6
+339, chair,,,,,11.4592323772,low, chair, chair,Target Present,Normal,No tone,-999,2009_004129.jpg,6
+340, dog,,,,,18.0450356506,low, dog,NA,No Target,Normal,No tone,-999,2010_000811.jpg,6
+341, boat,,,,,20.4706639524,low, boat,NA,No Target,Normal,No tone,-999,2008_002504.jpg,6
+342, dog,,,,,16.1374581172,low, dog,NA,No Target,Normal,No tone,-999,2008_006452.jpg,6
+343, bird,,,,,17.1675580603,low, bird,NA,No Target,Normal,No tone,-999,2008_003170.jpg,6
+344, car,,,,,19.7592559984,low, car,NA,No Target,Normal,No tone,-999,2008_000952.jpg,6
+345, boat,,,,,16.8463365792,low, boat,NA,No Target,Normal,No tone,-999,2010_005780.jpg,6
+346, sofa,,,,,20.9563072862,low, sofa, horse,Target Absent,Normal,No tone,-999,2009_002998.jpg,6
+347, boat,,,,,21.1986204175,low, boat, boat,Target Present,Normal,No tone,-999,2010_004662.jpg,6
+348, boat,,,,,20.084302537,low, boat,NA,No Target,Normal,No tone,-999,2010_003911.jpg,6
+349, person, horse, car,,,20.9345998577,low, horse,NA,No Target,Normal,No tone,-999,2009_000169.jpg,6
+350, bird,,,,,17.4970699875,low, bird,NA,No Target,Normal,No tone,-999,2011_003145.jpg,6
+351, dog, bottle,,,,18.8607033421,low, bottle,NA,No Target,Normal,No tone,-999,2010_000805.jpg,6
+352, person, chair,,,,20.2241395445,low, person,NA,No Target,Normal,No tone,-999,2008_001617.jpg,6
+353, aeroplane,,,,,20.8854366041,low, aeroplane,NA,No Target,Normal,No tone,-999,2008_006703.jpg,6
+354, car, aeroplane,,,,16.8116850006,low, aeroplane,NA,No Target,Normal,No tone,-999,2009_005036.jpg,6
+355, boat,,,,,17.3315580807,low, boat, sofa,Target Absent,Normal,No tone,-999,2011_002050.jpg,6
+356, pottedplant, chair, diningtable,,,17.13857605,low, pottedplant,NA,No Target,Normal,No tone,-999,2008_002379.jpg,6
+357, cat,,,,,13.6859936467,low, cat,NA,No Target,Normal,No tone,-999,2008_005735.jpg,6
+358, horse,,,,,18.0578252839,low, horse,NA,No Target,Normal,No tone,-999,2010_002283.jpg,6
+359, sofa, chair,,,,19.8364916302,low, sofa, sofa,Target Present,Normal,No tone,-999,2009_002325.jpg,6
+360, chair,,,,,20.5088814639,low, chair,NA,No Target,Normal,No tone,-999,2011_003074.jpg,6
+361, person, motorbike,,,,19.4461566876,low, person,NA,No Target,Normal,No tone,-999,2008_004036.jpg,7
+362, person, sofa,,,,19.2440358751,low, sofa,NA,No Target,Normal,No tone,-999,2008_004270.jpg,7
+363, car, person,,,,17.8563056621,low, car,NA,No Target,Normal,No tone,-999,2009_002711.jpg,7
+364, bottle,,,,,18.2599009408,low, bottle,NA,No Target,Normal,No tone,-999,2008_006072.jpg,7
+365, bicycle, bottle,,,,18.8937980144,low, bottle,NA,No Target,Normal,No tone,-999,2009_004984.jpg,7
+366, dog,,,,,19.9931027737,low, dog, pottedplant,Target Absent,Normal,No tone,-999,2010_002349.jpg,7
+367, car,,,,,18.7084977246,low, car,NA,No Target,Normal,No tone,-999,2008_000163.jpg,7
+368, car,,,,,18.7874507214,low, car,NA,No Target,Critical,tone2,891,2008_002062.jpg,7
+369, cat,,,,,19.1076965499,low, cat,NA,No Target,Normal,No tone,-999,2009_001894.jpg,7
+370, person,,,,,21.0107127174,low, person,NA,No Target,Normal,No tone,-999,2008_000740.jpg,7
+371, bird,,,,,19.7355923527,low, bird,NA,No Target,Normal,No tone,-999,2011_001432.jpg,7
+372, person, chair,,,,16.6068065792,low, person,NA,No Target,Normal,No tone,-999,2010_004223.jpg,7
+373, bottle,,,,,18.6035189281,low, bottle,NA,No Target,Normal,No tone,-999,2009_002137.jpg,7
+374, person, boat,,,,19.19481595,low, boat,NA,No Target,Normal,No tone,-999,2010_001036.jpg,7
+375, chair, diningtable, bottle,,,20.0381198786,low, bottle, boat,Target Absent,Normal,No tone,-999,2008_007704.jpg,7
+376, cat,,,,,20.0415745672,low, cat,NA,No Target,Normal,No tone,-999,2010_005257.jpg,7
+377, tvmonitor, chair, person,,,20.1551930472,low, chair,NA,No Target,Normal,No tone,-999,2010_003287.jpg,7
+378, aeroplane,,,,,19.0959957377,low, aeroplane, bottle,Target Absent,Normal,No tone,-999,2009_003309.jpg,7
+379, aeroplane,,,,,8.17124474062,low, aeroplane,NA,No Target,Normal,No tone,-999,2008_000151.jpg,7
+380, person,,,,,21.2353598116,low, person,NA,No Target,Normal,No tone,-999,2008_000634.jpg,7
+381, sofa, dog,,,,15.5533931509,low, sofa,NA,No Target,Critical,tone1,761,2009_004076.jpg,7
+382, car,,,,,19.0301781524,low, car,NA,No Target,Normal,No tone,-999,2009_004594.jpg,7
+383, pottedplant,,,,,21.2176699016,low, pottedplant,NA,No Target,Normal,No tone,-999,2008_005214.jpg,7
+384, bottle,,,,,16.5988748608,low, bottle,NA,No Target,Normal,No tone,-999,2010_002956.jpg,7
+385, horse,,,,,19.7648364082,low, horse,NA,No Target,Normal,No tone,-999,2009_004262.jpg,7
+386, bird,,,,,18.8378639563,low, bird,NA,No Target,Normal,No tone,-999,2008_008506.jpg,7
+387, sofa,,,,,17.0559093734,low, sofa,NA,No Target,Normal,No tone,-999,2008_006784.jpg,7
+388, pottedplant,,,,,18.0315374494,low, pottedplant, cat,Target Absent,Normal,No tone,-999,2011_000514.jpg,7
+389, boat,,,,,19.6857522998,low, boat,NA,No Target,Normal,No tone,-999,2011_001886.jpg,7
+390, cat,,,,,20.8501252653,low, cat,NA,No Target,Normal,No tone,-999,2010_002645.jpg,7
+391, chair, dog, diningtable,,,18.2062639009,low, chair,NA,No Target,Normal,No tone,-999,2008_006837.jpg,7
+392, pottedplant,,,,,19.54050687,low, pottedplant,NA,No Target,Normal,No tone,-999,2009_002817.jpg,7
+393, car,,,,,20.4871667265,low, car,NA,No Target,Normal,No tone,-999,2010_005437.jpg,7
+394, bird,,,,,15.2538714929,low, bird, bird,Target Present,Normal,No tone,-999,2010_001988.jpg,7
+395, horse,,,,,16.3969555242,low, horse,NA,No Target,Normal,No tone,-999,2008_000177.jpg,7
+396, chair,,,,,16.9854423346,low, chair,NA,No Target,Normal,No tone,-999,2009_004737.jpg,7
+397, bottle,,,,,14.5933368773,low, bottle,NA,No Target,Normal,No tone,-999,2008_002372.jpg,7
+398, cat,,,,,15.6336667387,low, cat,NA,No Target,Normal,No tone,-999,2008_003659.jpg,7
+399, aeroplane,,,,,13.350033322,low, aeroplane,NA,No Target,Normal,No tone,-999,2010_005101.jpg,7
+400, bottle,,,,,20.8325215533,low, bottle, person,Target Absent,Normal,No tone,-999,2009_002521.jpg,7
+401, dog,,,,,19.803149147,low, dog,NA,No Target,Normal,No tone,-999,2008_007208.jpg,7
+402, aeroplane,,,,,20.1580444106,low, aeroplane, aeroplane,Target Present,Normal,No tone,-999,2008_007096.jpg,7
+403, sofa,,,,,16.9008566968,low, sofa,NA,No Target,Normal,No tone,-999,2011_000070.jpg,7
+404, person, sofa,,,,20.1853393344,low, sofa,NA,No Target,Normal,No tone,-999,2008_000734.jpg,7
+405, sofa,,,,,17.3166460371,low, sofa,NA,No Target,Normal,No tone,-999,2011_000224.jpg,7
+406, car,,,,,18.2986780975,low, car, car,Target Present,Normal,No tone,-999,2008_000501.jpg,7
+407, dog,,,,,19.7552861872,low, dog,NA,No Target,Normal,No tone,-999,2008_000183.jpg,7
+408, pottedplant,,,,,19.2497613741,low, pottedplant, pottedplant,Target Present,Normal,No tone,-999,2011_002453.jpg,7
+409, bottle,,,,,21.1163017472,low, bottle,NA,No Target,Normal,No tone,-999,2009_005308.jpg,7
+410, car,,,,,18.5979816817,low, car,NA,No Target,Normal,No tone,-999,2010_004014.jpg,7
+411, cat,,,,,21.1941016161,low, cat,NA,No Target,Normal,No tone,-999,2010_000109.jpg,7
+412, bird,,,,,14.3433467925,low, bird,NA,No Target,Normal,No tone,-999,2010_001159.jpg,7
+413, chair,,,,,21.0059170057,low, chair,NA,No Target,Normal,No tone,-999,2008_006470.jpg,7
+414, bird,,,,,13.9084482241,low, bird,NA,No Target,Normal,No tone,-999,2011_001967.jpg,7
+415, chair,,,,,20.4132537158,low, chair,NA,No Target,Critical,tone2,873,2008_004412.jpg,7
+416, person, boat,,,,17.698167132,low, boat,NA,No Target,Normal,No tone,-999,2011_001591.jpg,7
+417, person, chair,,,,14.4209422776,low, chair,NA,No Target,Normal,No tone,-999,2009_000059.jpg,7
+418, aeroplane,,,,,16.8766677937,low, aeroplane,NA,No Target,Normal,No tone,-999,2008_001546.jpg,7
+419, cat,,,,,16.4170391928,low, cat,NA,No Target,Normal,No tone,-999,2008_003045.jpg,7
+420, horse,,,,,20.9577483153,low, horse,NA,No Target,Normal,No tone,-999,2009_003232.jpg,7
+421, person, chair, bottle, tvmonitor,,34.6330560906,high, bottle,NA,No Target,Normal,No tone,-999,2008_000202.jpg,8
+422, cat,,,,,31.1935707888,high, cat,NA,No Target,Normal,No tone,-999,2010_003943.jpg,8
+423, pottedplant, person, chair, dog,,34.0997901784,high, dog,NA,No Target,Normal,No tone,-999,2010_005628.jpg,8
+424, pottedplant, person, chair, dog, bottle,31.0580495701,high, dog,NA,No Target,Normal,No tone,-999,2008_001862.jpg,8
+425, sofa,,,,,30.9803111453,high, sofa,NA,No Target,Normal,No tone,-999,2008_008628.jpg,8
+426, person, horse,,,,29.8753620717,high, horse, horse,Target Present,Normal,No tone,-999,2008_003805.jpg,8
+427, person, horse,,,,31.9696343244,high, horse,NA,No Target,Normal,No tone,-999,2010_003297.jpg,8
+428, tvmonitor, chair, person,,,31.7947294031,high, person,NA,No Target,Normal,No tone,-999,2008_001576.jpg,8
+429, person, boat,,,,31.2610376392,high, boat, pottedplant,Target Absent,Normal,No tone,-999,2008_005526.jpg,8
+430, person, bottle,,,,29.2763023066,high, bottle, boat,Target Absent,Normal,No tone,-999,2010_000792.jpg,8
+431, cat,,,,,30.3067076172,high, cat,NA,No Target,Normal,No tone,-999,2010_000815.jpg,8
+432, person, chair, bird,,,29.630121227,high, bird,NA,No Target,Normal,No tone,-999,2008_001673.jpg,8
+433, person, horse,,,,35.6691324556,high, horse,NA,No Target,Critical,tone2,229,2010_001856.jpg,8
+434, person, horse,,,,31.3105999235,high, horse,NA,No Target,Normal,No tone,-999,2011_000628.jpg,8
+435, person, bottle, diningtable,,,34.0729175503,high, bottle,NA,No Target,Normal,No tone,-999,2009_000058.jpg,8
+436, car, motorbike, person,,,31.4087219554,high, car,NA,No Target,Critical,tone1,313,2008_003844.jpg,8
+437, car, person, bus,,,35.0694191822,high, car,NA,No Target,Normal,No tone,-999,2008_000982.jpg,8
+438, boat,,,,,35.947150003,high, boat,NA,No Target,Normal,No tone,-999,2008_000414.jpg,8
+439, cat,,,,,31.5416643744,high, cat,NA,No Target,Normal,No tone,-999,2010_000536.jpg,8
+440, pottedplant, dog,,,,28.6636334752,high, pottedplant,NA,No Target,Normal,No tone,-999,2010_004683.jpg,8
+441, sofa, chair, diningtable,,,30.3466941995,high, chair,NA,No Target,Normal,No tone,-999,2008_008470.jpg,8
+442, person, boat, car,,,35.7047089349,high, boat,NA,No Target,Normal,No tone,-999,2010_002702.jpg,8
+443, car, chair, bicycle,,,29.7308101348,high, car,NA,No Target,Normal,No tone,-999,2008_003378.jpg,8
+444, bird,,,,,29.2726546025,high, bird,NA,No Target,Normal,No tone,-999,2010_005608.jpg,8
+445, sofa, chair,,,,31.2605400033,high, sofa,NA,No Target,Normal,No tone,-999,2010_001434.jpg,8
+446, pottedplant, dog,,,,29.8518343524,high, dog,NA,No Target,Critical,tone2,244,2008_007108.jpg,8
+447, pottedplant, tvmonitor, chair, sofa,,35.6366042017,high, pottedplant,NA,No Target,Normal,No tone,-999,2011_002810.jpg,8
+448, pottedplant, person, chair, motorbike, boat,31.5804899021,high, boat,NA,No Target,Normal,No tone,-999,2009_003351.jpg,8
+449, person, bottle, car,,,34.3131610413,high, car,NA,No Target,Normal,No tone,-999,2010_002127.jpg,8
+450, person, horse,,,,30.0880459272,high, horse,NA,No Target,Normal,No tone,-999,2008_003283.jpg,8
+451, car, bicycle,,,,28.730946257,high, car,NA,No Target,Normal,No tone,-999,2009_004364.jpg,8
+452, person, aeroplane,,,,30.1828857165,high, person, person,Target Present,Normal,No tone,-999,2011_002193.jpg,8
+453, sofa, person,,,,33.2795823558,high, sofa,NA,No Target,Normal,No tone,-999,2008_007043.jpg,8
+454, sofa, bottle, pottedplant, tvmonitor, chair,33.9377756239,high, pottedplant,NA,No Target,Normal,No tone,-999,2011_002814.jpg,8
+455, bird,,,,,28.6670652044,high, bird,NA,No Target,Normal,No tone,-999,2010_003419.jpg,8
+456, chair, diningtable,,,,29.1196911303,high, chair,NA,No Target,Normal,No tone,-999,2009_003520.jpg,8
+457, sofa, chair,,,,32.35147421,high, chair,NA,No Target,Normal,No tone,-999,2008_004670.jpg,8
+458, horse,,,,,29.0841590419,high, horse,NA,No Target,Normal,No tone,-999,2008_005818.jpg,8
+459, person, bicycle, car,,,31.5779063964,high, car, car,Target Present,Normal,No tone,-999,2008_008210.jpg,8
+460, person, aeroplane,,,,29.5473061136,high, aeroplane,NA,No Target,Normal,No tone,-999,2009_003705.jpg,8
+461, car, boat, person,,,32.7592674188,high, boat,NA,No Target,Normal,No tone,-999,2008_000833.jpg,8
+462, aeroplane,,,,,31.1423085011,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_007629.jpg,8
+463, person, horse,,,,33.7029219719,high, horse,NA,No Target,Normal,No tone,-999,2008_008229.jpg,8
+464, person, dog,,,,30.2020358311,high, dog,NA,No Target,Normal,No tone,-999,2008_002037.jpg,8
+465, sofa, chair, person,,,30.0353391318,high, sofa,NA,No Target,Normal,No tone,-999,2008_006841.jpg,8
+466, person, chair, bottle, diningtable,,35.1348565128,high, bottle, car,Target Absent,Normal,No tone,-999,2011_000282.jpg,8
+467, person, bird, boat,,,31.9134097386,high, bird, bird,Target Present,Normal,No tone,-999,2011_001001.jpg,8
+468, person, cat,,,,29.8679940351,high, cat,NA,No Target,Normal,No tone,-999,2010_002278.jpg,8
+469, person, horse,,,,28.9362392217,high, horse,NA,No Target,Normal,No tone,-999,2008_006912.jpg,8
+470, pottedplant, person, motorbike,,,34.4160054333,high, pottedplant,NA,No Target,Normal,No tone,-999,2011_001605.jpg,8
+471, person, sofa,,,,29.6390102391,high, person,NA,No Target,Normal,No tone,-999,2008_000541.jpg,8
+472, tvmonitor, sofa, bottle, person,,29.6080264916,high, bottle,NA,No Target,Normal,No tone,-999,2008_005090.jpg,8
+473, person, chair,,,,34.7071708095,high, chair,NA,No Target,Normal,No tone,-999,2011_001649.jpg,8
+474, sofa, person,,,,31.4636772311,high, sofa,NA,No Target,Normal,No tone,-999,2009_000995.jpg,8
+475, person, bottle, diningtable,,,29.775484131,high, bottle, sofa,Target Absent,Normal,No tone,-999,2008_006663.jpg,8
+476, bird,,,,,29.5945978863,high, bird,NA,No Target,Normal,No tone,-999,2008_000798.jpg,8
+477, bird,,,,,31.3970278242,high, bird,NA,No Target,Normal,No tone,-999,2008_004042.jpg,8
+478, boat, cow,,,,29.6594071243,high, boat,NA,No Target,Normal,No tone,-999,2008_002709.jpg,8
+479, sofa, person, tvmonitor,,,31.1492564165,high, sofa, sofa,Target Present,Normal,No tone,-999,2011_000434.jpg,8
+480, person,,,,,30.9969778208,high, person,NA,No Target,Normal,No tone,-999,2008_000928.jpg,8
+481, chair, diningtable,,,,18.1178027951,low, chair,NA,No Target,Normal,No tone,-999,2011_002241.jpg,9
+482, person,,,,,19.6758269441,low, person,NA,No Target,Normal,No tone,-999,2008_001205.jpg,9
+483, chair,,,,,16.9854423346,low, chair,NA,No Target,Critical,tone1,354,2009_004737.jpg,9
+484, chair,,,,,9.95536840071,low, chair,NA,No Target,Normal,No tone,-999,2010_001731.jpg,9
+485, cat,,,,,19.1076965499,low, cat,NA,No Target,Normal,No tone,-999,2009_001894.jpg,9
+486, person, car,,,,18.3908783393,low, car,NA,No Target,Normal,No tone,-999,2008_000189.jpg,9
+487, bottle,,,,,18.2599009408,low, bottle,NA,No Target,Normal,No tone,-999,2008_006072.jpg,9
+488, pottedplant,,,,,16.5204763708,low, pottedplant, cat,Target Absent,Normal,No tone,-999,2008_005345.jpg,9
+489, car,,,,,20.4871667265,low, car,NA,No Target,Normal,No tone,-999,2010_005437.jpg,9
+490, person, bottle,,,,19.8690992474,low, bottle,NA,No Target,Normal,No tone,-999,2008_004814.jpg,9
+491, cat,,,,,20.6060855378,low, cat, person,Target Absent,Normal,No tone,-999,2008_007842.jpg,9
+492, bird,,,,,20.8217316307,low, bird,NA,No Target,Normal,No tone,-999,2010_005217.jpg,9
+493, chair, diningtable, bottle,,,20.0381198786,low, bottle,NA,No Target,Normal,No tone,-999,2008_007704.jpg,9
+494, bottle,,,,,20.9636430763,low, bottle,NA,No Target,Normal,No tone,-999,2009_002749.jpg,9
+495, person, chair,,,,20.2241395445,low, person, person,Target Present,Normal,No tone,-999,2008_001617.jpg,9
+496, sofa, person,,,,20.9832980594,low, sofa, sofa,Target Present,Normal,No tone,-999,2008_004269.jpg,9
+497, aeroplane,,,,,15.7319627222,low, aeroplane,NA,No Target,Critical,tone2,530,2008_003369.jpg,9
+498, person, chair, diningtable,,,20.5612790093,low, chair,NA,No Target,Normal,No tone,-999,2010_001907.jpg,9
+499, dog,,,,,19.9931027737,low, dog,NA,No Target,Normal,No tone,-999,2010_002349.jpg,9
+500, car,,,,,19.0301781524,low, car,NA,No Target,Normal,No tone,-999,2009_004594.jpg,9
+501, person, horse,,,,19.9123010153,low, horse,NA,No Target,Normal,No tone,-999,2008_008395.jpg,9
+502, chair, cat,,,,16.654865888,low, chair,NA,No Target,Normal,No tone,-999,2010_004753.jpg,9
+503, aeroplane,,,,,14.1064450151,low, aeroplane, aeroplane,Target Present,Normal,No tone,-999,2008_008359.jpg,9
+504, bird,,,,,19.2391461352,low, bird,NA,No Target,Normal,No tone,-999,2011_002582.jpg,9
+505, person, dog,,,,20.7128987687,low, dog, bird,Target Absent,Normal,No tone,-999,2008_005046.jpg,9
+506, bird,,,,,14.3433467925,low, bird,NA,No Target,Normal,No tone,-999,2010_001159.jpg,9
+507, chair, cat,,,,17.570654058,low, chair,NA,No Target,Critical,tone2,32,2008_000115.jpg,9
+508, horse,,,,,18.4142557544,low, horse,NA,No Target,Normal,No tone,-999,2008_001542.jpg,9
+509, bird,,,,,17.4970699875,low, bird,NA,No Target,Normal,No tone,-999,2011_003145.jpg,9
+510, person, motorbike,,,,19.4461566876,low, person,NA,No Target,Normal,No tone,-999,2008_004036.jpg,9
+511, bottle,,,,,16.5988748608,low, bottle, pottedplant,Target Absent,Normal,No tone,-999,2010_002956.jpg,9
+512, aeroplane,,,,,18.0003618543,low, aeroplane,NA,No Target,Normal,No tone,-999,2009_002888.jpg,9
+513, sofa, dog,,,,15.5533931509,low, sofa,NA,No Target,Normal,No tone,-999,2009_004076.jpg,9
+514, bird,,,,,21.229485108,low, bird,NA,No Target,Normal,No tone,-999,2008_001495.jpg,9
+515, chair, dog,,,,13.8367101522,low, chair,NA,No Target,Normal,No tone,-999,2010_000090.jpg,9
+516, aeroplane,,,,,14.3418947369,low, aeroplane,NA,No Target,Normal,No tone,-999,2010_000229.jpg,9
+517, pottedplant,,,,,19.3213088734,low, pottedplant,NA,No Target,Normal,No tone,-999,2008_008331.jpg,9
+518, bottle,,,,,17.8831347445,low, bottle,NA,No Target,Normal,No tone,-999,2010_000426.jpg,9
+519, boat,,,,,20.084302537,low, boat, boat,Target Present,Normal,No tone,-999,2010_003911.jpg,9
+520, bird,,,,,15.2538714929,low, bird,NA,No Target,Normal,No tone,-999,2010_001988.jpg,9
+521, horse,,,,,19.7648364082,low, horse,NA,No Target,Normal,No tone,-999,2009_004262.jpg,9
+522, aeroplane,,,,,20.1207612432,low, aeroplane, cat,Target Absent,Normal,No tone,-999,2010_004791.jpg,9
+523, bird,,,,,19.7061221398,low, bird,NA,No Target,Normal,No tone,-999,2010_000299.jpg,9
+524, bottle,,,,,20.465741195,low, bottle,NA,No Target,Normal,No tone,-999,2008_004607.jpg,9
+525, cat,,,,,10.2366357609,low, cat,NA,No Target,Normal,No tone,-999,2010_004175.jpg,9
+526, dog,,,,,17.1025902592,low, dog,NA,No Target,Normal,No tone,-999,2009_001568.jpg,9
+527, pottedplant,,,,,19.54050687,low, pottedplant,NA,No Target,Normal,No tone,-999,2009_002817.jpg,9
+528, dog,,,,,18.0203679669,low, dog,NA,No Target,Normal,No tone,-999,2010_004339.jpg,9
+529, person, sofa,,,,20.1853393344,low, sofa,NA,No Target,Normal,No tone,-999,2008_000734.jpg,9
+530, pottedplant,,,,,20.3954299443,low, pottedplant,NA,No Target,Normal,No tone,-999,2009_003679.jpg,9
+531, dog,,,,,17.1900446482,low, dog,NA,No Target,Normal,No tone,-999,2008_002904.jpg,9
+532, aeroplane,,,,,19.0959957377,low, aeroplane,NA,No Target,Normal,No tone,-999,2009_003309.jpg,9
+533, person, horse, car,,,20.9345998577,low, horse,NA,No Target,Normal,No tone,-999,2009_000169.jpg,9
+534, car, person,,,,17.8563056621,low, car,NA,No Target,Normal,No tone,-999,2009_002711.jpg,9
+535, cat,,,,,21.1941016161,low, cat,NA,No Target,Normal,No tone,-999,2010_000109.jpg,9
+536, bird,,,,,9.57686770874,low, bird,NA,No Target,Normal,No tone,-999,2011_001959.jpg,9
+537, car, person,,,,21.0529768239,low, car,NA,No Target,Normal,No tone,-999,2010_001993.jpg,9
+538, chair,,,,,20.1385595655,low, chair,NA,No Target,Normal,No tone,-999,2009_002374.jpg,9
+539, aeroplane,,,,,16.8766677937,low, aeroplane,NA,No Target,Normal,No tone,-999,2008_001546.jpg,9
+540, boat,,,,,19.2535195999,low, boat,NA,No Target,Normal,No tone,-999,2009_000919.jpg,9
+541, person, aeroplane,,,,30.9530432899,high, aeroplane,NA,No Target,Normal,No tone,-999,2011_001800.jpg,10
+542, person, horse,,,,31.3105999235,high, horse,NA,No Target,Normal,No tone,-999,2011_000628.jpg,10
+543, bird,,,,,33.6473980056,high, bird,NA,No Target,Normal,No tone,-999,2008_007423.jpg,10
+544, person, horse,,,,33.7029219719,high, horse,NA,No Target,Normal,No tone,-999,2008_008229.jpg,10
+545, tvmonitor, chair, sofa,,,29.8220330038,high, sofa,NA,No Target,Normal,No tone,-999,2008_000093.jpg,10
+546, person,,,,,35.696632302,high, person,NA,No Target,Normal,No tone,-999,2008_002725.jpg,10
+547, bird, cow,,,,30.9612210041,high, bird,NA,No Target,Normal,No tone,-999,2011_000548.jpg,10
+548, person, chair, diningtable, bottle,,33.4787504727,high, bottle,NA,No Target,Normal,No tone,-999,2010_001682.jpg,10
+549, person, dog,,,,30.2020358311,high, dog,NA,No Target,Normal,No tone,-999,2008_002037.jpg,10
+550, pottedplant, person, chair, dog, bottle,31.0580495701,high, dog,NA,No Target,Critical,tone2,452,2008_001862.jpg,10
+551, sofa, person,,,,35.9255718732,high, sofa,NA,No Target,Normal,No tone,-999,2008_000321.jpg,10
+552, sofa, chair,,,,31.2605400033,high, sofa,NA,No Target,Normal,No tone,-999,2010_001434.jpg,10
+553, tvmonitor, chair, bottle,,,32.179769175,high, bottle,NA,No Target,Normal,No tone,-999,2008_000495.jpg,10
+554, person, dog,,,,37.0063872622,high, dog,NA,No Target,Normal,No tone,-999,2008_004188.jpg,10
+555, person, bottle, pottedplant, tvmonitor, chair,31.6763857137,high, bottle,NA,No Target,Normal,No tone,-999,2010_002742.jpg,10
+556, person, motorbike,,,,32.1233073623,high, person,NA,No Target,Normal,No tone,-999,2008_002774.jpg,10
+557, person, diningtable, bottle,,,38.9726423889,high, bottle, aeroplane,Target Absent,Normal,No tone,-999,2010_001645.jpg,10
+558, person, aeroplane,,,,30.4803617566,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_002195.jpg,10
+559, pottedplant, person, bicycle, car,,33.3671527498,high, pottedplant,NA,No Target,Normal,No tone,-999,2011_001025.jpg,10
+560, pottedplant, sofa,,,,29.0424888681,high, sofa, chair,Target Absent,Normal,No tone,-999,2009_004283.jpg,10
+561, aeroplane,,,,,32.0206899074,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_008607.jpg,10
+562, bird,,,,,29.7427866823,high, bird,NA,No Target,Normal,No tone,-999,2009_002414.jpg,10
+563, horse,,,,,31.5148858229,high, horse,NA,No Target,Normal,No tone,-999,2010_003490.jpg,10
+564, person, horse,,,,29.8753620717,high, horse,NA,No Target,Normal,No tone,-999,2008_003805.jpg,10
+565, dog,,,,,31.7281700631,high, dog,NA,No Target,Normal,No tone,-999,2011_001944.jpg,10
+566, pottedplant, person, chair, diningtable, boat,35.3836335373,high, pottedplant,NA,No Target,Normal,No tone,-999,2011_001221.jpg,10
+567, person, horse, dog,,,31.3724599987,high, horse,NA,No Target,Normal,No tone,-999,2010_005270.jpg,10
+568, tvmonitor, bottle,,,,29.9937814283,high, bottle,NA,No Target,Critical,tone2,936,2008_006062.jpg,10
+569, car, cat,,,,33.4621847905,high, cat,NA,No Target,Normal,No tone,-999,2008_000619.jpg,10
+570, boat,,,,,34.0471469053,high, boat,NA,No Target,Normal,No tone,-999,2011_001991.jpg,10
+571, pottedplant, sofa, chair, diningtable, tvmonitor,29.2474832664,high, pottedplant,NA,No Target,Normal,No tone,-999,2008_004661.jpg,10
+572, boat,,,,,30.8060891344,high, boat,NA,No Target,Normal,No tone,-999,2009_000120.jpg,10
+573, cat,,,,,29.2469761744,high, cat,NA,No Target,Normal,No tone,-999,2008_001210.jpg,10
+574, boat,,,,,35.947150003,high, boat, boat,Target Present,Normal,No tone,-999,2008_000414.jpg,10
+575, person, car,,,,28.8397417486,high, person,NA,No Target,Normal,No tone,-999,2008_005472.jpg,10
+576, bus, boat, car,,,34.4039146201,high, boat,NA,No Target,Normal,No tone,-999,2008_005720.jpg,10
+577, pottedplant, chair,,,,34.9666280658,high, pottedplant, pottedplant,Target Present,Normal,No tone,-999,2009_000198.jpg,10
+578, person, chair, diningtable, bottle,,33.8235501143,high, chair,NA,No Target,Normal,No tone,-999,2008_002789.jpg,10
+579, pottedplant, chair, diningtable,,,28.7663578445,high, chair,NA,No Target,Normal,No tone,-999,2008_007388.jpg,10
+580, bird,,,,,29.8149203136,high, bird, bird,Target Present,Normal,No tone,-999,2008_002350.jpg,10
+581, aeroplane,,,,,29.7396779561,high, aeroplane,NA,No Target,Normal,No tone,-999,2010_004423.jpg,10
+582, chair, bottle,,,,35.9250648934,high, chair,NA,No Target,Normal,No tone,-999,2008_004487.jpg,10
+583, car, chair, bicycle,,,29.7308101348,high, car,NA,No Target,Normal,No tone,-999,2008_003378.jpg,10
+584, person, horse,,,,33.9683529801,high, horse, horse,Target Present,Normal,No tone,-999,2008_008500.jpg,10
+585, person, bottle, diningtable,,,29.775484131,high, bottle,NA,No Target,Normal,No tone,-999,2008_006663.jpg,10
+586, person, chair, motorbike,,,31.7742392699,high, chair,NA,No Target,Normal,No tone,-999,2009_004849.jpg,10
+587, pottedplant, person, chair, diningtable,,31.5206876139,high, pottedplant,NA,No Target,Normal,No tone,-999,2008_005519.jpg,10
+588, pottedplant, sofa, chair, diningtable,,28.9684650575,high, sofa,NA,No Target,Normal,No tone,-999,2009_002571.jpg,10
+589, bird,,,,,29.5945978863,high, bird,NA,No Target,Normal,No tone,-999,2008_000798.jpg,10
+590, car, motorbike, person,,,31.4087219554,high, car,NA,No Target,Normal,No tone,-999,2008_003844.jpg,10
+591, person, horse,,,,30.5304897751,high, horse, aeroplane,Target Absent,Critical,tone2,729,2009_000565.jpg,10
+592, person, aeroplane,,,,31.070624342,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_003575.jpg,10
+593, pottedplant, person, dog,,,30.0073743319,high, dog,NA,No Target,Normal,No tone,-999,2008_002084.jpg,10
+594, chair,,,,,29.0279583591,high, chair,NA,No Target,Normal,No tone,-999,2010_005894.jpg,10
+595, person, cat,,,,29.7785441827,high, cat,NA,No Target,Normal,No tone,-999,2011_001116.jpg,10
+596, person, horse,,,,32.4805318568,high, horse,NA,No Target,Normal,No tone,-999,2008_001278.jpg,10
+597, pottedplant, person, chair, motorbike, boat,31.5804899021,high, boat,NA,No Target,Normal,No tone,-999,2009_003351.jpg,10
+598, cat,,,,,29.4014511321,high, cat, sofa,Target Absent,Normal,No tone,-999,2008_000860.jpg,10
+599, person, dog,,,,29.3544584936,high, dog, dog,Target Present,Normal,No tone,-999,2009_000539.jpg,10
+600, person, chair,,,,34.7071708095,high, chair,NA,No Target,Normal,No tone,-999,2011_001649.jpg,10
+601, sofa, chair, person,,,30.0353391318,high, sofa,NA,No Target,Normal,No tone,-999,2008_006841.jpg,11
+602, person, bottle,,,,29.2763023066,high, bottle,NA,No Target,Normal,No tone,-999,2010_000792.jpg,11
+603, pottedplant, chair,,,,32.0542696763,high, pottedplant,NA,No Target,Critical,tone1,329,2008_000274.jpg,11
+604, person,,,,,30.7488856549,high, person,NA,No Target,Normal,No tone,-999,2008_000984.jpg,11
+605, car, bicycle,,,,28.730946257,high, car,NA,No Target,Normal,No tone,-999,2009_004364.jpg,11
+606, pottedplant, tvmonitor, cat,,,31.6704471984,high, cat,NA,No Target,Normal,No tone,-999,2009_000488.jpg,11
+607, person, dog,,,,28.8389563542,high, dog,NA,No Target,Normal,No tone,-999,2008_001965.jpg,11
+608, person, boat, car,,,35.7047089349,high, boat, bottle,Target Absent,Normal,No tone,-999,2010_002702.jpg,11
+609, sofa, person,,,,31.0518683449,high, sofa,NA,No Target,Normal,No tone,-999,2008_007091.jpg,11
+610, boat,,,,,28.7102843543,high, boat,NA,No Target,Normal,No tone,-999,2009_005118.jpg,11
+611, horse,,,,,29.0841590419,high, horse, chair,Target Absent,Normal,No tone,-999,2008_005818.jpg,11
+612, person, chair,,,,29.7799066144,high, chair,NA,No Target,Normal,No tone,-999,2008_000381.jpg,11
+613, person, diningtable, bottle,,,36.1560129636,high, bottle,NA,No Target,Normal,No tone,-999,2008_003635.jpg,11
+614, person, horse,,,,31.9696343244,high, horse,NA,No Target,Normal,No tone,-999,2010_003297.jpg,11
+615, person, horse,,,,30.0880459272,high, horse, horse,Target Present,Normal,No tone,-999,2008_003283.jpg,11
+616, car,,,,,32.9773958833,high, car, car,Target Present,Normal,No tone,-999,2010_006033.jpg,11
+617, person, train, car,,,31.0268569889,high, car,NA,No Target,Critical,tone1,269,2010_000865.jpg,11
+618, person, bottle, sofa,,,33.5611857847,high, bottle,NA,No Target,Normal,No tone,-999,2010_004447.jpg,11
+619, car, bus, person,,,31.3051357692,high, car,NA,No Target,Normal,No tone,-999,2008_004614.jpg,11
+620, chair, diningtable,,,,28.7286362612,high, chair,NA,No Target,Normal,No tone,-999,2009_003884.jpg,11
+621, aeroplane,,,,,29.2018694612,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_005750.jpg,11
+622, person, chair,,,,37.0529117102,high, person,NA,No Target,Normal,No tone,-999,2010_002603.jpg,11
+623, car, dog, person,,,29.7635521346,high, person, person,Target Present,Normal,No tone,-999,2008_003755.jpg,11
+624, person, cat,,,,29.8679940351,high, cat,NA,No Target,Normal,No tone,-999,2010_002278.jpg,11
+625, dog, bottle,,,,41.9971447032,high, dog, cat,Target Absent,Normal,No tone,-999,2011_002098.jpg,11
+626, person, diningtable, bottle,,,33.4619040834,high, person,NA,No Target,Normal,No tone,-999,2008_000885.jpg,11
+627, dog,,,,,31.5378571257,high, dog,NA,No Target,Critical,tone1,527,2008_003180.jpg,11
+628, pottedplant, person,,,,36.5957709735,high, pottedplant,NA,No Target,Normal,No tone,-999,2008_002897.jpg,11
+629, person,,,,,39.7941102261,high, person,NA,No Target,Normal,No tone,-999,2008_003193.jpg,11
+630, person, chair, bottle, diningtable,,35.1348565128,high, bottle,NA,No Target,Normal,No tone,-999,2011_000282.jpg,11
+631, person, chair, cat,,,30.8788481424,high, cat, car,Target Absent,Normal,No tone,-999,2008_006863.jpg,11
+632, car, train,,,,30.2088428522,high, car,NA,No Target,Normal,No tone,-999,2008_008681.jpg,11
+633, car, bicycle, motorbike,,,29.678013923,high, car,NA,No Target,Normal,No tone,-999,2009_003802.jpg,11
+634, boat,,,,,34.708650155,high, boat,NA,No Target,Normal,No tone,-999,2008_003449.jpg,11
+635, car, aeroplane,,,,35.8721794079,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_000251.jpg,11
+636, person, chair, diningtable, bottle,,29.6229142798,high, bottle,NA,No Target,Normal,No tone,-999,2009_004154.jpg,11
+637, car, bicycle, person,,,30.4769290976,high, car,NA,No Target,Normal,No tone,-999,2008_004858.jpg,11
+638, person, cat,,,,30.2265163794,high, cat,NA,No Target,Normal,No tone,-999,2008_005600.jpg,11
+639, bus, car,,,,39.1163173722,high, car, car,Target Present,Normal,No tone,-999,2010_001118.jpg,11
+640, horse,,,,,29.2812375074,high, horse,NA,No Target,Normal,No tone,-999,2008_005702.jpg,11
+641, cat,,,,,31.5416643744,high, cat,NA,No Target,Normal,No tone,-999,2010_000536.jpg,11
+642, person, chair, diningtable, sofa,,30.9164667664,high, sofa, pottedplant,Target Absent,Normal,No tone,-999,2010_005170.jpg,11
+643, person, aeroplane,,,,29.5473061136,high, aeroplane,NA,No Target,Normal,No tone,-999,2009_003705.jpg,11
+644, cat,,,,,30.3067076172,high, cat,NA,No Target,Normal,No tone,-999,2010_000815.jpg,11
+645, pottedplant, person, diningtable, bottle,,28.9395133114,high, pottedplant,NA,No Target,Normal,No tone,-999,2011_001382.jpg,11
+646, person, aeroplane,,,,30.1828857165,high, person,NA,No Target,Normal,No tone,-999,2011_002193.jpg,11
+647, person, dog, car,,,33.0948850029,high, dog,NA,No Target,Normal,No tone,-999,2008_006844.jpg,11
+648, car, boat, person,,,32.7592674188,high, boat,NA,No Target,Normal,No tone,-999,2008_000833.jpg,11
+649, tvmonitor, chair, sofa,,,37.2238158045,high, sofa,NA,No Target,Normal,No tone,-999,2011_001304.jpg,11
+650, car,,,,,29.2704648354,high, car,NA,No Target,Normal,No tone,-999,2009_005133.jpg,11
+651, pottedplant, car, chair, bicycle, person,30.1332441128,high, pottedplant,NA,No Target,Normal,No tone,-999,2010_003729.jpg,11
+652, dog,,,,,40.7731212751,high, dog,NA,No Target,Normal,No tone,-999,2008_007057.jpg,11
+653, chair, cat,,,,29.798629152,high, cat,NA,No Target,Normal,No tone,-999,2010_003579.jpg,11
+654, person, horse,,,,34.5575771686,high, horse,NA,No Target,Normal,No tone,-999,2010_002183.jpg,11
+655, boat,,,,,29.6080027553,high, boat,NA,No Target,Normal,No tone,-999,2009_002897.jpg,11
+656, tvmonitor, chair, sofa,,,30.4579578004,high, sofa,NA,No Target,Normal,No tone,-999,2011_000499.jpg,11
+657, car, bicycle, motorbike, bus, person,30.2634494657,high, car,NA,No Target,Normal,No tone,-999,2008_008097.jpg,11
+658, pottedplant, person, train,,,29.106006376,high, pottedplant,NA,No Target,Normal,No tone,-999,2010_005996.jpg,11
+659, cat,,,,,31.1935707888,high, cat,NA,No Target,Normal,No tone,-999,2010_003943.jpg,11
+660, person, aeroplane,,,,30.2429372093,high, aeroplane,NA,No Target,Normal,No tone,-999,2010_005106.jpg,11
+661, cat,,,,,16.4561012422,low, cat,NA,No Target,Normal,No tone,-999,2008_000839.jpg,12
+662, sofa, chair,,,,19.8364916302,low, sofa,NA,No Target,Normal,No tone,-999,2009_002325.jpg,12
+663, person, horse,,,,20.5294514772,low, person,NA,No Target,Normal,No tone,-999,2009_003530.jpg,12
+664, person, sofa,,,,13.4141262808,low, sofa,NA,No Target,Normal,No tone,-999,2008_005490.jpg,12
+665, aeroplane,,,,,13.350033322,low, aeroplane,NA,No Target,Normal,No tone,-999,2010_005101.jpg,12
+666, sofa, dog,,,,16.6984985954,low, sofa,NA,No Target,Normal,No tone,-999,2011_001198.jpg,12
+667, cat,,,,,18.6869051047,low, cat,NA,No Target,Normal,No tone,-999,2008_005673.jpg,12
+668, tvmonitor, chair, person,,,20.1551930472,low, chair,NA,No Target,Normal,No tone,-999,2010_003287.jpg,12
+669, boat,,,,,20.2100437036,low, boat,NA,No Target,Normal,No tone,-999,2008_001040.jpg,12
+670, sofa, dog,,,,21.0012272781,low, sofa,NA,No Target,Critical,tone1,213,2008_001238.jpg,12
+671, aeroplane,,,,,13.4403667656,low, aeroplane,NA,No Target,Normal,No tone,-999,2008_003876.jpg,12
+672, tvmonitor, sofa,,,,20.2162635229,low, sofa,NA,No Target,Normal,No tone,-999,2010_005054.jpg,12
+673, horse,,,,,18.5058834477,low, horse,NA,No Target,Normal,No tone,-999,2008_000912.jpg,12
+674, person, boat,,,,19.19481595,low, boat,NA,No Target,Normal,No tone,-999,2010_001036.jpg,12
+675, person,,,,,15.903696109,low, person,NA,No Target,Normal,No tone,-999,2008_001098.jpg,12
+676, person,,,,,21.2353598116,low, person,NA,No Target,Normal,No tone,-999,2008_000634.jpg,12
+677, cat,,,,,13.6859936467,low, cat, sofa,Target Absent,Normal,No tone,-999,2008_005735.jpg,12
+678, boat,,,,,17.3315580807,low, boat,NA,No Target,Normal,No tone,-999,2011_002050.jpg,12
+679, sofa, cat,,,,18.2884773419,low, sofa,NA,No Target,Normal,No tone,-999,2010_004425.jpg,12
+680, cat,,,,,18.6847182117,low, cat, car,Target Absent,Normal,No tone,-999,2009_001305.jpg,12
+681, boat,,,,,16.8629662116,low, boat,NA,No Target,Normal,No tone,-999,2010_001691.jpg,12
+682, horse,,,,,14.3004646918,low, horse,NA,No Target,Normal,No tone,-999,2010_001451.jpg,12
+683, car,,,,,18.8741562324,low, car,NA,No Target,Normal,No tone,-999,2009_001782.jpg,12
+684, person, chair,,,,14.4209422776,low, chair,NA,No Target,Normal,No tone,-999,2009_000059.jpg,12
+685, horse,,,,,19.5981311751,low, horse,NA,No Target,Normal,No tone,-999,2008_000219.jpg,12
+686, person, bicycle,,,,18.2377682365,low, person,NA,No Target,Normal,No tone,-999,2008_005978.jpg,12
+687, bird,,,,,11.9577001946,low, bird,NA,No Target,Normal,No tone,-999,2008_006954.jpg,12
+688, car,,,,,11.740304537,low, car,NA,No Target,Critical,tone1,44,2010_003400.jpg,12
+689, car,,,,,21.1810107362,low, car,NA,No Target,Normal,No tone,-999,2009_000523.jpg,12
+690, chair,,,,,20.4132537158,low, chair,NA,No Target,Normal,No tone,-999,2008_004412.jpg,12
+691, car, aeroplane,,,,16.8116850006,low, aeroplane,NA,No Target,Normal,No tone,-999,2009_005036.jpg,12
+692, aeroplane,,,,,12.5365727841,low, aeroplane,NA,No Target,Normal,No tone,-999,2010_006023.jpg,12
+693, bottle,,,,,18.6035189281,low, bottle,NA,No Target,Normal,No tone,-999,2009_002137.jpg,12
+694, person, horse,,,,20.3068353181,low, horse, horse,Target Present,Normal,No tone,-999,2010_003280.jpg,12
+695, chair,,,,,20.5088814639,low, chair,NA,No Target,Normal,No tone,-999,2011_003074.jpg,12
+696, bottle, cat,,,,21.2598297564,low, bottle,NA,No Target,Normal,No tone,-999,2008_000112.jpg,12
+697, bottle,,,,,20.9657753219,low, bottle, bottle,Target Present,Normal,No tone,-999,2010_003329.jpg,12
+698, sofa, dog,,,,20.9340596821,low, sofa,NA,No Target,Normal,No tone,-999,2009_000189.jpg,12
+699, bottle,,,,,14.5933368773,low, bottle,NA,No Target,Normal,No tone,-999,2008_002372.jpg,12
+700, cat,,,,,20.8501252653,low, cat, cat,Target Present,Normal,No tone,-999,2010_002645.jpg,12
+701, cat,,,,,18.1350968389,low, cat,NA,No Target,Normal,No tone,-999,2010_000616.jpg,12
+702, boat,,,,,20.0747158726,low, boat,NA,No Target,Normal,No tone,-999,2009_003084.jpg,12
+703, aeroplane,,,,,15.7594920665,low, aeroplane,NA,No Target,Normal,No tone,-999,2011_000481.jpg,12
+704, car,,,,,16.1970358254,low, car, car,Target Present,Normal,No tone,-999,2010_005785.jpg,12
+705, pottedplant,,,,,17.4930239916,low, pottedplant,NA,No Target,Normal,No tone,-999,2009_001975.jpg,12
+706, person,,,,,21.0513732912,low, person,NA,No Target,Normal,No tone,-999,2008_002700.jpg,12
+707, chair,,,,,21.0059170057,low, chair,NA,No Target,Normal,No tone,-999,2008_006470.jpg,12
+708, cat,,,,,15.6336667387,low, cat,NA,No Target,Normal,No tone,-999,2008_003659.jpg,12
+709, bird,,,,,19.7355923527,low, bird,NA,No Target,Normal,No tone,-999,2011_001432.jpg,12
+710, aeroplane,,,,,20.0884358457,low, aeroplane,NA,No Target,Normal,No tone,-999,2009_000260.jpg,12
+711, car,,,,,18.7874507214,low, car, boat,Target Absent,Critical,tone1,682,2008_002062.jpg,12
+712, pottedplant,,,,,20.3935266021,low, pottedplant,NA,No Target,Normal,No tone,-999,2011_001611.jpg,12
+713, horse,,,,,20.8855839237,low, horse,NA,No Target,Normal,No tone,-999,2010_000613.jpg,12
+714, sofa,,,,,17.3166460371,low, sofa,NA,No Target,Normal,No tone,-999,2011_000224.jpg,12
+715, bird,,,,,18.8378639563,low, bird,NA,No Target,Normal,No tone,-999,2008_008506.jpg,12
+716, chair, dog, diningtable,,,18.2062639009,low, chair,NA,No Target,Normal,No tone,-999,2008_006837.jpg,12
+717, pottedplant,,,,,17.7701583609,low, pottedplant,NA,No Target,Normal,No tone,-999,2009_005008.jpg,12
+718, cat,,,,,20.4638836895,low, cat, aeroplane,Target Absent,Normal,No tone,-999,2008_001836.jpg,12
+719, chair, diningtable,,,,20.7351456906,low, chair, chair,Target Present,Normal,No tone,-999,2010_001271.jpg,12
+720, person, cat,,,,20.1398778052,low, person,NA,No Target,Normal,No tone,-999,2009_002439.jpg,12
+721, bird,,,,,31.3970278242,high, bird,NA,No Target,Normal,No tone,-999,2008_004042.jpg,13
+722, person, bird,,,,29.6573899693,high, bird,NA,No Target,Normal,No tone,-999,2010_003724.jpg,13
+723, pottedplant, person, chair, dog,,34.0997901784,high, dog,NA,No Target,Normal,No tone,-999,2010_005628.jpg,13
+724, person, chair, bird,,,29.630121227,high, bird,NA,No Target,Normal,No tone,-999,2008_001673.jpg,13
+725, person, horse,,,,28.9362392217,high, horse,NA,No Target,Normal,No tone,-999,2008_006912.jpg,13
+726, sofa, chair, bottle, person,,29.051766795,high, sofa,NA,No Target,Normal,No tone,-999,2008_001333.jpg,13
+727, person, aeroplane,,,,30.073041629,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_007970.jpg,13
+728, boat,,,,,37.7062015995,high, boat, bird,Target Absent,Critical,tone2,810,2011_000631.jpg,13
+729, diningtable, person, chair, dog, bottle,36.0401214283,high, bottle,NA,No Target,Normal,No tone,-999,2008_007664.jpg,13
+730, person, chair, bottle, tvmonitor,,34.6330560906,high, bottle,NA,No Target,Normal,No tone,-999,2008_000202.jpg,13
+731, person, cat,,,,32.265109083,high, cat,NA,No Target,Normal,No tone,-999,2008_007913.jpg,13
+732, person, bottle, diningtable,,,34.0729175503,high, bottle,NA,No Target,Normal,No tone,-999,2009_000058.jpg,13
+733, sofa, chair, person,,,34.561608236,high, person,NA,No Target,Normal,No tone,-999,2008_000704.jpg,13
+734, person, boat,,,,31.2610376392,high, boat,NA,No Target,Normal,No tone,-999,2008_005526.jpg,13
+735, car,,,,,36.207394561,high, car,NA,No Target,Normal,No tone,-999,2008_000457.jpg,13
+736, car, aeroplane,,,,37.9375516575,high, aeroplane,NA,No Target,Normal,No tone,-999,2009_001321.jpg,13
+737, person, horse,,,,30.1308980286,high, horse,NA,No Target,Normal,No tone,-999,2009_003338.jpg,13
+738, person, motorbike,,,,31.0768583136,high, person, boat,Target Absent,Normal,No tone,-999,2010_005572.jpg,13
+739, person, horse,,,,30.1417630616,high, horse,NA,No Target,Normal,No tone,-999,2009_002750.jpg,13
+740, person, boat,,,,34.287988653,high, boat,NA,No Target,Normal,No tone,-999,2008_002887.jpg,13
+741, bird,,,,,31.8921255067,high, bird,NA,No Target,Normal,No tone,-999,2008_007250.jpg,13
+742, pottedplant, tvmonitor, chair, sofa,,35.6366042017,high, pottedplant,NA,No Target,Critical,tone1,164,2011_002810.jpg,13
+743, person, bottle,,,,30.9580554561,high, bottle,NA,No Target,Normal,No tone,-999,2008_000705.jpg,13
+744, pottedplant, dog,,,,28.6636334752,high, pottedplant,NA,No Target,Normal,No tone,-999,2010_004683.jpg,13
+745, boat,,,,,33.4946134203,high, boat,NA,No Target,Normal,No tone,-999,2008_007143.jpg,13
+746, person, chair, bottle,,,33.3811153835,high, chair,NA,No Target,Normal,No tone,-999,2011_002641.jpg,13
+747, sofa, person,,,,31.4636772311,high, sofa,NA,No Target,Normal,No tone,-999,2009_000995.jpg,13
+748, bird,,,,,30.0688032828,high, bird,NA,No Target,Normal,No tone,-999,2008_004633.jpg,13
+749, person, boat,,,,29.0064574566,high, person,NA,No Target,Critical,tone2,182,2008_003081.jpg,13
+750, person, diningtable, bottle,,,36.4140422377,high, bottle,NA,No Target,Normal,No tone,-999,2008_002736.jpg,13
+751, pottedplant, sofa,,,,31.6245238408,high, pottedplant,NA,No Target,Normal,No tone,-999,2011_001440.jpg,13
+752, pottedplant, sofa, chair,,,31.427287996,high, sofa, sofa,Target Present,Normal,No tone,-999,2009_001021.jpg,13
+753, pottedplant, person, chair, sofa, cat,29.7271295973,high, cat,NA,No Target,Normal,No tone,-999,2010_003861.jpg,13
+754, person, bicycle, boat,,,34.3190516078,high, boat,NA,No Target,Normal,No tone,-999,2008_000191.jpg,13
+755, sofa, person,,,,33.2795823558,high, sofa,NA,No Target,Normal,No tone,-999,2008_007043.jpg,13
+756, person, aeroplane,,,,32.0149735503,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_004646.jpg,13
+757, person,,,,,29.6392963112,high, person,NA,No Target,Normal,No tone,-999,2009_000067.jpg,13
+758, dog,,,,,29.7778405817,high, dog,NA,No Target,Normal,No tone,-999,2010_002775.jpg,13
+759, cat,,,,,32.6606639512,high, cat, cat,Target Present,Normal,No tone,-999,2010_002472.jpg,13
+760, person, chair,,,,33.312072728,high, chair, pottedplant,Target Absent,Normal,No tone,-999,2008_002758.jpg,13
+761, bird, boat,,,,29.314233598,high, bird,NA,No Target,Normal,No tone,-999,2008_006481.jpg,13
+762, pottedplant, dog,,,,29.8518343524,high, dog,NA,No Target,Normal,No tone,-999,2008_007108.jpg,13
+763, cat,,,,,31.7798588195,high, cat,NA,No Target,Normal,No tone,-999,2011_000824.jpg,13
+764, car, person,,,,29.0083590163,high, car, bird,Target Absent,Normal,No tone,-999,2009_000021.jpg,13
+765, person, chair, diningtable, bottle,,33.7345291168,high, chair,NA,No Target,Normal,No tone,-999,2011_003066.jpg,13
+766, person, dog,,,,30.6573416004,high, dog,NA,No Target,Normal,No tone,-999,2008_006870.jpg,13
+767, pottedplant, person, train,,,29.3234930732,high, person, person,Target Present,Normal,No tone,-999,2008_000916.jpg,13
+768, person,,,,,30.9969778208,high, person,NA,No Target,Normal,No tone,-999,2008_000928.jpg,13
+769, bird,,,,,32.0650958555,high, bird,NA,No Target,Normal,No tone,-999,2008_000697.jpg,13
+770, car, person, bus,,,35.0694191822,high, car,NA,No Target,Normal,No tone,-999,2008_000982.jpg,13
+771, cat,,,,,30.9540107157,high, cat,NA,No Target,Normal,No tone,-999,2009_000466.jpg,13
+772, person, train, sofa,,,31.6511564428,high, sofa, sofa,Target Present,Normal,No tone,-999,2010_001586.jpg,13
+773, bird,,,,,30.5153527617,high, bird,NA,No Target,Normal,No tone,-999,2008_004690.jpg,13
+774, pottedplant, person, motorbike,,,34.4160054333,high, pottedplant,NA,No Target,Normal,No tone,-999,2011_001605.jpg,13
+775, pottedplant, chair, diningtable,,,34.1778342477,high, pottedplant,NA,No Target,Normal,No tone,-999,2009_000760.jpg,13
+776, sofa, person, tvmonitor,,,31.1492564165,high, sofa,NA,No Target,Normal,No tone,-999,2011_000434.jpg,13
+777, pottedplant, sofa, chair, diningtable,,29.8068196257,high, sofa,NA,No Target,Normal,No tone,-999,2011_000530.jpg,13
+778, pottedplant, car,,,,30.6126931776,high, car, dog,Target Absent,Normal,No tone,-999,2008_000488.jpg,13
+779, pottedplant, person, bottle, diningtable,,36.6655828193,high, pottedplant,NA,No Target,Normal,No tone,-999,2009_004794.jpg,13
+780, person, sofa,,,,29.6390102391,high, person,NA,No Target,Normal,No tone,-999,2008_000541.jpg,13
+781, pottedplant,,,,,18.0315374494,low, pottedplant,NA,No Target,Normal,No tone,-999,2011_000514.jpg,14
+782, bird,,,,,17.1675580603,low, bird,NA,No Target,Normal,No tone,-999,2008_003170.jpg,14
+783, dog,,,,,20.1944336287,low, dog,NA,No Target,Normal,No tone,-999,2009_002803.jpg,14
+784, boat,,,,,20.4706639524,low, boat,NA,No Target,Normal,No tone,-999,2008_002504.jpg,14
+785, person,,,,,20.358449022,low, person,NA,No Target,Normal,No tone,-999,2008_001367.jpg,14
+786, car,,,,,19.4399393846,low, car,NA,No Target,Normal,No tone,-999,2008_002704.jpg,14
+787, cat,,,,,16.4170391928,low, cat, bottle,Target Absent,Normal,No tone,-999,2008_003045.jpg,14
+788, chair,,,,,19.6460660251,low, chair,NA,No Target,Normal,No tone,-999,2008_000760.jpg,14
+789, sofa,,,,,16.9008566968,low, sofa,NA,No Target,Normal,No tone,-999,2011_000070.jpg,14
+790, car,,,,,18.2986780975,low, car, dog,Target Absent,Normal,No tone,-999,2008_000501.jpg,14
+791, pottedplant, sofa, chair,,,18.5118878018,low, pottedplant,NA,No Target,Normal,No tone,-999,2008_001694.jpg,14
+792, car,,,,,9.15639028616,low, car,NA,No Target,Normal,No tone,-999,2011_000293.jpg,14
+793, pottedplant,,,,,19.252734908,low, pottedplant,NA,No Target,Normal,No tone,-999,2010_003101.jpg,14
+794, dog,,,,,20.0746861318,low, dog,NA,No Target,Normal,No tone,-999,2010_005885.jpg,14
+795, pottedplant,,,,,21.2558875475,low, pottedplant,NA,No Target,Normal,No tone,-999,2008_003767.jpg,14
+796, boat,,,,,16.8463365792,low, boat,NA,No Target,Normal,No tone,-999,2010_005780.jpg,14
+797, horse,,,,,18.0578252839,low, horse, horse,Target Present,Normal,No tone,-999,2010_002283.jpg,14
+798, person, bottle,,,,17.2428434908,low, bottle,NA,No Target,Normal,No tone,-999,2008_005869.jpg,14
+799, horse,,,,,20.9577483153,low, horse,NA,No Target,Normal,No tone,-999,2009_003232.jpg,14
+800, sofa,,,,,15.7792493869,low, sofa,NA,No Target,Normal,No tone,-999,2008_003709.jpg,14
+801, person, boat,,,,19.9016168923,low, boat,NA,No Target,Normal,No tone,-999,2009_001406.jpg,14
+802, dog,,,,,13.4112210534,low, dog,NA,No Target,Normal,No tone,-999,2008_001479.jpg,14
+803, person, boat,,,,16.146154778,low, boat,NA,No Target,Normal,No tone,-999,2011_002558.jpg,14
+804, cat,,,,,20.0415745672,low, cat,NA,No Target,Normal,No tone,-999,2010_005257.jpg,14
+805, bird,,,,,18.5230242662,low, bird, bird,Target Present,Critical,tone1,411,2008_001185.jpg,14
+806, person,,,,,18.1390531514,low, person,NA,No Target,Normal,No tone,-999,2008_001221.jpg,14
+807, person, dog,,,,18.2814006101,low, dog,NA,No Target,Normal,No tone,-999,2010_001908.jpg,14
+808, dog,,,,,19.803149147,low, dog,NA,No Target,Normal,No tone,-999,2008_007208.jpg,14
+809, chair, cat,,,,19.7971714164,low, cat,NA,No Target,Normal,No tone,-999,2011_000661.jpg,14
+810, person,,,,,21.0107127174,low, person,NA,No Target,Normal,No tone,-999,2008_000740.jpg,14
+811, bicycle, bottle,,,,18.8937980144,low, bottle, chair,Target Absent,Normal,No tone,-999,2009_004984.jpg,14
+812, sofa, dog,,,,19.1888341854,low, sofa,NA,No Target,Normal,No tone,-999,2009_001470.jpg,14
+813, horse,,,,,19.1565474203,low, horse,NA,No Target,Normal,No tone,-999,2011_001656.jpg,14
+814, boat,,,,,19.6857522998,low, boat,NA,No Target,Normal,No tone,-999,2011_001886.jpg,14
+815, cat,,,,,12.7290334447,low, cat,NA,No Target,Normal,No tone,-999,2009_004225.jpg,14
+816, dog,,,,,19.7552861872,low, dog,NA,No Target,Normal,No tone,-999,2008_000183.jpg,14
+817, car,,,,,19.7592559984,low, car,NA,No Target,Normal,No tone,-999,2008_000952.jpg,14
+818, aeroplane,,,,,17.3506654694,low, aeroplane,NA,No Target,Normal,No tone,-999,2008_008263.jpg,14
+819, horse,,,,,19.789006071,low, horse,NA,No Target,Normal,No tone,-999,2009_002697.jpg,14
+820, dog,,,,,18.6088037047,low, dog, dog,Target Present,Critical,tone1,481,2010_005391.jpg,14
+821, chair, diningtable,,,,15.830708943,low, chair,NA,No Target,Normal,No tone,-999,2010_004231.jpg,14
+822, aeroplane,,,,,20.5598624568,low, aeroplane,NA,No Target,Normal,No tone,-999,2011_001624.jpg,14
+823, person, bottle,,,,20.4237954738,low, bottle,NA,No Target,Normal,No tone,-999,2008_000398.jpg,14
+824, car, person,,,,20.6957146074,low, car,NA,No Target,Normal,No tone,-999,2011_002303.jpg,14
+825, person, dog,,,,20.1660203933,low, person, person,Target Present,Normal,No tone,-999,2008_002116.jpg,14
+826, dog,,,,,16.6933725717,low, dog, dog,Target Present,Normal,No tone,-999,2008_007274.jpg,14
+827, car,,,,,19.4531673546,low, car,NA,No Target,Normal,No tone,-999,2008_000105.jpg,14
+828, aeroplane,,,,,20.2722047516,low, aeroplane,NA,No Target,Normal,No tone,-999,2009_005075.jpg,14
+829, dog,,,,,19.5706622561,low, dog,NA,No Target,Normal,No tone,-999,2008_005123.jpg,14
+830, person, boat,,,,18.6424504286,low, person, bird,Target Absent,Normal,No tone,-999,2008_008083.jpg,14
+831, pottedplant,,,,,19.906276626,low, pottedplant,NA,No Target,Normal,No tone,-999,2010_000132.jpg,14
+832, person, horse,,,,19.1875460742,low, person,NA,No Target,Normal,No tone,-999,2008_000119.jpg,14
+833, horse,,,,,13.8796340974,low, horse,NA,No Target,Normal,No tone,-999,2008_004624.jpg,14
+834, sofa,,,,,19.8923896955,low, sofa,NA,No Target,Normal,No tone,-999,2009_000087.jpg,14
+835, pottedplant,,,,,11.902212339,low, pottedplant,NA,No Target,Critical,tone1,372,2010_000750.jpg,14
+836, person, chair,,,,16.6068065792,low, person,NA,No Target,Normal,No tone,-999,2010_004223.jpg,14
+837, bottle,,,,,15.7136248334,low, bottle,NA,No Target,Normal,No tone,-999,2009_005044.jpg,14
+838, bottle, dog, diningtable,,,21.0346469109,low, bottle,NA,No Target,Normal,No tone,-999,2011_002911.jpg,14
+839, pottedplant,,,,,21.2176699016,low, pottedplant,NA,No Target,Normal,No tone,-999,2008_005214.jpg,14
+840, car, dog, person,,,21.0201592114,low, car,NA,No Target,Normal,No tone,-999,2010_003746.jpg,14
+841, person,,,,,18.8795575328,low, person,NA,No Target,Normal,No tone,-999,2008_002145.jpg,15
+842, cat,,,,,16.6565997701,low, cat,NA,No Target,Normal,No tone,-999,2009_004598.jpg,15
+843, boat,,,,,21.1986204175,low, boat,NA,No Target,Normal,No tone,-999,2010_004662.jpg,15
+844, dog, cat,,,,21.2476294604,low, dog,NA,No Target,Normal,No tone,-999,2008_001708.jpg,15
+845, pottedplant,,,,,19.2497613741,low, pottedplant,NA,No Target,Normal,No tone,-999,2011_002453.jpg,15
+846, dog,,,,,18.9815982303,low, dog,NA,No Target,Normal,No tone,-999,2009_003209.jpg,15
+847, sofa,,,,,20.9563072862,low, sofa,NA,No Target,Normal,No tone,-999,2009_002998.jpg,15
+848, horse,,,,,19.2344013367,low, horse, aeroplane,Target Absent,Critical,tone2,110,2010_001829.jpg,15
+849, person,,,,,18.7165290052,low, person,NA,No Target,Normal,No tone,-999,2008_006998.jpg,15
+850, pottedplant, person,,,,13.7867334636,low, pottedplant,NA,No Target,Normal,No tone,-999,2009_001137.jpg,15
+851, bird,,,,,18.0156688875,low, bird,NA,No Target,Normal,No tone,-999,2008_005903.jpg,15
+852, person, boat,,,,16.6512424605,low, boat,NA,No Target,Normal,No tone,-999,2009_004888.jpg,15
+853, horse,,,,,18.5904564306,low, horse,NA,No Target,Normal,No tone,-999,2010_004145.jpg,15
+854, chair,,,,,11.4592323772,low, chair,NA,No Target,Normal,No tone,-999,2009_004129.jpg,15
+855, person, sofa,,,,19.2440358751,low, sofa,NA,No Target,Normal,No tone,-999,2008_004270.jpg,15
+856, dog,,,,,19.8900886516,low, dog,NA,No Target,Normal,No tone,-999,2008_005728.jpg,15
+857, bird,,,,,13.9084482241,low, bird,NA,No Target,Normal,No tone,-999,2011_001967.jpg,15
+858, sofa, dog,,,,16.1425626209,low, dog, chair,Target Absent,Normal,No tone,-999,2009_001774.jpg,15
+859, bird,,,,,19.3050304781,low, bird,NA,No Target,Normal,No tone,-999,2009_000619.jpg,15
+860, bird,,,,,8.06283649278,low, bird,NA,No Target,Normal,No tone,-999,2008_004893.jpg,15
+861, pottedplant, chair, diningtable,,,17.13857605,low, pottedplant,NA,No Target,Normal,No tone,-999,2008_002379.jpg,15
+862, person, dog,,,,19.7933761126,low, person,NA,No Target,Critical,tone2,686,2008_003587.jpg,15
+863, bottle,,,,,20.8325215533,low, bottle,NA,No Target,Normal,No tone,-999,2009_002521.jpg,15
+864, horse,,,,,19.2079563963,low, horse,NA,No Target,Normal,No tone,-999,2008_008533.jpg,15
+865, person, boat,,,,17.698167132,low, boat,NA,No Target,Normal,No tone,-999,2011_001591.jpg,15
+866, boat,,,,,20.1314110865,low, boat,NA,No Target,Normal,No tone,-999,2010_002393.jpg,15
+867, bottle,,,,,21.1163017472,low, bottle,NA,No Target,Normal,No tone,-999,2009_005308.jpg,15
+868, aeroplane,,,,,8.17124474062,low, aeroplane,NA,No Target,Normal,No tone,-999,2008_000151.jpg,15
+869, bottle,,,,,19.0962373595,low, bottle,NA,No Target,Critical,tone2,546,2009_002594.jpg,15
+870, horse,,,,,18.7207285432,low, horse,NA,No Target,Normal,No tone,-999,2009_003686.jpg,15
+871, cat,,,,,20.5373535376,low, cat,NA,No Target,Normal,No tone,-999,2009_000716.jpg,15
+872, car,,,,,18.5979816817,low, car, car,Target Present,Normal,No tone,-999,2010_004014.jpg,15
+873, sofa, tvmonitor,,,,15.5740471892,low, sofa,NA,No Target,Normal,No tone,-999,2009_003373.jpg,15
+874, car,,,,,18.7084977246,low, car,NA,No Target,Normal,No tone,-999,2008_000163.jpg,15
+875, chair,,,,,13.7274387367,low, chair,NA,No Target,Normal,No tone,-999,2011_001834.jpg,15
+876, boat,,,,,16.5803743378,low, boat,NA,No Target,Normal,No tone,-999,2008_004907.jpg,15
+877, cat,,,,,14.1274696186,low, cat,NA,No Target,Normal,No tone,-999,2008_002899.jpg,15
+878, car,,,,,17.7316960995,low, car,NA,No Target,Normal,No tone,-999,2010_003453.jpg,15
+879, sofa,,,,,17.0559093734,low, sofa, sofa,Target Present,Normal,No tone,-999,2008_006784.jpg,15
+880, bird,,,,,13.6444177899,low, bird, pottedplant,Target Absent,Normal,No tone,-999,2009_002604.jpg,15
+881, pottedplant,,,,,20.5841625672,low, pottedplant,NA,No Target,Normal,No tone,-999,2008_004171.jpg,15
+882, dog,,,,,18.0450356506,low, dog,NA,No Target,Normal,No tone,-999,2010_000811.jpg,15
+883, cat,,,,,19.0962523457,low, cat,NA,No Target,Normal,No tone,-999,2009_004779.jpg,15
+884, person, sofa,,,,20.7078777754,low, sofa, horse,Target Absent,Normal,No tone,-999,2008_000972.jpg,15
+885, aeroplane,,,,,20.1580444106,low, aeroplane,NA,No Target,Normal,No tone,-999,2008_007096.jpg,15
+886, dog, bottle,,,,18.8607033421,low, bottle,NA,No Target,Normal,No tone,-999,2010_000805.jpg,15
+887, person, boat,,,,17.5169414787,low, boat, boat,Target Present,Normal,No tone,-999,2011_001613.jpg,15
+888, pottedplant,,,,,19.895720118,low, pottedplant,NA,No Target,Normal,No tone,-999,2010_002379.jpg,15
+889, boat,,,,,19.2643376751,low, boat,NA,No Target,Normal,No tone,-999,2009_001723.jpg,15
+890, aeroplane,,,,,13.513291905,low, aeroplane,NA,No Target,Normal,No tone,-999,2008_006564.jpg,15
+891, bird,,,,,12.4339897793,low, bird,NA,No Target,Normal,No tone,-999,2008_000123.jpg,15
+892, pottedplant, sofa,,,,18.9677226722,low, pottedplant, pottedplant,Target Present,Normal,No tone,-999,2011_001005.jpg,15
+893, person, boat,,,,17.9977484701,low, boat,NA,No Target,Normal,No tone,-999,2010_002498.jpg,15
+894, aeroplane,,,,,20.8854366041,low, aeroplane,NA,No Target,Normal,No tone,-999,2008_006703.jpg,15
+895, bird,,,,,20.7578853634,low, bird,NA,No Target,Normal,No tone,-999,2009_003993.jpg,15
+896, chair, diningtable,,,,20.017308323,low, chair,NA,No Target,Normal,No tone,-999,2008_007048.jpg,15
+897, person,,,,,20.1891503371,low, person,NA,No Target,Normal,No tone,-999,2008_000940.jpg,15
+898, horse,,,,,16.3969555242,low, horse, bottle,Target Absent,Normal,No tone,-999,2008_000177.jpg,15
+899, horse,,,,,19.8038988384,low, horse,NA,No Target,Normal,No tone,-999,2010_003890.jpg,15
+900, dog,,,,,16.1374581172,low, dog,NA,No Target,Normal,No tone,-999,2008_006452.jpg,15
+901, tvmonitor, diningtable, cat,,,29.8429225027,high, cat,NA,No Target,Normal,No tone,-999,2010_001939.jpg,16
+902, sofa, chair,,,,32.35147421,high, chair,NA,No Target,Normal,No tone,-999,2008_004670.jpg,16
+903, chair,,,,,30.0969203584,high, chair,NA,No Target,Normal,No tone,-999,2011_002260.jpg,16
+904, person, bottle,,,,30.9368792786,high, person,NA,No Target,Normal,No tone,-999,2011_002482.jpg,16
+905, person, sofa,,,,31.1244371666,high, sofa,NA,No Target,Normal,No tone,-999,2008_004459.jpg,16
+906, boat,,,,,29.9571992215,high, boat,NA,No Target,Normal,No tone,-999,2008_003701.jpg,16
+907, person, dog,,,,32.9593902214,high, dog, person,Target Absent,Normal,No tone,-999,2008_007745.jpg,16
+908, person, bird, boat,,,31.9134097386,high, bird,NA,No Target,Normal,No tone,-999,2011_001001.jpg,16
+909, person, diningtable, bottle,,,36.4850555133,high, bottle,NA,No Target,Normal,No tone,-999,2008_002864.jpg,16
+910, bird,,,,,29.2726546025,high, bird, cat,Target Absent,Normal,No tone,-999,2010_005608.jpg,16
+911, bird,,,,,31.18243026,high, bird,NA,No Target,Normal,No tone,-999,2008_006461.jpg,16
+912, chair, dog, diningtable,,,29.6114403428,high, dog,NA,No Target,Normal,No tone,-999,2008_007378.jpg,16
+913, bird,,,,,28.6670652044,high, bird,NA,No Target,Normal,No tone,-999,2010_003419.jpg,16
+914, person, chair, diningtable, bottle,,30.060591862,high, bottle,NA,No Target,Normal,No tone,-999,2010_004778.jpg,16
+915, chair, diningtable,,,,29.1196911303,high, chair,NA,No Target,Normal,No tone,-999,2009_003520.jpg,16
+916, sofa, bottle, pottedplant, tvmonitor, chair,33.9377756239,high, pottedplant,NA,No Target,Normal,No tone,-999,2011_002814.jpg,16
+917, chair, bottle,,,,30.4248738873,high, chair, chair,Target Present,Normal,No tone,-999,2008_005347.jpg,16
+918, chair, bird, diningtable,,,29.3617557203,high, bird,NA,No Target,Normal,No tone,-999,2011_001139.jpg,16
+919, person, horse,,,,29.265462465,high, horse,NA,No Target,Normal,No tone,-999,2011_002555.jpg,16
+920, chair,,,,,33.261768177,high, chair,NA,No Target,Normal,No tone,-999,2010_004763.jpg,16
+921, person, boat,,,,30.3841872714,high, boat,NA,No Target,Normal,No tone,-999,2008_006121.jpg,16
+922, person, sofa, cat,,,29.5141897874,high, cat,NA,No Target,Normal,No tone,-999,2010_005606.jpg,16
+923, person, bottle, car,,,34.3131610413,high, car,NA,No Target,Normal,No tone,-999,2010_002127.jpg,16
+924, tvmonitor, chair,,,,34.7763437145,high, chair,NA,No Target,Normal,No tone,-999,2009_000629.jpg,16
+925, aeroplane,,,,,32.2027640207,high, aeroplane, aeroplane,Target Present,Critical,tone2,380,2011_001880.jpg,16
+926, bus, person, car,,,31.1679369698,high, car,NA,No Target,Normal,No tone,-999,2008_005878.jpg,16
+927, car, aeroplane,,,,32.2245207666,high, aeroplane,NA,No Target,Normal,No tone,-999,2010_005718.jpg,16
+928, person, aeroplane,,,,28.9954166074,high, aeroplane,NA,No Target,Normal,No tone,-999,2009_001345.jpg,16
+929, person, dog, sofa,,,29.9356183869,high, dog,NA,No Target,Normal,No tone,-999,2008_000270.jpg,16
+930, car,,,,,30.3940484458,high, car,NA,No Target,Normal,No tone,-999,2008_002672.jpg,16
+931, person, horse,,,,30.92721034,high, horse, bottle,Target Absent,Normal,No tone,-999,2008_003461.jpg,16
+932, pottedplant, person, chair, diningtable,,37.7107190223,high, pottedplant,NA,No Target,Normal,No tone,-999,2008_000041.jpg,16
+933, person, bicycle, car,,,31.5779063964,high, car,NA,No Target,Normal,No tone,-999,2008_008210.jpg,16
+934, person, aeroplane,,,,34.5441448216,high, aeroplane,NA,No Target,Normal,No tone,-999,2009_002001.jpg,16
+935, person, bicycle, car,,,30.8916722198,high, person,NA,No Target,Normal,No tone,-999,2008_004482.jpg,16
+936, tvmonitor, chair, person,,,31.7947294031,high, person,NA,No Target,Normal,No tone,-999,2008_001576.jpg,16
+937, boat,,,,,30.0652663955,high, boat,NA,No Target,Normal,No tone,-999,2009_002306.jpg,16
+938, person, aeroplane,,,,31.8858778004,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_006216.jpg,16
+939, aeroplane, boat,,,,29.2873494446,high, aeroplane,NA,No Target,Normal,No tone,-999,2008_002773.jpg,16
+940, tvmonitor, sofa, bottle, person,,29.6080264916,high, bottle, bottle,Target Present,Critical,tone1,877,2008_005090.jpg,16
+941, bird,,,,,29.176311485,high, bird,NA,No Target,Normal,No tone,-999,2008_000192.jpg,16
+942, person, horse,,,,33.3349724687,high, horse,NA,No Target,Normal,No tone,-999,2011_001335.jpg,16
+943, person, horse,,,,35.6691324556,high, horse,NA,No Target,Normal,No tone,-999,2010_001856.jpg,16
+944, tvmonitor, chair,,,,32.3848141416,high, chair,NA,No Target,Normal,No tone,-999,2008_007527.jpg,16
+945, boat, cow,,,,29.6594071243,high, boat, boat,Target Present,Normal,No tone,-999,2008_002709.jpg,16
+946, person, dog,,,,32.1424271349,high, dog, dog,Target Present,Normal,No tone,-999,2010_000074.jpg,16
+947, car, bicycle, person,,,28.8744162441,high, person,NA,No Target,Normal,No tone,-999,2010_005542.jpg,16
+948, sofa, chair, person,,,36.4437919266,high, sofa,NA,No Target,Normal,No tone,-999,2011_002971.jpg,16
+949, sofa,,,,,30.9803111453,high, sofa,NA,No Target,Normal,No tone,-999,2008_008628.jpg,16
+950, aeroplane,,,,,31.1423085011,high, aeroplane, horse,Target Absent,Normal,No tone,-999,2008_007629.jpg,16
+951, dog,,,,,28.9618169808,high, dog,NA,No Target,Normal,No tone,-999,2008_005845.jpg,16
+952, pottedplant, person, chair, diningtable,,31.4876403732,high, pottedplant,NA,No Target,Normal,No tone,-999,2008_001451.jpg,16
+953, sofa, chair, diningtable,,,30.3466941995,high, chair,NA,No Target,Normal,No tone,-999,2008_008470.jpg,16
+954, aeroplane,,,,,35.972960084,high, aeroplane,NA,No Target,Normal,No tone,-999,2009_004414.jpg,16
+955, pottedplant, bicycle, bottle, cat,,35.3537844299,high, cat,NA,No Target,Critical,tone2,652,2008_000196.jpg,16
+956, pottedplant, sofa, chair, tvmonitor,,29.4645800956,high, pottedplant,NA,No Target,Normal,No tone,-999,2008_002119.jpg,16
+957, person, chair, tvmonitor,,,28.894989564,high, chair,NA,No Target,Normal,No tone,-999,2011_002509.jpg,16
+958, person, bottle,,,,28.9165153697,high, bottle,NA,No Target,Normal,No tone,-999,2008_004991.jpg,16
+959, pottedplant, person, bird,,,32.3259350459,high, bird,NA,No Target,Normal,No tone,-999,2008_001283.jpg,16
+960, boat,,,,,34.9675277341,high, boat,NA,No Target,Normal,No tone,-999,2010_002620.jpg,16
