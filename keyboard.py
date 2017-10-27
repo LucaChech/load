@@ -9,6 +9,9 @@ def get_keys_after_image(tone_timer):
     return RT_TO
 
 def get_keys_after_visual_search_question(tone_timer, vs_timer):
+    RT_TO = None
+    RT_VS = None
+    p_or_q = None
     keys = event.waitKeys(keyList=['q', 'p', 'space'], timeStamped=tone_timer)
 
     rt_space = -999
@@ -20,8 +23,8 @@ def get_keys_after_visual_search_question(tone_timer, vs_timer):
                 RT_TO = rt_space
         if k[0] == 'q' or k[0] == 'p':
             wait = False
-            RT_VS = k[0][1]
-            RT_VS = RT_VS - (vs_timer - tone_timer)
+            RT_VS = k[1]
+            RT_VS = RT_VS - (vs_timer.getTime() - tone_timer.getTime())
             q_or_p = k[0]
     while wait:
         keys = event.waitKeys(keyList=['q', 'p'], timeStamped=vs_timer)

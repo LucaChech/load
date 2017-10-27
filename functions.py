@@ -53,7 +53,7 @@ def run_blocks(trials,noise,timer,visual,win,event,i_counter,expInfo,incorrect,t
 
             if this_trial['tone_hz'] != 'No tone':
                 #If this is a critical trial (tone present)
-                print 'pic',pic
+
                 name = this_trial['question']
 
                 if 'pottedplant' in name:
@@ -78,14 +78,12 @@ def run_blocks(trials,noise,timer,visual,win,event,i_counter,expInfo,incorrect,t
                 elif this_trial['present_absent'] == 'Target Absent'  and q_or_p == 'q':
                     incorrect.play()
                 else:
-                    RT = my_dict[pic[1:-1]][16] - 1.3
+                    #RT = my_dict[pic[1:-1]][16] - 1.3 #I'm not sure if it's bad to comment this line out
                     #tPoints = round(pointval - (decay*RT))
                     tPoints = 3
                     bPoints = bPoints + tPoints
                     allPoints =  allPoints + tPoints
-                    print tPoints
-                    print RT
-                    print bPoints
+ 
                     #if tPoints >= trialthresh:
                     #    for frameN in range(20):
                     #        happy.draw()
