@@ -1,5 +1,10 @@
 import csv
 
+
+import pickle
+with open('../config/trials.pik', 'r') as of:
+    trials = pickle.load(of)
+
 blocks_final = []
 with open('config/images.csv', 'rb') as csvfile:
     reader = csv.reader(csvfile, delimiter=' ', quotechar='|')
