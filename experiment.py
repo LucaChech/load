@@ -27,15 +27,9 @@ from setup import *
 from functions import *
 from instructions import *
 
-#import functions
-#functions.myfunction()
-# myfunction()
 
 debug = True
 
-blocks_final_index = 0
-probes_position_index = 0
-#block = blocks_final[blocks_final_index]
 timer = core.Clock()
 i_counter = 0
 block_number = 1

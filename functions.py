@@ -3,7 +3,7 @@ import pdb
 import pickle
 from psychopy import locale_setup, core, data, event, logging, sound, gui
 import numpy as np
-from keyboard import *
+from keyboard_luca import *
 
 def run_blocks(trials,noise,timer,visual,win,event,i_counter,expInfo,incorrect,tone1,tone2,experiment_details,allPoints):
     last_tone_trial_no = 0
@@ -11,7 +11,7 @@ def run_blocks(trials,noise,timer,visual,win,event,i_counter,expInfo,incorrect,t
     n_blocks = 16
     blocks = np.arange(1, n_blocks+1)  # 1 to 16
     trial_number = 1
-    trials_per_block = 16
+    trials_per_block = 60
     for block in blocks:
         bPoints = 0
         trial_numbers_in_block = np.arange(1, trials_per_block+1)
@@ -42,7 +42,8 @@ def run_blocks(trials,noise,timer,visual,win,event,i_counter,expInfo,incorrect,t
             for frameN in range(20):
                 win.flip()
 
-            RT_TO = get_keys_after_image(tone_timer)
+            RT_TO = get_keys_after_image
+            (tone_timer)
 
             trial_details = this_trial
             
@@ -51,7 +52,7 @@ def run_blocks(trials,noise,timer,visual,win,event,i_counter,expInfo,incorrect,t
             trial_details['RT_VS'] = None
             trial_details['useless'] = None
 
-            if this_trial['tone_hz'] != 'No tone':
+            if this_trial['present_absent'] != 'No Target':
                 #If this is a critical trial (tone present)
 
                 name = this_trial['question']
@@ -96,9 +97,13 @@ def run_blocks(trials,noise,timer,visual,win,event,i_counter,expInfo,incorrect,t
             i_counter = i_counter + 1
 
             experiment_details[trial_number] = trial_details
+            print 'keys', experiment_details[trial_number]['keys']
+            print 'RT_TO', experiment_details[trial_number]['RT_TO']
+            print 'RT_VS', trial_details['RT_VS'] 
+            print 'useless', trial_details['useless']
             trial_number += 1
             data_to_dump = {'observer_details': expInfo, 'experiment_details':experiment_details}
-
+            
             with open('output/participant_'+expInfo['Participant no.']+'.pik','wb') as file:
                 pickle.dump(data_to_dump, file)
 
