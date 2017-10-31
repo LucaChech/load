@@ -1,12 +1,11 @@
 from psychopy import event
 
-def get_keys_after_image(tone_timer):
-    RT_TO = None
-    response = event.getKeys(keyList=['space'], timeStamped=tone_timer)
+def get_keys_after_image():
+    response = event.getKeys(keyList=['space'], timeStamped=True)
 
     if len(response) and response[0][1] <= 2:
         RT_TO = response[0][1]
-    print response[0][1]
+
     #return RT_TO
     #maybe you wanted to return 'response' instead?
     return response

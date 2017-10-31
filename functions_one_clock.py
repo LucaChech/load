@@ -1,14 +1,17 @@
+
 import pickle
 from psychopy import locale_setup, core, data, event, logging, sound, gui
 import numpy as np
 
 
 timer = core.Clock()
-dead_zone = core.Clock()
 
 def run_blocks(trials,noise,visual,win,event,i_counter,expInfo,incorrect,tone1,tone2,experiment_details,allPoints):
+    last_tone_trial_no = None
+    responded_to_last_tone = False
+    trials_waited_for_tone = 0
     n_blocks = 32
-    blocks = np.arange(1, n_blocks+1)
+    blocks = np.arange(1, n_blocks+1)  # 1 to 16
     trial_number = 1
     trials_per_block = 60
     for block in blocks:
@@ -16,7 +19,6 @@ def run_blocks(trials,noise,visual,win,event,i_counter,expInfo,incorrect,tone1,t
         bPoints = 0
         trial_numbers_in_block = np.arange(1, trials_per_block+1)
         for trial_number_in_block in trial_numbers_in_block:
-            print 'DZ: ', dead_zone.getTime()
             #event.clearEvents()
             this_trial = trials[trial_number]
             trial_details = this_trial
@@ -47,7 +49,7 @@ def run_blocks(trials,noise,visual,win,event,i_counter,expInfo,incorrect,tone1,t
             for frameN in range(20):
                 win.flip()
 
-            # event.clearEvents()
+            event.clearEvents()
             RT_TO_before_check = event.getKeys(keyList=['space'], timeStamped=timer)
             #event.clearEvents()
             if len(RT_TO_before_check): # and if they have respoded to the tone only after the tone!
@@ -92,9 +94,6 @@ def run_blocks(trials,noise,visual,win,event,i_counter,expInfo,incorrect,tone1,t
                 print 'RT_VS', RT_VS
                 print 'RT_TO', RT_TO
 ###############
-                dead_zone.reset()
-
-
                 trial_details['keys'] = q_or_p
                 trial_details['RT_VS'] = RT_VS
 

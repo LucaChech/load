@@ -1,23 +1,34 @@
+
 import pickle
 from psychopy import locale_setup, core, data, event, logging, sound, gui
 import numpy as np
+from keyboard_luca import *
 
+timer_from_trial_start = core.Clock()
 
-timer = core.Clock()
-dead_zone = core.Clock()
-
-def run_blocks(trials,noise,visual,win,event,i_counter,expInfo,incorrect,tone1,tone2,experiment_details,allPoints):
+vs_timer = core.Clock()
+def run_blocks(trials,noise,timer,visual,win,event,i_counter,expInfo,incorrect,tone1,tone2,experiment_details,allPoints):
+    last_tone_trial_no = None
+    responded_to_last_tone = False
+    trials_waited_for_tone = 0
     n_blocks = 32
-    blocks = np.arange(1, n_blocks+1)
+    blocks = np.arange(1, n_blocks+1)  # 1 to 16
     trial_number = 1
     trials_per_block = 60
     for block in blocks:
-        time_at_beginning_of_block = timer.getTime()
+        timer_from_block_start = core.Clock()
+        time_so_far = timer_from_block_start.getTime()
         bPoints = 0
         trial_numbers_in_block = np.arange(1, trials_per_block+1)
+        time_at_end_of_trial = 0
         for trial_number_in_block in trial_numbers_in_block:
-            print 'DZ: ', dead_zone.getTime()
-            #event.clearEvents()
+            time_from_start = timer_from_block_start.getTime()
+            print 'time_so_far: ', time_so_far
+            print 'beginning: ', time_from_start
+            print 'time at end of previous trial (if it is a no probe trial)', time_at_end_of_trial
+            print 'time_from_start - time_at_end_of_trial',time_from_start - time_at_end_of_trial
+            print 'difference: ',time_from_start - (time_from_start - time_at_end_of_trial)
+
             this_trial = trials[trial_number]
             trial_details = this_trial
             trial_details['keys'] = None # CAN ONLY BE Q OR P, NOT SPACE
@@ -26,10 +37,9 @@ def run_blocks(trials,noise,visual,win,event,i_counter,expInfo,incorrect,tone1,t
             RT_VS = None
             RT_TO = None
             print 'IMAGE ', i_counter
-            #noise.play()
+            noise.play()
+            timer_from_trial_start.reset()
             image = visual.ImageStim(win=win, image=  '../load-data/exp_images/'+ this_trial['image_name'])
-            time_at_beginning_of_trial = timer.getTime()
-            print time_at_beginning_of_trial
             start_frame = ((int(this_trial['tone_onset']) + 17 // 2) // 17) -1 # final -1 is to compensate for lag
             # CHANGE 17 WITH ACTUAL FRAMERATE
             n_frames = 60
@@ -37,26 +47,23 @@ def run_blocks(trials,noise,visual,win,event,i_counter,expInfo,incorrect,tone1,t
             for frameN in range(n_frames):
                 if this_trial['tone_hz'] == 'tone1' and frameN == start_frame :
                     tone1.play()
-                    tone_onset_time = timer.getTime()
                 elif this_trial['tone_hz'] == 'tone2' and frameN == start_frame:
                     tone2.play()
-                    tone_onset_time = timer.getTime()
                 image.draw()
                 win.flip()
 
             for frameN in range(20):
                 win.flip()
 
-            # event.clearEvents()
-            RT_TO_before_check = event.getKeys(keyList=['space'], timeStamped=timer)
-            #event.clearEvents()
-            if len(RT_TO_before_check): # and if they have respoded to the tone only after the tone!
-                RT_TO = RT_TO_before_check[0][1] - time_at_beginning_of_trial
-            print RT_TO
+            RT_TO_before_check = event.getKeys(keyList=['space'], timeStamped=timer_from_trial_start)
+            if len(RT_TO_before_check):
+                RT_TO = RT_TO_before_check[0][1]
+            time_at_end_of_trial = timer_from_trial_start.getTime()
+            print time_at_end_of_trial
 
             if this_trial['present_absent'] != 'No Target':
-                print 'here'
                 #If this is a critical trial (tone present)
+                print timer_from_trial_start.getTime()
                 name = this_trial['question']
 
                 if 'pottedplant' in name:
@@ -67,33 +74,12 @@ def run_blocks(trials,noise,visual,win,event,i_counter,expInfo,incorrect,tone1,t
                 search_text.draw()
                 win.flip()
 
-                # and if they have respoded to the tone only after the tone!
-                keys = event.waitKeys(keyList=['q', 'p', 'space'], timeStamped=timer)
-
-                rt_space = -999
-                wait = True
-                for k in keys:
-                    if k[0] == 'space':
-                        rt_space = [k[0], k[1]]
-                        if rt_space <= 2:
-                            RT_TO = rt_space
-                    if k[0] == 'q' or k[0] == 'p':
-                        wait = False
-                        RT_VS = k[1]
-                        q_or_p = k[0]
-                while wait:
-                    keys = event.waitKeys(keyList=['q', 'p'], timeStamped=timer)
-
-                    letters = [t[0] for t in keys]
-                    if ('p' in letters) or ('q' in letters):
-                        wait = False
-                        RT_VS = keys[0][1]
-                        q_or_p = keys[0][0]
-                print 'RT_VS', RT_VS
-                print 'RT_TO', RT_TO
-###############
-                dead_zone.reset()
-
+                timer_from_probe = core.Clock()
+                timer_from_probe.add(timer_from_trial_start.getTime())
+                print 'timer', timer_from_probe.getTime()
+                vs_timer.reset()
+                print 'VS: ' ,vs_timer.getTime()
+                RT_TO, RT_VS, q_or_p = get_keys_after_visual_search_question(tone_timer, vs_timer)
 
                 trial_details['keys'] = q_or_p
                 trial_details['RT_VS'] = RT_VS
