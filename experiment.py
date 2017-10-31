@@ -1,5 +1,5 @@
 from __future__ import division  # so that 1/3=0.333 instead of 1/3=0
-from psychopy import visual
+from psychopy import visual, sound
 from psychopy import prefs
 prefs.general['audioLib'] = ['pyo']
 
@@ -15,7 +15,7 @@ i_counter = 0
 block_number = 1
 trial_number = 1
 
-experiment_details = {}
+
 
 #REWARD PARAMETERS
 decay = 10

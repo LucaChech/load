@@ -1,8 +1,14 @@
-from psychopy import event,core
+from psychopy import event, core
+
+def get_keys(keyList, timeStamped):
+    return event.getKeys(keyList=keyList, timeStamped=timeStamped)
+
+def wait_keys(keyList, timeStamped):
+    return event.waitKeys(keyList=keyList, timeStamped=timeStamped)
 
 def get_keys_after_image(tone_timer):
     RT_TO = None
-    response = event.getKeys(keyList=['space'], timeStamped=tone_timer)
+    response = get_keys(keyList=['space'], timeStamped=tone_timer)
     if len(response):
         RT_TO = response[0][1]
         print 'RT_TO inside first function: ', RT_TO
@@ -20,7 +26,7 @@ def get_keys_after_visual_search_question(tone_timer, vs_timer):
     t_start_from_vs = vs_timer.getTime()
 
     #print 'since vs:', t_start_from_vs
-    keys = event.waitKeys(keyList=['q', 'p', 'space'], timeStamped=t)
+    keys = wait_keys(keyList=['q', 'p', 'space'], timeStamped=t)
 
 
     wait = True
@@ -38,7 +44,7 @@ def get_keys_after_visual_search_question(tone_timer, vs_timer):
             q_or_p = k[0]
     while wait:
         print 'wait'
-        keys = event.waitKeys(keyList=['q', 'p'], timeStamped=vs_timer)
+        keys = wait_keys(keyList=['q', 'p'], timeStamped=vs_timer)
         print vs_timer
         letters = [t[0] for t in keys]
         if ('p' in letters) or ('q' in letters):
