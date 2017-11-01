@@ -38,7 +38,7 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
             RT_VS = None
             RT_TO = None
 
-            #noise.play()
+            noise.play()
             #t_from_trial_start.reset()
             image = visual.ImageStim(win=win, image=  '../load-data/exp_images/'+ this_trial['image_name'])
             responded = False

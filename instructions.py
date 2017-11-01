@@ -1,11 +1,12 @@
 from psychopy import visual
-from psychopy import locale_setup, core, data, event, logging, sound, gui
+from psychopy import core, event
 
 
 
 def print_instructions(win,noise_example,tone1,tone2):
+    print 1
     print '!A'
-    Instructions_screen_1 = visual.TextStim(win, 
+    Instructions_screen_1 = visual.TextStim(win,
     '                                INSTRUCTIONS \n'
     '\n'
     '     You will be presented with a series of brief images.\n'
@@ -18,7 +19,7 @@ def print_instructions(win,noise_example,tone1,tone2):
     '                                    by pressing:\n'
     '                        Q if the object was present\n'
     '                         P if the object was absent\n'
-    '\n'   
+    '\n'
     'The experiment is run in short blocks with a break after \n'
     '                                    each block.\n'
     '\n'
@@ -32,8 +33,8 @@ def print_instructions(win,noise_example,tone1,tone2):
     height= 0.08,
     wrapWidth=2 )
     print '!B'
-    
-    
+
+
     Instructions_screen_2 = visual.TextStim(win,
     '                               INSTRUCTIONS \n'
     '\n'
@@ -48,8 +49,8 @@ def print_instructions(win,noise_example,tone1,tone2):
     alignVert='center',
     height= 0.08,
     wrapWidth=2 )
-    
-   
+
+
 
     Instructions_screen_3 = visual.TextStim(win,
     '                               INSTRUCTIONS \n'
@@ -61,7 +62,7 @@ def print_instructions(win,noise_example,tone1,tone2):
     '\n'
     '\n'
     '       Press ENTER to hear a few examples of the \n'
-    '                                     sounds. \n' 
+    '                                     sounds. \n'
     ,
     alignHoriz='center',
     alignVert='center',
@@ -81,7 +82,7 @@ def print_instructions(win,noise_example,tone1,tone2):
     '\n'
     '\n'
     '    Press ENTER to continue.\n'
-    '\n' 
+    '\n'
     ,
     alignHoriz='center',
     alignVert='center',
@@ -89,7 +90,7 @@ def print_instructions(win,noise_example,tone1,tone2):
     wrapWidth=2 )
 
 
-    Instructions_screen_5 = visual.TextStim(win, 
+    Instructions_screen_5 = visual.TextStim(win,
     '                                             INSTRUCTIONS\n'
     '\n'
 
@@ -110,8 +111,6 @@ def print_instructions(win,noise_example,tone1,tone2):
     wrapWidth=2 )
 
 
-
-    
     Instructions_screen_1.draw()
     win.flip()
     event.waitKeys(keyList=['return'])

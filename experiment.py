@@ -1,6 +1,7 @@
 from __future__ import division  # so that 1/3=0.333 instead of 1/3=0
-from psychopy import visual, sound
-from psychopy import prefs
+import sys
+sys.path.append('C:\pyo\Python27\Lib\site-packages')
+from psychopy import prefs, sound
 prefs.general['audioLib'] = ['pyo']
 
 from setup import *
@@ -43,7 +44,7 @@ if debug:
     blendMode='avg', useFBO=True,
     )
 else:
-    win = visual.Window(size=(1920, 1080), fullscr=False, screen=0, allowGUI=False, allowStencil=False,
+    win = visual.Window(size=(1920, 1080), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
         monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
         blendMode='avg', useFBO=True,
         )
