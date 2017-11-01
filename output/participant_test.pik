@@ -79,13 +79,13 @@ S'HI'
 p35
 sS'RT_TO'
 p36
-I1
+F1.5
 sS'space_before_tone'
 p37
 I00
 sS'RT_VS'
 p38
-F1.0000582900629524
+F2.2
 sS'keys'
 p39
 S'q'

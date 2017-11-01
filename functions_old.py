@@ -68,7 +68,7 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
             RT_TO = get_keys_after_image(tone_timer)
             print RT_TO
 
-            if RT_TO < 0:
+            if RT_TO is not None and RT_TO < 0:
                 #Space was pressed before the tone played
                 #Must be a false alarm for this trial, since tone played
                 #And previous tone must have been more than 2 seconds ago
@@ -126,7 +126,7 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
                     #Must be an FA for the current trial
                     trial_details['RT_TO'] = RT_TO
                     trial_details['tone_sdt'] = 'FA'
-                else:
+                elif RT_TO is not None:
                     #Reaction time less than 2
                     #Could be hit for this trial
                     #Or hit for previous trial

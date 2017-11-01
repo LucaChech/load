@@ -61,13 +61,11 @@ tone2 = sound.Sound('../load-data/PureTone_F2000_t50_low.wav', secs=0.05)
 if not debug:
     print_instructions(win, noise_example, tone1, tone2)
 
-class Test(unittest.TestCase):
-    def setUp(self):
-        pass
-
-    @mock.patch('psychopy.event.getKeys')
-    @mock.patch('psychopy.event.waitKeys')
-    def test_1(self, mock_getKeys, mock_waitKeys):
+class fa_test(unittest.TestCase):
+    @mock.patch('keyboard.get_keys')
+    @mock.patch('keyboard.wait_keys')
+    def runTest(self, mock_waitKeys, mock_getKeys):
+        #Checks false alarm if space hit in non-critical trial
         experiment_details = {}
         trials_new = {}
         n=2
@@ -75,42 +73,43 @@ class Test(unittest.TestCase):
             trials_new[k] = trials[k]
         mock_getKeys.return_value = [['space',0.1]]
         mock_waitKeys.return_value = [['q', 0.1]]
-        run_blocks(trials_new,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
-        self.assertEqual(experiment_details[1]['RT_TO'], 0.1)
+        D = run_blocks(trials_new,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
+        self.assertEqual(D[1]['RT_TO'], None)
+        self.assertEqual(D[1]['tone_sdt'], 'FA')
 
-class TestWholeExperiment(unittest.TestCase):
-    @mock.patch('keyboard.wait_keys')
-    @mock.patch('keyboard.get_keys')
-    @mock.patch('keyboard.wait_for_return')
-    def runTest(self, mock_wait_for_return, mock_getKeys, mock_waitKeys):
-        trial_file = 'config/randomization.pik'
-        converted = False
-
-        with open(trial_file, 'r') as of:
-            trials_raw = pickle.load(of)
-
-        trials = {}
-
-        cols = ['cat_1', 'cat_2', 'cat_3', 'cat_4', 'cat_5', 'TS', 'load', 'exemplar', 'question', 'present_absent',
-                'trial_type', 'tone_hz', 'tone_onset', 'image_name', 'block']
-
-        if converted:
-            trials = trials_raw
-        else:
-            for k in trials_raw.keys():
-                l = trials_raw[k]
-                trial_dict = {}
-                for i in range(len(l)):
-                    trial_dict[cols[i]] = l[i]
-                trials[k] = trial_dict
-
-        experiment_details = {}
-        mock_waitKeys.return_value = [['q', 0.1]]
-        mock_getKeys.return_value = [['space',0.1]]
-        mock_wait_for_return.return_value = True
-
-        run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,32,60)
-
+# class TestWholeExperiment(unittest.TestCase):
+#     @mock.patch('keyboard.wait_keys')
+#     @mock.patch('keyboard.get_keys')
+#     @mock.patch('keyboard.wait_for_return')
+#     def runTest(self, mock_wait_for_return, mock_getKeys, mock_waitKeys):
+#         trial_file = 'config/randomization.pik'
+#         converted = False
+#
+#         with open(trial_file, 'r') as of:
+#             trials_raw = pickle.load(of)
+#
+#         trials = {}
+#
+#         cols = ['cat_1', 'cat_2', 'cat_3', 'cat_4', 'cat_5', 'TS', 'load', 'exemplar', 'question', 'present_absent',
+#                 'trial_type', 'tone_hz', 'tone_onset', 'image_name', 'block']
+#
+#         if converted:
+#             trials = trials_raw
+#         else:
+#             for k in trials_raw.keys():
+#                 l = trials_raw[k]
+#                 trial_dict = {}
+#                 for i in range(len(l)):
+#                     trial_dict[cols[i]] = l[i]
+#                 trials[k] = trial_dict
+#
+#         experiment_details = {}
+#         mock_waitKeys.return_value = [['q', 0.1]]
+#         mock_getKeys.return_value = [['space',0.1]]
+#         mock_wait_for_return.return_value = True
+#
+#         run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,32,60)
+#
 
 class ReactionTimeZero(unittest.TestCase):
     @mock.patch('keyboard.wait_keys')
@@ -135,6 +134,7 @@ class ReactionTimeZero(unittest.TestCase):
             self.assertEqual(t['tone_sdt'], 'HI')
 
 class test_reply_in_next_trial(unittest.TestCase):
+    #With VS question in second trial
     @mock.patch('keyboard.wait_keys')
     @mock.patch('keyboard.get_keys')
     def runTest(self, mock_get_keys, mock_wait_keys):
@@ -148,9 +148,10 @@ class test_reply_in_next_trial(unittest.TestCase):
 
         trials_new[2] = trials[2]
         trials_new[2]['trial_type'] = 'Normal'
-
+        trials_new[2]['present_absent'] = 'Target Present'
 
         mock_get_keys.side_effect = [ [],[['space', 1]] ]
+        mock_wait_keys.return_value = [['q',1]]
 
         D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
 
@@ -182,11 +183,12 @@ class test_visual_search_question(unittest.TestCase):
         self.assertEqual(D[1]['RT_TO'], 1)
         self.assertEqual(D[1]['tone_sdt'], 'HI')
         self.assertEqual(D[1]['keys'], 'q')
+        self.assertEqual(D[1]['trial_type'], 'Critical')
 
 class test_visual_search_question_2(unittest.TestCase):
     @mock.patch('keyboard.wait_keys')
     @mock.patch('keyboard.get_keys')
-    @mock.patch('psychopy.core.clock.getTime')
+    @mock.patch('psychopy.core.Clock.getTime')
     def runTest(self, mock_tone_timer, mock_get_keys, mock_wait_keys):
         n = 1
         experiment_details = {}
@@ -197,10 +199,35 @@ class test_visual_search_question_2(unittest.TestCase):
         trials_new[1]['tone_onset'] = 500
         trials_new[1]['present_or_absent'] = 'Target Present'
 
-        mock_get_keys.return_value = [['space', 1]]
+        mock_get_keys.return_value = []
 
+        mock_wait_keys.side_effect = [    [['space', 1]], [['q',2.2]]    ]
+        mock_tone_timer.return_value = 0.5
+
+        D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
+
+        self.assertEqual(D[1]['RT_TO'], 1.5)
+        self.assertEqual(D[1]['tone_sdt'], 'HI')
+        self.assertEqual(D[1]['keys'], 'q')
+        self.assertEqual(D[1]['RT_VS'], 2.2)
+
+class test_visual_search_question_3(unittest.TestCase):
+    @mock.patch('keyboard.wait_keys')
+    @mock.patch('keyboard.get_keys')
+    @mock.patch('psychopy.core.Clock.getTime')
+    def runTest(self, mock_timer, mock_get_keys, mock_wait_keys):
+        n = 1
+        experiment_details = {}
+        trials_new = {}
+        trials_new[1] = trials[1]
+        trials_new[1]['trial_type'] = 'Critical'
+        trials_new[1]['tone_hz'] = 'tone1'
+        trials_new[1]['tone_onset'] = 500
+        trials_new[1]['present_or_absent'] = 'Target Present'
+
+        mock_get_keys.return_value = []
+        mock_timer.return_value = 1
         mock_wait_keys.side_effect = [    [['space', 2]], [['q',2.2]]    ]
-        mock_tone_timer.return_value = 1
 
         D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
 
@@ -208,11 +235,18 @@ class test_visual_search_question_2(unittest.TestCase):
         self.assertEqual(D[1]['tone_sdt'], 'HI')
         self.assertEqual(D[1]['keys'], 'q')
         self.assertEqual(D[1]['RT_VS'], 2.2)
+        self.assertEqual(D[1]['block'], 1)
+        self.assertEqual(D[1]['block_number'], 1)
+        assert(D[1]['image_name'] is not None)
+        self.assertEqual(D[1]['moved_space_in_this_trial'], False)
+        self.assertEqual(D[1]['space_before_tone'], False)
+        self.assertEqual(D[1]['tone_onset'], 500)
+        self.assertEqual(D[1]['trial_type'], 'Critical')
 
 
 
 if __name__ == '__main__':
-    #unittest.main()
+    # unittest.main()
 
     suite = unittest.TestSuite()
     test = test_visual_search_question_2

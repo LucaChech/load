@@ -1,9 +1,9 @@
 import pickle
 
-#trial_file = 'config/randomization.pik'
-trial_file = 'config/test_1.pik'
+trial_file = 'config/randomization.pik'
+# trial_file = 'config/test_1.pik'
 
-converted = True
+converted = False
 
 with open(trial_file, 'r') as of:
     trials_raw = pickle.load(of)

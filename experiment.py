@@ -61,7 +61,10 @@ tone2 = sound.Sound( '../load-data/PureTone_F2000_t50_low.wav', secs=0.05)
 if not debug:
     print_instructions(win,noise_example,tone1,tone2)
 
-run_blocks(trials,noise,visual,win,event,i_counter,expInfo,incorrect,tone1,tone2,experiment_details,allPoints)
+n_blocks = 32
+trials_per_block = 60
+experiment_details = {}
+D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,n_blocks,trials_per_block)
 
 win.close()
 core.quit()
