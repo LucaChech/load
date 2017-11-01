@@ -186,7 +186,7 @@ class test_visual_search_question(unittest.TestCase):
 class test_visual_search_question_2(unittest.TestCase):
     @mock.patch('keyboard.wait_keys')
     @mock.patch('keyboard.get_keys')
-    @mock.patch('psychopy.core.clock.getTime')
+    @mock.patch('psychopy.core.Clock.getTime')
     def runTest(self, mock_tone_timer, mock_get_keys, mock_wait_keys):
         n = 1
         experiment_details = {}
@@ -205,7 +205,7 @@ class test_visual_search_question_2(unittest.TestCase):
         D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
 
         self.assertEqual(D[1]['RT_TO'], 3)
-        self.assertEqual(D[1]['tone_sdt'], 'HI')
+        self.assertEqual(D[1]['tone_sdt'], 'FA')
         self.assertEqual(D[1]['keys'], 'q')
         self.assertEqual(D[1]['RT_VS'], 2.2)
 
