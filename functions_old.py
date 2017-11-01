@@ -21,6 +21,7 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
     for block in blocks:
         bPoints = 0
         trial_numbers_in_block = np.arange(1, trials_per_block+1)
+        print trial_numbers_in_block
         for trial_number_in_block in trial_numbers_in_block:
             event.clearEvents()
             #This is OK as we have checked possible dead zones in the last trial
@@ -190,7 +191,7 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
             height=0.10)
             end_of_block.draw()
             win.flip()
-            event.waitKeys(keyList=['return'])
+            wait_for_return()
         if block == n_blocks:
             end_of_experiment = visual.TextStim(win, 
             'You have earned a total of ' + str(allPoints) + ' points.\n'
@@ -208,3 +209,4 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
 
 
         bPoints = 0
+    return experiment_details

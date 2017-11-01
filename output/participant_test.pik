@@ -73,6 +73,7 @@ p32
 NsS'space_before_tone'
 p33
 <<<<<<< HEAD
+<<<<<<< HEAD
 I01
 =======
 F0.1
@@ -80,6 +81,12 @@ sS'space_before_tone'
 p34
 I00
 >>>>>>> 5224c8fc9629d4221c05d0879b1052942e322e9a
+=======
+I1
+sS'space_before_tone'
+p34
+I01
+>>>>>>> 5fce86f1fb39d280f162a841bb734e5f1b71bd80
 sS'RT_VS'
 p34
 NsS'keys'
@@ -138,6 +145,7 @@ F14.127469618562607
 sg30
 Nsg31
 <<<<<<< HEAD
+<<<<<<< HEAD
 Nsg32
 Nsg33
 I01
@@ -147,6 +155,9 @@ Nsg35
 S'FA'
 p48
 sg33
+=======
+Nsg33
+>>>>>>> 5fce86f1fb39d280f162a841bb734e5f1b71bd80
 Nsg34
 I00
 sg35
@@ -154,15 +165,20 @@ sg35
 Nsg36
 S'2008_002899.jpg'
 <<<<<<< HEAD
+<<<<<<< HEAD
 p47
 sg38
 =======
 p49
+=======
+p48
+>>>>>>> 5fce86f1fb39d280f162a841bb734e5f1b71bd80
 sg39
 >>>>>>> 5224c8fc9629d4221c05d0879b1052942e322e9a
 I-999
 sg39
 S'Normal'
+<<<<<<< HEAD
 <<<<<<< HEAD
 p48
 sg41
@@ -219,6 +235,9 @@ p53
 sg43
 =======
 p50
+=======
+p49
+>>>>>>> 5fce86f1fb39d280f162a841bb734e5f1b71bd80
 sg42
 g43
 sg44
@@ -2830,22 +2849,26 @@ Vtest
 p219
 =======
 sssS'observer_details'
-p51
-(dp52
+p50
+(dp51
 S'date'
-p53
+p52
 S'test'
-p54
+p53
 sS'expName'
-p55
-g54
+p54
+g53
 sVsession
-p56
+p55
 V-999
-p57
+p56
 sVParticipant no.
-p58
+p57
 Vtest
+<<<<<<< HEAD
 p59
 >>>>>>> 5224c8fc9629d4221c05d0879b1052942e322e9a
+=======
+p58
+>>>>>>> 5fce86f1fb39d280f162a841bb734e5f1b71bd80
 ss.

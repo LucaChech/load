@@ -1,5 +1,8 @@
 from psychopy import event, core
 
+def wait_for_return():
+    event.waitKeys(keyList=['return'])
+
 def get_keys(keyList, timeStamped):
     return event.getKeys(keyList=keyList, timeStamped=timeStamped)
 
@@ -9,6 +12,7 @@ def wait_keys(keyList, timeStamped):
 def get_keys_after_image(tone_timer):
     RT_TO = None
     response = get_keys(keyList=['space'], timeStamped=tone_timer)
+    print response
     if len(response):
         RT_TO = response[0][1]
         print 'RT_TO inside first function: ', RT_TO
