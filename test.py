@@ -18,9 +18,6 @@ i_counter = 0
 block_number = 1
 trial_number = 1
 
-
-
-
 # REWARD PARAMETERS
 decay = 10
 trialthresh = 4
@@ -67,23 +64,25 @@ if not debug:
 class Test(unittest.TestCase):
     def setUp(self):
         pass
-    #
-    # @mock.patch('psychopy.event.getKeys')
-    # @mock.patch('psychopy.event.waitKeys')
-    # def test_1(self, mock_getKeys, mock_waitKeys):
-    #     experiment_details = {}
-    #     trials_new = {}
-    #     n=2
-    #     for k in trials.keys()[:n]:
-    #         trials_new[k] = trials[k]
-    #     mock_getKeys.return_value = [['space',0.1]]
-    #     mock_waitKeys.return_value = [['q', 0.1]]
-    #     run_blocks(trials_new,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
-    #     self.assertEqual(experiment_details[1]['RT_TO'], 0.1)
 
+    @mock.patch('psychopy.event.getKeys')
+    @mock.patch('psychopy.event.waitKeys')
+    def test_1(self, mock_getKeys, mock_waitKeys):
+        experiment_details = {}
+        trials_new = {}
+        n=2
+        for k in trials.keys()[:n]:
+            trials_new[k] = trials[k]
+        mock_getKeys.return_value = [['space',0.1]]
+        mock_waitKeys.return_value = [['q', 0.1]]
+        run_blocks(trials_new,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
+        self.assertEqual(experiment_details[1]['RT_TO'], 0.1)
+
+class TestWholeExperiment(unittest.TestCase):
     @mock.patch('keyboard.wait_keys')
     @mock.patch('keyboard.get_keys')
-    def test_2(self, mock_getKeys, mock_waitKeys):
+    @mock.patch('keyboard.wait_for_return')
+    def runTest(self, mock_wait_for_return, mock_getKeys, mock_waitKeys):
         trial_file = 'config/randomization.pik'
         converted = False
 
@@ -108,12 +107,89 @@ class Test(unittest.TestCase):
         experiment_details = {}
         mock_waitKeys.return_value = [['q', 0.1]]
         mock_getKeys.return_value = [['space',0.1]]
+        mock_wait_for_return.return_value = True
 
         run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,32,60)
         self.assertEqual(experiment_details[1]['RT_TO'], 0.2)
 
+class ReactionTimeZero(unittest.TestCase):
+    @mock.patch('keyboard.wait_keys')
+    @mock.patch('keyboard.get_keys')
+    def runTest(self, mock_get_keys, mock_wait_keys):
+        experiment_details = {}
+        trials_new = {}
+        n = 5
+        for k in trials.keys()[:n]:
+            trials_new[k] = trials[k]
+            trials_new[k]['trial_type'] = 'Critical'
+            trials_new[k]['tone_hz'] = 'tone1'
+            trials_new[k]['tone_onset'] = 500
+        mock_wait_keys.return_value = [['q', 0]]
+        mock_get_keys.return_value = [['space', 0]]
+
+        D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
+        for k in D.keys():
+            t = D[k]
+            print t
+            self.assertEqual(t['RT_TO'], 0)
+            self.assertEqual(t['tone_sdt'], 'HI')
+
+class test_reply_in_next_trial(unittest.TestCase):
+    @mock.patch('keyboard.wait_keys')
+    @mock.patch('keyboard.get_keys')
+    def runTest(self, mock_get_keys, mock_wait_keys):
+        n = 2
+        experiment_details = {}
+        trials_new = {}
+        trials_new[1] = trials[1]
+        trials_new[1]['trial_type'] = 'Critical'
+        trials_new[1]['tone_hz'] = 'tone1'
+        trials_new[1]['tone_onset'] = 500
+
+        trials_new[2] = trials[2]
+        trials_new[2]['trial_type'] = 'Normal'
+
+        mock_get_keys.side_effect = [ [],[['space', 1]] ]
+
+        D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
+
+        self.assertEqual(D[1]['RT_TO'], 1)
+        self.assertEqual(D[1]['tone_sdt'], 'HI')
+
+        self.assertIsNone(D[2]['RT_TO'])
+        self.assertIsNone(D[2]['tone_sdt'])
+
+class test_visual_search_question(unittest.TestCase):
+    @mock.patch('keyboard.wait_keys')
+    @mock.patch('keyboard.get_keys')
+    def runTest(self, mock_get_keys, mock_wait_keys):
+        n = 1
+        experiment_details = {}
+        trials_new = {}
+        trials_new[1] = trials[1]
+        trials_new[1]['trial_type'] = 'Critical'
+        trials_new[1]['tone_hz'] = 'tone1'
+        trials_new[1]['tone_onset'] = 500
+        trials_new[1]['present_or_absent'] = 'Target Present'
+
+
+
+        mock_get_keys.return_value = [['space', 1]]
+        mock_wait_keys.return_value = [['q',1]]
+
+        D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
+
+        self.assertEqual(D[1]['RT_TO'], 1)
+        self.assertEqual(D[1]['tone_sdt'], 'HI')
+        self.assertEqual(D[1]['keys'], 'q')
+
 
 
 if __name__ == '__main__':
-    unittest.main()
+    #unittest.main()
+
+    suite = unittest.TestSuite()
+    suite.addTest(test_reply_in_next_trial())
+
+    unittest.TextTestRunner().run(suite)
 
