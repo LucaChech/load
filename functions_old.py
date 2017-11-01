@@ -33,6 +33,7 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
             trial_details['RT_TO'] = None
             trial_details['tone_sdt'] = None
             trial_details['space_before_tone'] = False
+            trial_details['moved_space_in_this_trial'] = False
 
             RT_VS = None
             RT_TO = None
@@ -89,6 +90,7 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
                             trial_details['tone_sdt'] = 'HI'
                             responded_to_last_tone = True
                         else:
+                            trial_details['moved_space_in_this_trial'] = True
                             experiment_details[last_tone_trial_no]['RT_TO'] = RT_TO
                             experiment_details[last_tone_trial_no]['tone_sdt'] = 'HI'
                             responded_to_last_tone = True
@@ -137,9 +139,10 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
                                 trial_details['tone_sdt'] = 'HI'
                                 responded_to_last_tone = True
                         else:
-                            #Tone was on previous trial
+                            #Tone was on a previous trial
                             if responded_to_last_tone == False and experiment_details[last_tone_trial_no]['RT_TO'] == None:
                                 if RT_TO != None:
+                                    trial_details['moved_space_in_this_trial'] = True
                                     responded_to_last_tone = True
                                     experiment_details[last_tone_trial_no]['RT_TO'] = RT_TO
                                     experiment_details[last_tone_trial_no]['tone_sdt'] = 'HI'

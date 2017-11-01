@@ -110,7 +110,7 @@ class TestWholeExperiment(unittest.TestCase):
         mock_wait_for_return.return_value = True
 
         run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,32,60)
-        self.assertEqual(experiment_details[1]['RT_TO'], 0.2)
+
 
 class ReactionTimeZero(unittest.TestCase):
     @mock.patch('keyboard.wait_keys')
@@ -149,6 +149,7 @@ class test_reply_in_next_trial(unittest.TestCase):
         trials_new[2] = trials[2]
         trials_new[2]['trial_type'] = 'Normal'
 
+
         mock_get_keys.side_effect = [ [],[['space', 1]] ]
 
         D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
@@ -158,6 +159,7 @@ class test_reply_in_next_trial(unittest.TestCase):
 
         self.assertIsNone(D[2]['RT_TO'])
         self.assertIsNone(D[2]['tone_sdt'])
+        self.assertEqual(D[2]['moved_space_in_this_trial'], True)
 
 class test_visual_search_question(unittest.TestCase):
     @mock.patch('keyboard.wait_keys')
@@ -172,8 +174,6 @@ class test_visual_search_question(unittest.TestCase):
         trials_new[1]['tone_onset'] = 500
         trials_new[1]['present_or_absent'] = 'Target Present'
 
-
-
         mock_get_keys.return_value = [['space', 1]]
         mock_wait_keys.return_value = [['q',1]]
 
@@ -183,13 +183,40 @@ class test_visual_search_question(unittest.TestCase):
         self.assertEqual(D[1]['tone_sdt'], 'HI')
         self.assertEqual(D[1]['keys'], 'q')
 
+class test_visual_search_question_2(unittest.TestCase):
+    @mock.patch('keyboard.wait_keys')
+    @mock.patch('keyboard.get_keys')
+    @mock.patch('psychopy.core.clock.getTime')
+    def runTest(self, mock_tone_timer, mock_get_keys, mock_wait_keys):
+        n = 1
+        experiment_details = {}
+        trials_new = {}
+        trials_new[1] = trials[1]
+        trials_new[1]['trial_type'] = 'Critical'
+        trials_new[1]['tone_hz'] = 'tone1'
+        trials_new[1]['tone_onset'] = 500
+        trials_new[1]['present_or_absent'] = 'Target Present'
+
+        mock_get_keys.return_value = [['space', 1]]
+
+        mock_wait_keys.side_effect = [    [['space', 2]], [['q',2.2]]    ]
+        mock_tone_timer.return_value = 1
+
+        D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
+
+        self.assertEqual(D[1]['RT_TO'], 3)
+        self.assertEqual(D[1]['tone_sdt'], 'HI')
+        self.assertEqual(D[1]['keys'], 'q')
+        self.assertEqual(D[1]['RT_VS'], 2.2)
+
 
 
 if __name__ == '__main__':
     #unittest.main()
 
     suite = unittest.TestSuite()
-    suite.addTest(test_reply_in_next_trial())
+    test = test_visual_search_question_2
+    suite.addTest(test())
 
     unittest.TextTestRunner().run(suite)
 
