@@ -1,22 +1,23 @@
 import pickle
 import numpy as np
 from keyboard import *
+from psychopy import visual, event
 
 t_from_trial_start = core.Clock()
 tone_timer = core.Clock()
 vs_timer = core.Clock()
 
-def run_blocks(trials,noise,visual,win,event,i_counter,expInfo,incorrect,tone1,tone2,experiment_details,allPoints):
+def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,n_blocks,trials_per_block):
     last_tone_trial_no = None
     time_since_previous_tone = None
     responded_to_last_tone = False
     trials_waited_for_tone = 0
     # tone_timer = core.Clock()
     # vs_timer = core.Clock()
-    n_blocks = 32
+
     blocks = np.arange(1, n_blocks+1)
     trial_number = 1
-    trials_per_block = 60
+
     for block in blocks:
         bPoints = 0
         trial_numbers_in_block = np.arange(1, trials_per_block+1)
@@ -34,7 +35,7 @@ def run_blocks(trials,noise,visual,win,event,i_counter,expInfo,incorrect,tone1,t
 
             RT_VS = None
             RT_TO = None
-            print 'IMAGE ', i_counter
+
             #noise.play()
             #t_from_trial_start.reset()
             image = visual.ImageStim(win=win, image=  '../load-data/exp_images/'+ this_trial['image_name'])
@@ -155,9 +156,9 @@ def run_blocks(trials,noise,visual,win,event,i_counter,expInfo,incorrect,tone1,t
                 win.flip()
                 core.wait(1.5)
             dz_timer = core.Clock()
-            trial_details['image_number'] = i_counter
+            trial_details['image_number'] = trial_number
             trial_details['block_number'] = block
-            i_counter = i_counter + 1
+
 
             experiment_details[trial_number] = trial_details
             # print 'keys', experiment_details[trial_number]['keys']
@@ -203,8 +204,7 @@ def run_blocks(trials,noise,visual,win,event,i_counter,expInfo,incorrect,tone1,t
             height=0.10)
             end_of_experiment.draw()
             win.flip()
-            core.wait(100)
-            win.close()
-            core.quit()
+            # core.wait(100)
+
 
         bPoints = 0

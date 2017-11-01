@@ -72,7 +72,14 @@ NsS'RT_TO'
 p32
 NsS'space_before_tone'
 p33
+<<<<<<< HEAD
 I01
+=======
+F0.1
+sS'space_before_tone'
+p34
+I00
+>>>>>>> 5224c8fc9629d4221c05d0879b1052942e322e9a
 sS'RT_VS'
 p34
 NsS'keys'
@@ -93,8 +100,13 @@ p41
 S' cat'
 p42
 sS'image_number'
+<<<<<<< HEAD
 p43
 I0
+=======
+p44
+I1
+>>>>>>> 5224c8fc9629d4221c05d0879b1052942e322e9a
 sS'block'
 p44
 I1
@@ -125,18 +137,33 @@ sg29
 F14.127469618562607
 sg30
 Nsg31
+<<<<<<< HEAD
 Nsg32
 Nsg33
 I01
 sg34
 Nsg35
+=======
+S'FA'
+p48
+sg33
+Nsg34
+I00
+sg35
+>>>>>>> 5224c8fc9629d4221c05d0879b1052942e322e9a
 Nsg36
 S'2008_002899.jpg'
+<<<<<<< HEAD
 p47
 sg38
+=======
+p49
+sg39
+>>>>>>> 5224c8fc9629d4221c05d0879b1052942e322e9a
 I-999
 sg39
 S'Normal'
+<<<<<<< HEAD
 p48
 sg41
 g42
@@ -190,9 +217,16 @@ sg41
 S' aeroplane'
 p53
 sg43
+=======
+p50
+sg42
+g43
+sg44
+>>>>>>> 5224c8fc9629d4221c05d0879b1052942e322e9a
 I2
 sg44
 I1
+<<<<<<< HEAD
 ssI4
 (dp54
 g4
@@ -2794,4 +2828,24 @@ sVParticipant no.
 p218
 Vtest
 p219
+=======
+sssS'observer_details'
+p51
+(dp52
+S'date'
+p53
+S'test'
+p54
+sS'expName'
+p55
+g54
+sVsession
+p56
+V-999
+p57
+sVParticipant no.
+p58
+Vtest
+p59
+>>>>>>> 5224c8fc9629d4221c05d0879b1052942e322e9a
 ss.
