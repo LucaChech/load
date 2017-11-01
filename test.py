@@ -232,7 +232,7 @@ class test_visual_search_question_3(unittest.TestCase):
         D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
 
         self.assertEqual(D[1]['RT_TO'], 3)
-        self.assertEqual(D[1]['tone_sdt'], 'HI')
+        self.assertEqual(D[1]['tone_sdt'], 'FA')
         self.assertEqual(D[1]['keys'], 'q')
         self.assertEqual(D[1]['RT_VS'], 2.2)
         self.assertEqual(D[1]['block'], 1)

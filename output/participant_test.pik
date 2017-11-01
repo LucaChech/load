@@ -75,11 +75,15 @@ sS'useless'
 p33
 NsS'tone_sdt'
 p34
-S'HI'
+S'FA'
 p35
 sS'RT_TO'
 p36
+<<<<<<< HEAD
 F1.5
+=======
+I3
+>>>>>>> f17336a134596d9d83befba831eed3884030897b
 sS'space_before_tone'
 p37
 I00
