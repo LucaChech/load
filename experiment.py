@@ -2,6 +2,8 @@ from __future__ import division  # so that 1/3=0.333 instead of 1/3=0
 import sys
 sys.path.append('C:\pyo\Python27\Lib\site-packages')
 from psychopy import prefs, sound
+import psychopy.data # This line causes PYO to crash
+
 prefs.general['audioLib'] = ['pyo']
 
 from setup import *
@@ -10,7 +12,7 @@ from instructions import *
 
 
 
-debug = False
+debug = True
 timer = core.Clock()
 i_counter = 0
 block_number = 1
@@ -48,6 +50,7 @@ if debug:
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True)
 else:
+    #(1920, 1080)
     win = visual.Window(size=(1920, 1080), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
         monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
         blendMode='avg', useFBO=True)
