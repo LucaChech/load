@@ -1,13 +1,12 @@
 import pickle
 import numpy as np
 from keyboard import *
-from psychopy import visual, event
 
 t_from_trial_start = core.Clock()
 tone_timer = core.Clock()
 vs_timer = core.Clock()
 
-def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,n_blocks,trials_per_block):
+def run_blocks(visual,event,trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,n_blocks,trials_per_block):
     last_tone_trial_no = None
     time_since_previous_tone = None
     responded_to_last_tone = False
@@ -100,20 +99,26 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
                     trial_details['tone_sdt'] = 'FA'
                 elif responded_to_last_tone == True:
                     trial_details['tone_sdt'] = 'FA'
-
+            print 1
+            print trial_number
+            # search_text = visual.TextStim(win, 'TEST', wrapWidth=2, height=0.16)
+            # win.flip()
             if this_trial['present_absent'] != 'No Target':
                 #If this is a visual search question trial
 
                 name = this_trial['question']
+                print 2
 
                 if 'pottedplant' in name:
                     name = 'potted plant'
                 print name
-        
-                search_text = visual.TextStim(win, name , wrapWidth=2, height=0.16)
+                print '2a'
+                search_text = visual.TextStim(win, name, wrapWidth=2, height=0.16) #Causing the issue
+                print 4
                 search_text.draw()
+                print 5
                 win.flip()
-
+                print '2b'
                 vs_timer.reset()
                 print 'VS: ' ,vs_timer.getTime()
                 RT_TO, RT_VS, q_or_p = get_keys_after_visual_search_question(tone_timer, vs_timer)
@@ -159,6 +164,7 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
 
                 win.flip()
                 core.wait(1.5)
+            print 3
             dz_timer = core.Clock()
             trial_details['image_number'] = trial_number
             trial_details['block_number'] = block

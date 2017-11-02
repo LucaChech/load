@@ -10,7 +10,7 @@ from instructions import *
 
 
 
-debug = True
+debug = False
 timer = core.Clock()
 i_counter = 0
 block_number = 1
@@ -31,27 +31,30 @@ if debug:
     expInfo['date'] = 'test'
     expInfo['expName'] = 'test'
 else:
-    expName = 'participant info'  
-    expInfo = {u'Age': u'1', u'Sex': u'', u'Right handed?':'1', u'Participant no.':'1'}
-    dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
-    if dlg.OK == False: core.quit()  
-    expInfo['date'] = data.getDateStr()  
-    expInfo['expName'] = expName
+    expInfo = {u'session': u'-999', u'Participant no.': u'test'}
+    expInfo['date'] = 'test666'
+    expInfo['expName'] = 'test'
+    # from psychopy import gui
+    # from psychopy import data
+    # expName = 'participant info'
+    # expInfo = {u'Age': u'1', u'Sex': u'', u'Right handed?':'1', u'Participant no.':'1'}
+    # dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
+    # if dlg.OK == False: core.quit()
+    # expInfo['date'] = data.getDateStr()
+    # expInfo['expName'] = expName
 
 if debug:
     win = visual.Window(size=(800, 600), fullscr=False, screen=0, allowGUI=False, allowStencil=False,
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
-    blendMode='avg', useFBO=True,
-    )
+    blendMode='avg', useFBO=True)
 else:
     win = visual.Window(size=(1920, 1080), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
         monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
-        blendMode='avg', useFBO=True,
-        )
+        blendMode='avg', useFBO=True)
 
-search_text = visual.TextStim(win, 'TEST' , wrapWidth=2, height=0.16)
- 
-win.flip()
+# search_text = visual.TextStim(win, 'TEST' , wrapWidth=2, height=0.16)
+# win.flip()
+#This stopped (or caused) a TextStim crash
 
 noise_example = sound.Sound( '../load-data/noise_example_low.wav', secs=1)
 incorrect = sound.Sound( '../load-data/wrong_buzzer.wav', secs=1)
@@ -65,7 +68,7 @@ if not debug:
 n_blocks = 32
 trials_per_block = 60
 experiment_details = {}
-D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,n_blocks,trials_per_block)
+D = run_blocks(visual,event,trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,n_blocks,trials_per_block)
 
 win.close()
 core.quit()

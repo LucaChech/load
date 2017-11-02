@@ -1,7 +1,7 @@
 import pickle
 
 trial_file = 'config/randomization.pik'
-# trial_file = 'config/test_1.pik'
+#trial_file = 'config/test_1.pik'
 
 converted = False
 
@@ -22,3 +22,4 @@ else:
             trial_dict[cols[i]] = l[i]
         trials[k] = trial_dict
 
+print 1
