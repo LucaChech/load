@@ -98,7 +98,7 @@ def print_instructions(win,noise_example,tone1,tone2):
     '       and make a correct response regarding the presence or absence\n'
     '                                         of the probed object.\n'
     '\n'
-    '         You will be awarded with a bonus if you earn 384 or more points\n'
+    '         You will be awarded with a bonus if you earn 768 or more points\n'
     '             Points are only allocated when you make a correct response\n'
     '                                          to the probed object.\n'
     '\n'

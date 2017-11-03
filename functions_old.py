@@ -2,6 +2,7 @@ import pickle
 import numpy as np
 from keyboard import *
 from psychopy import visual, event
+import copy
 
 t_from_trial_start = core.Clock()
 tone_timer = core.Clock()
@@ -25,7 +26,7 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
         for trial_number_in_block in trial_numbers_in_block:
             event.clearEvents()
             #This is OK as we have checked possible dead zones in the last trial
-            this_trial = trials[trial_number]
+            this_trial = copy.deepcopy(trials[trial_number])
             trial_details = this_trial
             trial_details['keys'] = None
             trial_details['RT_VS'] = None
@@ -171,7 +172,7 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
             trial_details['block_number'] = block
 
 
-            experiment_details[trial_number] = trial_details
+            experiment_details[trial_number] = copy.deepcopy(trial_details)
             # print 'keys', experiment_details[trial_number]['keys']
             # print 'RT_TO', experiment_details[trial_number]['RT_TO']
             print 'RT_vs', experiment_details[trial_number]['RT_VS']
@@ -189,6 +190,7 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
         data_to_dump = {'observer_details': expInfo, 'experiment_details': experiment_details}
         with open('output/participant_' + expInfo['Participant no.'] + '.pik', 'wb') as file:
             pickle.dump(data_to_dump, file)
+
 
         if block < n_blocks:
             end_of_block = visual.TextStim(win, 

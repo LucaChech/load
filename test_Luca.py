@@ -31,29 +31,12 @@ if debug:
     expInfo = {u'session': u'-999', u'Participant no.': u'test'}
     expInfo['date'] = 'test'
     expInfo['expName'] = 'test'
-else:
-    pass
-    # expName = 'participant info'
-    # expInfo = {u'Age': u'1', u'Sex': u'', u'Right handed?': '1', u'Participant no.': '1'}
-    # dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
-    # if dlg.OK == False: core.quit()
-    # expInfo['date'] = data.getDateStr()
-    # expInfo['expName'] = expName
 
 if debug:
     win = visual.Window(size=(800, 600), fullscr=False, screen=0, allowGUI=False, allowStencil=False,
                         monitor='testMonitor', color=[0, 0, 0], colorSpace='rgb',
                         blendMode='avg', useFBO=True,
                         )
-else:
-    win = visual.Window(size=(1920, 1080), fullscr=False, screen=0, allowGUI=False, allowStencil=False,
-                        monitor='testMonitor', color=[0, 0, 0], colorSpace='rgb',
-                        blendMode='avg', useFBO=True,
-                        )
-
-search_text = visual.TextStim(win, 'TEST', wrapWidth=2, height=0.16)
-
-win.flip()
 
 noise_example = sound.Sound('../load-data/noise_example_low.wav', secs=1)
 incorrect = sound.Sound('../load-data/wrong_buzzer.wav', secs=1)
@@ -61,8 +44,28 @@ noise = sound.Sound('../load-data/noise_exp_low.wav', secs=1)
 tone1 = sound.Sound('../load-data/PureTone_F1500_t50_low.wav', secs=0.05)
 tone2 = sound.Sound('../load-data/PureTone_F2000_t50_low.wav', secs=0.05)
 
-if not debug:
-    print_instructions(win, noise_example, tone1, tone2)
+class test_one(unittest.TestCase):
+    @mock.patch('keyboard.get_keys')
+    def runTest(self,mock_get_keys):
+        experiment_details = {}
+        trials_new = {}
+        n = 2
+        trials_new[1] = trials[1]
+        trials_new[1]['trial_type'] = 'Critical'
+        trials_new[1]['tone_hz'] = 'tone1'
+        trials_new[1]['tone_onset'] = 500
+
+        trials_new[2] = trials[2]
+        trials_new[2]['trial_type'] = 'Normal'
+        trials_new[2]['tone_hz'] = 'No tone'
+        trials_new[2]['tone_onset'] = -999
+
+        mock_get_keys.side_effect = [ [],[['space', 1]] ]
+
+        D = run_blocks(trials_new,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
+
+        self.assertEqual(D[1]['RT_TO'], 1)
+        self.assertEqual(D[2]['RT_TO'], None)
 
 class fa_test(unittest.TestCase):
     # Checks false alarm if space hit in non-critical trial
@@ -352,7 +355,7 @@ if __name__ == '__main__':
     # unittest.main()
 
     suite = unittest.TestSuite()
-    test = test_two_critical_and_one_vs
+    test = test_one
     suite.addTest(test())
 
     unittest.TextTestRunner().run(suite)
