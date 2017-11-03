@@ -166,6 +166,7 @@ class test_reply_in_next_trial(unittest.TestCase):
         self.assertEqual(D[2]['moved_space_in_this_trial'], True)
 
 class test_visual_search_question(unittest.TestCase):
+    #One trial with tone and VS question
     @mock.patch('keyboard.wait_keys')
     @mock.patch('keyboard.get_keys')
     def runTest(self, mock_get_keys, mock_wait_keys):
@@ -189,6 +190,7 @@ class test_visual_search_question(unittest.TestCase):
         self.assertEqual(D[1]['trial_type'], 'Critical')
 
 class test_visual_search_question_2(unittest.TestCase):
+    #One trial, tone and VS, press space and then q
     @mock.patch('keyboard.wait_keys')
     @mock.patch('keyboard.get_keys')
     @mock.patch('psychopy.core.Clock.getTime')
@@ -215,6 +217,7 @@ class test_visual_search_question_2(unittest.TestCase):
         self.assertEqual(D[1]['RT_VS'], 2.2)
 
 class test_visual_search_question_3(unittest.TestCase):
+    #Check saving extra fields
     @mock.patch('keyboard.wait_keys')
     @mock.patch('keyboard.get_keys')
     @mock.patch('psychopy.core.Clock.getTime')
