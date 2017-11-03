@@ -10,22 +10,10 @@ from psychopy import visual
 from psychopy import prefs
 prefs.general['audioLib'] = ['pyo']
 from psychopy import locale_setup, core, event, logging, sound
-from psychopy.constants import *  # things like STARTED, FINISHED
-import numpy as np
-from numpy import sin, cos, tan, log, log10, pi, average, sqrt, std, deg2rad, rad2deg, linspace, asarray
 from numpy.random import random, randint, normal, shuffle
-import os  # handy system and path functions
-import sys # to get file system encoding
-from os import listdir
-from os.path import isfile, join
-from shutil import copyfile
-from random import shuffle
+
 import pandas as pd
-import csv
-import random 
-import pyglet
-import time
-from pdb import set_trace
+
 import random
 import numpy as np
 
@@ -54,9 +42,9 @@ categories = [' bottle', ' horse', ' pottedplant', ' dog',' cat', ' person', ' a
 p_load = ['low','high']
 
 #-------------------------------------------------------------------------------------------
-expInfo = {u'session': u'-999', u'Participant no.': u'test'}
-expInfo['date'] = 'test'
-expInfo['expName'] = 'test'
+#expInfo = {u'session': u'-999', u'Participant no.': u'test'}
+#expInfo['date'] = 'test'
+#expInfo['expName'] = 'test'
 
 #WINDOW
 win = visual.Window(size=(800, 600), fullscr=False, screen=0, allowGUI=False, allowStencil=False,

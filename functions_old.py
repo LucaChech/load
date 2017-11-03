@@ -1,12 +1,13 @@
 import pickle
 import numpy as np
 from keyboard import *
+from psychopy import visual, event
 
 t_from_trial_start = core.Clock()
 tone_timer = core.Clock()
 vs_timer = core.Clock()
 
-def run_blocks(visual,event,trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,n_blocks,trials_per_block):
+def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details,allPoints,n_blocks,trials_per_block):
     last_tone_trial_no = None
     time_since_previous_tone = None
     responded_to_last_tone = False

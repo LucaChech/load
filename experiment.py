@@ -68,7 +68,7 @@ if not debug:
 n_blocks = 32
 trials_per_block = 60
 experiment_details = {}
-D = run_blocks(visual,event,trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,n_blocks,trials_per_block)
+D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,n_blocks,trials_per_block)
 
 win.close()
 core.quit()

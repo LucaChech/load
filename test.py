@@ -1,4 +1,6 @@
 from __future__ import division  # so that 1/3=0.333 instead of 1/3=0
+import sys
+sys.path.append('C:\pyo\Python27\Lib\site-packages')
 from psychopy import visual, sound
 from psychopy import prefs
 
@@ -30,12 +32,13 @@ if debug:
     expInfo['date'] = 'test'
     expInfo['expName'] = 'test'
 else:
-    expName = 'participant info'
-    expInfo = {u'Age': u'1', u'Sex': u'', u'Right handed?': '1', u'Participant no.': '1'}
-    dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
-    if dlg.OK == False: core.quit()
-    expInfo['date'] = data.getDateStr()
-    expInfo['expName'] = expName
+    pass
+    # expName = 'participant info'
+    # expInfo = {u'Age': u'1', u'Sex': u'', u'Right handed?': '1', u'Participant no.': '1'}
+    # dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
+    # if dlg.OK == False: core.quit()
+    # expInfo['date'] = data.getDateStr()
+    # expInfo['expName'] = expName
 
 if debug:
     win = visual.Window(size=(800, 600), fullscr=False, screen=0, allowGUI=False, allowStencil=False,
@@ -249,7 +252,7 @@ if __name__ == '__main__':
     # unittest.main()
 
     suite = unittest.TestSuite()
-    test = test_visual_search_question_2
+    test = test_reply_in_next_trial
     suite.addTest(test())
 
     unittest.TextTestRunner().run(suite)
