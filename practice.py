@@ -47,7 +47,8 @@ p_load = ['low','high']
 #expInfo['expName'] = 'test'
 
 #WINDOW
-win = visual.Window(size=(1920, 1080), fullscr=False, screen=0, allowGUI=False, allowStencil=False,
+win = visual.Window(size=(1920, 1080
+                          ), fullscr=False, screen=0, allowGUI=False, allowStencil=False,
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True,
     )
