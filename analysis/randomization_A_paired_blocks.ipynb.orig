@@ -735,6 +735,7 @@
    "cell_type": "code",
    "execution_count": 11,
    "metadata": {
+    "collapsed": false,
     "scrolled": true
    },
    "outputs": [
@@ -986,6 +987,11 @@
       "image 37 Target Present\n",
       "image 38 Target Present\n",
       "image 46 Target Present\n",
+<<<<<<< HEAD
+      "image 47 Target Present\n",
+      "image 50 Target Present\n",
+      "image 57 Critical\n",
+=======
       "image 48 Critical\n",
       "image 56 Target Absent\n",
       "image 57 Target Present\n"
@@ -995,6 +1001,7 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
+>>>>>>> d0deb2b682a6ee05602b5109016c2315cfd7a9a2
       "block: 120\n",
       "---------------------------------------------------\n",
       "probes_position:  [6, 7, 15, 21, 37, 38, 46, 56, 57]\n",
@@ -1147,6 +1154,14 @@
       "Present Critical:  0\n",
       "Absent Critical:  1\n",
       "List of critical trials without probe: \n",
+<<<<<<< HEAD
+      "[' boat', nan, nan, nan, nan, 19.25351959992476, 'low', ' boat', 'NA', 'No Target', 'Critical']\n",
+      "[' sofa', nan, nan, nan, nan, 19.892389695505386, 'low', ' sofa', 'NA', 'No Target', 'Critical']\n",
+      "[' person', ' dog', nan, nan, nan, 20.712898768714968, 'low', ' dog', 'NA', 'No Target', 'Critical']\n",
+      "normal in this block:  48\n",
+      "normal used overall:  338\n",
+      "critical_probes_used ['2009_005075.jpg', '2008_000270.jpg']\n",
+=======
       "[' person', ' sofa', nan, nan, nan, 20.707877775353552, 'low', ' sofa', 'NA', 'No Target', 'Critical']\n",
       "[' person', ' horse', nan, nan, nan, 19.91230101528729, 'low', ' horse', 'NA', 'No Target', 'Critical']\n"
      ]
@@ -1158,6 +1173,7 @@
       "normal in this block:  49\n",
       "normal used overall:  341\n",
       "critical_probes_used ['2008_000839.jpg', '2008_000163.jpg', '2010_000815.jpg', '2011_001991.jpg', '2008_006703.jpg']\n",
+>>>>>>> d0deb2b682a6ee05602b5109016c2315cfd7a9a2
       "sequence final does not exist\n",
       "x 1\n",
       "present_critical_per_block 0\n",
@@ -1400,7 +1416,9 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "metadata": {},
+   "metadata": {
+    "collapsed": false
+   },
    "outputs": [
     {
      "name": "stdout",
@@ -1676,6 +1694,132 @@
       "Present Critical:  0\n",
       "Absent Critical:  1\n",
       "List of critical trials without probe: \n",
+<<<<<<< HEAD
+      "[' aeroplane', nan, nan, nan, nan, 13.350033322032775, 'low', ' aeroplane', 'NA', 'No Target', 'Critical']\n",
+      "[' car', nan, nan, nan, nan, 18.29867809750948, 'low', ' car', 'NA', 'No Target', 'Critical']\n",
+      "[' person', ' boat', nan, nan, nan, 16.146154777978307, 'low', ' boat', 'NA', 'No Target', 'Critical']\n",
+      "normal in this block:  48\n",
+      "normal used overall:  148\n",
+      "critical_probes_used ['2009_001774.jpg', '2010_004662.jpg', '2011_001440.jpg', '2008_006481.jpg']\n",
+      "sequence final does not exist\n",
+      "x 0\n",
+      "present_critical_per_block 0\n",
+      "absent_critical_per_block 0\n",
+      "ciao 3\n",
+      "------------------\n",
+      "[4, 5, 10, 20, 23, 27, 29, 34, 41, 46, 53, 55] 12\n",
+      "gap_check:  [5, 20, 23]\n",
+      "12\n",
+      "(4, 'Target Present')\n",
+      "(5, 'Critical')\n",
+      "(10, 'Target Absent')\n",
+      "(20, 'Critical')\n",
+      "(23, 'Critical')\n",
+      "(27, 'Target Absent')\n",
+      "(29, 'Target Absent')\n",
+      "(34, 'Target Present')\n",
+      "(41, 'Target Present')\n",
+      "(46, 'Target Present')\n",
+      "(53, 'Target Present')\n",
+      "(55, 'Target Absent')\n",
+      "[(4, 'Target Present'), (5, 'Critical'), (10, 'Target Absent'), (20, 'Critical'), (23, 'Critical'), (27, 'Target Absent'), (29, 'Target Absent'), (34, 'Target Present'), (41, 'Target Present'), (46, 'Target Present'), (53, 'Target Present'), (55, 'Target Absent')]\n",
+      "---------------------------------------------------\n",
+      "END OF BLOCK PROCESSING\n",
+      "---------------------------------------------------\n",
+      "BUILDING THE BLOCK\n",
+      "image 4 Target Present\n",
+      "image 5 Critical\n",
+      "image 10 Target Absent\n",
+      "image 20 Critical\n",
+      "image 23 Critical\n",
+      "image 27 Target Absent\n",
+      "image 29 Target Absent\n",
+      "image 34 Target Present\n",
+      "image 41 Target Present\n",
+      "image 46 Target Present\n",
+      "image 53 Target Present\n",
+      "image 55 Target Absent\n",
+      "block: 60\n",
+      "---------------------------------------------------\n",
+      "probes_position:  [4, 10, 27, 29, 34, 41, 46, 53, 55]\n",
+      "present_crit_distribution_original:  [1, 0, 0, 0]\n",
+      "absent_crit_distribution_original:  [1, 0, 1, 0]\n",
+      "present_crit 0\n",
+      "absent_crit 0\n",
+      "present_crit_distribution:  [0, 0]\n",
+      "absent_crit_distribution:  [1, 0]\n",
+      "critical present set:  ['2009_001774.jpg', '2011_001440.jpg']\n",
+      "critical absent set:  ['2008_004814.jpg', '2010_004662.jpg', '2008_004661.jpg', '2008_006481.jpg']\n",
+      "---------------------------------------------------\n",
+      "normal available: 242\n",
+      "present_critical_per_block: []\n",
+      "absent_critical_per_block: []\n",
+      "critical_present:  [['2009_001774.jpg'], ['2011_001440.jpg']]\n",
+      "critical_absent:  [['2010_004662.jpg'], ['2008_006481.jpg']]\n",
+      "critical_probes_used:  ['2009_001774.jpg', '2010_004662.jpg', '2011_001440.jpg', '2008_006481.jpg']\n",
+      "probes_per_block : ['2009_004283.jpg', '2008_000251.jpg', '2008_002084.jpg', '2009_004849.jpg', '2008_004858.jpg']\n",
+      "probes_per_block : ['2009_004283.jpg', '2008_000251.jpg', '2008_002084.jpg', '2009_004849.jpg', '2008_004858.jpg', '2008_002864.jpg', '2008_002195.jpg', '2009_001321.jpg', '2010_000865.jpg']\n",
+      "probes:  [['2008_005046.jpg', '2010_003329.jpg', '2008_000105.jpg', '2009_002998.jpg', '2008_000734.jpg', '2010_004014.jpg', '2008_008083.jpg'], ['2008_000192.jpg', '2008_000833.jpg', '2010_003861.jpg', '2008_007091.jpg', '2008_007043.jpg', '2008_000798.jpg', '2008_002736.jpg'], ['2009_004225.jpg', '2009_004888.jpg', '2008_001542.jpg', '2008_001546.jpg', '2010_003911.jpg', '2008_001479.jpg', '2008_002704.jpg', '2008_008533.jpg', '2008_004412.jpg'], ['2009_004283.jpg', '2008_000251.jpg', '2008_002084.jpg', '2009_004849.jpg', '2008_004858.jpg', '2008_002864.jpg', '2008_002195.jpg', '2009_001321.jpg', '2010_000865.jpg']]\n",
+      "Present Used in block:  5\n",
+      "Absent Used in block 4\n",
+      "Critical probes counter:  0\n",
+      "Present Critical:  0\n",
+      "Absent Critical:  0\n",
+      "List of critical trials without probe: \n",
+      "[' horse', nan, nan, nan, nan, 29.084159041893106, 'high', ' horse', 'NA', 'No Target', 'Critical']\n",
+      "[' person', ' dog', nan, nan, nan, 37.00638726224365, 'high', ' dog', 'NA', 'No Target', 'Critical']\n",
+      "[' pottedplant', ' person', ' chair', ' diningtable', nan, 31.520687613930374, 'high', ' pottedplant', 'NA', 'No Target', 'Critical']\n",
+      "normal in this block:  48\n",
+      "normal used overall:  196\n",
+      "critical_probes_used ['2009_001774.jpg', '2010_004662.jpg', '2011_001440.jpg', '2008_006481.jpg']\n",
+      "sequence_final exists\n",
+      "---------------------------------------------------\n",
+      "END OF BLOCK PROCESSING\n",
+      "---------------------------------------------------\n",
+      "BUILDING THE BLOCK\n",
+      "image 4 Target Present\n",
+      "image 5 Critical\n",
+      "image 10 Target Absent\n",
+      "image 20 Critical\n",
+      "image 23 Critical\n",
+      "image 27 Target Absent\n",
+      "image 29 Target Absent\n",
+      "image 34 Target Present\n",
+      "image 41 Target Present\n",
+      "image 46 Target Present\n",
+      "image 53 Target Present\n",
+      "image 55 Target Absent\n",
+      "block: 120\n",
+      "---------------------------------------------------\n",
+      "probes_position:  [4, 10, 27, 29, 34, 41, 46, 53, 55]\n",
+      "60 60\n",
+      "present_crit_distribution_original:  [1, 0, 0, 0]\n",
+      "absent_crit_distribution_original:  [1, 0, 1, 0]\n",
+      "present_crit 0\n",
+      "absent_crit 1\n",
+      "present_crit_distribution:  [0]\n",
+      "absent_crit_distribution:  [0]\n",
+      "critical present set:  ['2009_001774.jpg', '2011_001440.jpg']\n",
+      "critical absent set:  ['2008_004814.jpg', '2010_004662.jpg', '2008_004661.jpg', '2008_006481.jpg']\n",
+      "---------------------------------------------------\n",
+      "normal available: 194\n",
+      "present_critical_per_block: []\n",
+      "absent_critical_per_block: ['2008_004814.jpg']\n",
+      "critical_present:  [['2009_001774.jpg'], ['2011_001440.jpg']]\n",
+      "critical_absent:  [['2010_004662.jpg'], ['2008_006481.jpg'], ['2008_004814.jpg']]\n",
+      "critical_probes_used:  ['2009_001774.jpg', '2010_004662.jpg', '2011_001440.jpg', '2008_006481.jpg', '2008_004814.jpg']\n",
+      "probes_per_block : ['2009_003373.jpg', '2009_002711.jpg', '2008_003587.jpg', '2010_001829.jpg']\n",
+      "probes_per_block : ['2009_003373.jpg', '2009_002711.jpg', '2008_003587.jpg', '2010_001829.jpg', '2008_006703.jpg', '2008_007842.jpg', '2010_001993.jpg', '2010_000805.jpg']\n",
+      "probes:  [['2008_005046.jpg', '2010_003329.jpg', '2008_000105.jpg', '2009_002998.jpg', '2008_000734.jpg', '2010_004014.jpg', '2008_008083.jpg'], ['2008_000192.jpg', '2008_000833.jpg', '2010_003861.jpg', '2008_007091.jpg', '2008_007043.jpg', '2008_000798.jpg', '2008_002736.jpg'], ['2009_004225.jpg', '2009_004888.jpg', '2008_001542.jpg', '2008_001546.jpg', '2010_003911.jpg', '2008_001479.jpg', '2008_002704.jpg', '2008_008533.jpg', '2008_004412.jpg'], ['2009_004283.jpg', '2008_000251.jpg', '2008_002084.jpg', '2009_004849.jpg', '2008_004858.jpg', '2008_002864.jpg', '2008_002195.jpg', '2009_001321.jpg', '2010_000865.jpg'], ['2009_003373.jpg', '2009_002711.jpg', '2008_003587.jpg', '2010_001829.jpg', '2008_006703.jpg', '2008_007842.jpg', '2010_001993.jpg', '2010_000805.jpg']]\n",
+      "Present Used in block:  4\n",
+      "Absent Used in block 4\n",
+      "Critical probes counter:  1\n",
+      "Present Critical:  0\n",
+      "Absent Critical:  1\n",
+      "List of critical trials without probe: \n",
+      "[' chair', ' diningtable', nan, nan, nan, 18.11780279510061, 'low', ' chair', 'NA', 'No Target', 'Critical']\n",
+      "[' bird', nan, nan, nan, nan, 15.253871492883167, 'low', ' bird', 'NA', 'No Target', 'Critical']\n",
+=======
       "[' cat', nan, nan, nan, nan, 20.850125265290927, 'low', ' cat', 'NA', 'No Target', 'Critical']\n",
       "[' boat', nan, nan, nan, nan, 16.86296621161062, 'low', ' boat', 'NA', 'No Target', 'Critical']\n"
      ]
@@ -1684,6 +1828,7 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
+>>>>>>> d0deb2b682a6ee05602b5109016c2315cfd7a9a2
       "normal in this block:  49\n",
       "normal used overall:  245\n",
       "critical_probes_used ['2008_001546.jpg', '2010_000750.jpg', '2009_002750.jpg', '2008_000270.jpg', '2008_001479.jpg']\n",
@@ -1803,9 +1948,15 @@
       "Present Critical:  0\n",
       "Absent Critical:  0\n",
       "List of critical trials without probe: \n",
+<<<<<<< HEAD
+      "[' person', ' dog', nan, nan, nan, 20.166020393270408, 'low', ' person', 'NA', 'No Target', 'Critical']\n",
+      "[' cat', nan, nan, nan, nan, 13.68599364669666, 'low', ' cat', 'NA', 'No Target', 'Critical']\n",
+      "[' tvmonitor', ' sofa', nan, nan, nan, 20.21626352293297, 'low', ' sofa', 'NA', 'No Target', 'Critical']\n",
+=======
       "[' car', nan, nan, nan, nan, 18.78745072135656, 'low', ' car', 'NA', 'No Target', 'Critical']\n",
       "[' chair', nan, nan, nan, nan, 11.459232377151848, 'low', ' chair', 'NA', 'No Target', 'Critical']\n",
       "[' dog', nan, nan, nan, nan, 18.045035650575528, 'low', ' dog', 'NA', 'No Target', 'Critical']\n",
+>>>>>>> d0deb2b682a6ee05602b5109016c2315cfd7a9a2
       "normal in this block:  48\n",
       "normal used overall:  342\n",
       "critical_probes_used ['2008_001546.jpg', '2010_000750.jpg', '2009_002750.jpg', '2008_000270.jpg', '2008_001479.jpg', '2009_000120.jpg']\n",
@@ -2061,7 +2212,9 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "metadata": {},
+   "metadata": {
+    "collapsed": false
+   },
    "outputs": [
     {
      "name": "stdout",
@@ -2313,6 +2466,19 @@
       "END OF BLOCK PROCESSING\n",
       "---------------------------------------------------\n",
       "BUILDING THE BLOCK\n",
+<<<<<<< HEAD
+      "image 5 Target Absent\n",
+      "image 14 Target Absent\n",
+      "image 21 Target Present\n",
+      "image 26 Target Present\n",
+      "image 28 Target Present\n",
+      "image 29 Target Present\n",
+      "image 33 Target Present\n",
+      "image 43 Critical Absent\n",
+      "image 46 Critical\n",
+      "image 49 Target Absent\n",
+      "image 57 Critical\n",
+=======
       "image 3 Target Absent\n",
       "image 5 Target Present\n",
       "image 13 Target Present\n",
@@ -2331,6 +2497,7 @@
       "image 43 Critical\n",
       "image 53 Target Present\n",
       "image 57 Target Absent\n",
+>>>>>>> d0deb2b682a6ee05602b5109016c2315cfd7a9a2
       "block: 120\n",
       "---------------------------------------------------\n",
       "probes_position:  [3, 5, 13, 29, 30, 36, 37, 53, 57]\n",
@@ -2481,6 +2648,11 @@
       "Present Critical:  0\n",
       "Absent Critical:  0\n",
       "List of critical trials without probe: \n",
+<<<<<<< HEAD
+      "[' chair', ' diningtable', nan, nan, nan, 20.017308322976007, 'low', ' chair', 'NA', 'No Target', 'Critical']\n",
+      "[' bird', nan, nan, nan, nan, 11.957700194550672, 'low', ' bird', 'NA', 'No Target', 'Critical']\n",
+      "[' person', ' boat', nan, nan, nan, 16.65124246053083, 'low', ' boat', 'NA', 'No Target', 'Critical']\n",
+=======
       "[' person', ' dog', nan, nan, nan, 20.166020393270408, 'low', ' person', 'NA', 'No Target', 'Critical']\n",
       "[' bottle', nan, nan, nan, nan, 20.96364307633711, 'low', ' bottle', 'NA', 'No Target', 'Critical']\n",
       "[' cat', nan, nan, nan, nan, 20.041574567240037, 'low', ' cat', 'NA', 'No Target', 'Critical']\n"
@@ -2490,6 +2662,7 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
+>>>>>>> d0deb2b682a6ee05602b5109016c2315cfd7a9a2
       "normal in this block:  48\n",
       "normal used overall:  338\n",
       "critical_probes_used ['2011_002453.jpg', '2010_004778.jpg']\n",
@@ -2737,7 +2910,9 @@
   {
    "cell_type": "code",
    "execution_count": 14,
-   "metadata": {},
+   "metadata": {
+    "collapsed": false
+   },
    "outputs": [
     {
      "name": "stdout",
@@ -2986,6 +3161,21 @@
       "END OF BLOCK PROCESSING\n",
       "---------------------------------------------------\n",
       "BUILDING THE BLOCK\n",
+<<<<<<< HEAD
+      "image 0 Critical\n",
+      "image 8 Target Present\n",
+      "image 10 Critical\n",
+      "image 13 Target Absent\n",
+      "image 20 Target Absent\n",
+      "image 24 Target Present\n",
+      "image 28 Target Present\n",
+      "image 38 Target Present\n",
+      "image 40 Target Present\n",
+      "image 41 Critical\n",
+      "image 48 Target Absent\n",
+      "image 58 Target Absent\n",
+      "block: 120\n",
+=======
       "image 3 Target Present\n",
       "image 6 Target Present\n",
       "image 8 Target Absent\n",
@@ -3005,6 +3195,7 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
+>>>>>>> d0deb2b682a6ee05602b5109016c2315cfd7a9a2
       "---------------------------------------------------\n",
       "probes_position:  [3, 6, 8, 17, 29, 36, 37, 40, 54]\n",
       "60 60\n",
@@ -3149,6 +3340,10 @@
       "Present Critical:  0\n",
       "Absent Critical:  0\n",
       "List of critical trials without probe: \n",
+<<<<<<< HEAD
+      "[' bird', nan, nan, nan, nan, 15.253871492883167, 'low', ' bird', 'NA', 'No Target', 'Critical']\n",
+      "normal in this block:  50\n",
+=======
       "[' aeroplane', nan, nan, nan, nan, 15.759492066531687, 'low', ' aeroplane', 'NA', 'No Target', 'Critical']\n",
       "[' boat', nan, nan, nan, nan, 20.21004370358339, 'low', ' boat', 'NA', 'No Target', 'Critical']\n",
       "[' cat', nan, nan, nan, nan, 13.68599364669666, 'low', ' cat', 'NA', 'No Target', 'Critical']\n"
@@ -3159,6 +3354,7 @@
      "output_type": "stream",
      "text": [
       "normal in this block:  48\n",
+>>>>>>> d0deb2b682a6ee05602b5109016c2315cfd7a9a2
       "normal used overall:  338\n",
       "critical_probes_used ['2008_000634.jpg', '2010_000074.jpg']\n",
       "sequence final does not exist\n",
@@ -3405,7 +3601,9 @@
   {
    "cell_type": "code",
    "execution_count": 15,
-   "metadata": {},
+   "metadata": {
+    "collapsed": false
+   },
    "outputs": [
     {
      "name": "stdout",
@@ -3485,8 +3683,15 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
+   "execution_count": 18,
+   "metadata": {
+    "collapsed": false
+   },
+=======
    "execution_count": 19,
    "metadata": {},
+>>>>>>> d0deb2b682a6ee05602b5109016c2315cfd7a9a2
    "outputs": [
     {
      "data": {
@@ -18612,7 +18817,7 @@
  "metadata": {
   "anaconda-cloud": {},
   "kernelspec": {
-   "display_name": "Python 2",
+   "display_name": "Python [default]",
    "language": "python",
    "name": "python2"
   },
@@ -18626,7 +18831,7 @@
    "name": "python",
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython2",
-   "version": "2.7.13"
+   "version": "2.7.12"
   }
  },
  "nbformat": 4,
