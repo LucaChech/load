@@ -43,7 +43,7 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
             #t_from_trial_start.reset()
             image = visual.ImageStim(win=win, image=  '../load-data/exp_images/'+ this_trial['image_name'])
             responded = False
-            start_frame = ((int(this_trial['tone_onset']) + 17 // 2) // 17) -1 # final -1 is to compensate for lag
+            start_frame = ((int(this_trial['tone_onset']) + 17 // 2) // 17)
             n_frames = 60
 
 
