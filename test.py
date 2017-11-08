@@ -6,13 +6,11 @@ from psychopy import prefs
 
 prefs.general['audioLib'] = ['pyo']
 
-from setup import *
 from functions_old import *
 from instructions import *
 
 import unittest
 import mock
-import pickle
 
 debug = True
 timer = core.Clock()
@@ -69,15 +67,26 @@ class fa_test(unittest.TestCase):
     @mock.patch('keyboard.get_keys')
     @mock.patch('keyboard.wait_keys')
     def runTest(self, mock_waitKeys, mock_getKeys):
-
+        print 'TEST: ' + self.__class__.__name__
         experiment_details = {}
-        trials_new = {}
+        trials = {}
         n=2
-        for k in trials.keys()[:n]:
-            trials_new[k] = trials[k]
+        trials[1] = {}
+        trials[1]['image_name'] = '2008_000177.jpg'
+        trials[1]['present_absent'] = 'No Target'
+        trials[1]['trial_type'] = 'Normal'
+        trials[1]['tone_hz'] = 'tone1'
+        trials[1]['tone_onset'] = 500
+
+        trials[2] = {}
+        trials[2]['image_name'] = '2008_000177.jpg'
+        trials[2]['present_absent'] = 'No Target'
+        trials[2]['trial_type'] = 'Normal'
+        trials[2]['tone_hz'] = 'tone1'
+        trials[2]['tone_onset'] = 500
         mock_getKeys.return_value = [['space',0.1]]
         mock_waitKeys.return_value = [['q', 0.1]]
-        D = run_blocks(trials_new,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
+        D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
         self.assertEqual(D[1]['RT_TO'], None)
         self.assertEqual(D[1]['tone_sdt'], 'FA')
 
@@ -115,18 +124,22 @@ class fa_test(unittest.TestCase):
 #         run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,32,60)
 #
 
-class ReactionTimeZero(unittest.TestCase):
+class reaction_time_zero(unittest.TestCase):
     @mock.patch('keyboard.wait_keys')
     @mock.patch('keyboard.get_keys')
     def runTest(self, mock_get_keys, mock_wait_keys):
+        print 'TEST: ' + self.__class__.__name__
+
         experiment_details = {}
-        trials_new = {}
+        trials = {}
         n = 5
-        for k in trials.keys()[:n]:
-            trials_new[k] = trials[k]
-            trials_new[k]['trial_type'] = 'Critical'
-            trials_new[k]['tone_hz'] = 'tone1'
-            trials_new[k]['tone_onset'] = 500
+        for k in [1,2,3,4,5]:
+            trials[k] = {}
+            trials[k]['image_name'] = '2008_000177.jpg'
+            trials[k]['present_absent'] = 'No Target'
+            trials[k]['trial_type'] = 'Critical'
+            trials[k]['tone_hz'] = 'tone1'
+            trials[k]['tone_onset'] = 500
         mock_wait_keys.return_value = [['q', 0]]
         mock_get_keys.return_value = [['space', 0]]
 
@@ -142,17 +155,22 @@ class test_reply_in_next_trial(unittest.TestCase):
     @mock.patch('keyboard.wait_keys')
     @mock.patch('keyboard.get_keys')
     def runTest(self, mock_get_keys, mock_wait_keys):
+        print 'TEST: ' + self.__class__.__name__
         n = 2
         experiment_details = {}
-        trials_new = {}
-        trials_new[1] = trials[1]
-        trials_new[1]['trial_type'] = 'Critical'
-        trials_new[1]['tone_hz'] = 'tone1'
-        trials_new[1]['tone_onset'] = 500
+        trials = {}
+        trials[1] = {}
+        trials[1]['image_name'] = '2008_000177.jpg'
+        trials[1]['present_absent'] = 'No Target'
+        trials[1]['trial_type'] = 'Critical'
+        trials[1]['tone_hz'] = 'tone1'
+        trials[1]['tone_onset'] = 500
 
-        trials_new[2] = trials[2]
-        trials_new[2]['trial_type'] = 'Normal'
-        trials_new[2]['present_absent'] = 'Target Present'
+        trials[2] = {}
+        trials[2]['image_name'] = '2008_000177.jpg'
+        trials[2]['trial_type'] = 'Normal'
+        trials[2]['present_absent'] = 'Target Present'
+        trials[2]['question'] = 'rabbits'
 
         mock_get_keys.side_effect = [ [],[['space', 1]] ]
         mock_wait_keys.return_value = [['q',1]]
@@ -171,14 +189,17 @@ class test_visual_search_question(unittest.TestCase):
     @mock.patch('keyboard.wait_keys')
     @mock.patch('keyboard.get_keys')
     def runTest(self, mock_get_keys, mock_wait_keys):
+        print 'TEST: ' + self.__class__.__name__
         n = 1
         experiment_details = {}
-        trials_new = {}
-        trials_new[1] = trials[1]
-        trials_new[1]['trial_type'] = 'Critical'
-        trials_new[1]['tone_hz'] = 'tone1'
-        trials_new[1]['tone_onset'] = 500
-        trials_new[1]['present_or_absent'] = 'Target Present'
+        trials = {}
+        trials[1] = {}
+        trials[1]['image_name'] = '2008_000177.jpg'
+        trials[1]['trial_type'] = 'Critical'
+        trials[1]['tone_hz'] = 'tone1'
+        trials[1]['tone_onset'] = 500
+        trials[1]['present_absent'] = 'Target Present'
+        trials[1]['question'] = 'rabbits'
 
         mock_get_keys.return_value = [['space', 1]]
         mock_wait_keys.return_value = [['q',1]]
@@ -196,14 +217,17 @@ class test_visual_search_question_2(unittest.TestCase):
     @mock.patch('keyboard.get_keys')
     @mock.patch('psychopy.core.Clock.getTime')
     def runTest(self, mock_tone_timer, mock_get_keys, mock_wait_keys):
+        print 'TEST: ' + self.__class__.__name__
         n = 1
         experiment_details = {}
-        trials_new = {}
-        trials_new[1] = trials[1]
-        trials_new[1]['trial_type'] = 'Critical'
-        trials_new[1]['tone_hz'] = 'tone1'
-        trials_new[1]['tone_onset'] = 500
-        trials_new[1]['present_or_absent'] = 'Target Present'
+        trials = {}
+        trials[1] = {}
+        trials[1]['image_name'] = '2008_000177.jpg'
+        trials[1]['trial_type'] = 'Critical'
+        trials[1]['tone_hz'] = 'tone1'
+        trials[1]['tone_onset'] = 500
+        trials[1]['present_absent'] = 'Target Present'
+        trials[1]['question'] = 'rabbits'
 
         mock_get_keys.return_value = []
 
@@ -223,14 +247,17 @@ class test_visual_search_question_3(unittest.TestCase):
     @mock.patch('keyboard.get_keys')
     @mock.patch('psychopy.core.Clock.getTime')
     def runTest(self, mock_timer, mock_get_keys, mock_wait_keys):
+        print 'TEST: ' + self.__class__.__name__
         n = 1
         experiment_details = {}
-        trials_new = {}
-        trials_new[1] = trials[1]
-        trials_new[1]['trial_type'] = 'Critical'
-        trials_new[1]['tone_hz'] = 'tone1'
-        trials_new[1]['tone_onset'] = 500
-        trials_new[1]['present_or_absent'] = 'Target Present'
+        trials = {}
+        trials[1] = {}
+        trials[1]['image_name'] = '2008_000177.jpg'
+        trials[1]['trial_type'] = 'Critical'
+        trials[1]['tone_hz'] = 'tone1'
+        trials[1]['tone_onset'] = 500
+        trials[1]['present_absent'] = 'Target Present'
+        trials[1]['question'] = 'rabbits'
 
         mock_get_keys.return_value = []
         mock_timer.return_value = 1
@@ -242,7 +269,7 @@ class test_visual_search_question_3(unittest.TestCase):
         self.assertEqual(D[1]['tone_sdt'], 'FA')
         self.assertEqual(D[1]['keys'], 'q')
         self.assertEqual(D[1]['RT_VS'], 2.2)
-        self.assertEqual(D[1]['block'], 1)
+
         self.assertEqual(D[1]['block_number'], 1)
         assert(D[1]['image_name'] is not None)
         self.assertEqual(D[1]['moved_space_in_this_trial'], False)
@@ -255,38 +282,43 @@ class test_second_critical(unittest.TestCase):
     @mock.patch('keyboard.get_keys')
     #@mock.patch('keyboard.get_keys')
     def runTest(self, mock_get_keys):
+        print 'TEST: ' + self.__class__.__name__
         n = 4
         experiment_details = {}
-        trials_new = {}
-        trials_new[1] = trials[1]
-        trials_new[1]['trial_type'] = 'Normal'
-        trials_new[1]['tone_hz'] = 'No tone'
-        trials_new[1]['tone_onset'] = -999
-        trials_new[1]['present_or_absent'] = 'No Target'
+        trials = {}
+        trials[1] = {}
+        trials[1]['image_name'] = '2008_000177.jpg'
+        trials[1]['trial_type'] = 'Normal'
+        trials[1]['tone_hz'] = 'No tone'
+        trials[1]['tone_onset'] = -999
+        trials[1]['present_absent'] = 'No Target'
 
-        trials_new[2] = trials[1]
-        trials_new[2]['trial_type'] = 'Critical'
-        trials_new[2]['tone_hz'] = 'tone1'
-        trials_new[2]['tone_onset'] = 500
-        trials_new[2]['present_or_absent'] = 'No Target'
+        trials[2] = {}
+        trials[2]['image_name'] = '2008_000177.jpg'
+        trials[2]['trial_type'] = 'Critical'
+        trials[2]['tone_hz'] = 'tone1'
+        trials[2]['tone_onset'] = 500
+        trials[2]['present_absent'] = 'No Target'
 
-        trials_new[3] = trials[1]
-        trials_new[3]['trial_type'] = 'Normal'
-        trials_new[3]['tone_hz'] = 'No tone'
-        trials_new[3]['tone_onset'] = -999
-        trials_new[3]['present_or_absent'] = 'No Target'
+        trials[3] = {}
+        trials[3]['image_name'] = '2008_000177.jpg'
+        trials[3]['trial_type'] = 'Normal'
+        trials[3]['tone_hz'] = 'No tone'
+        trials[3]['tone_onset'] = -999
+        trials[3]['present_absent'] = 'No Target'
 
-        trials_new[4] = trials[1]
-        trials_new[4]['trial_type'] = 'Critical'
-        trials_new[4]['tone_hz'] = 'tone2'
-        trials_new[4]['tone_onset'] = 400
-        trials_new[4]['present_or_absent'] = 'No Target'
+        trials[4] = {}
+        trials[4]['image_name'] = '2008_000177.jpg'
+        trials[4]['trial_type'] = 'Critical'
+        trials[4]['tone_hz'] = 'tone2'
+        trials[4]['tone_onset'] = 400
+        trials[4]['present_absent'] = 'No Target'
 
         #mock_get_keys.return_value = [[],[],[],[['space', 1]]   ]
 
         mock_get_keys.side_effect = [  [],[],[],[['space', 1]]   ]
 
-        D = run_blocks(trials_new,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
+        D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
 
         self.assertIsNone(D[1]['RT_TO'])
         self.assertIsNone(D[2]['RT_TO'])
@@ -302,32 +334,38 @@ class test_two_critical_and_one_vs(unittest.TestCase):
     @mock.patch('psychopy.core.Clock.getTime')
 
     def runTest(self, mock_timer, mock_wait_keys ,mock_get_keys):
+        print 'TEST: ' + self.__class__.__name__
         n = 4
         experiment_details = {}
-        trials_new = {}
-        trials_new[1] = trials[1]
-        trials_new[1]['trial_type'] = 'Normal'
-        trials_new[1]['tone_hz'] = 'No tone'
-        trials_new[1]['tone_onset'] = -999
-        trials_new[1]['present_absent'] = 'No Target'
+        trials = {}
+        trials[1] = {}
+        trials[1]['image_name'] = '2008_000177.jpg'
+        trials[1]['trial_type'] = 'Normal'
+        trials[1]['tone_hz'] = 'No tone'
+        trials[1]['tone_onset'] = -999
+        trials[1]['present_absent'] = 'No Target'
 
-        trials_new[2] = trials[1]
-        trials_new[2]['trial_type'] = 'Critical'
-        trials_new[2]['tone_hz'] = 'tone1'
-        trials_new[2]['tone_onset'] = 500
-        trials_new[2]['present_absent'] = 'No Target'
+        trials[2] = {}
+        trials[2]['image_name'] = '2008_000177.jpg'
+        trials[2]['trial_type'] = 'Critical'
+        trials[2]['tone_hz'] = 'tone1'
+        trials[2]['tone_onset'] = 500
+        trials[2]['present_absent'] = 'No Target'
 
-        trials_new[3] = trials[1]
-        trials_new[3]['trial_type'] = 'Normal'
-        trials_new[3]['tone_hz'] = 'No tone'
-        trials_new[3]['tone_onset'] = -999
-        trials_new[3]['present_absent'] = 'No Target'
+        trials[3] = {}
+        trials[3]['image_name'] = '2008_000177.jpg'
+        trials[3]['trial_type'] = 'Normal'
+        trials[3]['tone_hz'] = 'No tone'
+        trials[3]['tone_onset'] = -999
+        trials[3]['present_absent'] = 'No Target'
 
-        trials_new[4] = trials[1]
-        trials_new[4]['trial_type'] = 'Normal'
-        trials_new[4]['tone_hz'] = 'No tone'
-        trials_new[4]['tone_onset'] = -999
-        trials_new[4]['present_absent'] = 'Target Present'
+        trials[4] = {}
+        trials[4]['image_name'] = '2008_000177.jpg'
+        trials[4]['trial_type'] = 'Normal'
+        trials[4]['tone_hz'] = 'No tone'
+        trials[4]['tone_onset'] = -999
+        trials[4]['present_absent'] = 'Target Present'
+        trials[4]['question'] = 'rabbits'
 
         #mock_get_keys.return_value = [[],[],[],[['space', 1]]   ]
         #mock_wait_keys.side_effect = [[['space', 1]], [['q', 2.2]]]
@@ -337,11 +375,11 @@ class test_two_critical_and_one_vs(unittest.TestCase):
         mock_wait_keys.side_effect = [[['space', 2]], [['q', 2.2]]]
         mock_timer.return_value = 1
 
-        D = run_blocks(trials_new,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
+        D = run_blocks(trials,noise,win,expInfo, incorrect, tone1, tone2, experiment_details,allPoints,1,n)
 
         self.assertIsNone(D[1]['RT_TO'])
         self.assertEqual(D[4]['RT_TO'], 3)
-        self.assertEqual(D[4]['tone_sdt'], 'HI')
+        self.assertEqual(D[4]['tone_sdt'], 'FA')
         self.assertIsNone(D[3]['RT_TO'])
 
         #self.assertEqual(D[4]['RT_TO'], 3)
@@ -349,11 +387,11 @@ class test_two_critical_and_one_vs(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    # unittest.main()
+     unittest.main()
 
-    suite = unittest.TestSuite()
-    test = test_two_critical_and_one_vs
-    suite.addTest(test())
-
-    unittest.TextTestRunner().run(suite)
+    # suite = unittest.TestSuite()
+    # test = reaction_time_zero
+    # suite.addTest(test())
+    #
+    # unittest.TextTestRunner().run(suite)
 

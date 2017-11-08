@@ -43,22 +43,24 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
             #t_from_trial_start.reset()
             image = visual.ImageStim(win=win, image=  '../load-data/exp_images/'+ this_trial['image_name'])
             responded = False
-            start_frame = ((int(this_trial['tone_onset']) + 17 // 2) // 17)
+            if this_trial['trial_type'] == 'Critical':
+                start_frame = ((int(this_trial['tone_onset']) + 17 // 2) // 17)
             n_frames = 60
 
 
 
             for frameN in range(n_frames):
-                if this_trial['tone_hz'] == 'tone1' and frameN == start_frame :
-                    tone1.play()
-                    tone_timer.reset()
-                    last_tone_trial_no = trial_number
-                    responded_to_last_tone = False
-                elif this_trial['tone_hz'] == 'tone2' and frameN == start_frame:
-                    tone2.play()
-                    tone_timer.reset()
-                    last_tone_trial_no = trial_number
-                    responded_to_last_tone = False
+                if this_trial['trial_type'] == 'Critical':
+                    if this_trial['tone_hz'] == 'tone1' and frameN == start_frame :
+                        tone1.play()
+                        tone_timer.reset()
+                        last_tone_trial_no = trial_number
+                        responded_to_last_tone = False
+                    elif this_trial['tone_hz'] == 'tone2' and frameN == start_frame:
+                        tone2.play()
+                        tone_timer.reset()
+                        last_tone_trial_no = trial_number
+                        responded_to_last_tone = False
                 image.draw()
                 win.flip()
 
@@ -128,7 +130,7 @@ def run_blocks(trials,noise,win,expInfo,incorrect,tone1,tone2,experiment_details
                 trial_details['keys'] = q_or_p
                 trial_details['RT_VS'] = RT_VS
 
-                if RT_TO > 2 and trial_details['RT_TO'] != None:
+                if RT_TO > 2 and trial_details['RT_TO'] is None:
                     #Reaction time greater than 2
                     #Must be an FA for the current trial
                     trial_details['RT_TO'] = RT_TO
