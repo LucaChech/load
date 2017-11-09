@@ -10,7 +10,7 @@ from instructions import *
 
 
 
-debug = True
+debug = False
 timer = core.Clock()
 i_counter = 0
 block_number = 1
